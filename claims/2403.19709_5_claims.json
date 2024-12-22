@@ -1,0 +1,89 @@
+{
+    "typeTable": "Relational",
+    "claims": {
+        "0": {
+            "specifications": {
+                "0": {
+                    "name": "Controller variant",
+                    "value": "1.6M"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "6.0"
+                }
+            },
+            "Measure": "VS",
+            "Outcome": "16.9"
+        },
+        "1": {
+            "specifications": {
+                "0": {
+                    "name": "Controller variant",
+                    "value": "1.6M"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "6.0"
+                }
+            },
+            "Measure": "VS w. PN",
+            "Outcome": ""
+        },
+        "2": {
+            "specifications": {
+                "0": {
+                    "name": "Controller variant",
+                    "value": "1.9M"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "6.1"
+                }
+            },
+            "Measure": "VS",
+            "Outcome": "17.1"
+        },
+        "3": {
+            "specifications": {
+                "0": {
+                    "name": "Controller variant",
+                    "value": "1.9M"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "6.1"
+                }
+            },
+            "Measure": "VS w. PN",
+            "Outcome": ""
+        },
+        "4": {
+            "specifications": {
+                "0": {
+                    "name": "Controller variant",
+                    "value": "2.4"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "6.0"
+                }
+            },
+            "Measure": "VS",
+            "Outcome": "16.9"
+        },
+        "5": {
+            "specifications": {
+                "0": {
+                    "name": "Controller variant",
+                    "value": "2.4"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "6.0"
+                }
+            },
+            "Measure": "VS w. PN",
+            "Outcome": ""
+        }
+    }
+}

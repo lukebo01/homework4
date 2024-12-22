@@ -1,0 +1,35 @@
+{
+    "typeTable": "Relational",
+    "claims": {
+        "0": {
+            "specifications": {
+                "0": {
+                    "name": "Method",
+                    "value": "5.03%"
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": ""
+        },
+        "1": {
+            "specifications": {
+                "0": {
+                    "name": "Method",
+                    "value": "23.74%"
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": ""
+        },
+        "2": {
+            "specifications": {
+                "0": {
+                    "name": "Method",
+                    "value": "49.95%"
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": ""
+        }
+    }
+}

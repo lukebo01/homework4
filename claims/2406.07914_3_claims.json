@@ -1,0 +1,131 @@
+{
+    "typeTable": "Cross-Nested",
+    "claims": {
+        "0": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "random"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Data left/right"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "50.0"
+        },
+        "1": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "random"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "SR%↑↑\\uparrow 50.1"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "4.0"
+        },
+        "2": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "random"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "sWER%↓↓\\downarrow 4.4"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "67.5"
+        },
+        "3": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "w/ IV"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Data left/right"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "96.3"
+        },
+        "4": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "w/ IV"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "SR%↑↑\\uparrow 50.1"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "5.1"
+        },
+        "5": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "w/ IV"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "sWER%↓↓\\downarrow 4.4"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "9.0"
+        },
+        "6": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "random"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Data left/right"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "80.2"
+        },
+        "7": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "random"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "SR%↑↑\\uparrow 50.1"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "5.4"
+        },
+        "8": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "random"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "sWER%↓↓\\downarrow 4.4"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "29.8"
+        }
+    }
+}

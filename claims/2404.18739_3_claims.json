@@ -1,0 +1,89 @@
+{
+    "typeTable": "Cross-Nested",
+    "claims": {
+        "0": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Majority"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": " Acc."
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": "61.49%"
+        },
+        "1": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Majority"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "F-1 measure Chihuahua"
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": "6.59%"
+        },
+        "2": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Wav2Vec2 (from scratch)"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": " Acc."
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": "74.42%"
+        },
+        "3": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Wav2Vec2 (from scratch)"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "F-1 measure Chihuahua"
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": "14.96%"
+        },
+        "4": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Wav2Vec2 (pre-trained)"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": " Acc."
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": "74.47%"
+        },
+        "5": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Wav2Vec2 (pre-trained)"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "F-1 measure Chihuahua"
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": "36.11%"
+        }
+    }
+}

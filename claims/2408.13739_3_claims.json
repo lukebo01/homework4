@@ -1,0 +1,47 @@
+{
+    "typeTable": "Cross-Nested",
+    "claims": {
+        "0": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Num. Utterances"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": " Num. Hours"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "3649"
+        },
+        "1": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Test"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": " Num. Hours"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "01:51"
+        },
+        "2": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Num. Utterances"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": " Num. Hours"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "1565"
+        }
+    }
+}

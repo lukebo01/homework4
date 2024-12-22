@@ -1,0 +1,89 @@
+{
+    "typeTable": "Cross-Nested",
+    "claims": {
+        "0": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Majority"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": " Acc."
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": "74.73%"
+        },
+        "1": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Majority"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "F-1 measure Female"
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": "7.76%"
+        },
+        "2": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Wav2Vec2 (from scratch)"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": " Acc."
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": "76.54%"
+        },
+        "3": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Wav2Vec2 (from scratch)"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "F-1 measure Female"
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": "19.29%"
+        },
+        "4": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Wav2Vec2 (pre-trained)"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": " Acc."
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": "79.31%"
+        },
+        "5": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Wav2Vec2 (pre-trained)"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "F-1 measure Female"
+                }
+            },
+            "Measure": "Accuracy",
+            "Outcome": "7.10%"
+        }
+    }
+}

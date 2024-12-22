@@ -1,0 +1,269 @@
+{
+    "typeTable": "Relational",
+    "claims": {
+        "0": {
+            "specifications": {
+                "0": {
+                    "name": "Model",
+                    "value": "Linear Head HRA"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "51M"
+                },
+                "2": {
+                    "name": "Mean",
+                    "value": "10.6"
+                },
+                "3": {
+                    "name": "Paired T-Test",
+                    "value": "-"
+                }
+            },
+            "Measure": "Mean",
+            "Outcome": "10.6"
+        },
+        "1": {
+            "specifications": {
+                "0": {
+                    "name": "Model",
+                    "value": "102M"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "10.9"
+                },
+                "2": {
+                    "name": "Mean",
+                    "value": "-"
+                },
+                "3": {
+                    "name": "Paired T-Test",
+                    "value": ""
+                }
+            },
+            "Measure": "Mean",
+            "Outcome": "-"
+        },
+        "2": {
+            "specifications": {
+                "0": {
+                    "name": "Model",
+                    "value": "203M"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "11.0"
+                },
+                "2": {
+                    "name": "Mean",
+                    "value": "-"
+                },
+                "3": {
+                    "name": "Paired T-Test",
+                    "value": ""
+                }
+            },
+            "Measure": "Mean",
+            "Outcome": "-"
+        },
+        "3": {
+            "specifications": {
+                "0": {
+                    "name": "Model",
+                    "value": "FFN Head HRA"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "201M"
+                },
+                "2": {
+                    "name": "Mean",
+                    "value": "9.9"
+                },
+                "3": {
+                    "name": "Paired T-Test",
+                    "value": "-"
+                }
+            },
+            "Measure": "Mean",
+            "Outcome": "9.9"
+        },
+        "4": {
+            "specifications": {
+                "0": {
+                    "name": "Model",
+                    "value": "403M"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "10.2"
+                },
+                "2": {
+                    "name": "Mean",
+                    "value": "-"
+                },
+                "3": {
+                    "name": "Paired T-Test",
+                    "value": ""
+                }
+            },
+            "Measure": "Mean",
+            "Outcome": "-"
+        },
+        "5": {
+            "specifications": {
+                "0": {
+                    "name": "Model",
+                    "value": "806M"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "10.4"
+                },
+                "2": {
+                    "name": "Mean",
+                    "value": "-"
+                },
+                "3": {
+                    "name": "Paired T-Test",
+                    "value": ""
+                }
+            },
+            "Measure": "Mean",
+            "Outcome": "-"
+        },
+        "6": {
+            "specifications": {
+                "0": {
+                    "name": "Model",
+                    "value": "Linear Head HRA(w/ pre-trainedcontroller)"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "51M"
+                },
+                "2": {
+                    "name": "Mean",
+                    "value": "10.7"
+                },
+                "3": {
+                    "name": "Paired T-Test",
+                    "value": "0.59"
+                }
+            },
+            "Measure": "Mean",
+            "Outcome": "10.7"
+        },
+        "7": {
+            "specifications": {
+                "0": {
+                    "name": "Model",
+                    "value": "101M"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "11.0"
+                },
+                "2": {
+                    "name": "Mean",
+                    "value": "0.25"
+                },
+                "3": {
+                    "name": "Paired T-Test",
+                    "value": ""
+                }
+            },
+            "Measure": "Mean",
+            "Outcome": "0.25"
+        },
+        "8": {
+            "specifications": {
+                "0": {
+                    "name": "Model",
+                    "value": "202M"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "11.3"
+                },
+                "2": {
+                    "name": "Mean",
+                    "value": "0.03"
+                },
+                "3": {
+                    "name": "Paired T-Test",
+                    "value": ""
+                }
+            },
+            "Measure": "Mean",
+            "Outcome": "0.03"
+        },
+        "9": {
+            "specifications": {
+                "0": {
+                    "name": "Model",
+                    "value": "FFN Head HRA(w/ pre-trainedcontroller)"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "118M"
+                },
+                "2": {
+                    "name": "Mean",
+                    "value": "10.1"
+                },
+                "3": {
+                    "name": "Paired T-Test",
+                    "value": "0.17"
+                }
+            },
+            "Measure": "Mean",
+            "Outcome": "10.1"
+        },
+        "10": {
+            "specifications": {
+                "0": {
+                    "name": "Model",
+                    "value": "269M"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "10.3"
+                },
+                "2": {
+                    "name": "Mean",
+                    "value": "0.14"
+                },
+                "3": {
+                    "name": "Paired T-Test",
+                    "value": ""
+                }
+            },
+            "Measure": "Mean",
+            "Outcome": "0.14"
+        },
+        "11": {
+            "specifications": {
+                "0": {
+                    "name": "Model",
+                    "value": "672M"
+                },
+                "1": {
+                    "name": "# Params.",
+                    "value": "10.5"
+                },
+                "2": {
+                    "name": "Mean",
+                    "value": "0.22"
+                },
+                "3": {
+                    "name": "Paired T-Test",
+                    "value": ""
+                }
+            },
+            "Measure": "Mean",
+            "Outcome": "0.22"
+        }
+    }
+}

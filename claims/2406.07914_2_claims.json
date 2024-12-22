@@ -1,0 +1,47 @@
+{
+    "typeTable": "Relational",
+    "claims": {
+        "0": {
+            "specifications": {
+                "0": {
+                    "name": "Method",
+                    "value": "LibriSpeech"
+                },
+                "1": {
+                    "name": "Data",
+                    "value": "8.6"
+                }
+            },
+            "Measure": "WER%↓↓\\downarrow",
+            "Outcome": ""
+        },
+        "1": {
+            "specifications": {
+                "0": {
+                    "name": "Method",
+                    "value": "Spatial LibriSpeech"
+                },
+                "1": {
+                    "name": "Data",
+                    "value": "9.0"
+                }
+            },
+            "Measure": "WER%↓↓\\downarrow",
+            "Outcome": ""
+        },
+        "2": {
+            "specifications": {
+                "0": {
+                    "name": "Method",
+                    "value": "Spatial LibriSpeech"
+                },
+                "1": {
+                    "name": "Data",
+                    "value": "7.6"
+                }
+            },
+            "Measure": "WER%↓↓\\downarrow",
+            "Outcome": ""
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "typeTable": "Cross-Nested",
+    "claims": {
+        "0": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Total no. of Male Speakers"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "LT Test"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "21"
+        },
+        "1": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Total no. of Male Speakers"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "CT Train"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "3"
+        },
+        "2": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Total no. of Female Speakers"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "LT Test"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "43"
+        },
+        "3": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Total no. of Female Speakers"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "CT Train"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "12"
+        }
+    }
+}
