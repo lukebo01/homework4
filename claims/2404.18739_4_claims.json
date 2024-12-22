@@ -1,89 +1,15 @@
 {
-    "typeTable": "Cross-Nested",
+    "typeTable": "Nested Relational",
     "claims": {
         "0": {
             "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Majority"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": " Acc."
-                }
+                "caption": "Table 4:  Accuracy and F-1 measure for context grounding.",
+                "references": [
+                    "Table 4 shows the results. Similar to the previous experiments, both Wav2Vec2 models outperform the majority baseline, with the Wav2Vec2 pre-trained on human speech leading to the most accurate results."
+                ]
             },
-            "Measure": "Accuracy",
-            "Outcome": "41.31%"
-        },
-        "1": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Majority"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": "F-1 measure L-S2"
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "0.00%"
-        },
-        "2": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Wav2Vec2 (from scratch)"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": " Acc."
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "49.26%"
-        },
-        "3": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Wav2Vec2 (from scratch)"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": "F-1 measure L-S2"
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "21.26%"
-        },
-        "4": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Wav2Vec2 (pre-trained)"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": " Acc."
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "49.66%"
-        },
-        "5": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Wav2Vec2 (pre-trained)"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": "F-1 measure L-S2"
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "45.26%"
+            "Measure": "N/A",
+            "Outcome": "No valid data"
         }
     }
 }

@@ -1,89 +1,15 @@
 {
-    "typeTable": "Cross-Nested",
+    "typeTable": "Nested Relational",
     "claims": {
         "0": {
             "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Majority"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": " Acc."
-                }
+                "caption": "Table 3:  Accuracy and F-1 measure for dog breed identification.",
+                "references": [
+                    "The results are shown in Table 3. Wav2Vec2 trained from scratch outperforms most baselines. As before, we obtain an additional significant boost in performance when pre-training on human speech data. The variation in individual breeds can be explained by the unbalanced number of observations per breed, with Chihuahua being the most common breed in our dataset (57%), followed by French Poodle (28%) and Schnauzer (15%)."
+                ]
             },
-            "Measure": "Accuracy",
-            "Outcome": "61.49%"
-        },
-        "1": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Majority"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": "F-1 measure Chihuahua"
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "6.59%"
-        },
-        "2": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Wav2Vec2 (from scratch)"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": " Acc."
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "74.42%"
-        },
-        "3": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Wav2Vec2 (from scratch)"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": "F-1 measure Chihuahua"
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "14.96%"
-        },
-        "4": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Wav2Vec2 (pre-trained)"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": " Acc."
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "74.47%"
-        },
-        "5": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Wav2Vec2 (pre-trained)"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": "F-1 measure Chihuahua"
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "36.11%"
+            "Measure": "N/A",
+            "Outcome": "No valid data"
         }
     }
 }

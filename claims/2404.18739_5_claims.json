@@ -1,89 +1,15 @@
 {
-    "typeTable": "Cross-Nested",
+    "typeTable": "Nested Relational",
     "claims": {
         "0": {
             "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Majority"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": " Acc."
-                }
+                "caption": "Table 5:  Accuracy and F-1 measure for dog gender identification.",
+                "references": [
+                    "Table 5 shows the results. The Wav2Vec2 model trained from scratch performs better than the baseline model, with no further improvements obtained with Wav2Vec2 pre-trained on human speech. Interestingly, we do see an improvement brought by human speech pre-training on the female class, for which we have significantly more data in our dataset (67.95% female vs 32.04% male by total duration). We found that gender identification is the most difficult task among all the tasks we propose. We hypothesize that the model trained from scratch focuses on learning acoustic features, while the pre-trained wav2vec attempts to learn shortcuts and overfits quickly. We noticed that it often predicts just the majority class (female) so that F1 increases for female and decreases for male, while the overall accuracy is almost the same as for the majority baseline."
+                ]
             },
-            "Measure": "Accuracy",
-            "Outcome": "74.73%"
-        },
-        "1": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Majority"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": "F-1 measure Female"
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "7.76%"
-        },
-        "2": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Wav2Vec2 (from scratch)"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": " Acc."
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "76.54%"
-        },
-        "3": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Wav2Vec2 (from scratch)"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": "F-1 measure Female"
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "19.29%"
-        },
-        "4": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Wav2Vec2 (pre-trained)"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": " Acc."
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "79.31%"
-        },
-        "5": {
-            "specifications": {
-                "0": {
-                    "name": "Method Name",
-                    "value": "Wav2Vec2 (pre-trained)"
-                },
-                "1": {
-                    "name": "Dataset Name",
-                    "value": "F-1 measure Female"
-                }
-            },
-            "Measure": "Accuracy",
-            "Outcome": "7.10%"
+            "Measure": "N/A",
+            "Outcome": "No valid data"
         }
     }
 }
