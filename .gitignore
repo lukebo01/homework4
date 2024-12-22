@@ -1,0 +1,2 @@
+# Ignore the development environment folder
+.venv/
