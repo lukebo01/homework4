@@ -1,0 +1,4 @@
+matplotlib
+pandas
+beautifulsoup4
+lxml
