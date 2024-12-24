@@ -1,0 +1,15 @@
+{
+    "typeTable": "Nested Relational",
+    "claims": {
+        "0": {
+            "specifications": {
+                "caption": "Table 1 :  Single-task adaptation WER results on voice-search (VS) and voice-search with proper nouns (VS w. PN) test sets. # Params. row shows the number of adapter parameters. Our FFN Head HRA outperforms the full fine-tuning baseline at 12.8M parameters.\n",
+                "references": [
+                    "Table 1 reports the WER results from our single-task adaptation experiments. Unless otherwise mentioned, all models were trained for 100K iterations."
+                ]
+            },
+            "Measure": "N/A",
+            "Outcome": "No valid data"
+        }
+    }
+}

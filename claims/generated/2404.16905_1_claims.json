@@ -1,0 +1,105 @@
+{
+    "typeTable": "Relational",
+    "claims": {
+        "0": {
+            "specifications": {},
+            "Measure": "w-avg F1",
+            "Outcome": "53.83"
+        },
+        "1": {
+            "specifications": {},
+            "Measure": "Accuracy",
+            "Outcome": "50.87"
+        },
+        "2": {
+            "specifications": {},
+            "Measure": "w-avg F1",
+            "Outcome": "55.50"
+        },
+        "3": {
+            "specifications": {},
+            "Measure": "Accuracy",
+            "Outcome": "48.93"
+        },
+        "4": {
+            "specifications": {},
+            "Measure": "w-avg F1",
+            "Outcome": ""
+        },
+        "5": {
+            "specifications": {},
+            "Measure": "Accuracy",
+            "Outcome": ""
+        },
+        "6": {
+            "specifications": {},
+            "Measure": "w-avg F1",
+            "Outcome": "56.88"
+        },
+        "7": {
+            "specifications": {},
+            "Measure": "Accuracy",
+            "Outcome": "61.38"
+        },
+        "8": {
+            "specifications": {},
+            "Measure": "w-avg F1",
+            "Outcome": "57.74"
+        },
+        "9": {
+            "specifications": {},
+            "Measure": "Accuracy",
+            "Outcome": "57.02"
+        },
+        "10": {
+            "specifications": {},
+            "Measure": "w-avg F1",
+            "Outcome": "58.42"
+        },
+        "11": {
+            "specifications": {},
+            "Measure": "Accuracy",
+            "Outcome": "57.92"
+        },
+        "12": {
+            "specifications": {},
+            "Measure": "w-avg F1",
+            "Outcome": ""
+        },
+        "13": {
+            "specifications": {},
+            "Measure": "Accuracy",
+            "Outcome": ""
+        },
+        "14": {
+            "specifications": {},
+            "Measure": "w-avg F1",
+            "Outcome": "57.85"
+        },
+        "15": {
+            "specifications": {},
+            "Measure": "Accuracy",
+            "Outcome": "61.45"
+        },
+        "16": {
+            "specifications": {},
+            "Measure": "w-avg F1",
+            "Outcome": "58.64"
+        },
+        "17": {
+            "specifications": {},
+            "Measure": "Accuracy",
+            "Outcome": "60.83"
+        },
+        "18": {
+            "specifications": {},
+            "Measure": "w-avg F1",
+            "Outcome": "58.50"
+        },
+        "19": {
+            "specifications": {},
+            "Measure": "Accuracy",
+            "Outcome": "61.04"
+        }
+    }
+}

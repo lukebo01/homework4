@@ -1,0 +1,15 @@
+{
+    "typeTable": "Nested Relational",
+    "claims": {
+        "0": {
+            "specifications": {
+                "caption": "Table 2 :  Multi-task adaptation WER results on\nEuphonia\ndata sets. Our FFN Head HRA achieves the best WER and closes the gap against full fine-tuning baseline. Figure  3  shows that this model has a sub-linear growth in terms of the size of adapter parameters as the number of tasks increases.",
+                "references": [
+                    "Table 2 reports the WER results from our multi task adaptation experiments. We build golden baseline from USM model with full model fine-tuning on each speaker respectively, and each model is fine-tuned with data from its corresponding speaker only. For the adapter configurations, we parameterize adapters by a speaker-id and learnable one-hot embedding. Following [26], we introduce one-hot-embedding lookup table with entries through one-on-one mapping to corresponding speakers. During training, we randomly select data samples from the 128 speakers in each batch. The recurrent controller network is shared across all 128 speakers while a separate adapter head is inserted for each speaker for specialization. For adapter baseline, we choose to experiment with LoRA and Residual Adapters since it showed a promising performance in the single-task adaptation setup (Section 4.1)."
+                ]
+            },
+            "Measure": "N/A",
+            "Outcome": "No valid data"
+        }
+    }
+}

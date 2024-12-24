@@ -1,0 +1,55 @@
+{
+    "typeTable": "Relational",
+    "claims": {
+        "0": {
+            "specifications": {
+                "0": {
+                    "name": "Method",
+                    "value": "90.19"
+                }
+            },
+            "Measure": "Δd∘​(MAE)↓↓superscriptsubscriptΔ𝑑(MAE)absent\\Delta_{d}^{\\circ}\\text{(MAE)}\\downarrow",
+            "Outcome": ""
+        },
+        "1": {
+            "specifications": {
+                "0": {
+                    "name": "Method",
+                    "value": "1.60"
+                }
+            },
+            "Measure": "Δd∘​(MAE)↓↓superscriptsubscriptΔ𝑑(MAE)absent\\Delta_{d}^{\\circ}\\text{(MAE)}\\downarrow",
+            "Outcome": ""
+        },
+        "2": {
+            "specifications": {
+                "0": {
+                    "name": "Method",
+                    "value": "3.35"
+                }
+            },
+            "Measure": "Δd∘​(MAE)↓↓superscriptsubscriptΔ𝑑(MAE)absent\\Delta_{d}^{\\circ}\\text{(MAE)}\\downarrow",
+            "Outcome": ""
+        },
+        "3": {
+            "specifications": {
+                "0": {
+                    "name": "Method",
+                    "value": "1.88"
+                }
+            },
+            "Measure": "Δd∘​(MAE)↓↓superscriptsubscriptΔ𝑑(MAE)absent\\Delta_{d}^{\\circ}\\text{(MAE)}\\downarrow",
+            "Outcome": ""
+        },
+        "4": {
+            "specifications": {
+                "0": {
+                    "name": "Method",
+                    "value": "-"
+                }
+            },
+            "Measure": "Δd∘​(MAE)↓↓superscriptsubscriptΔ𝑑(MAE)absent\\Delta_{d}^{\\circ}\\text{(MAE)}\\downarrow",
+            "Outcome": ""
+        }
+    }
+}

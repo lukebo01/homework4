@@ -1,0 +1,789 @@
+{
+    "typeTable": "Cross-table",
+    "claims": {
+        "0": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Save time and costs"
+        },
+        "1": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Disadvantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Data privacy issues"
+        },
+        "2": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Challenge"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Expand the corpus"
+        },
+        "3": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Develop personalized applications"
+        },
+        "4": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Personalized learning"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Precise teaching"
+        },
+        "5": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Personalized learning"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Disadvantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Information bias"
+        },
+        "6": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Personalized learning"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Challenge"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Information accuracy"
+        },
+        "7": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Personalized learning"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Information extraction technology update"
+        },
+        "8": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Good interactivity"
+        },
+        "9": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Disadvantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "The learning process is opaque"
+        },
+        "10": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Challenge"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Update corpus in real time"
+        },
+        "11": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Integration of various technologies"
+        },
+        "12": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Improve problem-solving abilities"
+        },
+        "13": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Disadvantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Marginalized teachers"
+        },
+        "14": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Challenge"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Social impact"
+        },
+        "15": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Training with more accurate data"
+        },
+        "16": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Guided learning"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Encourage critical thinking"
+        },
+        "17": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Guided learning"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Disadvantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Misleading information"
+        },
+        "18": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Guided learning"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Challenge"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Emotional understanding"
+        },
+        "19": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Guided learning"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Integrate with personalized experiences"
+        },
+        "20": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Cultivate interest in learning"
+        },
+        "21": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Disadvantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Lack of emotional resonance"
+        },
+        "22": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Challenge"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Unemployment Risk"
+        },
+        "23": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Develop policies to address social impacts"
+        },
+        "24": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Provide diverse learning support"
+        },
+        "25": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Disadvantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Insufficient training data support"
+        },
+        "26": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Challenge"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Logic optimization"
+        },
+        "27": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Integration of multidisciplinary and LLM"
+        },
+        "28": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Interdisciplinary learning"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Cultivate interdisciplinary thinking skills"
+        },
+        "29": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Interdisciplinary learning"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Disadvantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Lack of domain knowledge"
+        },
+        "30": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Interdisciplinary learning"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Challenge"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Accuracy of knowledge integration"
+        },
+        "31": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Interdisciplinary learning"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Revolutionize the way we learn and teach"
+        },
+        "32": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Boast excellent interdisciplinary capabilities"
+        },
+        "33": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Disadvantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Disciplinary bias"
+        },
+        "34": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Challenge"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Algorithm optimization"
+        },
+        "35": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Filter useful training data"
+        },
+        "36": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Reduce teacher stress"
+        },
+        "37": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Disadvantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Machine hallucination"
+        },
+        "38": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Challenge"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Multiple text associations"
+        },
+        "39": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Standardize technology use"
+        },
+        "40": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Real-time problem-solving"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Improved learning efficiency"
+        },
+        "41": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Real-time problem-solving"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Disadvantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Over-reliance on technology"
+        },
+        "42": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Real-time problem-solving"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Challenge"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Text extraction"
+        },
+        "43": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Real-time problem-solving"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Acceleration of model inference"
+        },
+        "44": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Teaching assistance upgrade"
+        },
+        "45": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Diversified technical assistance"
+        },
+        "46": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Guide mathematics learning"
+        },
+        "47": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Challenge"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Promote mathematical research"
+        },
+        "48": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Pay attention to thinking guidance"
+        },
+        "49": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Applications in mathematics"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Improve math learning efficiency"
+        },
+        "50": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Applications in mathematics"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Disadvantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Math terminology learning"
+        },
+        "51": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Applications in mathematics"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Challenge"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Improved logical reasoning ability"
+        },
+        "52": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": "Applications in mathematics"
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Mathematics research and teaching"
+        },
+        "53": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Advantage"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Show the fusion of AI and mathematics"
+        },
+        "54": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Challenge"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Understand number relationships"
+        },
+        "55": {
+            "specifications": {
+                "0": {
+                    "name": "Method Name",
+                    "value": ""
+                },
+                "1": {
+                    "name": "Dataset Name",
+                    "value": "Future development"
+                }
+            },
+            "Measure": "WER",
+            "Outcome": "Adequate language modeling"
+        }
+    }
+}

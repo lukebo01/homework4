@@ -1,0 +1,15 @@
+{
+    "typeTable": "Nested Relational",
+    "claims": {
+        "0": {
+            "specifications": {
+                "caption": "Table 4:  Accuracy and F-1 measure for context grounding.",
+                "references": [
+                    "Table 4 shows the results. Similar to the previous experiments, both Wav2Vec2 models outperform the majority baseline, with the Wav2Vec2 pre-trained on human speech leading to the most accurate results."
+                ]
+            },
+            "Measure": "N/A",
+            "Outcome": "No valid data"
+        }
+    }
+}
