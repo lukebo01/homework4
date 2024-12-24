@@ -1,0 +1,11 @@
+Models,LLM,w-avg F1,Accuracy
+Origin InstructERC,Llama-2-7B-chat,53.83,50.87
+Origin InstructERC,Llama-2-13B-chat,55.50,48.93
+Ours-ERC-7B,Llama-2-7B-chat,nan,nan
++ 3 auxiliary tasks,nan,56.88,61.38
++ 3 auxiliary tasks & historical clips desc,nan,57.74,57.02
++ 3 auxiliary tasks & utterance clips desc,nan,58.42,57.92
+Ours-ERC-13B,Llama-2-13B-chat,nan,nan
++ 3 auxiliary tasks,nan,57.85,61.45
++ 3 auxiliary tasks & historical clips desc,nan,58.64,60.83
++ 3 auxiliary tasks & utterance clips desc,nan,58.50,61.04

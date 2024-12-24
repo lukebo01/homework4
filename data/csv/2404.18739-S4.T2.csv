@@ -1,0 +1,4 @@
+Method,Accuracy
+Majority,5.03%
+Wav2Vec2 (from scratch),23.74%
+Wav2Vec2 (pre-trained),49.95%

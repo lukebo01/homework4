@@ -1,0 +1,8 @@
+ID,Model based on Accent-ASR,Dev,Eval
+M0,Official Baseline,32.92,26.24
+M1,conv2d+conformer,20.87,-
+M2,conv2d+ebranchformer,20.68,-
+M3,VGG+ebranchformer,20.31,-
+M4,gateCNN+conformer,19.83,-
+M5,gateCNN+ebranchformer,18.53,14.72
+M6,fusion models based on M1-M5,15.54,13.16

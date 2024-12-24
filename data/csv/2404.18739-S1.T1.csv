@@ -1,0 +1,16 @@
+Context,# segments,Duration (sec)
+Very aggressive barking at a stranger (L-S2),2843,2778.66
+Normal barking at a stranger (L-S1),2772,2512.92
+Barking due to assault on the owner (L-A),829,956.58
+Negative grunt (during the presence of a stranger) (GR-N),637,746.6
+Negative squeal (during the presence of a stranger) (CH-N),298,546.72
+Sadness/anxiety barking (L-TA),288,200.27
+Positive squeal (during gameplay) (CH-P),91,150.49
+Barking during play (L-P),76,51.21
+Barking due to stimulation when walking (L-PA),62,84.06
+Barking in fear at a stranger (L-S3),54,45.08
+Positive grunt (during gameplay) (GR-P),51,79.56
+Barking arrival of the owner at home (L-H),24,26.2
+Barking that is neither playful nor strange (L-O),9,9.5
+"Non-dog sounds (voices, TV, cars, appliances, etc.) (S)",8755,14304.05
+Total,16789,22491.0

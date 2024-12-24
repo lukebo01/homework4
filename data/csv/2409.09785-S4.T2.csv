@@ -1,0 +1,14 @@
+Domain,Domain,Training Set,# Pairs,Length,Test Set,# Pairs,Length
+Source,Category,Training Set,# Pairs,Length,Test Set,# Pairs,Length
+LibriSpeech,Audiobooks,train-960,88200,33.7,test-clean,2620,20.1
+LibriSpeech,Audiobooks,train-960,88200,33.7,test-other,2939,17.8
+CHiME4,Noise,train,8738,17.0,test-real,1320,16.4
+WSJ,Business news,train-si284,37514,17.5,dev93,503,16.7
+WSJ,Business news,train-si284,37514,17.5,eval92,333,17.3
+SwitchBoard,Telephone,train,36539,11.8,eval2000,2000,11.8
+CommonVoice,Accented English,train-accent,49758,10.5,test-accent,2000,10.5
+Tedlium-3,TED talk,train,47500,12.6,test,2500,12.6
+LRS2,BBC audio,train,42940,7.6,test,2259,7.6
+ATIS,Airline info.,train,3964,12.4,test,809,11.3
+CORAAL,Interview,train,1728,24.2,test,100,24.0
+Total,Total,train,316881,18.1,test,17383,14.1

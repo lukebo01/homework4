@@ -1,0 +1,5 @@
+Method,Data,SR%,sWER%,WER%
+w/o IV,left/right,50.1,4.4,67.2
+w/o IV,random,50.0,4.0,67.5
+w/ IV,left/right,96.3,5.1,9.0
+w/ IV,random,80.2,5.4,29.8

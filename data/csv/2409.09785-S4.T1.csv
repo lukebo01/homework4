@@ -1,0 +1,7 @@
+nan,train,test
+Whisper-1.5B (first-pass) w/o LM,10.43,11.82
+-best Oracle,9.61,9.32
+Reranking LM: T5-750M,9.90,9.74
+Correction LM: T5-750M,9.21,9.05
+Correction LM: LLaMA-13B,8.62,8.63
+Correction LM: LLaMaA2-7B,8.71,8.33

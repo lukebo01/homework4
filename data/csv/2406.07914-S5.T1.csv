@@ -1,0 +1,6 @@
+Method,Unnamed: 1,Unnamed: 2,Unnamed: 3
+w/o IV,90.19,8.26,90.16
+w/ IV (``Before''),1.60,1.76,2.7
+w/ IV (``After''),3.35,2.56,4.69
+w/ IV (``Before'') & ST.,1.88,1.85,2.97
+Spatial LibriSpeech [22],-,-,6.6

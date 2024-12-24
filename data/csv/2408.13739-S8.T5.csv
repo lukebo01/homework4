@@ -1,0 +1,7 @@
+nan,Identification Accuracy
+GMM,87.72%
+CNN,93.97%
+PPR,89.24%
+P-LVCSR,94.21%
+UPR-1,93.53%
+UPR-2,95.61%

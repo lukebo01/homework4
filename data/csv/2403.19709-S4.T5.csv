@@ -1,0 +1,4 @@
+Controller variant,# Params.,VS,VS w. PN
+IndRNN,1.6M,6.0,16.9
+RNN,1.9M,6.1,17.1
+Light GRU,2.4,6.0,16.9

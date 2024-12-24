@@ -1,0 +1,6 @@
+Iteration,Data(hrs),wavLM+,conv2d+,Fusion
+Iteration,Data(hrs),conformer ED,ebranchformer ED,Fusion
+B0,396,29.77,30.64,27.8
+B1,3910,25.32,26.4,23.77
+B2,5452,22.94,21.9,22.87
+B3,10952,22.94 (5452h),21.14,20.83

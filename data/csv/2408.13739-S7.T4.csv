@@ -1,0 +1,4 @@
+nan,nan,nan,nan,nan,nan,Bias
+Case 1,LT,LT,LT,CT,LT,Biased towards LT
+Case 2,CT,LT,CT,CT,LT,Biased towards CT
+Case 3,LT,CT,CT,LT,nan,Equi-probable
