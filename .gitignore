@@ -1,3 +1,3 @@
 # Ignore the development environment folder
 .venv/
-venv
+__pycache__
