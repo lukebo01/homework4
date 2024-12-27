@@ -69,14 +69,14 @@ def save_table_as_json(df:pd.DataFrame, caption:str, references: list, path:str)
     for row_list in rows_as_lists:
         df_as_json.append(row_list)
 
-    json_file = {
+    json_content = {
         "table": df_as_json,
         "caption": caption,
         "references": references
     }
 
     with open(path, "w") as file:
-        json.dump(json_file, file, indent=4)
+        json.dump(json_content, file, indent=4)
 
 
 if __name__ == "__main__":
