@@ -58,6 +58,26 @@ def save_table_as_image(df:pd.DataFrame, path:str):
     # Salva come immagine
     plt.savefig(path, bbox_inches='tight', dpi=300)
 
+def save_table_as_json(pd:pd.DataFrame, path:str):
+    # extract header of pandas dataframe
+    header = df.columns.tolist()
+
+    # 
+    df_as_json = [header]
+    rows_as_lists = df.apply(lambda row: row.astype(str).tolist(), axis=1)
+
+    for row_list in rows_as_lists:
+        df_as_json.append(row_list)
+
+    json_file = {
+        "table": df_as_json,
+        "caption": "",
+        "references": []
+    }
+
+    with open(path, "w") as file:
+        json.dump(json_file, file, indent=4)
+
 
 if __name__ == "__main__":
     path = "../raw"
@@ -76,5 +96,6 @@ if __name__ == "__main__":
             df_type = classify(df)
             #
             #df.to_json(f"../data/json/{file_id}-{table_id}.json", index=False, indent=4)
-            df.to_csv(f"../data/csv/{file_id}-{table_id}.csv", index=False)
-            save_table_as_image(df, f"../data/images/{file_id}-{table_id}.png")
+            #df.to_csv(f"../data/csv/{file_id}-{table_id}.csv", index=False)
+            #save_table_as_image(df, f"../data/images/{file_id}-{table_id}.png")
+            save_table_as_json(df, f"../data/json/{file_id}-{table_id}.json")
