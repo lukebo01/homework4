@@ -1,0 +1,31 @@
+{
+    "table": [
+        [
+            "Unnamed: 0",
+            "Training set",
+            "Test set"
+        ],
+        [
+            "Number of samples (all)",
+            "5525.0",
+            "4730.0"
+        ],
+        [
+            "Number of samples (four emotions)",
+            "2577.0",
+            "2923.0"
+        ],
+        [
+            "Baseline accuracy (GPT3.5-turbo)",
+            "44.7",
+            "55.18"
+        ],
+        [
+            "Baseline accuracy (traditional)",
+            "62.34",
+            "51.08"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

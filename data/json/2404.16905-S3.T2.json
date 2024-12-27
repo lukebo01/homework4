@@ -1,0 +1,60 @@
+{
+    "table": [
+        [
+            "Model",
+            "Pre-trained Model",
+            "Test Pos.F1*",
+            "Eval Pos.F1**"
+        ],
+        [
+            "Origin TSAM",
+            "RoBERTa-base",
+            "74.3",
+            "-"
+        ],
+        [
+            "Ours-CEE",
+            "base",
+            "nan",
+            "nan"
+        ],
+        [
+            "+MIN",
+            "RoBERTa-base",
+            "75.5",
+            "-"
+        ],
+        [
+            "+MIN & MTLA",
+            "RoBERTa-base",
+            "75.9",
+            "-"
+        ],
+        [
+            "+MIN & MTLA",
+            "RoBERTa-large",
+            "76.9",
+            "-"
+        ],
+        [
+            "+MIN & MTLA & Ensemble",
+            "RoBERTa-large",
+            "78.0",
+            "38.7"
+        ],
+        [
+            "Ours-CSE",
+            "BERT-base",
+            "-",
+            "31.62 (w-avg.)"
+        ],
+        [
+            "Ours-CSE",
+            "RoBERTa-large",
+            "-",
+            "32.23 (w-avg.)"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

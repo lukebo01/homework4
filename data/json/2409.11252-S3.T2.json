@@ -1,0 +1,38 @@
+{
+    "table": [
+        [
+            "Accent",
+            "Number of Speakers"
+        ],
+        [
+            "South Sindh",
+            "29"
+        ],
+        [
+            "North Sindh",
+            "30"
+        ],
+        [
+            "South Punjab",
+            "27"
+        ],
+        [
+            "North Punjab",
+            "29"
+        ],
+        [
+            "Capital Area",
+            "29"
+        ],
+        [
+            "North West Regions",
+            "30"
+        ],
+        [
+            "Baluchistan",
+            "26"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

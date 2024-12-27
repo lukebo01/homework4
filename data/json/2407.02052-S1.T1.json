@@ -1,0 +1,78 @@
+{
+    "table": [
+        [
+            "Dataset",
+            "Data type",
+            "Label type",
+            "Hours"
+        ],
+        [
+            "ICMC",
+            "Far+Near+speed3",
+            "supervised",
+            "386"
+        ],
+        [
+            "ICMC+addNoise",
+            "Far+speed3",
+            "supervised",
+            "1544"
+        ],
+        [
+            "3D-SPEAKER",
+            "Near",
+            "unsupervised",
+            "1124"
+        ],
+        [
+            "AliMeeting",
+            "Far+Near",
+            "unsupervised",
+            "236"
+        ],
+        [
+            "AISHELL-4",
+            "Far+Near",
+            "unsupervised",
+            "240"
+        ],
+        [
+            "Aidatatang",
+            "Near",
+            "unsupervised",
+            "200"
+        ],
+        [
+            "MagicData",
+            "Near",
+            "(text is not",
+            "180"
+        ],
+        [
+            "KeSpeech",
+            "Near",
+            "allowed to use)",
+            "1542"
+        ],
+        [
+            "WenetSpeech",
+            "Near",
+            "nan",
+            "5500"
+        ],
+        [
+            "WenetSpeech",
+            "(drama, talk,",
+            "nan",
+            "5500"
+        ],
+        [
+            "WenetSpeech",
+            "interview)",
+            "nan",
+            "5500"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

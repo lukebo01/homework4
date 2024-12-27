@@ -1,0 +1,30 @@
+{
+    "table": [
+        [
+            "Model variant",
+            "# Params.",
+            "VS",
+            "VS w. PN"
+        ],
+        [
+            "Linear Head HRA",
+            "3.2M",
+            "5.7",
+            "16.7"
+        ],
+        [
+            "- Recurrent state",
+            "3.2M",
+            "5.9",
+            "16.8"
+        ],
+        [
+            "- Weight unshared",
+            "102.4M",
+            "5.3",
+            "15.5"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

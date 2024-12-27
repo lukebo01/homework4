@@ -1,0 +1,42 @@
+{
+    "table": [
+        [
+            [
+                "Unnamed: 0_level_0",
+                "Method"
+            ],
+            [
+                "Unnamed: 1_level_0",
+                "Acc."
+            ],
+            [
+                "F-1 measure",
+                "Female"
+            ],
+            [
+                "F-1 measure",
+                "Male"
+            ]
+        ],
+        [
+            "Majority",
+            "68.70%",
+            "74.73%",
+            "7.76%"
+        ],
+        [
+            "Wav2Vec2 (from scratch)",
+            "70.07%",
+            "76.54%",
+            "19.29%"
+        ],
+        [
+            "Wav2Vec2 (pre-trained)",
+            "68.90%",
+            "79.31%",
+            "7.10%"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

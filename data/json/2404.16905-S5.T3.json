@@ -1,0 +1,69 @@
+{
+    "table": [
+        [
+            "Modality",
+            "Feature Set",
+            "Feature Selection",
+            "Feature Dimension",
+            "Test Pos.F1"
+        ],
+        [
+            "Audio",
+            "GeMAPS",
+            "nan",
+            "62",
+            "39.0"
+        ],
+        [
+            "Audio",
+            "ComParE",
+            "nan",
+            "top 1000",
+            "62.4"
+        ],
+        [
+            "Audio",
+            "ComParE",
+            "nan",
+            "352",
+            "67.6"
+        ],
+        [
+            "Audio",
+            "ComParE",
+            "nan",
+            "296",
+            "70.5"
+        ],
+        [
+            "Audio",
+            "ComParE",
+            "nan",
+            "128",
+            "73.9"
+        ],
+        [
+            "Vision",
+            "Max Img",
+            "nan",
+            "128",
+            "70.7"
+        ],
+        [
+            "Vision",
+            "Speaker Img",
+            "nan",
+            "128",
+            "74.3"
+        ],
+        [
+            "Vision",
+            "Emotional Speaker Img",
+            "nan",
+            "512",
+            "74.8"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

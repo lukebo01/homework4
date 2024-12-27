@@ -1,0 +1,76 @@
+{
+    "table": [
+        [
+            "Duration (h)",
+            "Corpus",
+            "Sample Scale"
+        ],
+        [
+            "14",
+            "Train-set-1 MC GSS",
+            "1"
+        ],
+        [
+            "16",
+            "Train-set-2 MC GSS",
+            "1"
+        ],
+        [
+            "10",
+            "Dev-set-1 MC GSS",
+            "1"
+        ],
+        [
+            "14",
+            "Train-set-1 MC GSS with timestamp",
+            "1"
+        ],
+        [
+            "16",
+            "Train-set-2 MC GSS with timestamp",
+            "1"
+        ],
+        [
+            "10",
+            "Dev-set-1 MC GSS with timestamp",
+            "1"
+        ],
+        [
+            "14",
+            "Train-set-1 MC NN",
+            "1"
+        ],
+        [
+            "16",
+            "Train-set-2 MC NN",
+            "1"
+        ],
+        [
+            "10",
+            "Dev-set-1 MC NN",
+            "1"
+        ],
+        [
+            "14",
+            "Train-set-1 MC ch0 NN",
+            "1"
+        ],
+        [
+            "16",
+            "Train-set-2 MC ch0 NN",
+            "1"
+        ],
+        [
+            "10",
+            "Dev-set-1 MC ch0 NN",
+            "1"
+        ],
+        [
+            "960",
+            "LibriSpeech",
+            "1"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

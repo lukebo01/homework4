@@ -1,0 +1,26 @@
+{
+    "table": [
+        [
+            "Method",
+            "Data",
+            "WER%"
+        ],
+        [
+            "w/o IV",
+            "LibriSpeech",
+            "8.6"
+        ],
+        [
+            "w/o IV",
+            "Spatial LibriSpeech",
+            "9.0"
+        ],
+        [
+            "w/ IV",
+            "Spatial LibriSpeech",
+            "7.6"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

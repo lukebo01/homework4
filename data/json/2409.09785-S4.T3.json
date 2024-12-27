@@ -1,0 +1,21 @@
+{
+    "table": [
+        [
+            "System",
+            "dev",
+            "eval"
+        ],
+        [
+            "Source Transcript",
+            "24.65",
+            "28.45"
+        ],
+        [
+            "Task-2 Baseline",
+            "24.54",
+            "28.37"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

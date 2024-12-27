@@ -1,0 +1,56 @@
+{
+    "table": [
+        [
+            [
+                "Unnamed: 0_level_0",
+                "Method"
+            ],
+            [
+                "Unnamed: 1_level_0",
+                "Acc."
+            ],
+            [
+                "F-1 measure",
+                "L-S2"
+            ],
+            [
+                "F-1 measure",
+                "CH-N"
+            ],
+            [
+                "F-1 measure",
+                "GR-N"
+            ],
+            [
+                "F-1 measure",
+                "L-S1"
+            ]
+        ],
+        [
+            "Majority",
+            "56.37%",
+            "41.31%",
+            "0.00%",
+            "0.00%",
+            "30.39%"
+        ],
+        [
+            "Wav2Vec2 (from scratch)",
+            "58.45%",
+            "49.26%",
+            "21.26%",
+            "78.20%",
+            "48.64%"
+        ],
+        [
+            "Wav2Vec2 (pre-trained)",
+            "62.18%",
+            "49.66%",
+            "45.26%",
+            "90.70%",
+            "51.13%"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

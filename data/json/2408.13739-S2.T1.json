@@ -1,0 +1,42 @@
+{
+    "table": [
+        [
+            "nan",
+            "Telugu [35]",
+            "Kannada [5]",
+            "Malayalam [37]"
+        ],
+        [
+            "No. of dialects",
+            "3",
+            "5",
+            "2"
+        ],
+        [
+            "Features",
+            "Mel Frequency Cepstral Coefficients",
+            "Spectral and Prosodic features",
+            "Spectral and Prosodic features"
+        ],
+        [
+            "Classifier",
+            "Gaussian Mixture Model and Hidden Markov Model",
+            "Support Vector Machine and Neural Network",
+            "Artificial Neural Networks, Support Vector Machine and Naive Bayes"
+        ],
+        [
+            "Database",
+            "New database developed",
+            "New database developed",
+            "New database developed"
+        ],
+        [
+            "Best performance",
+            "84.5%",
+            "99.24%",
+            "90.2%"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

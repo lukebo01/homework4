@@ -1,0 +1,118 @@
+{
+    "table": [
+        [
+            "Application",
+            "Advantage",
+            "Disadvantage",
+            "Challenge",
+            "Future development"
+        ],
+        [
+            "nan",
+            "Save time and costs",
+            "Data privacy issues",
+            "Expand the corpus",
+            "Develop personalized applications"
+        ],
+        [
+            "Personalized learning",
+            "Precise teaching",
+            "Information bias",
+            "Information accuracy",
+            "Information extraction technology update"
+        ],
+        [
+            "nan",
+            "Good interactivity",
+            "The learning process is opaque",
+            "Update corpus in real time",
+            "Integration of various technologies"
+        ],
+        [
+            "nan",
+            "Improve problem-solving abilities",
+            "Marginalized teachers",
+            "Social impact",
+            "Training with more accurate data"
+        ],
+        [
+            "Guided learning",
+            "Encourage critical thinking",
+            "Misleading information",
+            "Emotional understanding",
+            "Integrate with personalized experiences"
+        ],
+        [
+            "nan",
+            "Cultivate interest in learning",
+            "Lack of emotional resonance",
+            "Unemployment Risk",
+            "Develop policies to address social impacts"
+        ],
+        [
+            "nan",
+            "Provide diverse learning support",
+            "Insufficient training data support",
+            "Logic optimization",
+            "Integration of multidisciplinary and LLM"
+        ],
+        [
+            "Interdisciplinary learning",
+            "Cultivate interdisciplinary thinking skills",
+            "Lack of domain knowledge",
+            "Accuracy of knowledge integration",
+            "Revolutionize the way we learn and teach"
+        ],
+        [
+            "nan",
+            "Boast excellent interdisciplinary capabilities",
+            "Disciplinary bias",
+            "Algorithm optimization",
+            "Filter useful training data"
+        ],
+        [
+            "nan",
+            "Reduce teacher stress",
+            "Machine hallucination",
+            "Multiple text associations",
+            "Standardize technology use"
+        ],
+        [
+            "Real-time problem-solving",
+            "Improved learning efficiency",
+            "Over-reliance on technology",
+            "Text extraction",
+            "Acceleration of model inference"
+        ],
+        [
+            "nan",
+            "Teaching assistance upgrade",
+            "nan",
+            "nan",
+            "Diversified technical assistance"
+        ],
+        [
+            "nan",
+            "Guide mathematics learning",
+            "nan",
+            "Promote mathematical research",
+            "Pay attention to thinking guidance"
+        ],
+        [
+            "Applications in mathematics",
+            "Improve math learning efficiency",
+            "Math terminology learning",
+            "Improved logical reasoning ability",
+            "Mathematics research and teaching"
+        ],
+        [
+            "nan",
+            "Show the fusion of AI and mathematics",
+            "nan",
+            "Understand number relationships",
+            "Adequate language modeling"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

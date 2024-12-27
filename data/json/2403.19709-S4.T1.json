@@ -1,0 +1,96 @@
+{
+    "table": [
+        [
+            "Model",
+            "# Params.",
+            "VS",
+            "VS w. PN"
+        ],
+        [
+            "Full Fine-tuning",
+            "1.8B",
+            "5.3",
+            "15.7"
+        ],
+        [
+            "BitFit",
+            "1.3M",
+            "6.6",
+            "18.4"
+        ],
+        [
+            "LoRA",
+            "2.0M",
+            "7.5",
+            "19.9"
+        ],
+        [
+            "LoRA",
+            "4.0M",
+            "6.8",
+            "19.0"
+        ],
+        [
+            "LoRA",
+            "7.9M",
+            "6.4",
+            "18.0"
+        ],
+        [
+            "Residual Adapters",
+            "3.2M",
+            "6.3",
+            "17.9"
+        ],
+        [
+            "Residual Adapters",
+            "6.4M",
+            "6.2",
+            "17.1"
+        ],
+        [
+            "Residual Adapters",
+            "12.7M",
+            "5.8",
+            "16.7"
+        ],
+        [
+            "Linear Head HRA (ours)",
+            "814K",
+            "6.2",
+            "17.4"
+        ],
+        [
+            "Linear Head HRA (ours)",
+            "6.4M",
+            "5.4",
+            "16.2"
+        ],
+        [
+            "Linear Head HRA (ours)",
+            "12.8M",
+            "5.1",
+            "15.7"
+        ],
+        [
+            "FFN Head HRA (ours)",
+            "1.3M",
+            "6.0",
+            "17.1"
+        ],
+        [
+            "FFN Head HRA (ours)",
+            "13.6M",
+            "5.2",
+            "15.4"
+        ],
+        [
+            "FFN Head HRA (ours)",
+            "27.2M",
+            "5.1",
+            "15.3"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

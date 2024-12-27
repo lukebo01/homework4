@@ -1,0 +1,27 @@
+{
+    "table": [
+        [
+            "nan",
+            "Core",
+            "Data learning",
+            "Development process",
+            "Application"
+        ],
+        [
+            "Discriminant/Analytical AI",
+            "Analysis",
+            "Conditional probability distribution",
+            "Mature technology and widely used",
+            "Recommendation systems, CV, NLP"
+        ],
+        [
+            "Generative AI",
+            "Creation",
+            "Joint probability distribution",
+            "Exponential explosion",
+            "AIGC, text generation, audio generation"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

@@ -1,0 +1,84 @@
+{
+    "table": [
+        [
+            "Model",
+            "# Params.",
+            "Mean",
+            "Paired T-Test"
+        ],
+        [
+            "Linear Head HRA",
+            "51M",
+            "10.6",
+            "-"
+        ],
+        [
+            "Linear Head HRA",
+            "102M",
+            "10.9",
+            "-"
+        ],
+        [
+            "Linear Head HRA",
+            "203M",
+            "11.0",
+            "-"
+        ],
+        [
+            "FFN Head HRA",
+            "201M",
+            "9.9",
+            "-"
+        ],
+        [
+            "FFN Head HRA",
+            "403M",
+            "10.2",
+            "-"
+        ],
+        [
+            "FFN Head HRA",
+            "806M",
+            "10.4",
+            "-"
+        ],
+        [
+            "Linear Head HRA (w/ pre-trained controller)",
+            "51M",
+            "10.7",
+            "0.59"
+        ],
+        [
+            "Linear Head HRA (w/ pre-trained controller)",
+            "101M",
+            "11.0",
+            "0.25"
+        ],
+        [
+            "Linear Head HRA (w/ pre-trained controller)",
+            "202M",
+            "11.3",
+            "0.03"
+        ],
+        [
+            "FFN Head HRA (w/ pre-trained controller)",
+            "118M",
+            "10.1",
+            "0.17"
+        ],
+        [
+            "FFN Head HRA (w/ pre-trained controller)",
+            "269M",
+            "10.3",
+            "0.14"
+        ],
+        [
+            "FFN Head HRA (w/ pre-trained controller)",
+            "672M",
+            "10.5",
+            "0.22"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

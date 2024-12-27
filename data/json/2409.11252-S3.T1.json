@@ -1,0 +1,26 @@
+{
+    "table": [
+        [
+            "Family",
+            "Model"
+        ],
+        [
+            "Whisper",
+            "Tiny, Base, Small, Medium,"
+        ],
+        [
+            "nan",
+            "Large-v3"
+        ],
+        [
+            "MMS",
+            "300 Million, 1 Billion"
+        ],
+        [
+            "Seamless-M4T",
+            "Medium, v2-Large"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}

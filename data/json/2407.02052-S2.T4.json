@@ -1,0 +1,30 @@
+{
+    "table": [
+        [
+            "Model",
+            "Metric",
+            "Dev",
+            "Eval"
+        ],
+        [
+            "Speaker Diarization",
+            "DER (%)",
+            "10.21",
+            "-"
+        ],
+        [
+            "M0 Offical Baseline",
+            "cpCER (%)",
+            "65.90",
+            "72.88"
+        ],
+        [
+            "M6 Fusion models",
+            "cpCER (%)",
+            "16.31",
+            "21.48"
+        ]
+    ],
+    "caption": "",
+    "references": []
+}
