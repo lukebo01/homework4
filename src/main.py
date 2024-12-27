@@ -58,7 +58,7 @@ def save_table_as_image(df:pd.DataFrame, path:str):
     # Salva come immagine
     plt.savefig(path, bbox_inches='tight', dpi=300)
 
-def save_table_as_json(pd:pd.DataFrame, caption:str, references: list, path:str):
+def save_table_as_json(df:pd.DataFrame, caption:str, references: list, path:str):
     # extract header of pandas dataframe
     header = df.columns.tolist()
 
