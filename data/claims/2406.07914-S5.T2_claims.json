@@ -1,0 +1,44 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/o IV"
+            },
+            "1": {
+                "name": "Data",
+                "value": "LibriSpeech"
+            }
+        },
+        "Measure": "%",
+        "Outcome": "8.6"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/o IV"
+            },
+            "1": {
+                "name": "Data",
+                "value": "Spatial LibriSpeech"
+            }
+        },
+        "Measure": "%",
+        "Outcome": "9.0"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/ IV"
+            },
+            "1": {
+                "name": "Data",
+                "value": "Spatial LibriSpeech"
+            }
+        },
+        "Measure": "%",
+        "Outcome": "7.6"
+    }
+}

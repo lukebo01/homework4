@@ -1,0 +1,44 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 1_level_0",
+                "value": "Acc."
+            },
+            "1": {
+                "name": "F-1 measure",
+                "value": "58.76%"
+            }
+        },
+        "Measure": "Chihuahua",
+        "Outcome": "61.49%"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 1_level_0",
+                "value": "Acc."
+            },
+            "1": {
+                "name": "F-1 measure",
+                "value": "60.18%"
+            }
+        },
+        "Measure": "Wav2Vec2 (from scratch)",
+        "Outcome": "74.42%"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 1_level_0",
+                "value": "Acc."
+            },
+            "1": {
+                "name": "F-1 measure",
+                "value": "62.28%"
+            }
+        },
+        "Measure": "Wav2Vec2 (pre-trained)",
+        "Outcome": "74.47%"
+    }
+}

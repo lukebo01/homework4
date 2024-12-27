@@ -1,0 +1,236 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Very aggressive barking at a stranger (L-S2)"
+            },
+            "1": {
+                "name": "# segments",
+                "value": "2843"
+            },
+            "2": {
+                "name": "Duration (sec)",
+                "value": "2778.66"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "2778.66"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Normal barking at a stranger (L-S1)"
+            },
+            "1": {
+                "name": "# segments",
+                "value": "2772"
+            },
+            "2": {
+                "name": "Duration (sec)",
+                "value": "2512.92"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "2512.92"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking due to assault on the owner (L-A)"
+            },
+            "1": {
+                "name": "# segments",
+                "value": "829"
+            },
+            "2": {
+                "name": "Duration (sec)",
+                "value": "956.58"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "956.58"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Negative grunt (during the presence of a stranger) (GR-N)"
+            },
+            "1": {
+                "name": "# segments",
+                "value": "637"
+            },
+            "2": {
+                "name": "Duration (sec)",
+                "value": "746.6"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "746.6"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Negative squeal (during the presence of a stranger) (CH-N)"
+            },
+            "1": {
+                "name": "# segments",
+                "value": "298"
+            },
+            "2": {
+                "name": "Duration (sec)",
+                "value": "546.72"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "546.72"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Sadness/anxiety barking (L-TA)"
+            },
+            "1": {
+                "name": "# segments",
+                "value": "288"
+            },
+            "2": {
+                "name": "Duration (sec)",
+                "value": "200.27"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "200.27"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Positive squeal (during gameplay) (CH-P)"
+            },
+            "1": {
+                "name": "# segments",
+                "value": "91"
+            },
+            "2": {
+                "name": "Duration (sec)",
+                "value": "150.49"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "150.49"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking during play (L-P)"
+            },
+            "1": {
+                "name": "# segments",
+                "value": "76"
+            },
+            "2": {
+                "name": "Duration (sec)",
+                "value": "51.21"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "51.21"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking due to stimulation when walking (L-PA)"
+            },
+            "1": {
+                "name": "# segments",
+                "value": "62"
+            },
+            "2": {
+                "name": "Duration (sec)",
+                "value": "84.06"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "84.06"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking in fear at a stranger (L-S3)"
+            },
+            "1": {
+                "name": "# segments",
+                "value": "54"
+            },
+            "2": {
+                "name": "Duration (sec)",
+                "value": "45.08"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "45.08"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Positive grunt (during gameplay) (GR-P)"
+            },
+            "1": {
+                "name": "# segments",
+                "value": "51"
+            },
+            "2": {
+                "name": "Duration (sec)",
+                "value": "79.56"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "79.56"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking arrival of the owner"
+            },
+            "1": {
+                "name": "# segments",
+                "value": "123"
+            },
+            "2": {
+                "name": "Duration (sec)",
+                "value": "300"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "300"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking departure of the owner"
+            },
+            "1": {
+                "name": "# segments",
+                "value": "456"
+            },
+            "2": {
+                "name": "Duration (sec)",
+                "value": "120"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "120"
+    }
+}

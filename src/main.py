@@ -98,6 +98,6 @@ if __name__ == "__main__":
             df_type = classify(df)
             #
             #df.to_json(f"../data/json/{file_id}-{table_id}.json", index=False, indent=4)
-            #df.to_csv(f"../data/csv/{file_id}-{table_id}.csv", index=False)
-            #save_table_as_image(df, f"../data/images/{file_id}-{table_id}.png")
+            df.to_csv(f"../data/csv/{file_id}-{table_id}.csv", index=False)
+            save_table_as_image(df, f"../data/images/{file_id}-{table_id}.png")
             save_table_as_json(df,caption, references, f"../data/json/{file_id}-{table_id}.json")

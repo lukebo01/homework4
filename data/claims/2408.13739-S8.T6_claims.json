@@ -1,0 +1,156 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "nan",
+                "value": "LT as LT"
+            },
+            "1": {
+                "name": "LT as CT",
+                "value": "LT as CT"
+            },
+            "2": {
+                "name": "CT as LT",
+                "value": "CT as LT"
+            },
+            "3": {
+                "name": "CT as CT",
+                "value": "CT as CT"
+            }
+        },
+        "Measure": "confusions",
+        "Outcome": "0.88"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "GMM",
+                "value": "0.88"
+            },
+            "1": {
+                "name": "LT as LT",
+                "value": "0.12"
+            },
+            "2": {
+                "name": "LT as CT",
+                "value": "0.13"
+            },
+            "3": {
+                "name": "CT as LT",
+                "value": "0.87"
+            }
+        },
+        "Measure": "confusions",
+        "Outcome": "0.90"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "CNN",
+                "value": "0.90"
+            },
+            "1": {
+                "name": "LT as LT",
+                "value": "0.10"
+            },
+            "2": {
+                "name": "LT as CT",
+                "value": "0.02"
+            },
+            "3": {
+                "name": "CT as LT",
+                "value": "0.98"
+            }
+        },
+        "Measure": "confusions",
+        "Outcome": "0.89"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "PPR",
+                "value": "0.89"
+            },
+            "1": {
+                "name": "LT as LT",
+                "value": "0.11"
+            },
+            "2": {
+                "name": "LT as CT",
+                "value": "0.11"
+            },
+            "3": {
+                "name": "CT as LT",
+                "value": "0.89"
+            }
+        },
+        "Measure": "confusions",
+        "Outcome": "0.95"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "P-LVCSR",
+                "value": "0.95"
+            },
+            "1": {
+                "name": "LT as LT",
+                "value": "0.05"
+            },
+            "2": {
+                "name": "LT as CT",
+                "value": "0.06"
+            },
+            "3": {
+                "name": "CT as LT",
+                "value": "0.94"
+            }
+        },
+        "Measure": "confusions",
+        "Outcome": "0.96"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "UPR-1",
+                "value": "0.96"
+            },
+            "1": {
+                "name": "LT as LT",
+                "value": "0.04"
+            },
+            "2": {
+                "name": "LT as CT",
+                "value": "0.09"
+            },
+            "3": {
+                "name": "CT as LT",
+                "value": "0.91"
+            }
+        },
+        "Measure": "confusions",
+        "Outcome": "0.97"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "UPR-2",
+                "value": "0.97"
+            },
+            "1": {
+                "name": "LT as LT",
+                "value": "0.03"
+            },
+            "2": {
+                "name": "LT as CT",
+                "value": "0.06"
+            },
+            "3": {
+                "name": "CT as LT",
+                "value": "0.94"
+            }
+        },
+        "Measure": "confusions",
+        "Outcome": "0.97"
+    }
+}

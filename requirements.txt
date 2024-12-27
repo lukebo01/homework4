@@ -2,3 +2,7 @@ matplotlib
 pandas
 beautifulsoup4
 lxml
+torch 
+transformers 
+accelerate 
+sentencepiece

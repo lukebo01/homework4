@@ -1,0 +1,198 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Full Fine-tuning"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.8B"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "5.3"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "BitFit"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.3M"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "6.6"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "2.0M"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "7.5"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "4.0M"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "6.8"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "7.9M"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "6.4"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "3.2M"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "6.3"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "6.4M"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "6.2"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "12.7M"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "5.8"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Linear Head HRA (ours)",
+                "value": "814K"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "814K"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "6.2"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Linear Head HRA (ours)",
+                "value": "6.4M"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "6.4M"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "5.4"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Linear Head HRA (ours)",
+                "value": "12.8M"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "6.4M"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "5.1"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "FFN Head HRA (ours)",
+                "value": "1.3M"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "814K"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "6.0"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "FFN Head HRA (ours)",
+                "value": "13.6M"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "6.4M"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "5.2"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "FFN Head HRA (ours)",
+                "value": "27.2M"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "6.4M"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "5.1"
+    }
+}

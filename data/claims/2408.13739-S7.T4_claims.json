@@ -1,0 +1,44 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Bias",
+                "value": "Biased towards LT"
+            },
+            "1": {
+                "name": "Case 1",
+                "value": "LT"
+            }
+        },
+        "Measure": "nan",
+        "Outcome": "nan"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Bias",
+                "value": "Biased towards CT"
+            },
+            "1": {
+                "name": "Case 2",
+                "value": "CT"
+            }
+        },
+        "Measure": "nan",
+        "Outcome": "nan"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Bias",
+                "value": "Equi-probable"
+            },
+            "1": {
+                "name": "Case 3",
+                "value": "LT"
+            }
+        },
+        "Measure": "nan",
+        "Outcome": "nan"
+    }
+}

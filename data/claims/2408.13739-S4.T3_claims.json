@@ -1,0 +1,58 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 0",
+                "value": "Train"
+            },
+            "1": {
+                "name": "Unnamed: 1",
+                "value": "Num. Hours"
+            }
+        },
+        "Measure": "LT",
+        "Outcome": "04:18"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 0",
+                "value": "Train"
+            },
+            "1": {
+                "name": "Unnamed: 1",
+                "value": "Num. Utterances"
+            }
+        },
+        "Measure": "CT",
+        "Outcome": "3371"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 0",
+                "value": "Test"
+            },
+            "1": {
+                "name": "Unnamed: 1",
+                "value": "Num. Hours"
+            }
+        },
+        "Measure": "LT",
+        "Outcome": "01:23"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 0",
+                "value": "Test"
+            },
+            "1": {
+                "name": "Unnamed: 1",
+                "value": "Num. Utterances"
+            }
+        },
+        "Measure": "CT",
+        "Outcome": "1016"
+    }
+}

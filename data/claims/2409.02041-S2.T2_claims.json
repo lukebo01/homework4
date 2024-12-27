@@ -1,0 +1,58 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V1"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "14.953"
+            }
+        },
+        "Measure": "Sys-1 RTTM",
+        "Outcome": "14.649"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V2"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "14.911"
+            }
+        },
+        "Measure": "Sys-2 RTTM",
+        "Outcome": "14.595"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V3"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "15.577"
+            }
+        },
+        "Measure": "Sys-3 RTTM",
+        "Outcome": "15.160"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "Fusion"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "14.681"
+            }
+        },
+        "Measure": "Sys-4 RTTM",
+        "Outcome": "14.286"
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Majority"
+            },
+            "1": {
+                "name": "Acc.",
+                "value": "56.37%"
+            },
+            "2": {
+                "name": "F-1 measure",
+                "value": "L-S2"
+            },
+            "3": {
+                "name": "F-1 measure",
+                "value": "CH-N"
+            },
+            "4": {
+                "name": "F-1 measure",
+                "value": "GR-N"
+            },
+            "5": {
+                "name": "F-1 measure",
+                "value": "L-S1"
+            }
+        },
+        "Measure": "F-1 measure",
+        "Outcome": "30.39%"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (from scratch)"
+            },
+            "1": {
+                "name": "Acc.",
+                "value": "58.45%"
+            },
+            "2": {
+                "name": "F-1 measure",
+                "value": "L-S2"
+            },
+            "3": {
+                "name": "F-1 measure",
+                "value": "CH-N"
+            },
+            "4": {
+                "name": "F-1 measure",
+                "value": "GR-N"
+            },
+            "5": {
+                "name": "F-1 measure",
+                "value": "L-S1"
+            }
+        },
+        "Measure": "F-1 measure",
+        "Outcome": "48.64%"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (pre-trained)"
+            },
+            "1": {
+                "name": "Acc.",
+                "value": "62.18%"
+            },
+            "2": {
+                "name": "F-1 measure",
+                "value": "L-S2"
+            },
+            "3": {
+                "name": "F-1 measure",
+                "value": "CH-N"
+            },
+            "4": {
+                "name": "F-1 measure",
+                "value": "GR-N"
+            },
+            "5": {
+                "name": "F-1 measure",
+                "value": "L-S1"
+            }
+        },
+        "Measure": "F-1 measure",
+        "Outcome": "51.13%"
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "South Sindh"
+            },
+            "1": {
+                "name": "Number of Speakers",
+                "value": "29"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "26"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "South Punjab"
+            },
+            "1": {
+                "name": "Number of Speakers",
+                "value": "27"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "26"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "North Sindh"
+            },
+            "1": {
+                "name": "Number of Speakers",
+                "value": "30"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "26"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "North Punjab"
+            },
+            "1": {
+                "name": "Number of Speakers",
+                "value": "29"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "26"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "Capital Area"
+            },
+            "1": {
+                "name": "Number of Speakers",
+                "value": "29"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "26"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "North West Regions"
+            },
+            "1": {
+                "name": "Number of Speakers",
+                "value": "30"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "26"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "Baluchistan"
+            },
+            "1": {
+                "name": "Number of Speakers",
+                "value": "26"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "26"
+    }
+}

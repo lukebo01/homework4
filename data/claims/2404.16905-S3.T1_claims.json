@@ -1,0 +1,142 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Models",
+                "value": "Origin InstructERC"
+            },
+            "1": {
+                "name": "LLM",
+                "value": "Llama-2-7B-chat"
+            }
+        },
+        "Measure": "w-avg F1",
+        "Outcome": "53.83"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Models",
+                "value": "Origin InstructERC"
+            },
+            "1": {
+                "name": "LLM",
+                "value": "Llama-2-13B-chat"
+            }
+        },
+        "Measure": "w-avg F1",
+        "Outcome": "55.50"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Models",
+                "value": "Ours-ERC-7B"
+            },
+            "1": {
+                "name": "LLM",
+                "value": "Llama-2-7B-chat"
+            }
+        },
+        "Measure": "nan",
+        "Outcome": "nan"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "+ 3 auxiliary tasks",
+                "value": "nan"
+            },
+            "1": {
+                "name": "LLM",
+                "value": "nan"
+            }
+        },
+        "Measure": "w-avg F1",
+        "Outcome": "56.88"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "+ 3 auxiliary tasks & historical clips desc",
+                "value": "nan"
+            },
+            "1": {
+                "name": "LLM",
+                "value": "nan"
+            }
+        },
+        "Measure": "w-avg F1",
+        "Outcome": "57.74"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "+ 3 auxiliary tasks & utterance clips desc",
+                "value": "nan"
+            },
+            "1": {
+                "name": "LLM",
+                "value": "nan"
+            }
+        },
+        "Measure": "w-avg F1",
+        "Outcome": "58.42"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Models",
+                "value": "Ours-ERC-13B"
+            },
+            "1": {
+                "name": "LLM",
+                "value": "Llama-2-13B-chat"
+            }
+        },
+        "Measure": "nan",
+        "Outcome": "nan"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "+ 3 auxiliary tasks",
+                "value": "nan"
+            },
+            "1": {
+                "name": "LLM",
+                "value": "nan"
+            }
+        },
+        "Measure": "w-avg F1",
+        "Outcome": "57.85"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "+ 3 auxiliary tasks & historical clips desc",
+                "value": "nan"
+            },
+            "1": {
+                "name": "LLM",
+                "value": "nan"
+            }
+        },
+        "Measure": "w-avg F1",
+        "Outcome": "58.64"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "+ 3 auxiliary tasks & utterance clips desc",
+                "value": "nan"
+            },
+            "1": {
+                "name": "LLM",
+                "value": "nan"
+            }
+        },
+        "Measure": "w-avg F1",
+        "Outcome": "58.50"
+    }
+}

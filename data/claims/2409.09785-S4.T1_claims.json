@@ -1,0 +1,86 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "nan",
+                "value": "train, test"
+            },
+            "1": {
+                "name": "Whisper-1.5B (first-pass) w/o LM",
+                "value": "10.43"
+            }
+        },
+        "Measure": "test",
+        "Outcome": "11.82"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "-best Oracle",
+                "value": "train"
+            },
+            "1": {
+                "name": "Whisper-1.5B (first-pass) w/o LM",
+                "value": "9.61"
+            }
+        },
+        "Measure": "test",
+        "Outcome": "9.32"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Reranking LM: T5-750M",
+                "value": "train"
+            },
+            "1": {
+                "name": "Whisper-1.5B (first-pass) w/o LM",
+                "value": "9.90"
+            }
+        },
+        "Measure": "test",
+        "Outcome": "9.74"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Correction LM: T5-750M",
+                "value": "train"
+            },
+            "1": {
+                "name": "Whisper-1.5B (first-pass) w/o LM",
+                "value": "9.21"
+            }
+        },
+        "Measure": "test",
+        "Outcome": "9.05"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Correction LM: LLaMA-13B",
+                "value": "test"
+            },
+            "1": {
+                "name": "Whisper-1.5B (first-pass) w/o LM",
+                "value": "8.62"
+            }
+        },
+        "Measure": "test",
+        "Outcome": "8.63"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Correction LM: LLaMaA2-7B",
+                "value": "test"
+            },
+            "1": {
+                "name": "Whisper-1.5B (first-pass) w/o LM",
+                "value": "8.71"
+            }
+        },
+        "Measure": "test",
+        "Outcome": "8.33"
+    }
+}
