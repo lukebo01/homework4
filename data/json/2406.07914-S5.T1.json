@@ -37,6 +37,9 @@
             "6.6"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 1:  Results of different modelling methods for 3D SSL. ``w/IV'' and ``w/o IV'' refer to with or without using IV, and ``ST.\" refers to using special tokens to tokenise numbers.",
+    "references": [
+        "To evaluate the performance of SSL, i.e. decoding the exact orientation of the sound event, the average differences of the azimuth angle, the elevation angle and the angular distance are calculated to get \u0394asubscript\u0394\ud835\udc4e\\Delta_{a}, \u0394esubscript\u0394\ud835\udc52\\Delta_{e} and \u0394dsubscript\u0394\ud835\udc51\\Delta_{d} respectively. Note that \u0394dsubscript\u0394\ud835\udc51\\Delta_{d} is the MAE metric. Since it is the angular distance that most truly reflects the accuracy of the prediction, \u0394dsubscript\u0394\ud835\udc51\\Delta_{d} serves as our primary reference metric. The results are shown in Table 1.",
+        "From Table 1, without any spatial information, the model fails to determine the azimuth angle well, leading to significant deviations in the angular distance. On the other hand, once intensity vectors are introduced, the predictive accuracy of the angles increases significantly, where using ``Before'' leads to about 60% reduction in MAE compared to the official baseline."
+    ]
 }

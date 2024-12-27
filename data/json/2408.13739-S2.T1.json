@@ -37,6 +37,8 @@
             "90.2%"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 1:  DID systems developed for Dravidian languages in literature.",
+    "references": [
+        "Existing work on Indian LID has not reached a critical level\nwhen compared to western and european languages [1].\nWhile this is true for LID systems built on Indian languages,\neven though there exists a considerable number of them,\nthe fact is even more relevant for Indian dialects for\nwhich not much research interest exists at the moment.\nThis is due to the lack of datasets for Indian dialects.\nFor this reason, there aren\u2019t many DID systems in Indian languages,\nespecially Tamil, to which the current work\ncould be directly compared to.\nBut a comparison can be made with respect to dialect identification\nin other Indian languages, or LID systems in general.\nAmongst the Dravidian languages \u2014 Tamil, Telugu, Kannada\nand Malayalam \u2014 DID systems for\nTelugu [35],\nKannada [5] and\nMalayalam [37]\nhave been addressed in literature.\nThe details of these systems are provided\nin Table 1.\nThe apparent need to address the dialects in Tamil is\ncarried out in the current work considering a commonly\nspoken dialect in Tamil, namely colloquial Tamil."
+    ]
 }

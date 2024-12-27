@@ -36,6 +36,10 @@
             "29.8"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 3:  Results on the non-overlapped version of DSS LibriSpeech. ``w/ IV'' and ``w/o IV'' refer to with or without using IV. Performance on  left/right  dataset and  random  dataset are compared.",
+    "references": [
+        "For all the experiments, we set the batch size to 16 and trained the models with 8 A100 GPUs. Models in Sec.5.1 and Sec.5.2 were trained for no more than 30,000 steps and the best checkpoint on the validation set was used for testing. Moreover, models in Table 3 were trained for 15,000 steps on the non-overlapped random dataset and by continuing training this model on the ``fully\" overlapped left/right dataset for another 15,000 steps, we got the models in Fig. 2.",
+        "We first analysed whether spatial information is crucial for LSE using a non-overlapped version dataset. As shown in Table 3, if any spatial information is not provided for the LLM, the model achieves SR% around 50 on both left/right and random datasets, which means the model cannot extract the speech from the target direction as required. On the contrary, models with IV as input can extract the target speech successfully at a SR% over 80, which demonstrates the importance of spatial information in this task.",
+        "Moreover, Table 3 shows that the model's performance on random dataset is worse than that on left/right dataset, which reveals that the closer the angular distance between the two sound sources is, the harder it is for the model to distinguish the two utterances from each other."
+    ]
 }

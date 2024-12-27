@@ -11,6 +11,8 @@
             "22.989"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 3:  TcpWER ( % percent \\% ) comparisons on the single-channel track on Dev-set-2. ",
+    "references": [
+        "Table 3 presents the tcpWER (%percent\\%) of our single-channel system on Dev-set-2. The diarization priors are derived from NSD and re-clustering, as illustrated in Fig. 6. These priors are then input into the JDS system, from which separated audio is obtained via multiplying T-F masks and amplitude spectrum. Similarly, for each subsystem, we have fused posterior probabilities from three different Whisper models (enhanced large-v2, enhanced large-v3, and enhanced large-v3 trained with more data simulated from Librispeech)."
+    ]
 }

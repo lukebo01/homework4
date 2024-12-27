@@ -113,6 +113,8 @@
             "Adequate language modeling"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 4:  Comparison between generative AI and discriminative AI",
+    "references": [
+        "In this article, many products of LLMEdu are introduced, and the summary is shown in Figure 5. Moreover, this part will focus on the implementation process of LMs from two aspects: LLMs empowering education and specifically LLMs empowering the field of mathematics. Finally, we use a unified framework to organize and compare the application of LLM in the field of education. The details are shown in Table 4."
+    ]
 }

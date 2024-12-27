@@ -33,6 +33,8 @@
             "26"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 2:  Distribution of Speakers Across Different Accents in the Dataset",
+    "references": [
+        "We use the ARL Urdu Speech Database222https://catalog.ldc.upenn.edu/LDC2007S03 which has 159,996 audios. The distribution of speaker dialects in the corpus is given in Table 2."
+    ]
 }

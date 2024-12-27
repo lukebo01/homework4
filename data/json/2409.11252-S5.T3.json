@@ -109,6 +109,8 @@
             "18.75"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 3:  WER of ASR models on ARL and CSaLT dataset for Read Speech and on our dataset for Conversational Speech. For each category, bold represents the lower WER in the specified category.",
+    "references": [
+        "Table 3 shows the WER of the ASR models, fine-tuned and non-fine-tuned, on read speech datasets\u2014ARL and CSaLT\u2014and our conversational speech dataset."
+    ]
 }

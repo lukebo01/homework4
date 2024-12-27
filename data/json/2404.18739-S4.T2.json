@@ -17,6 +17,8 @@
             "49.95%"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 2:  Accuracy for the dog recognition task.",
+    "references": [
+        "Table 2 shows the results, where we apply the Wav2Vec2 model to dog identification. Our results are in line with the results from P\u00e9rez-Espinosa et al. (2018); Moln\u00e1r et al. (2009), and demonstrate that effectiveness of acoustic representations to discriminate between individual dogs. Further, we find that a model pre-trained on human speech significantly outperforms the model trained from scratch."
+    ]
 }

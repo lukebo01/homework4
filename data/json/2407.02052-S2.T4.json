@@ -25,6 +25,8 @@
             "21.48"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 4 :  The ASDR results on Track 2 (%).",
+    "references": [
+        "Results on the Dev and Eval Sets of Track 2:\nTable 4 presents the automatic speaker diarization and recognition (ASDR) results on Track 2 dev and eval sets. Our speaker diarization system achieves a diarization error rate (DER) of 10.21%. In comparison to the official baseline, our system achieves a cpCER of 16.31% on the dev set, which relatively improves by 75.3%. Note that there is a difference of smaller than 5% compared to Track 1 with oracle diarization. On the eval set, our system outperforms the official baseline with a relative improvement of 70.5%."
+    ]
 }

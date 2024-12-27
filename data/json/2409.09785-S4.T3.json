@@ -16,6 +16,8 @@
             "28.37"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 3 :  Task-2 cpWER (%) of the source files and the baseline system for text-only speaker recognition.",
+    "references": [
+        "Baseline:\nWe generated the speaker-annotated transcripts from the system proposed in [45] as a baseline system,444https://github.com/tango4j/llm_speaker_tagging based on NeMo [46] speaker diarization and NeMo ASR models. We provide the postprocessing method proposed in [40], where we replace the LLM with n-gram language models. Since the n-gram-based system shows similar results and has low computational demands, we use this n-gram baseline to gauge the performance of beam-search-based speaker tag correction. Fig. 3 shows how beam search decoding can correct the speaker tagging. To mask out acoustic information, the speaker probability values in Fig. 4 are all fixed at 0.96. Table 3 shows the accuracy of the baseline for development and evaluation sets."
+    ]
 }

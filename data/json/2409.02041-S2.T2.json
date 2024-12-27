@@ -36,6 +36,8 @@
             "14.265"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 2:  TcpWER ( % percent \\% ) comparisons on the multi-channel track on Dev-set-2. ",
+    "references": [
+        "Table 2 presents the tcpWER (%percent\\%) of our multi-channel system on Dev-set-2, where \u2018Sys-N\ud835\udc41N RTTM\u2019 corresponds to the system depicted in Fig. 2, and \u2018V\u2217*\u2019 corresponds to the system shown in Fig. 3. For each system, we fused the posterior probabilities from three different Whisper models (enhanced large-v2, enhanced large-v3, and enhanced large-v3 trained with more data simulated from Librispeech). The last row \u2018Fusion\u2019 indicates the average of posterior probabilities across 9 (3 \u00d7\\times 3) systems using the same speaker diarization priors. Finally, in the multi-channel track, we submit the fusion results of each \u2018Sys-N\ud835\udc41N RTTM\u2019 (last column)."
+    ]
 }

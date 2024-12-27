@@ -21,6 +21,8 @@
             "7.6"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 2:  Results of speech recognition under different settings. ``w/IV'' and ``w/o IV'' refer to with or without using IV.",
+    "references": [
+        "Only being able to recognise the direction of the sound is not sufficient to achieve full spatial audio understanding of LLMs. It is more necessary to understand the audio content in conjunction with the spatial information. We investigated speech recognition for spatial audio here, and consider three settings: using non-Spatial LibriSpeech data and using Spatial LibriSpeech with and without adding intensity vectors. The results are shown in Table 2."
+    ]
 }

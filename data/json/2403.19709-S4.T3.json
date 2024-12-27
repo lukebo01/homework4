@@ -79,6 +79,8 @@
             "0.22"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 3 :  Online adaptation WER results on\nEuphonia\ndata sets. Our FFN Head HRA (S) with pre-trained controller achieves comparable results against the regular setup (only 0.2% WER loss). Paired T-Test shows no statistically significant difference between with and without pre-trained controller.",
+    "references": [
+        "Table 3 reports the WER results from our multi task adaptation experiments with and without pre-trained controller. We hand picked an extra 128\nEuphonia\nspeaker data as out-of-domain data with respect to the in-domain 128\nEuphonia\nspeaker data mentioned above. We divide the training into two steps. First step, we pre-train the recurrent controller network with out-of-domain data. Second step, we freeze the recurrent controller network, use in-domain data to train the adapter head with random initialization. So the number of actual training parameter is reduced in this setup as we only train the adapter head. Furthermore, this approach provides a solution for sensitive data sets that cannot be trained within one model. If we pre-train the recurrent controller network only on non-Personal Identifiable Information (PII) data, and parameterize the adapter head by speaker, then no speaker needs to share tuning parameters with others."
+    ]
 }

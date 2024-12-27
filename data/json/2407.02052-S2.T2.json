@@ -43,6 +43,8 @@
             "20.83"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 2 :  Pseudo-Label Iterative Generation Results (CER%).",
+    "references": [
+        "Results on the Dev and Eval Sets of Track 1:\nThe CER performance of the pseudo-label iterative generation based on the PLG fusion model is shown in Table 2. As the number of iterations increases, the performance of PLG significantly improves. Additionally, we observe that the wavLM-based ED model has competitive results given a relatively small amount of data. However, as the data amount increases to 5000 hours, wavLM-based ED model becomes inferior to that of Fbank-based ED model.\nTable 3 shows the results of ASR single and fusion models on Track 1 dev and eval sets. M0 represents the official baseline. M1-M5 are single Accent-ASR model composed of different encoder front-end and back-end sub-modules. M6 denotes the post fusion based on weight adaptation, which achieves a relative improvement of 52.8% and 49.8% compared to M0 on dev and eval sets, respectively."
+    ]
 }

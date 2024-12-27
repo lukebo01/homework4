@@ -97,6 +97,8 @@
             "Text generation, question answering"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 2:  Iteration and comparison of LLMs",
+    "references": [
+        "What\u2019s more, we demonstrate the development of the GPT models, as shown in Table 2."
+    ]
 }

@@ -67,6 +67,8 @@
             "61.04"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 1:  Results of ERC task on test set without neutral utterances.",
+    "references": [
+        "We use weight average F1 score and accuracy to evaluate the performance of the model. It should be noted that according to the rules of the competition, we removed the neutral utterances when computing F1 score and accuracy. The result of ERC on test set is shown in Table 1. All models is trained on four auxiliary tasks mentioned by in Section 3.2.3. The best weight average F1 score is 58.64, which is achieved by Llama-2-13B with historical clips descriptions. The descriptions which contains information with the emotions of speakers improve 0.79 (from 57.85 to 58.64). As for accuracy, the Llama-2-13B without video clips descriptions achieves the highest score of 61.45. Compared with InstructERC\u2019s training data strategy, we have added additional auxiliary tasks and improve 12.52 on accuracy."
+    ]
 }

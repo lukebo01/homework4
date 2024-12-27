@@ -26,6 +26,8 @@
             "51.08"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 4 :  Task-3 dataset statistics and baseline unweighted accuracies (%).",
+    "references": [
+        "Baseline: We provide two performance baselines with ASR transcripts from Whisper-tiny used as the text input: one with an LLM-based approach using GPT-3.5-turbo,666Version: GPT-3.5-turbo-0125; Context window: 16,385 tokens; Training data: up to Sep 2021 the other with a traditional approach based on a deep learning model. For the GPT-3.5-turbo approach, we performed zero-shot prediction with a context window of three (only previous utterances allowed), with code available777https://github.com/YuanGongND/llm_speech_emotion_challenge to participants as a reference. For the deep learning-based model, a two-layer feed-forward network was trained following the standard five-fold cross-validation of IEMOCAP. The first layer encodes RoBERTa output of dimension 768 into hidden states of dimension 128, and the second further encodes it into a dimension of 16. ReLU is used as the activation function between the layers. The dataset statistics and our baseline results are given in Table 4."
+    ]
 }

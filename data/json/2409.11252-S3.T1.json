@@ -21,6 +21,9 @@
             "Medium, v2-Large"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 1:  ASR model evaluated in this paper.",
+    "references": [
+        "In this paper we evaluate 9 ASR models given in Table 1.",
+        "We fine-tune the ASR models in Table 1 using a combined dataset of Mozilla\u2019s Common Voice (Ardila et al., 2020) and\nGoogle\u2019s Fleurs Conneau et al. (2022), which together provide 16,156 audio samples. Given the limited amount of training data available, we opted for a 90-10 split, with 90% of the data used for training and the remaining 10% for validation. We evaluate both the non-fine-tuned and the fine-tuned models on ARL and CSaLT dataset for read speech and on our dataset for conversational speech. mms-300m base model is not fine-tuned for downstream task of speech recognition so we only evaluate our fine-tuned version. Before conducting the evaluations, we normalize both the ground truth and the model predictions. This involves removing punctuation and disfluencies. This preprocessing step ensures that the evaluations focus on meaningful transcription accuracy rather than being skewed by minor formatting inconsistencies or speech disfluencies and punctuation marks. We noticed that Whisper and MMS models have built-in disfluency filtering and perform this task effectively. However, Seamless models output disfluencies marked with a # (e.g., #um), which we removed using regex during preprocessing."
+    ]
 }

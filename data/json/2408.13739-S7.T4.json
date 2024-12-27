@@ -37,6 +37,8 @@
             "Equi-probable"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 4:  Simplified example of UPR output sequences demonstrating three cases of bias.  W i subscript W \ud835\udc56 \\text{W}_{i}  represents words in the output sequence.",
+    "references": [
+        "where, Wdsubscript\ud835\udc4a\ud835\udc51W_{d} is the number of words that belong to each dialect,\nand the dialect is determined using separate dictionaries/lexicons.\nA simplified example of this UPR output sequence is provided\nin Table 4.\nFor an output sequence, if the\nnumber of words that belong to CT is more than that of LT, then it is\nbiased towards CT, and hence the sentence will be identified as CT. If\nthe sentence contains an equal number of LT and CT words, then it is\nconsidered as an equiprobable case and, is handled separately as a\nspecial case. The reason for this scenario could be i) inefficiency or,\nlow performance of the recognition module ii) confusions due to combined\nlexicon. How this special case is handled, determines whether the system\nbelongs to UPR-1 or UPR-2. The block diagram in Figure 6 explains\nthese methods in detail."
+    ]
 }

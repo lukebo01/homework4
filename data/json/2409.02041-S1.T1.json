@@ -71,6 +71,8 @@
             "1"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 1:  The training sets of speech recognition.",
+    "references": [
+        "The ASR systems were trained using official NOTSOFAR-1 training data and the open-source LibriSpeech dataset with data augmentation methods. The data augmentation methods included speed perturbation and MUSAN noise [17] addition. The specific composition of the training data is shown in Table 1. We utilized multi-channel (MC) data processed by both Guided Source Separation (GSS) and Neural Networks (NN), and introduced a word-level timestamp prediction task into the GSS data. We found that this multitask training approach led to a slight improvement in recognition accuracy. We also adopted the practice from Whisper of providing the transcribed text from the preceding utterance as previous-text conditioning, which has noticeably improved the recognition rate. Contrary to using official single-channel (SC) data, we selected NN-processed MC channel 0 (ch0) data as our single-channel training input, observing superior performance with this choice. Drawing inspiration from the principles of RDrop [18], we developed a novel data augmentation technique called Noise KLD. This approach entails separately feeding both the original and augmented data samples into the model. Consistency between the model\u2019s predictions for the original and augmented data is ensured by applying Kullback-Leibler divergence (KLD) loss as a regularizer. Through extensive experimentation, we discovered that this method outperforms conventional data augmentation strategies in terms of boosting model performance and generalization."
+    ]
 }

@@ -25,6 +25,8 @@
             "15.5"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 4 :  Linear Head HRA ablation results.",
+    "references": [
+        "Our Linear Head HRA is structurally similar to Residual Adapters. We can obtain Residual Adapters with shared weights by removing the recurrent states of the RNN controller and then further by unshared the weights, we recover the original Residual adapters. In Table 4, we listed the performance for each of the model variants. Removing the recurrent state resulted in a small regression in WER while unshared weights on top of it improved performance but now the number of parameters is more than 100M."
+    ]
 }

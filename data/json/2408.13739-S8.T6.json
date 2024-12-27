@@ -50,6 +50,8 @@
             "0.94"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 6:  Confusions in each method",
+    "references": [
+        "Table 6 shows the confusions in all six techniques.\nFrom the table we can infer that,\na lot of confusions happen for colloquial Tamil. The reason\nis that, the average duration of a CT utterance is shorter in comparison\n[26]. If utterances with similar lengths, or a\nparallel corpus is available, this factor could be overlooked and a\nbetter analysis could be provided. An unique result can be observed for\nthe case of CNN. Here we see that CNN handles CT better than all other\nmethods. This could be because of the fact that CNNs learn the full\nutterance as a whole, rather than learning it frame by frame or, one\nphone label after the other as in the case of GMM and the other methods\nrespectively. This process could have captured the wholesome acoustic\ncharacteristics of the dialect. Another probable reason is that while\npre-processing the utterances for CNN, the size of the data is kept\nconstant by zero padding or truncating it. Hence removing the bias that\nthe length of the sentence offers, as mentioned earlier in the case of\nother methods."
+    ]
 }

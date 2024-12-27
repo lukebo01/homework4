@@ -25,6 +25,8 @@
             "16.9"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 5 :  Recurrent controller ablation results.",
+    "references": [
+        "We have also performed an ablation on controller RNN architecture. In addition to the IndRNN, we run benchmarks on the standard RNN with t\u200ba\u200bn\u200bh\ud835\udc61\ud835\udc4e\ud835\udc5b\u210etanh activation and Light GRU [27] as controller. The results are summarized in Table 5. IndRNN and Light GRU both are competitive whereas the RNN with t\u200ba\u200bn\u200bh\ud835\udc61\ud835\udc4e\ud835\udc5b\u210etanh activation underperformed. This confirms that the choice of controller architecture is crucial in our HRA adapters."
+    ]
 }

@@ -29,6 +29,8 @@
             "15"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 2:  Details of the Speech Corpus - Male and Female speakers in Train and Test set",
+    "references": [
+        "Some pre-processing steps are performed on these recordings. For the sake\nof the comfort of the volunteers, the recording of each sentence in the\ncorpus is not time limited. This leads to the presence of leading and\ntrailing silences which need to be trimmed. Hence, silence trimming is\nthe first step. According to [20], trimming\nsilence is one of the simplest ways to obtain better results. The next\nstep is the preparation of the annotated corpus using phonetic\ntranscriptions and HMM-based viterbi alignment.\nThe corpus is then separated into train and test sets that comprise\napproximately 70 and 30 percent of the total duration respectively.\nDuring this separation, it is ensured that no speaker in the training\nset is present in the testing set. Details of the corpus are provided in\nTable 2 and Table 3.\nIn all, 4387 LT and 5214 CT utterances were recorded.\nDuration of the utterances in the\ntest set plays a big role in the results obtained\n[6] [22].\nIt measures the efficiency of the dialect\nidentification system. It is a measure of how well the system performs\nwith minimal evidence. Duration of all the test utterances in the corpus\nis plotted as a histogram in Figure 2. The mean and variance of the duration of LT test utterances is 4.94(s) and 5.04(s) respectively and, for CT, it is 2.50(s) and 1.02(s) respectively."
+    ]
 }

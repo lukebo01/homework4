@@ -81,6 +81,10 @@
             "22491.0"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 1:  14 types of dog vocalizations together with the corresponding number of segments and duration.",
+    "references": [
+        "We use a dataset consisting of recordings of 74 dogs, collected in Tepic (Mexico) and Puebla (Mexico), at the homes of the dogs\u2019 owners. A subset of this dataset was previously used by P\u00e9rez-Espinosa et al. (2018). The dog vocalizations were recorded while being exposed to different stimuli (e.g., stranger, play, see Table 1). The recordings were conducted using a video camera Sony CX405 Handycam; in this work, we only use the audio recordings, obtained using the built-in microphone on the camera. The audio codec is A52 stereo with a sampling rate of 48,000 Hz and a bit rate of 256 kbps. The protocol for obtaining the dog vocalizations used in this study was designed and validated by experts in animal behavior from the Tlaxcala Center for Behavioral Biology in Mexico.",
+        "Table 1 shows the fourteen labels used in the annotation, along with the corresponding statistics for the number of segments and total duration.",
+        "In this task, we predict the context of the bark; i.e., we determine the association between a dog vocalization and its surrounding. Because of the highly skewed label distribution (see Table 1), we focus on the contexts for which more examples are available: very aggressive barking at a stranger (L-S2); normal barking at a stranger (L-S1); negative squeal (in the presence of a stranger) (CH-N); negative grunt (in the presence of a stranger) (GR-N). We do not include barking due to assault on the owner (L-A) because in early experiments we found that the model cannot distinguish it from the very aggressive barking at a stranger (L-S2)."
+    ]
 }

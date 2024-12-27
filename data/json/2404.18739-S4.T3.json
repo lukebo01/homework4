@@ -44,6 +44,8 @@
             "14.88%"
         ]
     ],
-    "caption": "",
-    "references": []
+    "caption": "Table 3:  Accuracy and F-1 measure for dog breed identification.",
+    "references": [
+        "The results are shown in Table 3. Wav2Vec2 trained from scratch outperforms most baselines. As before, we obtain an additional significant boost in performance when pre-training on human speech data. The variation in individual breeds can be explained by the unbalanced number of observations per breed, with Chihuahua being the most common breed in our dataset (57%), followed by French Poodle (28%) and Schnauzer (15%)."
+    ]
 }
