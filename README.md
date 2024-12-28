@@ -34,13 +34,13 @@
     "table": [
         ["header"],
         ["row1"],
-        ....
+        []
     ],
     "caption": "table caption",
     "references": [
         "reference1",
         "reference2",
-        ....
+        ""
     ]
 }
 ```
