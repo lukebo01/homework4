@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import time
 
 from tableClassifier import classify
-from claimsExtractor import extractor
+from claimsExtractor import process_json_files
 
 def clean_latex(text):
     # Rimuove comandi LaTeX come \textbf{}, \frac{}, ecc.
@@ -79,7 +79,7 @@ def save_table_as_json(df:pd.DataFrame, caption:str, references: list, path:str)
         json.dump(json_content, file, indent=4)
 
 
-if __name__ == "__main__":
+def generate_json():
     path = "../raw"
     raw_files = os.listdir(path)
     raw_files.sort()
@@ -101,3 +101,12 @@ if __name__ == "__main__":
             df.to_csv(f"../data/csv/{file_id}-{table_id}.csv", index=False)
             save_table_as_image(df, f"../data/images/{file_id}-{table_id}.png")
             save_table_as_json(df,caption, references, f"../data/json/{file_id}-{table_id}.json")
+
+
+if __name__ == "__main__":
+    generate_json()
+    process_json_files(input_dir='../data/json',
+                       output_dir='../data/claims',
+                       model_name="llama3.2",
+                       prompt_file_path='prompt.txt')
+    
