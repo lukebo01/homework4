@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 from io import StringIO
 from claimsExtractor import process_json_files
+from openRouter import extract_claims
 import matplotlib.pyplot as plt
 import pandas as pd
 import json
@@ -101,9 +102,15 @@ def generate_json():
 
 
 if __name__ == "__main__":
-    generate_json()
+    #generate_json()
+    '''
     process_json_files(input_dir='../data/json',
                        output_dir='../data/claims',
                        model_name="llama3.2",
                        prompt_file_path='prompt.txt')
+    '''
+    extract_claims(input_dir='../data/json',
+                   output_dir='../data/Gemini_claims')
+
+
     
