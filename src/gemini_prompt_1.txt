@@ -1,0 +1,21 @@
+You will receive a JSON object containing a table in the 'table' array, a caption (if available), and references (if available). 
+We have four types of table:
+    - relational
+    - nested relational
+    - cross table
+    - nested cross table
+Given this table classification your task is to extract claims from the table. Every claim has this structure:
+{
+    "0": {   # first claim
+        "specifications": {
+            "0": {"name": "Model", "value": "Full Fine-tuning"},
+            "1": {"name": "# Params.", "value": "1.8B"}
+        },
+        "Measure": "VS",
+        "Outcome": "5.3"
+    },
+    "1": { ... } # second claim and so on
+}
+
+The Measure can be found on the table, references or caption. You must decide it. And the outcome is the value associated to the mesaure.
+It's MANDATORY that you return me only the json file where all the claims are extracted.
