@@ -1,0 +1,66 @@
+{
+    "0": {
+        "specifications": {
+            "Name": "header",
+            "Value": "nan"
+        },
+        "Measure": "GMM",
+        "Outcome": "0.88"
+    },
+    "1": {
+        "specifications": {
+            "Name": "header",
+            "Value": "LT as LT"
+        },
+        "Measure": "GMM",
+        "Outcome": "0.12"
+    },
+    "2": {
+        "specifications": {
+            "Name": "header",
+            "Value": "CT as CT"
+        },
+        "Measure": "GMM",
+        "Outcome": "0.13"
+    },
+    "3": {
+        "specifications": {
+            "Name": "header",
+            "Value": "nan"
+        },
+        "Measure": "PPR",
+        "Outcome": "0.11"
+    },
+    "4": {
+        "specifications": {
+            "Name": "header",
+            "Value": "LT as LT"
+        },
+        "Measure": "PPR",
+        "Outcome": "0.11"
+    },
+    "5": {
+        "specifications": {
+            "Name": "header",
+            "Value": "P-LVCSR"
+        },
+        "Measure": "PPR",
+        "Outcome": "0.09"
+    },
+    "6": {
+        "specifications": {
+            "Name": "header",
+            "Value": "UPR-1"
+        },
+        "Measure": "P-LVCSR",
+        "Outcome": "0.06"
+    },
+    "7": {
+        "specifications": {
+            "Name": "header",
+            "Value": "CT as CT"
+        },
+        "Measure": "UPR-2",
+        "Outcome": "0.03"
+    }
+}

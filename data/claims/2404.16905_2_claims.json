@@ -1,0 +1,164 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Pre-trained Model"
+            },
+            "1": {
+                "name": "Origin TSAM",
+                "value": "RoBERTa-base"
+            },
+            "2": {
+                "name": "Test Pos.F1*",
+                "value": "74.3"
+            }
+        },
+        "Measure": "Pre-trained Model",
+        "Outcome": "-"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "RoBERTa-base"
+            },
+            "1": {
+                "name": "Origin TSAM",
+                "value": "74.3"
+            },
+            "2": {
+                "name": "Eval Pos.F1**",
+                "value": "-"
+            }
+        },
+        "Measure": "Eval Pos.F1",
+        "Outcome": "-"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CEE"
+            },
+            "1": {
+                "name": "Origin TSAM",
+                "value": "nan"
+            },
+            "2": {
+                "name": "Test Pos.F1*",
+                "value": "nan"
+            }
+        },
+        "Measure": "Test Pos.F1",
+        "Outcome": "nan"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "+MIN",
+                "value": "RoBERTa-base"
+            },
+            "1": {
+                "name": "Origin TSAM",
+                "value": "75.5"
+            },
+            "2": {
+                "name": "Eval Pos.F1**",
+                "value": "-"
+            }
+        },
+        "Measure": "Eval Pos.F1",
+        "Outcome": "-"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "+MIN & MTLA",
+                "value": "RoBERTa-base"
+            },
+            "1": {
+                "name": "Origin TSAM",
+                "value": "75.9"
+            },
+            "2": {
+                "name": "Eval Pos.F1**",
+                "value": "-"
+            }
+        },
+        "Measure": "Eval Pos.F1",
+        "Outcome": "-"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "+MIN & MTLA",
+                "value": "RoBERTa-large"
+            },
+            "1": {
+                "name": "Origin TSAM",
+                "value": "76.9"
+            },
+            "2": {
+                "name": "Eval Pos.F1**",
+                "value": "-"
+            }
+        },
+        "Measure": "Eval Pos.F1",
+        "Outcome": "-"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "+MIN & MTLA & Ensemble",
+                "value": "RoBERTa-large"
+            },
+            "1": {
+                "name": "Origin TSAM",
+                "value": "78.0"
+            },
+            "2": {
+                "name": "Eval Pos.F1**",
+                "value": "38.7"
+            }
+        },
+        "Measure": "Eval Pos.F1",
+        "Outcome": "38.7"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Ours-CSE",
+                "value": "BERT-base"
+            },
+            "1": {
+                "name": "Origin TSAM",
+                "value": "-"
+            },
+            "2": {
+                "name": "Test Pos.F1*",
+                "value": "31.62 (w-avg.)"
+            }
+        },
+        "Measure": "Pre-trained Model",
+        "Outcome": "31.62 (w-avg.)"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Ours-CSE",
+                "value": "RoBERTa-large"
+            },
+            "1": {
+                "name": "Origin TSAM",
+                "value": "-"
+            },
+            "2": {
+                "name": "Test Pos.F1*",
+                "value": "32.23 (w-avg.)"
+            }
+        },
+        "Measure": "Pre-trained Model",
+        "Outcome": "32.23 (w-avg.)"
+    }
+}

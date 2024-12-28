@@ -1,0 +1,72 @@
+[
+  {
+    "0": {
+      "specifications": {
+        "0": {"name": "Controller variant", "value": "IndRNN"},
+        "1": {"name": "# Params.", "value": "1.6M"}
+      },
+      "Measure": "VS",
+      "Outcome": "6.0"
+    },
+    {
+      "0": {
+        "specifications": {
+          "2": {"name": "Controller variant", "value": "IndRNN"},
+          "3": {"name": "# Params.", "value": "1.9M"}
+        },
+        "Measure": "VS",
+        "Outcome": "6.1"
+      }
+    },
+    {
+      "0": {
+        "specifications": {
+          "2": {"name": "Controller variant", "value": "IndRNN"},
+          "3": {"name": "# Params.", "value": "2.4"}
+        },
+        "Measure": "VS",
+        "Outcome": "6.0"
+      }
+    },
+    {
+      "0": {
+        "specifications": {
+          "2": {"name": "Controller variant", "value": "Light GRU"},
+          "3": {"name": "# Params.", "value": "2.4"}
+        },
+        "Measure": "VS",
+        "Outcome": "6.0"
+      }
+    }
+  ],
+  {
+    "0": {
+      "specifications": {
+        "0": {"name": "Controller variant", "value": "RNN"},
+        "1": {"name": "# Params.", "value": "1.9M"}
+      },
+      "Measure": "VS",
+      "Outcome": "6.1"
+    }
+  },
+  {
+    "0": {
+      "specifications": {
+        "2": {"name": "Controller variant", "value": "RNN"},
+        "3": {"name": "# Params.", "value": "1.9M"}
+      },
+      "Measure": "VS",
+      "Outcome": "17.1"
+    }
+  },
+  {
+    "0": {
+      "specifications": {
+        "2": {"name": "Controller variant", "value": "RNN"},
+        "3": {"name": "# Params.", "value": "1.8M"}
+      },
+      "Measure": "VS",
+      "Outcome": "17.1"
+    }
+  }
+]

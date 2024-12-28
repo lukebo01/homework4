@@ -1,0 +1,240 @@
+[
+    {
+        "specifications": {
+            "0": {
+                "name": "Identification Accuracy",
+                "value": "nan"
+            },
+            "1": {
+                "name": "GMM",
+                "value": "87.72%"
+            },
+            "2": {
+                "name": "CNN",
+                "value": "93.97%"
+            },
+            "3": {
+                "name": "PPR",
+                "value": "89.24%"
+            },
+            "4": {
+                "name": "P-LVCSR",
+                "value": "94.21%"
+            },
+            "5": {
+                "name": "UPR-1",
+                "value": "93.53%"
+            },
+            "6": {
+                "name": "UPR-2",
+                "value": "95.61%"
+            }
+        },
+        "Measure": null,
+        "Outcome": "nan"
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Identification Accuracy",
+                "value": "GMM"
+            },
+            "1": {
+                "name": "",
+                "value": "87.72%"
+            },
+            "2": {
+                "name": "CNN",
+                "value": ""
+            },
+            "3": {
+                "name": "PPR",
+                "value": ""
+            },
+            "4": {
+                "name": "P-LVCSR",
+                "value": ""
+            },
+            "5": {
+                "name": "",
+                "value": "93.53%"
+            },
+            "6": {
+                "name": "UPR-2",
+                "value": ""
+            }
+        },
+        "Measure": null,
+        "Outcome": "87.72%"
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Identification Accuracy",
+                "value": "CNN"
+            },
+            "1": {
+                "name": "",
+                "value": ""
+            },
+            "2": {
+                "name": "",
+                "value": "93.97%"
+            },
+            "3": {
+                "name": "PPR",
+                "value": ""
+            },
+            "4": {
+                "name": "P-LVCSR",
+                "value": ""
+            },
+            "5": {
+                "name": "",
+                "value": ""
+            },
+            "6": {
+                "name": "UPR-2",
+                "value": ""
+            }
+        },
+        "Measure": null,
+        "Outcome": "93.97%"
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Identification Accuracy",
+                "value": "PPR"
+            },
+            "1": {
+                "name": "",
+                "value": ""
+            },
+            "2": {
+                "name": "CNN",
+                "value": ""
+            },
+            "3": {
+                "name": "",
+                "value": "89.24%"
+            },
+            "4": {
+                "name": "P-LVCSR",
+                "value": ""
+            },
+            "5": {
+                "name": "",
+                "value": ""
+            },
+            "6": {
+                "name": "UPR-2",
+                "value": ""
+            }
+        },
+        "Measure": null,
+        "Outcome": "89.24%"
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Identification Accuracy",
+                "value": "P-LVCSR"
+            },
+            "1": {
+                "name": "",
+                "value": ""
+            },
+            "2": {
+                "name": "CNN",
+                "value": ""
+            },
+            "3": {
+                "name": "PPR",
+                "value": ""
+            },
+            "4": {
+                "name": "",
+                "value": "94.21%"
+            },
+            "5": {
+                "name": "",
+                "value": ""
+            },
+            "6": {
+                "name": "UPR-2",
+                "value": ""
+            }
+        },
+        "Measure": null,
+        "Outcome": "94.21%"
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Identification Accuracy",
+                "value": "UPR-1"
+            },
+            "1": {
+                "name": "",
+                "value": ""
+            },
+            "2": {
+                "name": "CNN",
+                "value": ""
+            },
+            "3": {
+                "name": "PPR",
+                "value": ""
+            },
+            "4": {
+                "name": "P-LVCSR",
+                "value": ""
+            },
+            "5": {
+                "name": "",
+                "value": "93.53%"
+            },
+            "6": {
+                "name": "",
+                "value": ""
+            }
+        },
+        "Measure": null,
+        "Outcome": "93.53%"
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Identification Accuracy",
+                "value": "UPR-2"
+            },
+            "1": {
+                "name": "",
+                "value": ""
+            },
+            "2": {
+                "name": "CNN",
+                "value": ""
+            },
+            "3": {
+                "name": "PPR",
+                "value": ""
+            },
+            "4": {
+                "name": "P-LVCSR",
+                "value": ""
+            },
+            "5": {
+                "name": "",
+                "value": ""
+            },
+            "6": {
+                "name": "",
+                "value": "95.61%"
+            }
+        },
+        "Measure": null,
+        "Outcome": "95.61%"
+    }
+]

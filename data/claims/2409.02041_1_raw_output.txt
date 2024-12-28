@@ -1,0 +1,29 @@
+[
+  {
+    "0": {
+      "specifications": {
+        "Duration (h)": {"name": "Duration", "value": "14"},
+        "Corpus": {"name": "Training dataset", "value": "Train-set-1 MC GSS"}
+      },
+      "Measure": "Duration",
+      "Outcome": "14"
+    },
+    "1": {
+      "specifications": {
+        "Duration (h)": {"name": "Duration", "value": "16"},
+        "Corpus": {"name": "Training dataset", "value": "Train-set-2 MC GSS"}
+      },
+      "Measure": "Duration",
+      "Outcome": "16"
+    },
+    "2": {
+      "specifications": {
+        "Duration (h)": {"name": "Duration", "value": "10"},
+        "Corpus": {"name": "Training dataset", "value": "Dev-set-1 MC GSS"}
+      },
+      "Measure": "Duration",
+      "Outcome": "10"
+    },
+    ...
+  }
+]

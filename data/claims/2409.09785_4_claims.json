@@ -1,0 +1,50 @@
+{
+    "0": {
+        "specifications": {
+            "name": "Unnamed: 0",
+            "value": "Training set"
+        },
+        "Measure": "Number of samples (all)",
+        "Outcome": "5525.0"
+    },
+    "1": {
+        "specifications": {
+            "name": "Unnamed: 0",
+            "value": "Test set"
+        },
+        "Measure": "Number of samples (all)",
+        "Outcome": "4730.0"
+    },
+    "2": {
+        "specifications": {
+            "name": "Unnamed: 0",
+            "value": "Training set"
+        },
+        "Measure": "Number of samples (four emotions)",
+        "Outcome": "2577.0"
+    },
+    "3": {
+        "specifications": {
+            "name": "Unnamed: 0",
+            "value": "Test set"
+        },
+        "Measure": "Number of samples (four emotions)",
+        "Outcome": "2923.0"
+    },
+    "4": {
+        "specifications": {
+            "name": "Baseline accuracy (GPT3.5-turbo)",
+            "value": "44.7"
+        },
+        "Measure": "Baseline accuracy (GPT3.5-turbo)",
+        "Outcome": "55.18"
+    },
+    "5": {
+        "specifications": {
+            "name": "Baseline accuracy (traditional)",
+            "value": "62.34"
+        },
+        "Measure": "Baseline accuracy (traditional)",
+        "Outcome": "51.08"
+    }
+}

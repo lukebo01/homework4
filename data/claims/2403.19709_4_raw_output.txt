@@ -1,0 +1,52 @@
+[
+  {
+    "0": {
+      "specifications": {
+        "0": {"name": "Model variant", "value": "Model variant"},
+        "1": {"name": "# Params.", "value": "3.2M"}
+      },
+      "Measure": "VS",
+      "Outcome": "5.7"
+    },
+    {
+      "0": {
+        "specifications": {
+          "2": {"name": "Linear Head HRA", "value": "Linear Head HRA"},
+          "1": {"name": "# Params.", "value": "3.2M"}
+        },
+        "Measure": "VS",
+        "Outcome": "5.7"
+      }
+    },
+    {
+      "0": {
+        "specifications": {
+          "2": {"name": "Linear Head HRA", "value": "Linear Head HRA"},
+          "1": {"name": "# Params.", "value": "3.2M"}
+        },
+        "Measure": "VS w. PN",
+        "Outcome": "16.7"
+      }
+    },
+    {
+      "0": {
+        "specifications": {
+          "2": {"name": "- Recurrent state", "value": "- Recurrent state"},
+          "1": {"name": "# Params.", "value": "3.2M"}
+        },
+        "Measure": "5.9",
+        "Outcome": "16.8"
+      }
+    },
+    {
+      "0": {
+        "specifications": {
+          "2": {"name": "- Weight unshared", "value": "- Weight unshared"},
+          "1": {"name": "# Params.", "value": "102.4M"}
+        },
+        "Measure": "5.3",
+        "Outcome": "15.5"
+      }
+    }
+  ]
+]

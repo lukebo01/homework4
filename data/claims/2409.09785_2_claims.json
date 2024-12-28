@@ -1,0 +1,254 @@
+[
+    {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "Source"
+            },
+            "1": {
+                "name": "Training Set",
+                "value": ""
+            },
+            "2": {
+                "name": "# Pairs",
+                "value": "2620"
+            }
+        },
+        "Measure": "Source",
+        "Outcome": ""
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Category",
+                "value": "Audiobooks"
+            },
+            "1": {
+                "name": "Training Set",
+                "value": "train-960"
+            },
+            "2": {
+                "name": "# Pairs",
+                "value": "88200"
+            }
+        },
+        "Measure": "Audiobooks",
+        "Outcome": "train-960"
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Source",
+                "value": "LibriSpeech"
+            },
+            "1": {
+                "name": "Training Set",
+                "value": "train-960"
+            },
+            "2": {
+                "name": "# Pairs",
+                "value": "88200"
+            }
+        },
+        "Measure": "LibriSpeech",
+        "Outcome": ""
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Category",
+                "value": "Noise"
+            },
+            "1": {
+                "name": "Training Set",
+                "value": "train"
+            },
+            "2": {
+                "name": "# Pairs",
+                "value": "8738"
+            }
+        },
+        "Measure": "Noise",
+        "Outcome": ""
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Source",
+                "value": "WSJ"
+            },
+            "1": {
+                "name": "Training Set",
+                "value": "train-si284"
+            },
+            "2": {
+                "name": "# Pairs",
+                "value": "37514"
+            }
+        },
+        "Measure": "WSJ",
+        "Outcome": ""
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Category",
+                "value": "Business news"
+            },
+            "1": {
+                "name": "Training Set",
+                "value": "train-si284"
+            },
+            "2": {
+                "name": "# Pairs",
+                "value": "37514"
+            }
+        },
+        "Measure": "Business news",
+        "Outcome": ""
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Source",
+                "value": "WSJ"
+            },
+            "1": {
+                "name": "Training Set",
+                "value": "eval92"
+            },
+            "2": {
+                "name": "# Pairs",
+                "value": "333"
+            }
+        },
+        "Measure": "WSJ",
+        "Outcome": ""
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Category",
+                "value": "Telephone"
+            },
+            "1": {
+                "name": "Training Set",
+                "value": "train"
+            },
+            "2": {
+                "name": "# Pairs",
+                "value": "36539"
+            }
+        },
+        "Measure": "Telephone",
+        "Outcome": ""
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Source",
+                "value": "CommonVoice"
+            },
+            "1": {
+                "name": "Training Set",
+                "value": "train-accent"
+            },
+            "2": {
+                "name": "# Pairs",
+                "value": "49758"
+            }
+        },
+        "Measure": "CommonVoice",
+        "Outcome": ""
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Category",
+                "value": "Accented English"
+            },
+            "1": {
+                "name": "Training Set",
+                "value": "train-accent"
+            },
+            "2": {
+                "name": "# Pairs",
+                "value": "49758"
+            }
+        },
+        "Measure": "Accented English",
+        "Outcome": ""
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Source",
+                "value": "Tedlium-3"
+            },
+            "1": {
+                "name": "Training Set",
+                "value": "train"
+            },
+            "2": {
+                "name": "# Pairs",
+                "value": "47500"
+            }
+        },
+        "Measure": "TED talk",
+        "Outcome": ""
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Category",
+                "value": "BBC audio"
+            },
+            "1": {
+                "name": "Training Set",
+                "value": "train"
+            },
+            "2": {
+                "name": "# Pairs",
+                "value": "47500"
+            }
+        },
+        "Measure": "BBC audio",
+        "Outcome": ""
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "Source",
+                "value": "Total"
+            },
+            "1": {
+                "name": "Training Set",
+                "value": "train"
+            },
+            "2": {
+                "name": "# Pairs",
+                "value": "316881"
+            }
+        },
+        "Measure": "Total",
+        "Outcome": ""
+    },
+    {
+        "specifications": {
+            "0": {
+                "name": "",
+                "value": "Average utterance length"
+            },
+            "1": {
+                "name": "",
+                "value": ""
+            },
+            "2": {
+                "name": "",
+                "value": "14.1"
+            }
+        },
+        "Measure": "",
+        "Outcome": ""
+    }
+]

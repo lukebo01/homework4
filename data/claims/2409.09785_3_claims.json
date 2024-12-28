@@ -1,0 +1,44 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "dev"
+            },
+            "1": {
+                "name": "Source Transcript",
+                "value": "24.65"
+            }
+        },
+        "Measure": "dev",
+        "Outcome": "24.65"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "eval"
+            },
+            "1": {
+                "name": "Source Transcript",
+                "value": "28.45"
+            }
+        },
+        "Measure": "eval",
+        "Outcome": "28.45"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Task-2 Baseline",
+                "value": "24.54"
+            },
+            "1": {
+                "name": "Source Transcript",
+                "value": "28.37"
+            }
+        },
+        "Measure": "Task-2 Baseline",
+        "Outcome": "28.37"
+    }
+}

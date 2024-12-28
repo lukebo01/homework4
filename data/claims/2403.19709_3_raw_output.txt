@@ -1,0 +1,104 @@
+{
+  "0": {
+    "specifications": {
+      "header": {"name": "Model", "value": "Linear Head HRA"},
+      "cell_value": {"name": "", "value": ""},
+      "header2": {"name": "# Params.", "value": "51M"}
+    },
+    "Measure": "Mean",
+    "Outcome": "10.6"
+  },
+  {
+    "specifications": {
+      "header": {"name": "Model", "value": "Linear Head HRA"},
+      "cell_value": {"name": "", "value": ""},
+      "header2": {"name": "# Params.", "value": "102M"}
+    },
+    "Measure": "Mean",
+    "Outcome": "10.9"
+  },
+  {
+    "specifications": {
+      "header": {"name": "Model", "value": "Linear Head HRA"},
+      "cell_value": {"name": "", "value": ""},
+      "header2": {"name": "# Params.", "value": "203M"}
+    },
+    "Measure": "Mean",
+    "Outcome": "11.0"
+  },
+  {
+    "specifications": {
+      "header": {"name": "Model", "value": "FFN Head HRA"},
+      "cell_value": {"name": "", "value": "201M"}
+    },
+    "Measure": "Mean",
+    "Outcome": "9.9"
+  },
+  {
+    "specifications": {
+      "header": {"name": "Model", "value": "FFN Head HRA"},
+      "cell_value": {"name": "", "value": "403M"}
+    },
+    "Measure": "Mean",
+    "Outcome": "10.2"
+  },
+  {
+    "specifications": {
+      "header": {"name": "Model", "value": "FFN Head HRA"},
+      "cell_value": {"name": "", "value": "806M"}
+    },
+    "Measure": "Mean",
+    "Outcome": "10.4"
+  },
+  {
+    "specifications": {
+      "header": {"name": "Model", "value": "Linear Head HRA (w/ pre-trained controller)"},
+      "cell_value": {"name": "", "value": ""},
+      "header2": {"name": "# Params.", "value": "51M"}
+    },
+    "Measure": "Mean",
+    "Outcome": "10.7"
+  },
+  {
+    "specifications": {
+      "header": {"name": "Model", "value": "Linear Head HRA (w/ pre-trained controller)"},
+      "cell_value": {"name": "", "value": ""},
+      "header2": {"name": "# Params.", "value": "101M"}
+    },
+    "Measure": "Mean",
+    "Outcome": "11.0"
+  },
+  {
+    "specifications": {
+      "header": {"name": "Model", "value": "Linear Head HRA (w/ pre-trained controller)"},
+      "cell_value": {"name": "", "value": ""},
+      "header2": {"name": "# Params.", "value": "202M"}
+    },
+    "Measure": "Mean",
+    "Outcome": "11.3"
+  },
+  {
+    "specifications": {
+      "header": {"name": "Model", "value": "FFN Head HRA (w/ pre-trained controller)"},
+      "cell_value": {"name": "", "value": "118M"}
+    },
+    "Measure": "Mean",
+    "Outcome": "10.1"
+  },
+  {
+    "specifications": {
+      "header": {"name": "Model", "value": "FFN Head HRA (w/ pre-trained controller)"},
+      "cell_value": {"name": "", "value": "269M"}
+    },
+    "Measure": "Mean",
+    "Outcome": "10.3"
+  },
+  {
+    "specifications": {
+      "header": {"name": "Model", "value": "FFN Head HRA (w/ pre-trained controller)"},
+      "cell_value": {"name": "", "value": "672M"}
+    },
+    "Measure": "Mean",
+    "Outcome": "10.5"
+  }
+}

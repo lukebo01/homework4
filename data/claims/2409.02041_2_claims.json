@@ -1,0 +1,106 @@
+{
+    "0": {
+        "specifications": {
+            "Sep Dia": {
+                "name": "header",
+                "value": "cell_value"
+            },
+            "Sys-1 RTTM": {
+                "name": "metric_1",
+                "value": "cell_value"
+            },
+            "Sys-2 RTTM": {
+                "name": "metric_2",
+                "value": "cell_value"
+            },
+            "Sys-3 RTTM": {
+                "name": "metric_3",
+                "value": "cell_value"
+            },
+            "Sys-4 RTTM": {
+                "name": "metric_4",
+                "value": "cell_value"
+            }
+        },
+        "Measure": "V1",
+        "Outcome": "cell_value"
+    },
+    "1": {
+        "specifications": {
+            "Sep Dia": {
+                "name": "header",
+                "value": "cell_value"
+            },
+            "Sys-1 RTTM": {
+                "name": "metric_1",
+                "value": "cell_value"
+            },
+            "Sys-2 RTTM": {
+                "name": "metric_2",
+                "value": "cell_value"
+            },
+            "Sys-3 RTTM": {
+                "name": "metric_3",
+                "value": "cell_value"
+            },
+            "Sys-4 RTTM": {
+                "name": "metric_4",
+                "value": "cell_value"
+            }
+        },
+        "Measure": "V2",
+        "Outcome": "cell_value"
+    },
+    "2": {
+        "specifications": {
+            "Sep Dia": {
+                "name": "header",
+                "value": "cell_value"
+            },
+            "Sys-1 RTTM": {
+                "name": "metric_1",
+                "value": "cell_value"
+            },
+            "Sys-2 RTTM": {
+                "name": "metric_2",
+                "value": "cell_value"
+            },
+            "Sys-3 RTTM": {
+                "name": "metric_3",
+                "value": "cell_value"
+            },
+            "Sys-4 RTTM": {
+                "name": "metric_4",
+                "value": "cell_value"
+            }
+        },
+        "Measure": "V3",
+        "Outcome": "cell_value"
+    },
+    "3": {
+        "specifications": {
+            "Sep Dia": {
+                "name": "header",
+                "value": "cell_value"
+            },
+            "Sys-1 RTTM": {
+                "name": "metric_1",
+                "value": "cell_value"
+            },
+            "Sys-2 RTTM": {
+                "name": "metric_2",
+                "value": "cell_value"
+            },
+            "Sys-3 RTTM": {
+                "name": "metric_3",
+                "value": "cell_value"
+            },
+            "Sys-4 RTTM": {
+                "name": "metric_4",
+                "value": "cell_value"
+            }
+        },
+        "Measure": "Fusion",
+        "Outcome": "cell_value"
+    }
+}

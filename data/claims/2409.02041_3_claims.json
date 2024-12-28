@@ -1,0 +1,34 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "Sep Dia"
+            },
+            "1": {
+                "name": "NSD",
+                "value": "24.611"
+            },
+            "2": {
+                "name": "Re-clustering",
+                "value": "22.989"
+            }
+        },
+        "Measure": "Sep Dia",
+        "Outcome": "Sep Dia"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "JDS",
+                "value": "JDS"
+            },
+            "1": {
+                "name": "24.611",
+                "value": "22.989"
+            }
+        },
+        "Measure": "JDS",
+        "Outcome": "22.989"
+    }
+}

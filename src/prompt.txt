@@ -1,82 +1,46 @@
-Riceverai un oggetto JSON contenente una tabella nell'array table, una didascalia (se disponibile) e dei riferimenti (se disponibili). Il tuo compito è estrarre i claims dalla tabella usando le seguenti regole:
-Estrai le specifiche come coppie |nome, valore| dalle intestazioni della tabella, dagli indici e dal contesto (didascalia e riferimenti).
-Identifica ogni specifica come una coppia |nome, valore|:
-Estrai il nome dalle intestazioni della tabella (es. "Model").
-Estrai il valore dalla cella corrispondente (es. "Full Fine-tuning").
-Se necessario, deduci ulteriori specifiche dalla didascalia o dai riferimenti.
-Identifica la misura come la metrica utilizzata nella tabella (es. "VS" o "VS w. PN").
-Estrai la misura e il risultato:
-La misura è l'intestazione della colonna (es. "VS").
-Il risultato è il valore della cella nella riga e colonna corrispondente.
-Se sono necessarie informazioni aggiuntive per identificare la misura o le specifiche, deduci dal contesto della didascalia o dei riferimenti.
-Usa la didascalia o i riferimenti per dedurre il nome della misura se non è direttamente menzionata nelle intestazioni della tabella.
-Per ogni riga della tabella, crea un claim nel formato:
-|{Specifiche, Specifiche, …}, Misura, Risultato|.
-Esempio:
-Riga di Input: ["Full Fine-tuning", "1.8B", "5.3", "15.7"]
-Claim di Output: |{|Model, Full Fine-tuning|, |# Params., 1.8B|}, VS, 5.3|.
-Per strutture cross-table, includi tutte le intestazioni e gli indici rilevanti come specifiche.
-Se la struttura della tabella è una cross-table, includi ulteriori specifiche se la tabella ha più livelli di intestazioni o indici.
-Salva tutti i claims estratti in formato JSON, dove ogni claim è numerato e include i campi "specifications", "Measure" e "Outcome".
-Esempio di formato JSON:
+
+Istruzioni:
+
+Ricevi un oggetto JSON con una tabella in table, una didascalia e riferimenti (se disponibili).
+Devi estrarre claims dalla tabella. Ogni claim è del tipo:
+∣{Specifiche, Specifiche, …},Misura,Risultato∣
+Le specifiche (nome, valore) derivano da intestazioni, indici, didascalia e riferimenti.
+La misura si ricava dal contesto o dal nome della colonna.
+Il risultato è il valore della cella.
+Salva ogni claim in JSON numerato:
+
 {
-    "0": {
-        "specifications": {
-            "0": {"name": "Model", "value": "Full Fine-tuning"},
-            "1": {"name": "# Params.", "value": "1.8B"}
-        },
-        "Measure": "VS",
-        "Outcome": "5.3"
+  "0": {
+    "specifications": {
+      "0": {"name": "header", "value": "cell_value"},
+      ...
     },
-    "1": { ... }
+    "Measure": "col_header_or_deduced_metric",
+    "Outcome": "cell_value"
+  },
+  ...
 }
 
-Per ogni tabella, estrai tutti i claims e produci il risultato finale in formato JSON. Usa le intestazioni della tabella, gli indici e il contesto per assicurarti che tutte le specifiche siano corrette e complete. Produci ogni claim numerato e rispetta il formato richiesto.
-Parte dinamica:
-Ti fornirò il JSON della tabella da elaborare. La tua risposta deve contenere esclusivamente il body del JSON prodotto, senza altre frasi o contorni. Ad esempio, se ti fornisco la seguente tabella:
+Non aggiungere testo extra: solo il JSON finale.
+
+Esempio di tabella errata (che produce output indesiderato):
 {
-    "table": [
-        [
-            "Model",
-            "# Params.",
-            "VS",
-            "VS w. PN"
-        ],
-        [
-            "Full Fine-tuning",
-            "1.8B",
-            "5.3",
-            "15.7"
-        ],
-        [
-            "BitFit",
-            "1.3M",
-            "6.6",
-            "18.4"
-        ]
-    ],
-    "caption": "Table 1 :  Single-task adaptation WER results on voice-search (VS) and voice-search with proper nouns (VS w. PN) test sets. # Params. row shows the number of adapter parameters. Our FFN Head HRA outperforms the full fine-tuning baseline at 12.8M parameters.\n", 
-"references": [ "Table 1 reports the WER results from our single-task adaptation experiments. Unless otherwise mentioned, all models were trained for 100K iterations." ]
+  "claims": [
+    "|Dataset, Data type|, Label type, Hours|",
+    "|ICMC, Far+Near+speed3|, supervised, 386|",
+    ...
+  ],
+  "measure": "VS",
+  "caption": "Table 1 :  Training Data Description.",
+  "references": [
+    "Data resource:\nAll data resources used...",
+    "Speaker Diarization:\nThe speaker diarization system..."
+  ]
 }
 
-La tua risposta deve essere unicamente:
-{
-    "0": {
-        "specifications": {
-            "0": {"name": "Model", "value": "Full Fine-tuning"},
-            "1": {"name": "# Params.", "value": "1.8B"}
-        },
-        "Measure": "VS",
-        "Outcome": "5.3"
-    },
-    "1": {
-        "specifications": {
-            "0": {"name": "Model", "value": "BitFit"},
-            "1": {"name": "# Params.", "value": "1.3M"}
-        },
-        "Measure": "VS",
-        "Outcome": "6.6"
-    }
-}
-Non fornire alcun testo aggiuntivo o spiegazioni nella risposta. Il tuo output deve essere strettamente limitato al JSON dei claims estratti.
-Detto ciò il contenuto della tabella su cui devi restituirmi il JSON è:
+NOTE importanti:
+- Per ogni riga/colonna potrebbero esserci più measure, quindi diventeranno più claims.
+- Se la tabella è una Cross-Table il nome della measure va dedotta dal contesto (dalle references e/o dalla caption)
+- Il tuo output è SOLO JSON senza spiegazioni dell'output.
+
+Tabella su cui generare i claims (segue l’esempio corretto di input):

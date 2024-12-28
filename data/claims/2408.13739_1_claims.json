@@ -1,0 +1,96 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "header",
+                "value": ""
+            },
+            "1": {
+                "name": "Telugu [35]",
+                "value": ""
+            },
+            "2": {
+                "name": "Kannada [5]",
+                "value": ""
+            }
+        },
+        "Measure": "No. of dialects",
+        "Outcome": "3"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "header",
+                "value": ""
+            },
+            "1": {
+                "name": "Mel Frequency Cepstral Coefficients",
+                "value": ""
+            },
+            "2": {
+                "name": "Spectral and Prosodic features",
+                "value": ""
+            }
+        },
+        "Measure": "Features",
+        "Outcome": ""
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "header",
+                "value": ""
+            },
+            "1": {
+                "name": "Gaussian Mixture Model and Hidden Markov Model",
+                "value": ""
+            },
+            "2": {
+                "name": "Support Vector Machine and Neural Network",
+                "value": ""
+            }
+        },
+        "Measure": "Classifier",
+        "Outcome": ""
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "header",
+                "value": ""
+            },
+            "1": {
+                "name": "New database developed",
+                "value": ""
+            },
+            "2": {
+                "name": "New database developed",
+                "value": ""
+            }
+        },
+        "Measure": "Database",
+        "Outcome": ""
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "header",
+                "value": ""
+            },
+            "1": {
+                "name": "",
+                "value": "84.5%"
+            },
+            "2": {
+                "name": "",
+                "value": "99.24%"
+            },
+            "3": {
+                "name": "",
+                "value": "90.2%"
+            }
+        },
+        "Measure": "Best performance",
+        "Outcome": ""
+    }
+}

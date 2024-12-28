@@ -1,0 +1,104 @@
+[
+    {
+        "0": {
+            "specifications": {
+                "name": "Unnamed: 0",
+                "value": "Train"
+            },
+            "Measure": "Num. Hours",
+            "Outcome": "04:18"
+        },
+        "1": {
+            "specifications": {
+                "name": "Unnamed: 1",
+                "value": "Unnamed: 0"
+            },
+            "Measure": "Num. Utterances",
+            "Outcome": "3371"
+        },
+        "2": {
+            "specifications": {
+                "name": "LT",
+                "value": "Train"
+            },
+            "Measure": null,
+            "Outcome": "04:18"
+        },
+        "3": {
+            "specifications": {
+                "name": "CT",
+                "value": "Train"
+            },
+            "Measure": null,
+            "Outcome": "03:55"
+        },
+        "4": {
+            "specifications": {
+                "name": "Unnamed: 0",
+                "value": "Test"
+            },
+            "Measure": "Num. Hours",
+            "Outcome": "01:23"
+        },
+        "5": {
+            "specifications": {
+                "name": "Unnamed: 1",
+                "value": "Unnamed: 0"
+            },
+            "Measure": "Num. Utterances",
+            "Outcome": "1016"
+        },
+        "6": {
+            "specifications": {
+                "name": "LT",
+                "value": "Test"
+            },
+            "Measure": null,
+            "Outcome": "01:23"
+        },
+        "7": {
+            "specifications": {
+                "name": "CT",
+                "value": "Test"
+            },
+            "Measure": null,
+            "Outcome": "01:51"
+        }
+    },
+    {
+        "0": {
+            "specifications": {
+                "name": "Unnamed: 0",
+                "value": "Train"
+            },
+            "Measure": null,
+            "Outcome": "3371"
+        },
+        "1": {
+            "specifications": {
+                "name": "Unnamed: 1",
+                "value": "Unnamed: 0"
+            },
+            "Measure": null,
+            "Outcome": "3649"
+        }
+    },
+    {
+        "0": {
+            "specifications": {
+                "name": "Unnamed: 0",
+                "value": "Test"
+            },
+            "Measure": null,
+            "Outcome": "1565"
+        },
+        "1": {
+            "specifications": {
+                "name": "Unnamed: 1",
+                "value": "Unnamed: 0"
+            },
+            "Measure": null,
+            "Outcome": "5214"
+        }
+    }
+]

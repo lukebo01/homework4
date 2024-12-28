@@ -1,0 +1,90 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Iteration",
+                "value": ""
+            },
+            "1": {
+                "name": "Data(hrs)",
+                "value": "396"
+            },
+            "2": {
+                "name": "",
+                "value": "29.77"
+            },
+            "3": {
+                "name": "wavLM+",
+                "value": "30.64"
+            }
+        },
+        "Measure": "",
+        "Outcome": ""
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Iteration",
+                "value": ""
+            },
+            "1": {
+                "name": "",
+                "value": "3910"
+            },
+            "2": {
+                "name": "Data(hrs)",
+                "value": "25.32"
+            },
+            "3": {
+                "name": "conformer ED",
+                "value": "26.4"
+            }
+        },
+        "Measure": "",
+        "Outcome": ""
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "",
+                "value": ""
+            },
+            "1": {
+                "name": "B2",
+                "value": "5452"
+            },
+            "2": {
+                "name": "",
+                "value": "22.94"
+            },
+            "3": {
+                "name": "Fusion",
+                "value": "21.9"
+            }
+        },
+        "Measure": "",
+        "Outcome": ""
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "",
+                "value": ""
+            },
+            "1": {
+                "name": "B3",
+                "value": "10952"
+            },
+            "2": {
+                "name": "",
+                "value": "22.94 (5452h)"
+            },
+            "3": {
+                "name": "Fusion",
+                "value": "21.14"
+            }
+        },
+        "Measure": "",
+        "Outcome": ""
+    }
+}

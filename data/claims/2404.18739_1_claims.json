@@ -1,0 +1,306 @@
+{
+    "0": {
+        "specifications": {
+            "name": "segments",
+            "value": "2843"
+        },
+        "Measure": "# segments",
+        "Outcome": "2843"
+    },
+    "1": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "2778.66"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "2778.66"
+    },
+    "2": {
+        "specifications": {
+            "name": "segments",
+            "value": "2772"
+        },
+        "Measure": "# segments",
+        "Outcome": "2772"
+    },
+    "3": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "2512.92"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "2512.92"
+    },
+    "4": {
+        "specifications": {
+            "name": "segments",
+            "value": "829"
+        },
+        "Measure": "# segments",
+        "Outcome": "829"
+    },
+    "5": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "956.58"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "956.58"
+    },
+    "6": {
+        "specifications": {
+            "name": "segments",
+            "value": "637"
+        },
+        "Measure": "# segments",
+        "Outcome": "637"
+    },
+    "7": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "746.6"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "746.6"
+    },
+    "8": {
+        "specifications": {
+            "name": "segments",
+            "value": "298"
+        },
+        "Measure": "# segments",
+        "Outcome": "298"
+    },
+    "9": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "546.72"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "546.72"
+    },
+    "10": {
+        "specifications": {
+            "name": "segments",
+            "value": "288"
+        },
+        "Measure": "# segments",
+        "Outcome": "288"
+    },
+    "11": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "200.27"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "200.27"
+    },
+    "12": {
+        "specifications": {
+            "name": "segments",
+            "value": "91"
+        },
+        "Measure": "# segments",
+        "Outcome": "91"
+    },
+    "13": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "150.49"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "150.49"
+    },
+    "14": {
+        "specifications": {
+            "name": "segments",
+            "value": "76"
+        },
+        "Measure": "# segments",
+        "Outcome": "76"
+    },
+    "15": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "51"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "51"
+    },
+    "16": {
+        "specifications": {
+            "name": "segments",
+            "value": "67"
+        },
+        "Measure": "# segments",
+        "Outcome": "67"
+    },
+    "17": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "44.38"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "44.38"
+    },
+    "18": {
+        "specifications": {
+            "name": "segments",
+            "value": "51"
+        },
+        "Measure": "# segments",
+        "Outcome": "51"
+    },
+    "19": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "23.33"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "23.33"
+    },
+    "20": {
+        "specifications": {
+            "name": "segments",
+            "value": "34"
+        },
+        "Measure": "# segments",
+        "Outcome": "34"
+    },
+    "21": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "13.89"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "13.89"
+    },
+    "22": {
+        "specifications": {
+            "name": "segments",
+            "value": "24"
+        },
+        "Measure": "# segments",
+        "Outcome": "24"
+    },
+    "23": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "8.33"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "8.33"
+    },
+    "24": {
+        "specifications": {
+            "name": "segments",
+            "value": "10"
+        },
+        "Measure": "# segments",
+        "Outcome": "10"
+    },
+    "25": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "4.17"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "4.17"
+    },
+    "26": {
+        "specifications": {
+            "name": "segments",
+            "value": "7"
+        },
+        "Measure": "# segments",
+        "Outcome": "7"
+    },
+    "27": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "2.08"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "2.08"
+    },
+    "28": {
+        "specifications": {
+            "name": "segments",
+            "value": "5"
+        },
+        "Measure": "# segments",
+        "Outcome": "5"
+    },
+    "29": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "1.59"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "1.59"
+    },
+    "30": {
+        "specifications": {
+            "name": "segments",
+            "value": "3"
+        },
+        "Measure": "# segments",
+        "Outcome": "3"
+    },
+    "31": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "1.18"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "1.18"
+    },
+    "32": {
+        "specifications": {
+            "name": "segments",
+            "value": "2"
+        },
+        "Measure": "# segments",
+        "Outcome": "2"
+    },
+    "33": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "0.94"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "0.94"
+    },
+    "34": {
+        "specifications": {
+            "name": "segments",
+            "value": "1"
+        },
+        "Measure": "# segments",
+        "Outcome": "1"
+    },
+    "35": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "0.52"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "0.52"
+    },
+    "36": {
+        "specifications": {
+            "name": "segments",
+            "value": "1"
+        },
+        "Measure": "# segments",
+        "Outcome": "1"
+    },
+    "37": {
+        "specifications": {
+            "name": "Duration (sec)",
+            "value": "0.33"
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "0.33"
+    }
+}
