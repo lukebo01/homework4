@@ -1,0 +1,607 @@
+The user wants to extract claims from a table represented as a JSON object.
+Each claim should be structured as a dictionary with keys "specifications", "Measure", and "Outcome".
+"specifications" contains key-value pairs describing the row's context.
+"Measure" is a column header from the table, found in caption or references.
+"Outcome" is the value corresponding to the "Measure" for a given row.
+
+Plan:
+1. Iterate through each row of the table (excluding the header).
+2. For each row, extract the values for the "specifications". These will be the values from the columns other than the potential "Measure" columns.
+3. Identify potential "Measure" columns from the table header.
+4. For each potential "Measure" column:
+    - Extract the column header as the "Measure".
+    - Extract the corresponding value in the current row as the "Outcome".
+    - Create a claim dictionary with the extracted information.
+
+Considering the provided example, the "Measure" could be 'Mean', 'Median', or 'SD'.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "USM Basemodel"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "-"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "31.5"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "USM Basemodel"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "-"
+            }
+        },
+        "Measure": "Median",
+        "Outcome": "21.8"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "USM Basemodel"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "-"
+            }
+        },
+        "Measure": "SD",
+        "Outcome": "28.6"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Full Fine-tuning"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "232B"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "9.3"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Full Fine-tuning"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "232B"
+            }
+        },
+        "Measure": "Median",
+        "Outcome": "5.4"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Full Fine-tuning"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "232B"
+            }
+        },
+        "Measure": "SD",
+        "Outcome": "11.1"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "201M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.9"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "201M"
+            }
+        },
+        "Measure": "Median",
+        "Outcome": "6.6"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "201M"
+            }
+        },
+        "Measure": "SD",
+        "Outcome": "12.4"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "403M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.9"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "403M"
+            }
+        },
+        "Measure": "Median",
+        "Outcome": "7.4"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "403M"
+            }
+        },
+        "Measure": "SD",
+        "Outcome": "11.6"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "805M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "12.4"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "805M"
+            }
+        },
+        "Measure": "Median",
+        "Outcome": "6.9"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "805M"
+            }
+        },
+        "Measure": "SD",
+        "Outcome": "15.8"
+    },
+    "15": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "410M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.2"
+    },
+    "16": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "410M"
+            }
+        },
+        "Measure": "Median",
+        "Outcome": "6.1"
+    },
+    "17": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "410M"
+            }
+        },
+        "Measure": "SD",
+        "Outcome": "11.6"
+    },
+    "18": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "819M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.2"
+    },
+    "19": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "819M"
+            }
+        },
+        "Measure": "Median",
+        "Outcome": "6.1"
+    },
+    "20": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "819M"
+            }
+        },
+        "Measure": "SD",
+        "Outcome": "11.2"
+    },
+    "21": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.6B"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.1"
+    },
+    "22": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.6B"
+            }
+        },
+        "Measure": "Median",
+        "Outcome": "6.2"
+    },
+    "23": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.6B"
+            }
+        },
+        "Measure": "SD",
+        "Outcome": "11.0"
+    },
+    "24": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "51M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "14.6"
+    },
+    "25": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "51M"
+            }
+        },
+        "Measure": "Median",
+        "Outcome": "9.7"
+    },
+    "26": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "51M"
+            }
+        },
+        "Measure": "SD",
+        "Outcome": "14.2"
+    },
+    "27": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "102M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "14.5"
+    },
+    "28": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "102M"
+            }
+        },
+        "Measure": "Median",
+        "Outcome": "9.9"
+    },
+    "29": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "102M"
+            }
+        },
+        "Measure": "SD",
+        "Outcome": "13.1"
+    },
+    "30": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "203M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "16.1"
+    },
+    "31": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "203M"
+            }
+        },
+        "Measure": "Median",
+        "Outcome": "12.0"
+    },
+    "32": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "203M"
+            }
+        },
+        "Measure": "SD",
+        "Outcome": "12.1"
+    },
+    "33": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "201M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "9.9"
+    },
+    "34": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "201M"
+            }
+        },
+        "Measure": "Median",
+        "Outcome": "6.3"
+    },
+    "35": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "201M"
+            }
+        },
+        "Measure": "SD",
+        "Outcome": "11.2"
+    },
+    "36": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "403M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.2"
+    },
+    "37": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "403M"
+            }
+        },
+        "Measure": "Median",
+        "Outcome": "6.1"
+    },
+    "38": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "403M"
+            }
+        },
+        "Measure": "SD",
+        "Outcome": "11.8"
+    },
+    "39": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "806M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.4"
+    },
+    "40": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "806M"
+            }
+        },
+        "Measure": "Median",
+        "Outcome": "6.2"
+    },
+    "41": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "806M"
+            }
+        },
+        "Measure": "SD",
+        "Outcome": "11.3"
+    }
+}
+```
