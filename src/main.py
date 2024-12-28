@@ -1,14 +1,11 @@
 from bs4 import BeautifulSoup
 from io import StringIO
-import os
-import json
-import re
-import pandas as pd
-import matplotlib.pyplot as plt
-import time
-
-from tableClassifier import classify
 from claimsExtractor import process_json_files
+import matplotlib.pyplot as plt
+import pandas as pd
+import json
+import os
+import re
 
 def clean_latex(text):
     # Rimuove comandi LaTeX come \textbf{}, \frac{}, ecc.
@@ -57,6 +54,7 @@ def save_table_as_image(df:pd.DataFrame, path:str):
 
     # Salva come immagine
     plt.savefig(path, bbox_inches='tight', dpi=300)
+    plt.close(fig)
 
 def save_table_as_json(df:pd.DataFrame, caption:str, references: list, path:str):
     # extract header of pandas dataframe
@@ -95,12 +93,11 @@ def generate_json():
 
             # convert to dataframe
             df = convert_to_df(html_table)
-            df_type = classify(df)
             #
             #df.to_json(f"../data/json/{file_id}-{table_id}.json", index=False, indent=4)
             df.to_csv(f"../data/csv/{file_id}-{table_id}.csv", index=False)
             save_table_as_image(df, f"../data/images/{file_id}-{table_id}.png")
-            save_table_as_json(df,caption, references, f"../data/json/{file_id}-{table_id}.json")
+            save_table_as_json(df,caption, references, f"../data/json/{file_id}_{i + 1}.json")
 
 
 if __name__ == "__main__":
