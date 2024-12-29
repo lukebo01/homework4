@@ -1,0 +1,122 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Whisper-1.5B (first-pass) w/o LM"
+            }
+        },
+        "Measure": "train WER (%)",
+        "Outcome": "10.43"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Whisper-1.5B (first-pass) w/o LM"
+            }
+        },
+        "Measure": "test WER (%)",
+        "Outcome": "11.82"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "-best Oracle"
+            }
+        },
+        "Measure": "train WER (%)",
+        "Outcome": "9.61"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "-best Oracle"
+            }
+        },
+        "Measure": "test WER (%)",
+        "Outcome": "9.32"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Reranking LM: T5-750M"
+            }
+        },
+        "Measure": "train WER (%)",
+        "Outcome": "9.90"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Reranking LM: T5-750M"
+            }
+        },
+        "Measure": "test WER (%)",
+        "Outcome": "9.74"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Correction LM: T5-750M"
+            }
+        },
+        "Measure": "train WER (%)",
+        "Outcome": "9.21"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Correction LM: T5-750M"
+            }
+        },
+        "Measure": "test WER (%)",
+        "Outcome": "9.05"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Correction LM: LLaMA-13B"
+            }
+        },
+        "Measure": "train WER (%)",
+        "Outcome": "8.62"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Correction LM: LLaMA-13B"
+            }
+        },
+        "Measure": "test WER (%)",
+        "Outcome": "8.63"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Correction LM: LLaMaA2-7B"
+            }
+        },
+        "Measure": "train WER (%)",
+        "Outcome": "8.71"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Correction LM: LLaMaA2-7B"
+            }
+        },
+        "Measure": "test WER (%)",
+        "Outcome": "8.33"
+    }
+}

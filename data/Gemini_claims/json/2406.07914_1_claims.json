@@ -1,0 +1,152 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/o IV"
+            }
+        },
+        "Measure": "\u0394a",
+        "Outcome": "90.19"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/o IV"
+            }
+        },
+        "Measure": "\u0394e",
+        "Outcome": "8.26"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/o IV"
+            }
+        },
+        "Measure": "\u0394d",
+        "Outcome": "90.16"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/ IV (``Before'``)"
+            }
+        },
+        "Measure": "\u0394a",
+        "Outcome": "1.60"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/ IV (``Before'``)"
+            }
+        },
+        "Measure": "\u0394e",
+        "Outcome": "1.76"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/ IV (``Before'``)"
+            }
+        },
+        "Measure": "\u0394d",
+        "Outcome": "2.7"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/ IV (``After'``)"
+            }
+        },
+        "Measure": "\u0394a",
+        "Outcome": "3.35"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/ IV (``After'``)"
+            }
+        },
+        "Measure": "\u0394e",
+        "Outcome": "2.56"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/ IV (``After'``)"
+            }
+        },
+        "Measure": "\u0394d",
+        "Outcome": "4.69"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/ IV (``Before'') & ST."
+            }
+        },
+        "Measure": "\u0394a",
+        "Outcome": "1.88"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/ IV (``Before'') & ST."
+            }
+        },
+        "Measure": "\u0394e",
+        "Outcome": "1.85"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/ IV (``Before'') & ST."
+            }
+        },
+        "Measure": "\u0394d",
+        "Outcome": "2.97"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Spatial LibriSpeech [22]"
+            }
+        },
+        "Measure": "\u0394a",
+        "Outcome": "-"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Spatial LibriSpeech [22]"
+            }
+        },
+        "Measure": "\u0394e",
+        "Outcome": "-"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Spatial LibriSpeech [22]"
+            }
+        },
+        "Measure": "\u0394d",
+        "Outcome": "6.6"
+    }
+}

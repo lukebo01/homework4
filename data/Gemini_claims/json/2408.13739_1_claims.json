@@ -1,0 +1,68 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "No. of dialects",
+                "value": "3"
+            },
+            "1": {
+                "name": "Features",
+                "value": "Mel Frequency Cepstral Coefficients"
+            },
+            "2": {
+                "name": "Classifier",
+                "value": "Gaussian Mixture Model and Hidden Markov Model"
+            },
+            "3": {
+                "name": "Database",
+                "value": "New database developed"
+            }
+        },
+        "Measure": "Best performance",
+        "Outcome": "84.5%"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "No. of dialects",
+                "value": "5"
+            },
+            "1": {
+                "name": "Features",
+                "value": "Spectral and Prosodic features"
+            },
+            "2": {
+                "name": "Classifier",
+                "value": "Support Vector Machine and Neural Network"
+            },
+            "3": {
+                "name": "Database",
+                "value": "New database developed"
+            }
+        },
+        "Measure": "Best performance",
+        "Outcome": "99.24%"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "No. of dialects",
+                "value": "2"
+            },
+            "1": {
+                "name": "Features",
+                "value": "Spectral and Prosodic features"
+            },
+            "2": {
+                "name": "Classifier",
+                "value": "Artificial Neural Networks, Support Vector Machine and Naive Bayes"
+            },
+            "3": {
+                "name": "Database",
+                "value": "New database developed"
+            }
+        },
+        "Measure": "Best performance",
+        "Outcome": "90.2%"
+    }
+}

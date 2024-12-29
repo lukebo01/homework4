@@ -1,0 +1,72 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Speaker Diarization"
+            },
+            "1": {
+                "name": "Set",
+                "value": "Dev"
+            }
+        },
+        "Measure": "DER (%)",
+        "Outcome": "10.21"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "M0 Offical Baseline"
+            },
+            "1": {
+                "name": "Set",
+                "value": "Dev"
+            }
+        },
+        "Measure": "cpCER (%)",
+        "Outcome": "65.90"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "M0 Offical Baseline"
+            },
+            "1": {
+                "name": "Set",
+                "value": "Eval"
+            }
+        },
+        "Measure": "cpCER (%)",
+        "Outcome": "72.88"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "M6 Fusion models"
+            },
+            "1": {
+                "name": "Set",
+                "value": "Dev"
+            }
+        },
+        "Measure": "cpCER (%)",
+        "Outcome": "16.31"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "M6 Fusion models"
+            },
+            "1": {
+                "name": "Set",
+                "value": "Eval"
+            }
+        },
+        "Measure": "cpCER (%)",
+        "Outcome": "21.48"
+    }
+}

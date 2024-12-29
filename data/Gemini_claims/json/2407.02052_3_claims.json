@@ -1,0 +1,142 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "Official Baseline"
+            }
+        },
+        "Measure": "Dev",
+        "Outcome": "32.92"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "Official Baseline"
+            }
+        },
+        "Measure": "Eval",
+        "Outcome": "26.24"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "conv2d+conformer"
+            }
+        },
+        "Measure": "Dev",
+        "Outcome": "20.87"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "conv2d+conformer"
+            }
+        },
+        "Measure": "Eval",
+        "Outcome": "-"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "conv2d+ebranchformer"
+            }
+        },
+        "Measure": "Dev",
+        "Outcome": "20.68"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "conv2d+ebranchformer"
+            }
+        },
+        "Measure": "Eval",
+        "Outcome": "-"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "VGG+ebranchformer"
+            }
+        },
+        "Measure": "Dev",
+        "Outcome": "20.31"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "VGG+ebranchformer"
+            }
+        },
+        "Measure": "Eval",
+        "Outcome": "-"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "gateCNN+conformer"
+            }
+        },
+        "Measure": "Dev",
+        "Outcome": "19.83"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "gateCNN+conformer"
+            }
+        },
+        "Measure": "Eval",
+        "Outcome": "-"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "gateCNN+ebranchformer"
+            }
+        },
+        "Measure": "Dev",
+        "Outcome": "18.53"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "gateCNN+ebranchformer"
+            }
+        },
+        "Measure": "Eval",
+        "Outcome": "14.72"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "fusion models based on M1-M5"
+            }
+        },
+        "Measure": "Dev",
+        "Outcome": "15.54"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "fusion models based on M1-M5"
+            }
+        },
+        "Measure": "Eval",
+        "Outcome": "13.16"
+    }
+}

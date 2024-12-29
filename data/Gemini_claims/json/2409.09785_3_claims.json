@@ -1,0 +1,42 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "Source Transcript"
+            }
+        },
+        "Measure": "cpWER (%)",
+        "Outcome": "24.65"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "Source Transcript"
+            }
+        },
+        "Measure": "cpWER (%)",
+        "Outcome": "28.45"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "Task-2 Baseline"
+            }
+        },
+        "Measure": "cpWER (%)",
+        "Outcome": "24.54"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "Task-2 Baseline"
+            }
+        },
+        "Measure": "cpWER (%)",
+        "Outcome": "28.37"
+    }
+}

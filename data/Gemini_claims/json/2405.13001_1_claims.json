@@ -1,0 +1,112 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "AI"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Artificial Intelligence"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "AIGC"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "AI-Generated Content"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "ChatGPT"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Chat Generative Pre-Training Transformer"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "CV"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Computer Vision"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "DNNs"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Deep Neural Networks"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "GPT"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Generative Pre-trained Transformer"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "HFRL"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Human Feedback Reinforcement Learning"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "LLMEdu"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Large Language Models for Education"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "LLMs"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Large Language Models"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "LMs"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Language Models"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "NLP"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Natural Language Processing"
+    }
+}

@@ -1,0 +1,288 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Publish time",
+                "value": "2018.7"
+            },
+            "1": {
+                "name": "Parameter quantity",
+                "value": "120 million"
+            },
+            "2": {
+                "name": "Pre-training data size",
+                "value": "5G"
+            },
+            "3": {
+                "name": "Training paradigm",
+                "value": "Pre-training + fine-tuning"
+            },
+            "4": {
+                "name": "Feature",
+                "value": "Reflection of the advantages of self-attention structure"
+            }
+        },
+        "Measure": "LLMs",
+        "Outcome": "GPT"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "LLMs",
+                "value": "GPT-2"
+            },
+            "1": {
+                "name": "Parameter quantity",
+                "value": "1.5 billion"
+            },
+            "2": {
+                "name": "Pre-training data size",
+                "value": "40G"
+            },
+            "3": {
+                "name": "Training paradigm",
+                "value": "Prompt paradigm based on Tunning-free: Zero Shot Prompt"
+            },
+            "4": {
+                "name": "Feature",
+                "value": "Open the exploration of the Prompt paradigm"
+            }
+        },
+        "Measure": "Publish time",
+        "Outcome": "2019.2"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "LLMs",
+                "value": "GPT-3"
+            },
+            "1": {
+                "name": "Publish time",
+                "value": "2020.6"
+            },
+            "2": {
+                "name": "Pre-training data size",
+                "value": "45TB"
+            },
+            "3": {
+                "name": "Training paradigm",
+                "value": "Prompt paradigm based on Tunning-free: In-Context Learning"
+            },
+            "4": {
+                "name": "Feature",
+                "value": "Deepen the exploration of the Prompt paradigm"
+            }
+        },
+        "Measure": "Parameter quantity",
+        "Outcome": "175 billion"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "LLMs",
+                "value": "InstructGPT"
+            },
+            "1": {
+                "name": "Publish time",
+                "value": "2022.3"
+            },
+            "2": {
+                "name": "Parameter quantity",
+                "value": "175 billion"
+            },
+            "3": {
+                "name": "Training paradigm",
+                "value": "Prompt paradigm of Instruction Tuning"
+            },
+            "4": {
+                "name": "Feature",
+                "value": "Start paying attention to human preferences"
+            }
+        },
+        "Measure": "Pre-training data size",
+        "Outcome": "45TB"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "LLMs",
+                "value": "ChatGPT"
+            },
+            "1": {
+                "name": "Publish time",
+                "value": "2022.11"
+            },
+            "2": {
+                "name": "Parameter quantity",
+                "value": "175 billion"
+            },
+            "3": {
+                "name": "Pre-training data size",
+                "value": "45TB"
+            },
+            "4": {
+                "name": "Feature",
+                "value": "Aligned with human preferences"
+            }
+        },
+        "Measure": "Training paradigm",
+        "Outcome": "Reinforcement learning from human feedback"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "LLMs",
+                "value": "GPT-4"
+            },
+            "1": {
+                "name": "Publish time",
+                "value": "2023.3"
+            },
+            "2": {
+                "name": "Parameter quantity",
+                "value": "Nearly 2 trillion"
+            },
+            "3": {
+                "name": "Training paradigm",
+                "value": "Reinforcement learning from human feedback"
+            },
+            "4": {
+                "name": "Feature",
+                "value": "Multimodal processing and getting closer to the bionic human brain"
+            }
+        },
+        "Measure": "Pre-training data size",
+        "Outcome": "-"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "LLMs",
+                "value": "LaMDA"
+            },
+            "1": {
+                "name": "Publish time",
+                "value": "2021"
+            },
+            "2": {
+                "name": "Parameter quantity",
+                "value": "137 billion"
+            },
+            "3": {
+                "name": "Training paradigm",
+                "value": "Pre-training + fine-tuning"
+            },
+            "4": {
+                "name": "Feature",
+                "value": "Introduce external information retrieval system"
+            }
+        },
+        "Measure": "Pre-training data size",
+        "Outcome": "150TB"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "LLMs",
+                "value": "BARD"
+            },
+            "1": {
+                "name": "Publish time",
+                "value": "2023.2"
+            },
+            "2": {
+                "name": "Parameter quantity",
+                "value": "137 billion"
+            },
+            "3": {
+                "name": "Pre-training data size",
+                "value": "-"
+            },
+            "4": {
+                "name": "Feature",
+                "value": "Using LaMDA as a base"
+            }
+        },
+        "Measure": "Training paradigm",
+        "Outcome": "Join ChromeOS as a search engine"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "LLMs",
+                "value": "PaLM"
+            },
+            "1": {
+                "name": "Publish time",
+                "value": "2022.4"
+            },
+            "2": {
+                "name": "Parameter quantity",
+                "value": "540 billion"
+            },
+            "3": {
+                "name": "Pre-training data size",
+                "value": "-"
+            },
+            "4": {
+                "name": "Feature",
+                "value": "Large scale, multi-lingual"
+            }
+        },
+        "Measure": "Training paradigm",
+        "Outcome": "PathWay distributed training framework"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "LLMs",
+                "value": "Claude"
+            },
+            "1": {
+                "name": "Publish time",
+                "value": "2023.3"
+            },
+            "2": {
+                "name": "Parameter quantity",
+                "value": "52 billion"
+            },
+            "3": {
+                "name": "Pre-training data size",
+                "value": "-"
+            },
+            "4": {
+                "name": "Feature",
+                "value": "Longer and more natural text editing than ChatGPT"
+            }
+        },
+        "Measure": "Training paradigm",
+        "Outcome": "Join the RLAIF training paradigm"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "LLMs",
+                "value": "BlenderBot3"
+            },
+            "1": {
+                "name": "Publish time",
+                "value": "2022.8"
+            },
+            "2": {
+                "name": "Parameter quantity",
+                "value": "175 billion"
+            },
+            "3": {
+                "name": "Pre-training data size",
+                "value": "-"
+            },
+            "4": {
+                "name": "Feature",
+                "value": "Text generation, question answering"
+            }
+        },
+        "Measure": "Training paradigm",
+        "Outcome": "Instruction fine-tuning"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "JDS"
+            },
+            "1": {
+                "name": "NSD",
+                "value": ""
+            }
+        },
+        "Measure": "TcpWER (%)",
+        "Outcome": "24.611"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "JDS"
+            },
+            "1": {
+                "name": "Re-clustering",
+                "value": ""
+            }
+        },
+        "Measure": "TcpWER (%)",
+        "Outcome": "22.989"
+    }
+}

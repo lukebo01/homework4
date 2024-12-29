@@ -1,0 +1,152 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Majority"
+            }
+        },
+        "Measure": "Acc.",
+        "Outcome": "56.37%"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Majority"
+            }
+        },
+        "Measure": "F-1 measure L-S2",
+        "Outcome": "41.31%"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Majority"
+            }
+        },
+        "Measure": "F-1 measure CH-N",
+        "Outcome": "0.00%"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Majority"
+            }
+        },
+        "Measure": "F-1 measure GR-N",
+        "Outcome": "0.00%"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Majority"
+            }
+        },
+        "Measure": "F-1 measure L-S1",
+        "Outcome": "30.39%"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "Acc.",
+        "Outcome": "58.45%"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "F-1 measure L-S2",
+        "Outcome": "49.26%"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "F-1 measure CH-N",
+        "Outcome": "21.26%"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "F-1 measure GR-N",
+        "Outcome": "78.20%"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "F-1 measure L-S1",
+        "Outcome": "48.64%"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "Acc.",
+        "Outcome": "62.18%"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "F-1 measure L-S2",
+        "Outcome": "49.66%"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "F-1 measure CH-N",
+        "Outcome": "45.26%"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "F-1 measure GR-N",
+        "Outcome": "90.70%"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "F-1 measure L-S1",
+        "Outcome": "51.13%"
+    }
+}

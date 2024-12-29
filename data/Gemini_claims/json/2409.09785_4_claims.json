@@ -1,0 +1,82 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 0",
+                "value": "Number of samples (all)"
+            }
+        },
+        "Measure": "Training set",
+        "Outcome": "5525.0"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 0",
+                "value": "Number of samples (all)"
+            }
+        },
+        "Measure": "Test set",
+        "Outcome": "4730.0"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 0",
+                "value": "Number of samples (four emotions)"
+            }
+        },
+        "Measure": "Training set",
+        "Outcome": "2577.0"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 0",
+                "value": "Number of samples (four emotions)"
+            }
+        },
+        "Measure": "Test set",
+        "Outcome": "2923.0"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 0",
+                "value": "Baseline accuracy (GPT3.5-turbo)"
+            }
+        },
+        "Measure": "Training set",
+        "Outcome": "44.7"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 0",
+                "value": "Baseline accuracy (GPT3.5-turbo)"
+            }
+        },
+        "Measure": "Test set",
+        "Outcome": "55.18"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 0",
+                "value": "Baseline accuracy (traditional)"
+            }
+        },
+        "Measure": "Training set",
+        "Outcome": "62.34"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Unnamed: 0",
+                "value": "Baseline accuracy (traditional)"
+            }
+        },
+        "Measure": "Test set",
+        "Outcome": "51.08"
+    }
+}

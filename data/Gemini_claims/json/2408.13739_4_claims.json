@@ -1,0 +1,92 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "nan",
+                "value": "Case 1"
+            },
+            "1": {
+                "name": "nan",
+                "value": "LT"
+            },
+            "2": {
+                "name": "nan",
+                "value": "LT"
+            },
+            "3": {
+                "name": "nan",
+                "value": "LT"
+            },
+            "4": {
+                "name": "nan",
+                "value": "CT"
+            },
+            "5": {
+                "name": "nan",
+                "value": "LT"
+            }
+        },
+        "Measure": "Bias",
+        "Outcome": "Biased towards LT"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "nan",
+                "value": "Case 2"
+            },
+            "1": {
+                "name": "nan",
+                "value": "CT"
+            },
+            "2": {
+                "name": "nan",
+                "value": "LT"
+            },
+            "3": {
+                "name": "nan",
+                "value": "CT"
+            },
+            "4": {
+                "name": "nan",
+                "value": "CT"
+            },
+            "5": {
+                "name": "nan",
+                "value": "LT"
+            }
+        },
+        "Measure": "Bias",
+        "Outcome": "Biased towards CT"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "nan",
+                "value": "Case 3"
+            },
+            "1": {
+                "name": "nan",
+                "value": "LT"
+            },
+            "2": {
+                "name": "nan",
+                "value": "CT"
+            },
+            "3": {
+                "name": "nan",
+                "value": "CT"
+            },
+            "4": {
+                "name": "nan",
+                "value": "LT"
+            },
+            "5": {
+                "name": "nan",
+                "value": "nan"
+            }
+        },
+        "Measure": "Bias",
+        "Outcome": "Equi-probable"
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Discriminant/Analytical AI"
+            }
+        },
+        "Measure": "Core",
+        "Outcome": "Analysis"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Discriminant/Analytical AI"
+            }
+        },
+        "Measure": "Data learning",
+        "Outcome": "Conditional probability distribution"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Discriminant/Analytical AI"
+            }
+        },
+        "Measure": "Development process",
+        "Outcome": "Mature technology and widely used"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Discriminant/Analytical AI"
+            }
+        },
+        "Measure": "Application",
+        "Outcome": "Recommendation systems, CV, NLP"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Generative AI"
+            }
+        },
+        "Measure": "Core",
+        "Outcome": "Creation"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Generative AI"
+            }
+        },
+        "Measure": "Data learning",
+        "Outcome": "Joint probability distribution"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Generative AI"
+            }
+        },
+        "Measure": "Development process",
+        "Outcome": "Exponential explosion"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Generative AI"
+            }
+        },
+        "Measure": "Application",
+        "Outcome": "AIGC, text generation, audio generation"
+    }
+}

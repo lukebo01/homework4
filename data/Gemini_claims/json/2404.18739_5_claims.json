@@ -1,0 +1,92 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Majority"
+            }
+        },
+        "Measure": "Acc.",
+        "Outcome": "68.70%"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Majority"
+            }
+        },
+        "Measure": "Female F-1 measure",
+        "Outcome": "74.73%"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Majority"
+            }
+        },
+        "Measure": "Male F-1 measure",
+        "Outcome": "7.76%"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "Acc.",
+        "Outcome": "70.07%"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "Female F-1 measure",
+        "Outcome": "76.54%"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "Male F-1 measure",
+        "Outcome": "19.29%"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "Acc.",
+        "Outcome": "68.90%"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "Female F-1 measure",
+        "Outcome": "79.31%"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "Male F-1 measure",
+        "Outcome": "7.10%"
+    }
+}

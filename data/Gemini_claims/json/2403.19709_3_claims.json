@@ -1,0 +1,338 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "51M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.6"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "102M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.9"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "203M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "11.0"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "201M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "9.9"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "403M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.2"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "806M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.4"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA (w/ pre-trained controller)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "51M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.7"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA (w/ pre-trained controller)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "101M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "11.0"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA (w/ pre-trained controller)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "202M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "11.3"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA (w/ pre-trained controller)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "118M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.1"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA (w/ pre-trained controller)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "269M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.3"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA (w/ pre-trained controller)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "672M"
+            }
+        },
+        "Measure": "Mean",
+        "Outcome": "10.5"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "51M"
+            }
+        },
+        "Measure": "Paired T-Test",
+        "Outcome": "-"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "102M"
+            }
+        },
+        "Measure": "Paired T-Test",
+        "Outcome": "-"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "203M"
+            }
+        },
+        "Measure": "Paired T-Test",
+        "Outcome": "-"
+    },
+    "15": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "201M"
+            }
+        },
+        "Measure": "Paired T-Test",
+        "Outcome": "-"
+    },
+    "16": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "403M"
+            }
+        },
+        "Measure": "Paired T-Test",
+        "Outcome": "-"
+    },
+    "17": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "806M"
+            }
+        },
+        "Measure": "Paired T-Test",
+        "Outcome": "-"
+    },
+    "18": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA (w/ pre-trained controller)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "51M"
+            }
+        },
+        "Measure": "Paired T-Test",
+        "Outcome": "0.59"
+    },
+    "19": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA (w/ pre-trained controller)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "101M"
+            }
+        },
+        "Measure": "Paired T-Test",
+        "Outcome": "0.25"
+    },
+    "20": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA (w/ pre-trained controller)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "202M"
+            }
+        },
+        "Measure": "Paired T-Test",
+        "Outcome": "0.03"
+    },
+    "21": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA (w/ pre-trained controller)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "118M"
+            }
+        },
+        "Measure": "Paired T-Test",
+        "Outcome": "0.17"
+    },
+    "22": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA (w/ pre-trained controller)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "269M"
+            }
+        },
+        "Measure": "Paired T-Test",
+        "Outcome": "0.14"
+    },
+    "23": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA (w/ pre-trained controller)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "672M"
+            }
+        },
+        "Measure": "Paired T-Test",
+        "Outcome": "0.22"
+    }
+}
