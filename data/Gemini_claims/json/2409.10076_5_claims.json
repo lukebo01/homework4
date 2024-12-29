@@ -1,0 +1,92 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "ASR result2"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.021101"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "ASR result2"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.001601"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "ASR result2"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.0195"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.011934"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.004434"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.0075"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "+ASR filter"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.010822"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "+ASR filter"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.003322"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "+ASR filter"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.0075"
+    }
+}

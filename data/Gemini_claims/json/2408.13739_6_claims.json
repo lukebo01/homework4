@@ -6,11 +6,11 @@
                 "value": "GMM"
             },
             "1": {
-                "name": "Test",
-                "value": "LT as LT"
+                "name": "LT as LT",
+                "value": "nan"
             }
         },
-        "Measure": "Accuracy",
+        "Measure": "Confusion",
         "Outcome": "0.88"
     },
     "1": {
@@ -20,8 +20,8 @@
                 "value": "GMM"
             },
             "1": {
-                "name": "Test",
-                "value": "LT as CT"
+                "name": "LT as CT",
+                "value": "nan"
             }
         },
         "Measure": "Confusion",
@@ -34,8 +34,8 @@
                 "value": "GMM"
             },
             "1": {
-                "name": "Test",
-                "value": "CT as LT"
+                "name": "CT as LT",
+                "value": "nan"
             }
         },
         "Measure": "Confusion",
@@ -48,11 +48,11 @@
                 "value": "GMM"
             },
             "1": {
-                "name": "Test",
-                "value": "CT as CT"
+                "name": "CT as CT",
+                "value": "nan"
             }
         },
-        "Measure": "Accuracy",
+        "Measure": "Confusion",
         "Outcome": "0.87"
     },
     "4": {
@@ -62,11 +62,11 @@
                 "value": "CNN"
             },
             "1": {
-                "name": "Test",
-                "value": "LT as LT"
+                "name": "LT as LT",
+                "value": "nan"
             }
         },
-        "Measure": "Accuracy",
+        "Measure": "Confusion",
         "Outcome": "0.90"
     },
     "5": {
@@ -76,8 +76,8 @@
                 "value": "CNN"
             },
             "1": {
-                "name": "Test",
-                "value": "LT as CT"
+                "name": "LT as CT",
+                "value": "nan"
             }
         },
         "Measure": "Confusion",
@@ -90,8 +90,8 @@
                 "value": "CNN"
             },
             "1": {
-                "name": "Test",
-                "value": "CT as LT"
+                "name": "CT as LT",
+                "value": "nan"
             }
         },
         "Measure": "Confusion",
@@ -104,11 +104,11 @@
                 "value": "CNN"
             },
             "1": {
-                "name": "Test",
-                "value": "CT as CT"
+                "name": "CT as CT",
+                "value": "nan"
             }
         },
-        "Measure": "Accuracy",
+        "Measure": "Confusion",
         "Outcome": "0.98"
     },
     "8": {
@@ -118,11 +118,11 @@
                 "value": "PPR"
             },
             "1": {
-                "name": "Test",
-                "value": "LT as LT"
+                "name": "LT as LT",
+                "value": "nan"
             }
         },
-        "Measure": "Accuracy",
+        "Measure": "Confusion",
         "Outcome": "0.89"
     },
     "9": {
@@ -132,8 +132,8 @@
                 "value": "PPR"
             },
             "1": {
-                "name": "Test",
-                "value": "LT as CT"
+                "name": "LT as CT",
+                "value": "nan"
             }
         },
         "Measure": "Confusion",
@@ -146,8 +146,8 @@
                 "value": "PPR"
             },
             "1": {
-                "name": "Test",
-                "value": "CT as LT"
+                "name": "CT as LT",
+                "value": "nan"
             }
         },
         "Measure": "Confusion",
@@ -160,11 +160,11 @@
                 "value": "PPR"
             },
             "1": {
-                "name": "Test",
-                "value": "CT as CT"
+                "name": "CT as CT",
+                "value": "nan"
             }
         },
-        "Measure": "Accuracy",
+        "Measure": "Confusion",
         "Outcome": "0.89"
     },
     "12": {
@@ -174,11 +174,11 @@
                 "value": "P-LVCSR"
             },
             "1": {
-                "name": "Test",
-                "value": "LT as LT"
+                "name": "LT as LT",
+                "value": "nan"
             }
         },
-        "Measure": "Accuracy",
+        "Measure": "Confusion",
         "Outcome": "0.95"
     },
     "13": {
@@ -188,8 +188,8 @@
                 "value": "P-LVCSR"
             },
             "1": {
-                "name": "Test",
-                "value": "LT as CT"
+                "name": "LT as CT",
+                "value": "nan"
             }
         },
         "Measure": "Confusion",
@@ -202,8 +202,8 @@
                 "value": "P-LVCSR"
             },
             "1": {
-                "name": "Test",
-                "value": "CT as LT"
+                "name": "CT as LT",
+                "value": "nan"
             }
         },
         "Measure": "Confusion",
@@ -216,11 +216,11 @@
                 "value": "P-LVCSR"
             },
             "1": {
-                "name": "Test",
-                "value": "CT as CT"
+                "name": "CT as CT",
+                "value": "nan"
             }
         },
-        "Measure": "Accuracy",
+        "Measure": "Confusion",
         "Outcome": "0.94"
     },
     "16": {
@@ -230,11 +230,11 @@
                 "value": "UPR-1"
             },
             "1": {
-                "name": "Test",
-                "value": "LT as LT"
+                "name": "LT as LT",
+                "value": "nan"
             }
         },
-        "Measure": "Accuracy",
+        "Measure": "Confusion",
         "Outcome": "0.96"
     },
     "17": {
@@ -244,8 +244,8 @@
                 "value": "UPR-1"
             },
             "1": {
-                "name": "Test",
-                "value": "LT as CT"
+                "name": "LT as CT",
+                "value": "nan"
             }
         },
         "Measure": "Confusion",
@@ -258,8 +258,8 @@
                 "value": "UPR-1"
             },
             "1": {
-                "name": "Test",
-                "value": "CT as LT"
+                "name": "CT as LT",
+                "value": "nan"
             }
         },
         "Measure": "Confusion",
@@ -272,11 +272,11 @@
                 "value": "UPR-1"
             },
             "1": {
-                "name": "Test",
-                "value": "CT as CT"
+                "name": "CT as CT",
+                "value": "nan"
             }
         },
-        "Measure": "Accuracy",
+        "Measure": "Confusion",
         "Outcome": "0.91"
     },
     "20": {
@@ -286,11 +286,11 @@
                 "value": "UPR-2"
             },
             "1": {
-                "name": "Test",
-                "value": "LT as LT"
+                "name": "LT as LT",
+                "value": "nan"
             }
         },
-        "Measure": "Accuracy",
+        "Measure": "Confusion",
         "Outcome": "0.97"
     },
     "21": {
@@ -300,8 +300,8 @@
                 "value": "UPR-2"
             },
             "1": {
-                "name": "Test",
-                "value": "LT as CT"
+                "name": "LT as CT",
+                "value": "nan"
             }
         },
         "Measure": "Confusion",
@@ -314,8 +314,8 @@
                 "value": "UPR-2"
             },
             "1": {
-                "name": "Test",
-                "value": "CT as LT"
+                "name": "CT as LT",
+                "value": "nan"
             }
         },
         "Measure": "Confusion",
@@ -328,11 +328,11 @@
                 "value": "UPR-2"
             },
             "1": {
-                "name": "Test",
-                "value": "CT as CT"
+                "name": "CT as CT",
+                "value": "nan"
             }
         },
-        "Measure": "Accuracy",
+        "Measure": "Confusion",
         "Outcome": "0.94"
     }
 }

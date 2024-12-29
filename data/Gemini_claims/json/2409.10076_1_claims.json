@@ -1,0 +1,152 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "pretrained_d2v2"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "LibriHeavy\u00a0[31], GigaSpeech\u00a0[32], WenetSpeech\u00a0[33], Aishell{1,2} [34, 35], ACAV100M\u00a0[36], OpenSLR {38,47,68,82,87,111, 119,123,124,133}, CommonVoice, LRDWWS training set"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "LibriHeavy\u00a0[31],"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "nan"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "GigaSpeech\u00a0[32],"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "nan"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "WenetSpeech\u00a0[33],"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "nan"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "Aishell{1,2} [34, 35],"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "nan"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "ACAV100M\u00a0[36],"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "nan"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "OpenSLR {38,47,68,82,87,111,"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "nan"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "119,123,124,133},"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "nan"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "CommonVoice,"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "nan"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "LRDWWS training set"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "nan"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "finetuned_2branch-d2v2"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "LRDWWS training set LRDWWS enrollment set"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "LRDWWS training set"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "nan"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "LRDWWS enrollment set"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "nan"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "TTS-generator"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "LRDWWS training set"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Module",
+                "value": "TTS-generator"
+            }
+        },
+        "Measure": "Training data",
+        "Outcome": "nan"
+    }
+}

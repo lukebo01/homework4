@@ -1,0 +1,72 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "South Sindh"
+            }
+        },
+        "Measure": "Number of Speakers",
+        "Outcome": "29"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "North Sindh"
+            }
+        },
+        "Measure": "Number of Speakers",
+        "Outcome": "30"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "South Punjab"
+            }
+        },
+        "Measure": "Number of Speakers",
+        "Outcome": "27"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "North Punjab"
+            }
+        },
+        "Measure": "Number of Speakers",
+        "Outcome": "29"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "Capital Area"
+            }
+        },
+        "Measure": "Number of Speakers",
+        "Outcome": "29"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "North West Regions"
+            }
+        },
+        "Measure": "Number of Speakers",
+        "Outcome": "30"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "Baluchistan"
+            }
+        },
+        "Measure": "Number of Speakers",
+        "Outcome": "26"
+    }
+}

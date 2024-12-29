@@ -1,0 +1,866 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "LibriSpeech"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Audiobooks"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-960"
+            }
+        },
+        "Measure": "# Pairs (Training Set)",
+        "Outcome": "88200"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "LibriSpeech"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Audiobooks"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-960"
+            }
+        },
+        "Measure": "Length (Training Set)",
+        "Outcome": "33.7"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "LibriSpeech"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Audiobooks"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-960"
+            }
+        },
+        "Measure": "# Pairs (Test Set)",
+        "Outcome": "2620"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "LibriSpeech"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Audiobooks"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-960"
+            }
+        },
+        "Measure": "Length (Test Set)",
+        "Outcome": "20.1"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "LibriSpeech"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Audiobooks"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-960"
+            }
+        },
+        "Measure": "# Pairs (Training Set)",
+        "Outcome": "88200"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "LibriSpeech"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Audiobooks"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-960"
+            }
+        },
+        "Measure": "Length (Training Set)",
+        "Outcome": "33.7"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "LibriSpeech"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Audiobooks"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-960"
+            }
+        },
+        "Measure": "# Pairs (Test Set)",
+        "Outcome": "2939"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "LibriSpeech"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Audiobooks"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-960"
+            }
+        },
+        "Measure": "Length (Test Set)",
+        "Outcome": "17.8"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "CHiME4"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Noise"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "# Pairs (Training Set)",
+        "Outcome": "8738"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "CHiME4"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Noise"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "Length (Training Set)",
+        "Outcome": "17.0"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "CHiME4"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Noise"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "# Pairs (Test Set)",
+        "Outcome": "1320"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "CHiME4"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Noise"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "Length (Test Set)",
+        "Outcome": "16.4"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "WSJ"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Business news"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-si284"
+            }
+        },
+        "Measure": "# Pairs (Training Set)",
+        "Outcome": "37514"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "WSJ"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Business news"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-si284"
+            }
+        },
+        "Measure": "Length (Training Set)",
+        "Outcome": "17.5"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "WSJ"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Business news"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-si284"
+            }
+        },
+        "Measure": "# Pairs (Test Set)",
+        "Outcome": "503"
+    },
+    "15": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "WSJ"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Business news"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-si284"
+            }
+        },
+        "Measure": "Length (Test Set)",
+        "Outcome": "16.7"
+    },
+    "16": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "WSJ"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Business news"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-si284"
+            }
+        },
+        "Measure": "# Pairs (Training Set)",
+        "Outcome": "37514"
+    },
+    "17": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "WSJ"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Business news"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-si284"
+            }
+        },
+        "Measure": "Length (Training Set)",
+        "Outcome": "17.5"
+    },
+    "18": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "WSJ"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Business news"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-si284"
+            }
+        },
+        "Measure": "# Pairs (Test Set)",
+        "Outcome": "333"
+    },
+    "19": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "WSJ"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Business news"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-si284"
+            }
+        },
+        "Measure": "Length (Test Set)",
+        "Outcome": "17.3"
+    },
+    "20": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "SwitchBoard"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Telephone"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "# Pairs (Training Set)",
+        "Outcome": "36539"
+    },
+    "21": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "SwitchBoard"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Telephone"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "Length (Training Set)",
+        "Outcome": "11.8"
+    },
+    "22": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "SwitchBoard"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Telephone"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "# Pairs (Test Set)",
+        "Outcome": "2000"
+    },
+    "23": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "SwitchBoard"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Telephone"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "Length (Test Set)",
+        "Outcome": "11.8"
+    },
+    "24": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "CommonVoice"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Accented English"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-accent"
+            }
+        },
+        "Measure": "# Pairs (Training Set)",
+        "Outcome": "49758"
+    },
+    "25": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "CommonVoice"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Accented English"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-accent"
+            }
+        },
+        "Measure": "Length (Training Set)",
+        "Outcome": "10.5"
+    },
+    "26": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "CommonVoice"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Accented English"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-accent"
+            }
+        },
+        "Measure": "# Pairs (Test Set)",
+        "Outcome": "2000"
+    },
+    "27": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "CommonVoice"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Accented English"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train-accent"
+            }
+        },
+        "Measure": "Length (Test Set)",
+        "Outcome": "10.5"
+    },
+    "28": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "Tedlium-3"
+            },
+            "1": {
+                "name": "Category",
+                "value": "TED talk"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "# Pairs (Training Set)",
+        "Outcome": "47500"
+    },
+    "29": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "Tedlium-3"
+            },
+            "1": {
+                "name": "Category",
+                "value": "TED talk"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "Length (Training Set)",
+        "Outcome": "12.6"
+    },
+    "30": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "Tedlium-3"
+            },
+            "1": {
+                "name": "Category",
+                "value": "TED talk"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "# Pairs (Test Set)",
+        "Outcome": "2500"
+    },
+    "31": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "Tedlium-3"
+            },
+            "1": {
+                "name": "Category",
+                "value": "TED talk"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "Length (Test Set)",
+        "Outcome": "12.6"
+    },
+    "32": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "LRS2"
+            },
+            "1": {
+                "name": "Category",
+                "value": "BBC audio"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "# Pairs (Training Set)",
+        "Outcome": "42940"
+    },
+    "33": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "LRS2"
+            },
+            "1": {
+                "name": "Category",
+                "value": "BBC audio"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "Length (Training Set)",
+        "Outcome": "7.6"
+    },
+    "34": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "LRS2"
+            },
+            "1": {
+                "name": "Category",
+                "value": "BBC audio"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "# Pairs (Test Set)",
+        "Outcome": "2259"
+    },
+    "35": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "LRS2"
+            },
+            "1": {
+                "name": "Category",
+                "value": "BBC audio"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "Length (Test Set)",
+        "Outcome": "7.6"
+    },
+    "36": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "ATIS"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Airline info."
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "# Pairs (Training Set)",
+        "Outcome": "3964"
+    },
+    "37": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "ATIS"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Airline info."
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "Length (Training Set)",
+        "Outcome": "12.4"
+    },
+    "38": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "ATIS"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Airline info."
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "# Pairs (Test Set)",
+        "Outcome": "809"
+    },
+    "39": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "ATIS"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Airline info."
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "Length (Test Set)",
+        "Outcome": "11.3"
+    },
+    "40": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "CORAAL"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Interview"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "# Pairs (Training Set)",
+        "Outcome": "1728"
+    },
+    "41": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "CORAAL"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Interview"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "Length (Training Set)",
+        "Outcome": "24.2"
+    },
+    "42": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "CORAAL"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Interview"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "# Pairs (Test Set)",
+        "Outcome": "100"
+    },
+    "43": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "CORAAL"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Interview"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "Length (Test Set)",
+        "Outcome": "24.0"
+    },
+    "44": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "Total"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Total"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "# Pairs (Training Set)",
+        "Outcome": "316881"
+    },
+    "45": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "Total"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Total"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "Length (Training Set)",
+        "Outcome": "18.1"
+    },
+    "46": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "Total"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Total"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "# Pairs (Test Set)",
+        "Outcome": "17383"
+    },
+    "47": {
+        "specifications": {
+            "0": {
+                "name": "Domain",
+                "value": "Total"
+            },
+            "1": {
+                "name": "Category",
+                "value": "Total"
+            },
+            "2": {
+                "name": "Training Set",
+                "value": "train"
+            }
+        },
+        "Measure": "Length (Test Set)",
+        "Outcome": "14.1"
+    }
+}
