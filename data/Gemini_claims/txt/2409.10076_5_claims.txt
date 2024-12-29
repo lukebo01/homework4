@@ -1,0 +1,101 @@
+The user wants to extract claims from a JSON object containing a table, a caption, and references. Each claim should have a "specifications", "Measure", and "Outcome". The "Measure" needs to be determined based on the table, references, or caption, and the "Outcome" is the value associated with the measure.
+
+Based on the structure of the table:
+- The first row contains the names of the columns, which can be used as potential "Measure" values.
+- The subsequent rows represent data entries.
+- The first column "System" can be considered a specification.
+
+Let's iterate through the rows of the table and extract claims.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "ASR result2"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.021101"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "ASR result2"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.001601"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "ASR result2"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.0195"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.011934"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.004434"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.0075"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "+ASR filter"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.010822"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "+ASR filter"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.003322"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "+ASR filter"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.0075"
+    }
+}
+```

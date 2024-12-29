@@ -1,0 +1,4 @@
+System,Score,FAR,FRR
+paraformer,0.105,0.0025,0.1025
++LRDWWS training set,0.0646,0.0021,0.0625
++synthetic data,0.0493,0.0018,0.0475

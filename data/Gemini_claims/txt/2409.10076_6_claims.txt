@@ -1,0 +1,126 @@
+The user wants to extract claims from a JSON object containing a table.
+Each claim should have a "specifications", "Measure", and "Outcome".
+The "specifications" come from the table headers (excluding the column containing the "Outcome").
+The "Measure" can be found in the table, caption, or references.
+The "Outcome" is the value associated with the "Measure".
+
+Let's analyze the example table:
+Headers: 'System', 'Score', 'FAR', 'FRR'
+Data rows:
+['1branch-d2v2', '0.0396', '0.0046', '0.035']
+['2branch-d2v2', '0.0343', '0.0043', '0.03']
+Caption: 'Table 6 :  Ablation study of 2-branch module on the test-A-eval set.'
+References: []
+
+Possible Measures: 'Score', 'FAR', 'FRR'.
+For each row and each of these measures, I need to create a claim.
+The "specifications" will be the "System" value.
+
+Claim for row 1 and 'Score':
+{
+    "0": {
+        "specifications": {
+            "0": {"name": "System", "value": "1branch-d2v2"}
+        },
+        "Measure": "Score",
+        "Outcome": "0.0396"
+    }
+}
+
+Claim for row 1 and 'FAR':
+{
+    "0": {
+        "specifications": {
+            "0": {"name": "System", "value": "1branch-d2v2"}
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0046"
+    }
+}
+
+Claim for row 1 and 'FRR':
+{
+    "0": {
+        "specifications": {
+            "0": {"name": "System", "value": "1branch-d2v2"}
+        },
+        "Measure": "FRR",
+        "Outcome": "0.035"
+    }
+}
+
+Claim for row 2 and 'Score':
+{
+    "3": {  // Continue the numbering
+        "specifications": {
+            "0": {"name": "System", "value": "2branch-d2v2"}
+        },
+        "Measure": "Score",
+        "Outcome": "0.0343"
+    }
+}
+
+Let's implement the logic.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "1branch-d2v2"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.0396"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "1branch-d2v2"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0046"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "1branch-d2v2"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.035"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.0343"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0043"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.03"
+    }
+}
+```

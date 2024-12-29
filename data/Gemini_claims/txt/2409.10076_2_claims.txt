@@ -1,0 +1,147 @@
+The user wants to extract claims from a table represented in a JSON format.
+Each claim should have a "specifications", a "Measure", and an "Outcome".
+The specifications are key-value pairs taken from the table's row headers and column headers.
+The Measure is a column header.
+The Outcome is the cell value corresponding to the Measure and the row's specifications.
+The Measure can also be found in the caption or references.
+I need to iterate through each row of the table (excluding the header row) and create a claim for each cell in that row (excluding the first column which represents a specification).
+
+Let's break down the steps for the given example:
+
+1. **Identify the column headers:** 'Base model', 'Score', 'FAR', 'FRR'.
+2. **Identify the row headers (first column):** 'Baseline', 'Conformer', '2branch-d2v2'.
+3. **Iterate through each row (starting from the second row):**
+    - **Row 1 ('Baseline'):**
+        - **"Score" column:**
+            - Specifications: "Model": "Baseline"
+            - Measure: "Score"
+            - Outcome: "0.3112"
+        - **"FAR" column:**
+            - Specifications: "Model": "Baseline"
+            - Measure: "FAR"
+            - Outcome: "0.0387"
+        - **"FRR" column:**
+            - Specifications: "Model": "Baseline"
+            - Measure: "FRR"
+            - Outcome: "0.2725"
+    - **Row 2 ('Conformer'):**
+        - **"Score" column:**
+            - Specifications: "Model": "Conformer"
+            - Measure: "Score"
+            - Outcome: "0.1008"
+        - **"FAR" column:**
+            - Specifications: "Model": "Conformer"
+            - Measure: "FAR"
+            - Outcome: "0.0183"
+        - **"FRR" column:**
+            - Specifications: "Model": "Conformer"
+            - Measure: "FRR"
+            - Outcome: "0.0825"
+    - **Row 3 ('2branch-d2v2'):**
+        - **"Score" column:**
+            - Specifications: "Model": "2branch-d2v2"
+            - Measure: "Score"
+            - Outcome: "0.0343"
+        - **"FAR" column:**
+            - Specifications: "Model": "2branch-d2v2"
+            - Measure: "FAR"
+            - Outcome: "0.0043"
+        - **"FRR" column:**
+            - Specifications: "Model": "2branch-d2v2"
+            - Measure: "FRR"
+            - Outcome: "0.03"
+
+4. **Construct the JSON object with the extracted claims.**```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Base model",
+                "value": "Baseline"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.3112"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Base model",
+                "value": "Baseline"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0387"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Base model",
+                "value": "Baseline"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.2725"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Base model",
+                "value": "Conformer"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.1008"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Base model",
+                "value": "Conformer"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0183"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Base model",
+                "value": "Conformer"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.0825"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Base model",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.0343"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Base model",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0043"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Base model",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.03"
+    }
+}
+```

@@ -1,0 +1,16 @@
+Module,Training data
+pretrained_d2v2,"LibriHeavy [31], GigaSpeech [32], WenetSpeech [33], Aishell{1,2} [34, 35], ACAV100M [36], OpenSLR {38,47,68,82,87,111, 119,123,124,133}, CommonVoice, LRDWWS training set"
+"LibriHeavy [31],",nan
+"GigaSpeech [32],",nan
+"WenetSpeech [33],",nan
+"Aishell{1,2} [34, 35],",nan
+"ACAV100M [36],",nan
+"OpenSLR {38,47,68,82,87,111,",nan
+"119,123,124,133},",nan
+"CommonVoice,",nan
+LRDWWS training set,nan
+finetuned_2branch-d2v2,LRDWWS training set LRDWWS enrollment set
+LRDWWS training set,nan
+LRDWWS enrollment set,nan
+TTS-generator,LRDWWS training set
+TTS-generator,nan
