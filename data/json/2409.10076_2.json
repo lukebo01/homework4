@@ -1,0 +1,32 @@
+{
+    "table": [
+        [
+            "Base model",
+            "Score",
+            "FAR",
+            "FRR"
+        ],
+        [
+            "Baseline",
+            "0.3112",
+            "0.0387",
+            "0.2725"
+        ],
+        [
+            "Conformer",
+            "0.1008",
+            "0.0183",
+            "0.0825"
+        ],
+        [
+            "2branch-d2v2",
+            "0.0343",
+            "0.0043",
+            "0.03"
+        ]
+    ],
+    "caption": "Table 2 :  Performance of different systems on the test-A-eval set using exhaustive threshold searching.",
+    "references": [
+        "We conduct experiments on baseline models using the test-A-eval set, as depicted in Table 2.\nThe baseline model achieves a score of 0.3112. Our proposed system, whether employing the conformer or 2branch-d2v2, consistently outperforms the baseline model.\nSpecifically, 2branch-d2v2 achieves a FAR of 0.0043 and an FRR of 0.0300, demonstrating superior performance compared to the conformer, which records a FAR of 0.0183 and an FRR of 0.0825.\nTherefore, based on these results from the base model selection section, subsequent experiments will focus on 2branch-d2v2."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "table": [
+        [
+            "System",
+            "Score",
+            "FAR",
+            "FRR"
+        ],
+        [
+            "Proposed (Rank 1st)",
+            "0.00821",
+            "0.00321",
+            "0.005"
+        ],
+        [
+            "Rank 2nd Team",
+            "0.009801",
+            "0.004801",
+            "0.005"
+        ],
+        [
+            "Rank 3rd Team",
+            "0.010533",
+            "0.003033",
+            "0.0075"
+        ],
+        [
+            "Rank 4th Team",
+            "0.099282",
+            "0.020282",
+            "0.079"
+        ],
+        [
+            "Rank 5th Team",
+            "0.112711",
+            "0.038878",
+            "0.073833"
+        ],
+        [
+            "Official Baseline",
+            "0.130306",
+            "0.028639",
+            "0.101667"
+        ]
+    ],
+    "caption": "Table 3 :  The score results of each competition system on the test-B-eval set.",
+    "references": [
+        "Table 3 presents the score results of the official baseline and each competition system. Our system achieves a FAR of 0.003210, an FRR of 0.005000, and a score of 0.008210 on the test-B-eval set. Please note that these results are obtained after incorporating the test-A-eval set into the training process. We can observe that our PDDWS system significantly outperforms the official baseline, achieving an absolute improvement of up to 93.69% and securing first place in the challenge."
+    ]
+}

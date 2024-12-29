@@ -1,0 +1,56 @@
+{
+    "table": [
+        [
+            "Thresh rank",
+            "Score",
+            "FAR",
+            "FRR"
+        ],
+        [
+            "55",
+            "0.0697",
+            "0.0022",
+            "0.0675"
+        ],
+        [
+            "56",
+            "0.0575",
+            "0.0025",
+            "0.055"
+        ],
+        [
+            "57",
+            "0.0454",
+            "0.0029",
+            "0.0425"
+        ],
+        [
+            "58",
+            "0.0384",
+            "0.0034",
+            "0.035"
+        ],
+        [
+            "59",
+            "0.0339",
+            "0.0039",
+            "0.03"
+        ],
+        [
+            "60",
+            "0.0322",
+            "0.0047",
+            "0.0275"
+        ],
+        [
+            "61",
+            "0.0331",
+            "0.0056",
+            "0.0275"
+        ]
+    ],
+    "caption": "Table 4 :  Performance on the test-A-eval set using different threshold rank.",
+    "references": [
+        "In order to verify the effectiveness of the components of our system, we performed ablation experiments on each component. In our experiments on the test-A-eval set, we leverage the availability of ground truth labels to traverse all possible thresholds and identify the optimal values that minimize FRR and FAR. Unfortunately, we do not have access to ground truth labels for the test-B-eval set. Table 4 presents the results of ablation experiments for the threshold selection on the test-A eval set, based on the 2branch-d2v2 model. The experiment results indicate that as the threshold increases from 55 to 61, FAR gradually increases while FRR gradually decreases. The strategy with a threshold rank of 55 achieves the lowest FAR but significantly reduces FRR performance. Conversely, the strategy with a threshold rank of 60 achieves the lowest FRR, with no significant compromise in FAR performance (the score for Thresh rank 60 is better than that for Thresh rank 55). Therefore, in subsequent experiments on the test-B-eval dataset, we primarily focus on Thresh rank of 60."
+    ]
+}

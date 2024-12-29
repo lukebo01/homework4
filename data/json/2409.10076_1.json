@@ -1,0 +1,72 @@
+{
+    "table": [
+        [
+            "Module",
+            "Training data"
+        ],
+        [
+            "pretrained_d2v2",
+            "LibriHeavy\u00a0[31], GigaSpeech\u00a0[32], WenetSpeech\u00a0[33], Aishell{1,2} [34, 35], ACAV100M\u00a0[36], OpenSLR {38,47,68,82,87,111, 119,123,124,133}, CommonVoice, LRDWWS training set"
+        ],
+        [
+            "LibriHeavy\u00a0[31],",
+            "nan"
+        ],
+        [
+            "GigaSpeech\u00a0[32],",
+            "nan"
+        ],
+        [
+            "WenetSpeech\u00a0[33],",
+            "nan"
+        ],
+        [
+            "Aishell{1,2} [34, 35],",
+            "nan"
+        ],
+        [
+            "ACAV100M\u00a0[36],",
+            "nan"
+        ],
+        [
+            "OpenSLR {38,47,68,82,87,111,",
+            "nan"
+        ],
+        [
+            "119,123,124,133},",
+            "nan"
+        ],
+        [
+            "CommonVoice,",
+            "nan"
+        ],
+        [
+            "LRDWWS training set",
+            "nan"
+        ],
+        [
+            "finetuned_2branch-d2v2",
+            "LRDWWS training set LRDWWS enrollment set"
+        ],
+        [
+            "LRDWWS training set",
+            "nan"
+        ],
+        [
+            "LRDWWS enrollment set",
+            "nan"
+        ],
+        [
+            "TTS-generator",
+            "LRDWWS training set"
+        ],
+        [
+            "TTS-generator",
+            "nan"
+        ]
+    ],
+    "caption": "Table 1 :  Details of the training data used for each module.",
+    "references": [
+        "The LRDWWS dataset comprises 18,630 recordings totaling 17 hours. This includes 10,125 recordings from non-dysarthric speakers (control), amounting to 7.6 hours, and 8,505 recordings from dysarthric speakers (dysarthria), totaling 9.4 hours. The dataset features speech from 21 dysarthric speakers (12 female, 9 male) and 25 non-dysarthric speakers (13 female, 12 male).\nEach speaker contributes 405 recordings, including 50 wake-up word recordings (10 different wake-up words, with 5 recordings per word) and 355 non-wake-up word recordings. The non-wake-up word recordings consist of fixed command words, descriptions of furniture, TV and audio control words, numbers, interactions, and negative samples. Table 1 provides detailed information about the datasets used in training each module."
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "table": [
+        [
+            "System",
+            "Score",
+            "FAR",
+            "FRR"
+        ],
+        [
+            "ASR result2",
+            "0.021101",
+            "0.001601",
+            "0.0195"
+        ],
+        [
+            "2branch-d2v2",
+            "0.011934",
+            "0.004434",
+            "0.0075"
+        ],
+        [
+            "+ASR filter",
+            "0.010822",
+            "0.003322",
+            "0.0075"
+        ]
+    ],
+    "caption": "Table 5 :  Ablation study of ASR filter on the test-B-eval set.",
+    "references": [
+        "Table 5 shows the ablation experiments conducted on the test-B eval set. In this experiment, we select a thresh rank of 60.\nIn the first row of the table, our approach involves feeding the audio input directly into the Paraformer model. This model generates an ASR output (ASR result2), which we then evaluate against a predefined wake-up word list. If the ASR result matches any word in the wake-up word list, we assign the corresponding label to the detection; otherwise, we categorize it as a filler. This straightforward method yields a low FAR, indicating few instances where non-wake-up words are incorrectly detected as wake-up words. However, it also results in a relatively high FRR, indicating instances where actual wake-up words are missed or not detected.\nTo enhance the accuracy and efficiency of wake-up word detection, we integrate the ASR filter module into our system. This module refines the initial detections by further analyzing the ASR output and cross-verifying it with the wake-up word list. By leveraging the ASR filter module, our system achieves optimal performance metrics, effectively reducing both FAR and FRR, thereby enhancing overall system reliability and user experience.",
+        "Futhermore, we also perform experiments with different data finetune paraformer on test-A eval set, as shown in Table 7. Using the same matching strategy as in Table 5, we can see that finetuning using synthetic data can make the model more adaptable to the dysarthric environment."
+    ]
+}
