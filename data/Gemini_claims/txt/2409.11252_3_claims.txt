@@ -1,0 +1,1087 @@
+The user wants to extract claims from a table provided in a JSON format.
+Each claim needs to have a "specifications", a "Measure", and an "Outcome".
+The "specifications" are key-value pairs describing the context of the claim, usually taken from row and column headers.
+The "Measure" is a performance metric, likely mentioned in the caption or references, or potentially derivable from the table structure.
+The "Outcome" is the numerical value associated with the "Measure".
+
+Let's analyze the provided table:
+
+- The first row seems to be a higher-level categorization: 'Read Speech (ARL)', 'Read Speech (CSaLT)', 'Conversational Speech'.
+- The second row specifies 'Base Model' or 'Fine-tuned'.
+- The third row contains the column header 'Model'.
+- The subsequent rows contain model names and their corresponding values.
+
+The caption mentions "WER of ASR models". The references also mention "WER". It seems "WER" is the Measure.
+
+Now, let's break down how to extract each claim:
+
+For each row in the table (starting from the fourth row):
+- The first cell is the "Model" name.
+- The remaining cells represent different scenarios based on the columns.
+
+For example, for the row with 'whisper-tiny':
+- '116.92' corresponds to 'Read Speech (ARL)' and 'Base Model'.
+- '45.59' corresponds to 'Read Speech (ARL)' and 'Fine-tuned'.
+- '96.57' corresponds to 'Read Speech (CSaLT)' and 'Base Model'.
+- and so on.
+
+The "specifications" for each claim will be a combination of the column headers and the "Model" name from the current row.
+
+Let's start building the JSON structure.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-tiny"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "116.92"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-tiny"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "45.59"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-tiny"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "96.57"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-tiny"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "42.12"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-tiny"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "163.18"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-tiny"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "59.99"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-base"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "71.53"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-base"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "39.84"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-base"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "57.77"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-base"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "38.86"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-base"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "163.52"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-base"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "48.61"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-small"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "48.70"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-small"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "28.60"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-small"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "41.10"
+    },
+    "15": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-small"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "27.39"
+    },
+    "16": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-small"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "55.67"
+    },
+    "17": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-small"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "32.92"
+    },
+    "18": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-medium"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "37.04"
+    },
+    "19": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-medium"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "25.38"
+    },
+    "20": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-medium"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "33.39"
+    },
+    "21": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-medium"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "24.15"
+    },
+    "22": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-medium"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "40.22"
+    },
+    "23": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-medium"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "28.87"
+    },
+    "24": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-large"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "26.25"
+    },
+    "25": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-large"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "23.79"
+    },
+    "26": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-large"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "24.44"
+    },
+    "27": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-large"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "22.35"
+    },
+    "28": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-large"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "18.30"
+    },
+    "29": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "whisper-large"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "17.86"
+    },
+    "30": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "mms-300m"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "51.48"
+    },
+    "31": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "mms-300m"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "47.73"
+    },
+    "32": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "mms-300m"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "66.40"
+    },
+    "33": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "mms-1b"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "39.65"
+    },
+    "34": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "mms-1b"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "28.37"
+    },
+    "35": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "mms-1b"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "34.60"
+    },
+    "36": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "mms-1b"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "26.85"
+    },
+    "37": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "mms-1b"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "46.44"
+    },
+    "38": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "mms-1b"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "42.46"
+    },
+    "39": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "seamless-medium"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "30.06"
+    },
+    "40": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "seamless-medium"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "19.41"
+    },
+    "41": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "seamless-medium"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "24.18"
+    },
+    "42": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "seamless-medium"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "20.59"
+    },
+    "43": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "seamless-medium"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "22.33"
+    },
+    "44": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "seamless-medium"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "20.01"
+    },
+    "45": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "seamless-large"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "23.97"
+    },
+    "46": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "seamless-large"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "ARL"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "17.09"
+    },
+    "47": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "seamless-large"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "20.57"
+    },
+    "48": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "seamless-large"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Read Speech"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "CSaLT"
+            },
+            "3": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "18.61"
+    },
+    "49": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "seamless-large"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Base Model"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "29.99"
+    },
+    "50": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "seamless-large"
+            },
+            "1": {
+                "name": "Speech Type",
+                "value": "Conversational Speech"
+            },
+            "2": {
+                "name": "Tuning",
+                "value": "Fine-tuned"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "18.75"
+    }
+}
+```

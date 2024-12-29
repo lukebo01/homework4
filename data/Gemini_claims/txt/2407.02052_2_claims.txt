@@ -1,0 +1,185 @@
+The user wants to extract claims from a table embedded in a JSON object.
+Each claim should have a "specifications", "Measure", and "Outcome".
+The "specifications" are key-value pairs extracted from the table's header.
+The "Measure" is a column header or a value mentioned in the caption or references.
+The "Outcome" is the cell value associated with the "Measure".
+
+Based on the provided example, the table seems to have multiple headers due to the merged cells.
+I need to identify the relevant headers and correctly associate them with the corresponding values.
+The caption mentions "CER%", which is a strong candidate for the "Measure".
+
+Steps:
+1. Identify the main headers of the table.
+2. Identify potential "Measure" from the table, caption, and references.
+3. Iterate through the data rows and extract claims.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Iteration",
+                "value": "B0"
+            },
+            "1": {
+                "name": "Data(hrs)",
+                "value": "396"
+            }
+        },
+        "Measure": "wavLM+",
+        "Outcome": "29.77"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Iteration",
+                "value": "B0"
+            },
+            "1": {
+                "name": "Data(hrs)",
+                "value": "396"
+            }
+        },
+        "Measure": "conv2d+",
+        "Outcome": "30.64"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Iteration",
+                "value": "B0"
+            },
+            "1": {
+                "name": "Data(hrs)",
+                "value": "396"
+            }
+        },
+        "Measure": "Fusion",
+        "Outcome": "27.8"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Iteration",
+                "value": "B1"
+            },
+            "1": {
+                "name": "Data(hrs)",
+                "value": "3910"
+            }
+        },
+        "Measure": "wavLM+",
+        "Outcome": "25.32"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Iteration",
+                "value": "B1"
+            },
+            "1": {
+                "name": "Data(hrs)",
+                "value": "3910"
+            }
+        },
+        "Measure": "conv2d+",
+        "Outcome": "26.4"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Iteration",
+                "value": "B1"
+            },
+            "1": {
+                "name": "Data(hrs)",
+                "value": "3910"
+            }
+        },
+        "Measure": "Fusion",
+        "Outcome": "23.77"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Iteration",
+                "value": "B2"
+            },
+            "1": {
+                "name": "Data(hrs)",
+                "value": "5452"
+            }
+        },
+        "Measure": "wavLM+",
+        "Outcome": "22.94"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Iteration",
+                "value": "B2"
+            },
+            "1": {
+                "name": "Data(hrs)",
+                "value": "5452"
+            }
+        },
+        "Measure": "conv2d+",
+        "Outcome": "21.9"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Iteration",
+                "value": "B2"
+            },
+            "1": {
+                "name": "Data(hrs)",
+                "value": "5452"
+            }
+        },
+        "Measure": "Fusion",
+        "Outcome": "22.87"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Iteration",
+                "value": "B3"
+            },
+            "1": {
+                "name": "Data(hrs)",
+                "value": "10952"
+            }
+        },
+        "Measure": "wavLM+",
+        "Outcome": "22.94 (5452h)"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Iteration",
+                "value": "B3"
+            },
+            "1": {
+                "name": "Data(hrs)",
+                "value": "10952"
+            }
+        },
+        "Measure": "conv2d+",
+        "Outcome": "21.14"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Iteration",
+                "value": "B3"
+            },
+            "1": {
+                "name": "Data(hrs)",
+                "value": "10952"
+            }
+        },
+        "Measure": "Fusion",
+        "Outcome": "20.83"
+    }
+}
+```

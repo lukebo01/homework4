@@ -1,0 +1,87 @@
+The user wants to extract claims from a table and its associated caption and references.
+Each claim will have a 'specifications', 'Measure' and 'Outcome'.
+The 'specifications' are key-value pairs from the table.
+The 'Measure' can be found in the table, caption or references.
+The 'Outcome' is the value associated with the 'Measure'.
+
+Let's analyze the example table and the expected output format.
+The table seems to describe different systems for Dravidian languages.
+Each column after the first one represents a language.
+Each row represents a characteristic of the systems.
+The 'Measure' seems to be related to the 'Best performance' row.
+
+Plan:
+1. Identify the 'Measure' from the table.
+2. Iterate through the columns (excluding the first one).
+3. For each column, extract the 'specifications' from the other rows.
+4. Extract the 'Outcome' associated with the 'Measure'.
+5. Construct the JSON output.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "No. of dialects",
+                "value": "3"
+            },
+            "1": {
+                "name": "Features",
+                "value": "Mel Frequency Cepstral Coefficients"
+            },
+            "2": {
+                "name": "Classifier",
+                "value": "Gaussian Mixture Model and Hidden Markov Model"
+            },
+            "3": {
+                "name": "Database",
+                "value": "New database developed"
+            }
+        },
+        "Measure": "Best performance",
+        "Outcome": "84.5%"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "No. of dialects",
+                "value": "5"
+            },
+            "1": {
+                "name": "Features",
+                "value": "Spectral and Prosodic features"
+            },
+            "2": {
+                "name": "Classifier",
+                "value": "Support Vector Machine and Neural Network"
+            },
+            "3": {
+                "name": "Database",
+                "value": "New database developed"
+            }
+        },
+        "Measure": "Best performance",
+        "Outcome": "99.24%"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "No. of dialects",
+                "value": "2"
+            },
+            "1": {
+                "name": "Features",
+                "value": "Spectral and Prosodic features"
+            },
+            "2": {
+                "name": "Classifier",
+                "value": "Artificial Neural Networks, Support Vector Machine and Naive Bayes"
+            },
+            "3": {
+                "name": "Database",
+                "value": "New database developed"
+            }
+        },
+        "Measure": "Best performance",
+        "Outcome": "90.2%"
+    }
+}
+```

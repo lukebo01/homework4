@@ -1,0 +1,199 @@
+The user wants to extract claims from a JSON object containing a table, caption and references.
+The claims should be structured as a JSON object.
+Each claim should have "specifications", "Measure" and "Outcome".
+"specifications" contains the key-value pairs that describe the context of the "Outcome". These keys are the column headers of the table.
+"Measure" is the metric or unit for the "Outcome".
+"Outcome" is the value associated with the "Measure".
+The "Measure" can be found in the table, references or caption.
+
+Looking at the table, the columns are "Duration (h)", "Corpus", "Sample Scale".
+The rows represent different configurations.
+The "Outcome" for each row would be the "Duration (h)" value.
+The "Measure" is "h" (hours).
+
+Let's extract claims for each row.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Corpus",
+                "value": "Train-set-1 MC GSS"
+            },
+            "1": {
+                "name": "Sample Scale",
+                "value": "1"
+            }
+        },
+        "Measure": "h",
+        "Outcome": "14"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Corpus",
+                "value": "Train-set-2 MC GSS"
+            },
+            "1": {
+                "name": "Sample Scale",
+                "value": "1"
+            }
+        },
+        "Measure": "h",
+        "Outcome": "16"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Corpus",
+                "value": "Dev-set-1 MC GSS"
+            },
+            "1": {
+                "name": "Sample Scale",
+                "value": "1"
+            }
+        },
+        "Measure": "h",
+        "Outcome": "10"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Corpus",
+                "value": "Train-set-1 MC GSS with timestamp"
+            },
+            "1": {
+                "name": "Sample Scale",
+                "value": "1"
+            }
+        },
+        "Measure": "h",
+        "Outcome": "14"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Corpus",
+                "value": "Train-set-2 MC GSS with timestamp"
+            },
+            "1": {
+                "name": "Sample Scale",
+                "value": "1"
+            }
+        },
+        "Measure": "h",
+        "Outcome": "16"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Corpus",
+                "value": "Dev-set-1 MC GSS with timestamp"
+            },
+            "1": {
+                "name": "Sample Scale",
+                "value": "1"
+            }
+        },
+        "Measure": "h",
+        "Outcome": "10"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Corpus",
+                "value": "Train-set-1 MC NN"
+            },
+            "1": {
+                "name": "Sample Scale",
+                "value": "1"
+            }
+        },
+        "Measure": "h",
+        "Outcome": "14"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Corpus",
+                "value": "Train-set-2 MC NN"
+            },
+            "1": {
+                "name": "Sample Scale",
+                "value": "1"
+            }
+        },
+        "Measure": "h",
+        "Outcome": "16"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Corpus",
+                "value": "Dev-set-1 MC NN"
+            },
+            "1": {
+                "name": "Sample Scale",
+                "value": "1"
+            }
+        },
+        "Measure": "h",
+        "Outcome": "10"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Corpus",
+                "value": "Train-set-1 MC ch0 NN"
+            },
+            "1": {
+                "name": "Sample Scale",
+                "value": "1"
+            }
+        },
+        "Measure": "h",
+        "Outcome": "14"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Corpus",
+                "value": "Train-set-2 MC ch0 NN"
+            },
+            "1": {
+                "name": "Sample Scale",
+                "value": "1"
+            }
+        },
+        "Measure": "h",
+        "Outcome": "16"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Corpus",
+                "value": "Dev-set-1 MC ch0 NN"
+            },
+            "1": {
+                "name": "Sample Scale",
+                "value": "1"
+            }
+        },
+        "Measure": "h",
+        "Outcome": "10"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Corpus",
+                "value": "LibriSpeech"
+            },
+            "1": {
+                "name": "Sample Scale",
+                "value": "1"
+            }
+        },
+        "Measure": "h",
+        "Outcome": "960"
+    }
+}
+```

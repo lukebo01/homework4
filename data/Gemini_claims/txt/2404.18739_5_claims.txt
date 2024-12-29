@@ -1,0 +1,115 @@
+The user wants to extract claims from a table provided in a JSON format.
+Each claim should be a JSON object with a "specifications", "Measure", and "Outcome" field.
+The "specifications" field contains key-value pairs extracted from the row headers or column headers that describe the context of the claim.
+The "Measure" is a metric mentioned in the table, caption, or references.
+The "Outcome" is the value associated with the "Measure".
+
+Based on the example provided and the table structure, it seems like each row represents a set of claims.
+The "Method" column can be part of the specifications.
+The column headers after "Method" represent the measures.
+The values in the cells are the corresponding outcomes.
+
+Plan:
+1. Iterate over each row of the table starting from the second row (index 1).
+2. For each row, extract the "Method" as a specification.
+3. Iterate over the column headers starting from the second column (index 1). These are the measures.
+4. For each measure, extract the corresponding value from the current row as the outcome.
+5. Construct the claim object for each measure-outcome pair.
+6. Return the JSON object containing all the extracted claims.
+
+Considering multi-level column headers:
+- Level 0 headers might specify the type of measure.
+- Level 1 headers might specify the sub-category of the measure.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Majority"
+            }
+        },
+        "Measure": "Acc.",
+        "Outcome": "68.70%"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Majority"
+            }
+        },
+        "Measure": "Female F-1 measure",
+        "Outcome": "74.73%"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Majority"
+            }
+        },
+        "Measure": "Male F-1 measure",
+        "Outcome": "7.76%"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "Acc.",
+        "Outcome": "70.07%"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "Female F-1 measure",
+        "Outcome": "76.54%"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "Male F-1 measure",
+        "Outcome": "19.29%"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "Acc.",
+        "Outcome": "68.90%"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "Female F-1 measure",
+        "Outcome": "79.31%"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "Male F-1 measure",
+        "Outcome": "7.10%"
+    }
+}
+```

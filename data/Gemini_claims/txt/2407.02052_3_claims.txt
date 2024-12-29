@@ -1,0 +1,175 @@
+The user wants to extract claims from a JSON object containing a table, a caption, and references.
+Each claim should have a 'specifications', a 'Measure', and an 'Outcome'.
+The 'specifications' are extracted from the table columns (excluding the column containing the measure and the outcome).
+The 'Measure' can be found in the table, references, or caption.
+The 'Outcome' is the value associated with the 'Measure'.
+
+Based on the table provided:
+- The first row contains the column names.
+- The 'ID' column can be used to identify each row.
+- The 'Model based on Accent-ASR' column can be used for specifications.
+- 'Dev' and 'Eval' columns seem to be potential measures.
+- The values in 'Dev' and 'Eval' are the outcomes.
+
+The caption mentions 'CER%'. This could be the Measure.
+
+Let's iterate over the rows of the table and extract claims for 'Dev' and 'Eval' measures.
+
+For row with 'M0':
+- Measure: 'Dev', Outcome: '32.92'
+- Specifications: {'name': 'Model based on Accent-ASR', 'value': 'Official Baseline'}
+- Measure: 'Eval', Outcome: '26.24'
+- Specifications: {'name': 'Model based on Accent-ASR', 'value': 'Official Baseline'}
+
+For row with 'M1':
+- Measure: 'Dev', Outcome: '20.87'
+- Specifications: {'name': 'Model based on Accent-ASR', 'value': 'conv2d+conformer'}
+- Measure: 'Eval', Outcome: '-'
+- Specifications: {'name': 'Model based on Accent-ASR', 'value': 'conv2d+conformer'}
+
+And so on.
+
+Let's assume the Measure is 'CER%' as mentioned in the caption.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "Official Baseline"
+            }
+        },
+        "Measure": "Dev",
+        "Outcome": "32.92"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "Official Baseline"
+            }
+        },
+        "Measure": "Eval",
+        "Outcome": "26.24"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "conv2d+conformer"
+            }
+        },
+        "Measure": "Dev",
+        "Outcome": "20.87"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "conv2d+conformer"
+            }
+        },
+        "Measure": "Eval",
+        "Outcome": "-"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "conv2d+ebranchformer"
+            }
+        },
+        "Measure": "Dev",
+        "Outcome": "20.68"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "conv2d+ebranchformer"
+            }
+        },
+        "Measure": "Eval",
+        "Outcome": "-"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "VGG+ebranchformer"
+            }
+        },
+        "Measure": "Dev",
+        "Outcome": "20.31"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "VGG+ebranchformer"
+            }
+        },
+        "Measure": "Eval",
+        "Outcome": "-"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "gateCNN+conformer"
+            }
+        },
+        "Measure": "Dev",
+        "Outcome": "19.83"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "gateCNN+conformer"
+            }
+        },
+        "Measure": "Eval",
+        "Outcome": "-"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "gateCNN+ebranchformer"
+            }
+        },
+        "Measure": "Dev",
+        "Outcome": "18.53"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "gateCNN+ebranchformer"
+            }
+        },
+        "Measure": "Eval",
+        "Outcome": "14.72"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "fusion models based on M1-M5"
+            }
+        },
+        "Measure": "Dev",
+        "Outcome": "15.54"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Model based on Accent-ASR",
+                "value": "fusion models based on M1-M5"
+            }
+        },
+        "Measure": "Eval",
+        "Outcome": "13.16"
+    }
+}
+```

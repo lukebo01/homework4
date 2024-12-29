@@ -1,0 +1,140 @@
+The user wants to extract claims from a given JSON object containing a table, caption, and references.
+The claims should follow a specific JSON structure.
+Each claim should have 'specifications', 'Measure', and 'Outcome'.
+The 'specifications' come from the table's row header.
+The 'Measure' can be found in the table, caption, or references.
+The 'Outcome' is the value associated with the measure in the table.
+
+In this specific example:
+- The table has row headers like 'Whisper-1.5B (first-pass) w/o LM', '-best Oracle', etc. These will form the 'specifications'.
+- The column headers 'train' and 'test' suggest two different measures.
+- The caption mentions "WER ( % percent \\% )", which likely is the measure.
+
+Plan:
+1. Identify the measures from the table structure and caption.
+2. For each row in the table (excluding the header row), create a claim.
+3. Extract specifications from the row header.
+4. Extract the outcomes corresponding to each identified measure.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Whisper-1.5B (first-pass) w/o LM"
+            }
+        },
+        "Measure": "train WER (%)",
+        "Outcome": "10.43"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Whisper-1.5B (first-pass) w/o LM"
+            }
+        },
+        "Measure": "test WER (%)",
+        "Outcome": "11.82"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "-best Oracle"
+            }
+        },
+        "Measure": "train WER (%)",
+        "Outcome": "9.61"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "-best Oracle"
+            }
+        },
+        "Measure": "test WER (%)",
+        "Outcome": "9.32"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Reranking LM: T5-750M"
+            }
+        },
+        "Measure": "train WER (%)",
+        "Outcome": "9.90"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Reranking LM: T5-750M"
+            }
+        },
+        "Measure": "test WER (%)",
+        "Outcome": "9.74"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Correction LM: T5-750M"
+            }
+        },
+        "Measure": "train WER (%)",
+        "Outcome": "9.21"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Correction LM: T5-750M"
+            }
+        },
+        "Measure": "test WER (%)",
+        "Outcome": "9.05"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Correction LM: LLaMA-13B"
+            }
+        },
+        "Measure": "train WER (%)",
+        "Outcome": "8.62"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Correction LM: LLaMA-13B"
+            }
+        },
+        "Measure": "test WER (%)",
+        "Outcome": "8.63"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Correction LM: LLaMaA2-7B"
+            }
+        },
+        "Measure": "train WER (%)",
+        "Outcome": "8.71"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Correction LM: LLaMaA2-7B"
+            }
+        },
+        "Measure": "test WER (%)",
+        "Outcome": "8.33"
+    }
+}
+```

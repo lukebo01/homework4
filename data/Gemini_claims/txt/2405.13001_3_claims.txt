@@ -1,0 +1,104 @@
+The user wants to extract claims from a given JSON object containing a table, caption, and references.
+The claims should be structured in a specific JSON format.
+Each claim needs to have "specifications", "Measure", and "Outcome".
+The "specifications" are extracted from the table's row headers (first column in this case).
+The "Measure" needs to be determined from the table, references, or caption.
+The "Outcome" is the value associated with the "Measure" in the table.
+
+In this specific example:
+- The table has rows and columns.
+- The first column seems to be the distinguishing factor for each row.
+- The other columns represent different specifications/attributes.
+- The caption seems to provide a general context.
+- There are no references.
+
+Plan:
+1. Iterate through each row of the table (starting from the second row as the first row seems to be headers).
+2. For each row, the first element will be used to identify the main subject/context of the claim (this can be part of the "specifications").
+3. The column headers (from the first row) will be used as names in the "specifications".
+4. The values in the current row will be the values in the "specifications".
+5. The "Measure" needs to be determined. Given the structure of the table and the caption, the columns 'Core', 'Data learning', 'Development process', and 'Application' seem to be the measures for each row's subject.
+6. The corresponding values in each column for that row will be the "Outcome".```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Discriminant/Analytical AI"
+            }
+        },
+        "Measure": "Core",
+        "Outcome": "Analysis"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Discriminant/Analytical AI"
+            }
+        },
+        "Measure": "Data learning",
+        "Outcome": "Conditional probability distribution"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Discriminant/Analytical AI"
+            }
+        },
+        "Measure": "Development process",
+        "Outcome": "Mature technology and widely used"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Discriminant/Analytical AI"
+            }
+        },
+        "Measure": "Application",
+        "Outcome": "Recommendation systems, CV, NLP"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Generative AI"
+            }
+        },
+        "Measure": "Core",
+        "Outcome": "Creation"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Generative AI"
+            }
+        },
+        "Measure": "Data learning",
+        "Outcome": "Joint probability distribution"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Generative AI"
+            }
+        },
+        "Measure": "Development process",
+        "Outcome": "Exponential explosion"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Type",
+                "value": "Generative AI"
+            }
+        },
+        "Measure": "Application",
+        "Outcome": "AIGC, text generation, audio generation"
+    }
+}
+```

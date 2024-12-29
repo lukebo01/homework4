@@ -1,0 +1,160 @@
+The user wants to extract claims from a JSON object containing a table, caption, and references.
+Each claim should have a "specifications", "Measure", and "Outcome".
+The "Measure" needs to be identified from the table, caption, or references.
+The "Outcome" is the value associated with the "Measure".
+The "specifications" are key-value pairs that describe the context of the claim, usually column headers and row values.
+
+Let's analyze the example:
+
+Table:
+[['Model', 'Metric', 'Dev', 'Eval'],
+ ['Speaker Diarization', 'DER (%)', '10.21', '-'],
+ ['M0 Offical Baseline', 'cpCER (%)', '65.90', '72.88'],
+ ['M6 Fusion models', 'cpCER (%)', '16.31', '21.48']]
+
+Caption: 'Table 4 :  The ASDR results on Track 2 (%).'
+
+References: ['Results on the Dev and Eval Sets of Track 2:\nTable 4 presents the automatic speaker diarization and recognition (ASDR) results on Track 2 dev and eval sets. Our speaker diarization system achieves a diarization error rate (DER) of 10.21%. In comparison to the official baseline, our system achieves a cpCER of 16.31% on the dev set, which relatively improves by 75.3%. Note that there is a difference of smaller than 5% compared to Track 1 with oracle diarization. On the eval set, our system outperforms the official baseline with a relative improvement of 70.5%.']
+
+Potential Measures: DER (%), cpCER (%)
+Potential Outcomes: 10.21, 65.90, 72.88, 16.31, 21.48
+
+Let's try to extract claims based on the rows.
+
+Row 1: ['Speaker Diarization', 'DER (%)', '10.21', '-']
+Measure: DER (%)
+Outcome: 10.21 (Dev)
+
+Row 2: ['M0 Offical Baseline', 'cpCER (%)', '65.90', '72.88']
+Measure: cpCER (%)
+Outcome: 65.90 (Dev)
+Outcome: 72.88 (Eval)
+
+Row 3: ['M6 Fusion models', 'cpCER (%)', '16.31', '21.48']
+Measure: cpCER (%)
+Outcome: 16.31 (Dev)
+Outcome: 21.48 (Eval)
+
+Let's consider the structure for the first row:
+{
+    "0": {
+        "specifications": {
+            "0": {"name": "Model", "value": "Speaker Diarization"}
+        },
+        "Measure": "DER (%)",
+        "Outcome": "10.21"
+    }
+}
+
+Now considering the 'Dev' context:
+{
+    "0": {
+        "specifications": {
+            "0": {"name": "Model", "value": "Speaker Diarization"},
+            "1": {"name": "Set", "value": "Dev"}
+        },
+        "Measure": "DER (%)",
+        "Outcome": "10.21"
+    }
+}
+
+Now considering the second row with 'Dev' and 'Eval':
+{
+    "0": {
+        "specifications": {
+            "0": {"name": "Model", "value": "M0 Offical Baseline"},
+            "1": {"name": "Set", "value": "Dev"}
+        },
+        "Measure": "cpCER (%)",
+        "Outcome": "65.90"
+    },
+    "1": {
+        "specifications": {
+            "0": {"name": "Model", "value": "M0 Offical Baseline"},
+            "1": {"name": "Set", "value": "Eval"}
+        },
+        "Measure": "cpCER (%)",
+        "Outcome": "72.88"
+    }
+}
+
+Final plan:
+1. Iterate over the rows of the table starting from the second row (index 1).
+2. For each row, identify the 'Model' from the first column.
+3. Identify the 'Measure' from the second column.
+4. Iterate over the remaining columns (starting from the third column).
+5. Use the header of the column as a specification (e.g., 'Dev', 'Eval').
+6. If the value in the cell is not '-', create a claim.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Speaker Diarization"
+            },
+            "1": {
+                "name": "Set",
+                "value": "Dev"
+            }
+        },
+        "Measure": "DER (%)",
+        "Outcome": "10.21"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "M0 Offical Baseline"
+            },
+            "1": {
+                "name": "Set",
+                "value": "Dev"
+            }
+        },
+        "Measure": "cpCER (%)",
+        "Outcome": "65.90"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "M0 Offical Baseline"
+            },
+            "1": {
+                "name": "Set",
+                "value": "Eval"
+            }
+        },
+        "Measure": "cpCER (%)",
+        "Outcome": "72.88"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "M6 Fusion models"
+            },
+            "1": {
+                "name": "Set",
+                "value": "Dev"
+            }
+        },
+        "Measure": "cpCER (%)",
+        "Outcome": "16.31"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "M6 Fusion models"
+            },
+            "1": {
+                "name": "Set",
+                "value": "Eval"
+            }
+        },
+        "Measure": "cpCER (%)",
+        "Outcome": "21.48"
+    }
+}
+```

@@ -1,0 +1,169 @@
+The user wants to extract claims from a table represented as a list of lists within a JSON object.
+Each claim should have a "specifications", a "Measure", and an "Outcome".
+The "specifications" are key-value pairs from the table headers and row values.
+The "Measure" can be found in the table, caption, or references.
+The "Outcome" is the value associated with the measure in the table.
+
+Let's analyze the provided example to understand the extraction logic.
+
+The table is:
+```
+[['nan', 'nan', 'nan', 'nan', 'nan', 'nan', 'Bias'],
+ ['Case 1', 'LT', 'LT', 'LT', 'CT', 'LT', 'Biased towards LT'],
+ ['Case 2', 'CT', 'LT', 'CT', 'CT', 'LT', 'Biased towards CT'],
+ ['Case 3', 'LT', 'CT', 'CT', 'LT', 'nan', 'Equi-probable']]
+```
+The caption is:
+```
+Table 4:  Simplified example of UPR output sequences demonstrating three cases of bias. W i subscript W 𝑖 \\text{W}_{i}  represents words in the output sequence.
+```
+The references are:
+```
+['where, Wdsubscript𝑊𝑑W_{d} is the number of words that belong to each dialect,\nand the dialect is determined using separate dictionaries/lexicons.\nA simplified example of this UPR output sequence is provided\nin Table 4.\nFor an output sequence, if the\nnumber of words that belong to CT is more than that of LT, then it is\nbias towards CT, and hence the sentence will be identified as CT. If\nthe sentence contains an equal number of LT and CT words, then it is\nconsidered as an equiprobable case and, is handled separately as a\nspecial case. The reason for this scenario could be i) inefficiency or,\nlow performance of the recognition module ii) confusions due to combined\nlexicon. How this special case is handled, determines whether the system\nbelongs to UPR-1 or UPR-2. The block diagram in Figure 6 explains\nthese methods in detail.']
+```
+
+The first row of the table seems to be the header.
+The "Measure" seems to be the last column 'Bias'.
+The "Outcome" is the value in the 'Bias' column.
+The "specifications" are the values in the other columns with the corresponding header.
+
+For the first row of data ('Case 1', 'LT', 'LT', 'LT', 'CT', 'LT', 'Biased towards LT'):
+Measure: Bias
+Outcome: Biased towards LT
+Specifications:
+  0: name: nan, value: Case 1
+  1: name: nan, value: LT
+  2: name: nan, value: LT
+  3: name: nan, value: LT
+  4: name: nan, value: CT
+  5: name: nan, value: LT
+
+Let's rethink the "specifications". The headers are in the first row of the table.
+
+For the first row of data ('Case 1', 'LT', 'LT', 'LT', 'CT', 'LT', 'Biased towards LT'):
+Measure: Bias
+Outcome: Biased towards LT
+Specifications:
+  0: name: nan, value: Case 1
+  1: name: nan, value: LT
+  2: name: nan, value: LT
+  3: name: nan, value: LT
+  4: name: nan, value: CT
+  5: name: nan, value: LT
+
+For the second row of data ('Case 2', 'CT', 'LT', 'CT', 'CT', 'LT', 'Biased towards CT'):
+Measure: Bias
+Outcome: Biased towards CT
+Specifications:
+  0: name: nan, value: Case 2
+  1: name: nan, value: CT
+  2: name: nan, value: LT
+  3: name: nan, value: CT
+  4: name: nan, value: CT
+  5: name: nan, value: LT
+
+For the third row of data ('Case 3', 'LT', 'CT', 'CT', 'LT', 'nan', 'Equi-probable'):
+Measure: Bias
+Outcome: Equi-probable
+Specifications:
+  0: name: nan, value: Case 3
+  1: name: nan, value: LT
+  2: name: nan, value: CT
+  3: name: nan, value: CT
+  4: name: nan, value: LT
+  5: name: nan, value: nan
+
+The measure is consistently the last column.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "nan",
+                "value": "Case 1"
+            },
+            "1": {
+                "name": "nan",
+                "value": "LT"
+            },
+            "2": {
+                "name": "nan",
+                "value": "LT"
+            },
+            "3": {
+                "name": "nan",
+                "value": "LT"
+            },
+            "4": {
+                "name": "nan",
+                "value": "CT"
+            },
+            "5": {
+                "name": "nan",
+                "value": "LT"
+            }
+        },
+        "Measure": "Bias",
+        "Outcome": "Biased towards LT"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "nan",
+                "value": "Case 2"
+            },
+            "1": {
+                "name": "nan",
+                "value": "CT"
+            },
+            "2": {
+                "name": "nan",
+                "value": "LT"
+            },
+            "3": {
+                "name": "nan",
+                "value": "CT"
+            },
+            "4": {
+                "name": "nan",
+                "value": "CT"
+            },
+            "5": {
+                "name": "nan",
+                "value": "LT"
+            }
+        },
+        "Measure": "Bias",
+        "Outcome": "Biased towards CT"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "nan",
+                "value": "Case 3"
+            },
+            "1": {
+                "name": "nan",
+                "value": "LT"
+            },
+            "2": {
+                "name": "nan",
+                "value": "CT"
+            },
+            "3": {
+                "name": "nan",
+                "value": "CT"
+            },
+            "4": {
+                "name": "nan",
+                "value": "LT"
+            },
+            "5": {
+                "name": "nan",
+                "value": "nan"
+            }
+        },
+        "Measure": "Bias",
+        "Outcome": "Equi-probable"
+    }
+}
+```

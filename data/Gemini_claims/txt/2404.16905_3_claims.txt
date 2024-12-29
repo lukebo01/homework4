@@ -1,0 +1,187 @@
+The user wants to extract claims from a table provided in a JSON format. I need to identify the 'Measure' and the corresponding 'Outcome' for each row in the table. The 'Measure' can be found in the table headers, caption, or references. In this case, 'Test Pos.F1' from the table header seems like a good candidate for the 'Measure'. The 'Outcome' will be the values in the 'Test Pos.F1' column.
+
+Plan:
+1. Iterate through each row of the table (excluding the header).
+2. For each row, create a claim object.
+3. Identify the 'Measure' as "Test Pos.F1".
+4. Extract the 'Outcome' from the last column of the current row.
+5. Extract the 'specifications' from the other columns of the current row, mapping the header to the value.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Audio"
+            },
+            "1": {
+                "name": "Feature Set",
+                "value": "GeMAPS"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "62"
+            }
+        },
+        "Measure": "Test Pos.F1",
+        "Outcome": "39.0"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Audio"
+            },
+            "1": {
+                "name": "Feature Set",
+                "value": "ComParE"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "top 1000"
+            }
+        },
+        "Measure": "Test Pos.F1",
+        "Outcome": "62.4"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Audio"
+            },
+            "1": {
+                "name": "Feature Set",
+                "value": "ComParE"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "352"
+            }
+        },
+        "Measure": "Test Pos.F1",
+        "Outcome": "67.6"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Audio"
+            },
+            "1": {
+                "name": "Feature Set",
+                "value": "ComParE"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "296"
+            }
+        },
+        "Measure": "Test Pos.F1",
+        "Outcome": "70.5"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Audio"
+            },
+            "1": {
+                "name": "Feature Set",
+                "value": "ComParE"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "128"
+            }
+        },
+        "Measure": "Test Pos.F1",
+        "Outcome": "73.9"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Vision"
+            },
+            "1": {
+                "name": "Feature Set",
+                "value": "Max Img"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "128"
+            }
+        },
+        "Measure": "Test Pos.F1",
+        "Outcome": "70.7"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Vision"
+            },
+            "1": {
+                "name": "Feature Set",
+                "value": "Speaker Img"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "128"
+            }
+        },
+        "Measure": "Test Pos.F1",
+        "Outcome": "74.3"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Vision"
+            },
+            "1": {
+                "name": "Feature Set",
+                "value": "Emotional Speaker Img"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "512"
+            }
+        },
+        "Measure": "Test Pos.F1",
+        "Outcome": "74.8"
+    }
+}
+```

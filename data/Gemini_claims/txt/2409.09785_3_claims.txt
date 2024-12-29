@@ -1,0 +1,70 @@
+The user wants to extract claims from a table and its associated caption and references. Each claim should have a "specifications", a "Measure", and an "Outcome".
+
+**Plan:**
+
+1. Identify the table type. In this case, it looks like a relational table with columns representing different splits ('dev', 'eval') and rows representing different systems ('Source Transcript', 'Task-2 Baseline').
+2. For each row in the table (excluding the header row), create a claim.
+3. The "specifications" will be the values in the first column (the system name).
+4. The "Measure" can be found in the caption. The caption mentions "cpWER (%)".
+5. The "Outcome" will be the values in the 'dev' and 'eval' columns for each system.
+
+**Refinement:**
+
+Since the table has two value columns ('dev' and 'eval'), I should create two claims for each system, one for each column. The "Measure" will remain "cpWER (%)".
+
+**Revised Plan:**
+
+1. Iterate through each row in the table starting from the second row.
+2. For each row, get the system name from the first column.
+3. Create two claims:
+    *   Claim 1:
+        *   "specifications": {"0": {"name": "System", "value": system\_name}}
+        *   "Measure": "cpWER (%)"
+        *   "Outcome": value from the 'dev' column
+    *   Claim 2:
+        *   "specifications": {"0": {"name": "System", "value": system\_name}}
+        *   "Measure": "cpWER (%)"
+        *   "Outcome": value from the 'eval' column```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "Source Transcript"
+            }
+        },
+        "Measure": "cpWER (%)",
+        "Outcome": "24.65"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "Source Transcript"
+            }
+        },
+        "Measure": "cpWER (%)",
+        "Outcome": "28.45"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "Task-2 Baseline"
+            }
+        },
+        "Measure": "cpWER (%)",
+        "Outcome": "24.54"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "Task-2 Baseline"
+            }
+        },
+        "Measure": "cpWER (%)",
+        "Outcome": "28.37"
+    }
+}
+```

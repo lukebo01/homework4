@@ -1,0 +1,204 @@
+The user wants to extract claims from a given JSON object containing a table, caption and references.
+The claims should be structured as a JSON object, where each claim has 'specifications', 'Measure', and 'Outcome'.
+The 'Measure' needs to be identified from the table, caption or references.
+The 'Outcome' is the value associated with the 'Measure'.
+
+The table has columns 'Sep Dia', 'Sys-1 RTTM', 'Sys-2 RTTM', 'Sys-3 RTTM', 'Sys-4 RTTM'.
+The rows are 'V1', 'V2', 'V3', and 'Fusion'.
+The caption mentions "TcpWER ( % percent \\% )".
+The references also mention "tcpWER (%percent\\%)".
+
+Considering the structure of the table, each cell value can be an outcome associated with a specific 'Measure' (the column name) and a 'specification' (the row name).
+
+Let's break down the extraction process:
+1. Identify the 'Measure': "TcpWER" based on the caption and references.
+2. Iterate through the table rows (excluding the header).
+3. For each row, the first element is the specification name.
+4. Iterate through the columns (excluding the first column).
+5. For each cell, the column header is a specification name, and the cell value is the outcome.
+
+Example claim:
+{
+   "specifications": {
+       "0": {"name": "Sep Dia", "value": "V1"},
+       "1": {"name": "Sys-1 RTTM", "value": null}
+   },
+   "Measure": "TcpWER",
+   "Outcome": "14.953"
+}
+
+Let's refine the 'specifications'. Each claim should relate a row to a column.
+
+Revised claim structure:
+{
+    "specifications": {
+        "0": {"name": "Sep Dia", "value": "V1"}
+    },
+    "Measure": "TcpWER of Sys-1 RTTM",
+    "Outcome": "14.953"
+}
+
+Iterating through the table, creating claims.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V1"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.953"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V1"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.649"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V1"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "15.116"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V1"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.571"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V2"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.911"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V2"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.595"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V2"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "15.086"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V2"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.547"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V3"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "15.577"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V3"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "15.160"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V3"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "15.703"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V3"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "15.018"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "Fusion"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.681"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "Fusion"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.286"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "Fusion"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.847"
+    },
+    "15": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "Fusion"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.265"
+    }
+}
+```

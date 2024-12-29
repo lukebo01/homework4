@@ -1,0 +1,97 @@
+The user wants to extract claims from a given table and its context (caption, references).
+Each claim should be a JSON object with the following structure:
+```json
+{
+  "claim_index": {
+    "specifications": {
+      "spec_index": {"name": "column_header_1", "value": "row_value_1"},
+      "spec_index": {"name": "column_header_2", "value": "row_value_2"},
+      ...
+    },
+    "Measure": "measure_from_context",
+    "Outcome": "table_value_related_to_measure"
+  }
+}
+```
+The `Measure` should be identified from the table, caption, or references. The `Outcome` is the value associated with the `Measure` in the table.
+
+Let's analyze the provided example:
+Table:
+```
+[['Method', 'Data', 'WER%'],
+ ['w/o IV', 'LibriSpeech', '8.6'],
+ ['w/o IV', 'Spatial LibriSpeech', '9.0'],
+ ['w/ IV', 'Spatial LibriSpeech', '7.6']]
+```
+Caption: "Table 2:  Results of speech recognition under different settings. ``w/IV'' and ``w/o IV'' refer to with or without using IV."
+References: ['Only being able to recognise the direction of the sound is not sufficient to achieve full spatial audio understanding of LLMs. It is more necessary to understand the audio content in conjunction with the spatial information. We investigated speech recognition for spatial audio here, and consider three settings: using non-Spatial LibriSpeech data and using Spatial LibriSpeech with and without adding intensity vectors. The results are shown in Table 2.']
+
+The `Measure` seems to be 'WER%' which is found in the table header. For each row, we need to extract the specifications and the corresponding outcome.
+
+Claim 0:
+- Specifications:
+  - Name: Method, Value: w/o IV
+  - Name: Data, Value: LibriSpeech
+- Measure: WER%
+- Outcome: 8.6
+
+Claim 1:
+- Specifications:
+  - Name: Method, Value: w/o IV
+  - Name: Data, Value: Spatial LibriSpeech
+- Measure: WER%
+- Outcome: 9.0
+
+Claim 2:
+- Specifications:
+  - Name: Method, Value: w/ IV
+  - Name: Data, Value: Spatial LibriSpeech
+- Measure: WER%
+- Outcome: 7.6
+
+The final JSON should be structured as requested. It's important to return *only* the JSON.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/o IV"
+            },
+            "1": {
+                "name": "Data",
+                "value": "LibriSpeech"
+            }
+        },
+        "Measure": "WER%",
+        "Outcome": "8.6"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/o IV"
+            },
+            "1": {
+                "name": "Data",
+                "value": "Spatial LibriSpeech"
+            }
+        },
+        "Measure": "WER%",
+        "Outcome": "9.0"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "w/ IV"
+            },
+            "1": {
+                "name": "Data",
+                "value": "Spatial LibriSpeech"
+            }
+        },
+        "Measure": "WER%",
+        "Outcome": "7.6"
+    }
+}
+```

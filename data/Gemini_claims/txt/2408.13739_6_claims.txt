@@ -1,0 +1,355 @@
+The user wants to extract claims from a given JSON object containing a table, caption, and references.
+The claims should be structured in a specific JSON format.
+Each claim needs 'specifications', 'Measure', and 'Outcome'.
+'Measure' should be identified from the table, caption, or references.
+'Outcome' is the value associated with the 'Measure'.
+The table seems to be a relational table with models in the first column and different evaluation scenarios as column headers.
+The measure seems to be the value in the cells, but we need to find a common name for this measure. The caption and references talk about "confusions". So, the measure could be "Confusion".
+The specifications are based on the row and column headers.
+
+Plan:
+1. Iterate through each row of the table (starting from the second row to skip headers).
+2. For each row, the first element will be a specification (name: "Model").
+3. Iterate through each column (starting from the second column to skip the Model column).
+4. The column header will be another specification (name: column header).
+5. The cell value will be the outcome.
+6. The measure will be "Confusion".```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "GMM"
+            },
+            "1": {
+                "name": "LT as LT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.88"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "GMM"
+            },
+            "1": {
+                "name": "LT as CT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.12"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "GMM"
+            },
+            "1": {
+                "name": "CT as LT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.13"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "GMM"
+            },
+            "1": {
+                "name": "CT as CT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.87"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "CNN"
+            },
+            "1": {
+                "name": "LT as LT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.90"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "CNN"
+            },
+            "1": {
+                "name": "LT as CT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.10"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "CNN"
+            },
+            "1": {
+                "name": "CT as LT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.02"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "CNN"
+            },
+            "1": {
+                "name": "CT as CT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.98"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "PPR"
+            },
+            "1": {
+                "name": "LT as LT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.89"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "PPR"
+            },
+            "1": {
+                "name": "LT as CT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.11"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "PPR"
+            },
+            "1": {
+                "name": "CT as LT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.11"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "PPR"
+            },
+            "1": {
+                "name": "CT as CT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.89"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "P-LVCSR"
+            },
+            "1": {
+                "name": "LT as LT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.95"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "P-LVCSR"
+            },
+            "1": {
+                "name": "LT as CT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.05"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "P-LVCSR"
+            },
+            "1": {
+                "name": "CT as LT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.06"
+    },
+    "15": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "P-LVCSR"
+            },
+            "1": {
+                "name": "CT as CT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.94"
+    },
+    "16": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-1"
+            },
+            "1": {
+                "name": "LT as LT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.96"
+    },
+    "17": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-1"
+            },
+            "1": {
+                "name": "LT as CT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.04"
+    },
+    "18": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-1"
+            },
+            "1": {
+                "name": "CT as LT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.09"
+    },
+    "19": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-1"
+            },
+            "1": {
+                "name": "CT as CT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.91"
+    },
+    "20": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-2"
+            },
+            "1": {
+                "name": "LT as LT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.97"
+    },
+    "21": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-2"
+            },
+            "1": {
+                "name": "LT as CT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.03"
+    },
+    "22": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-2"
+            },
+            "1": {
+                "name": "CT as LT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.06"
+    },
+    "23": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-2"
+            },
+            "1": {
+                "name": "CT as CT",
+                "value": "nan"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.94"
+    }
+}
+```

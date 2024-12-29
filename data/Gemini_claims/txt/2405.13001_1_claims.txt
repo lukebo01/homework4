@@ -1,0 +1,139 @@
+The user wants to extract claims from a table provided in a JSON format.
+Each claim should have a "specifications", a "Measure" and an "Outcome".
+The "specifications" are key-value pairs from the table's rows (excluding the header row). The keys are the column names.
+The "Measure" needs to be identified from the table, caption, or references.
+The "Outcome" is the value associated with the "Measure".
+
+In the provided example:
+Table:
+[['Symbol', 'Definition'],
+['AI', 'Artificial Intelligence'],
+['AIGC', 'AI-Generated Content'],
+['ChatGPT', 'Chat Generative Pre-Training Transformer'],
+['CV', 'Computer Vision'],
+['DNNs', 'Deep Neural Networks'],
+['GPT', 'Generative Pre-trained Transformer'],
+['HFRL', 'Human Feedback Reinforcement Learning'],
+['LLMEdu', 'Large Language Models for Education'],
+['LLMs', 'Large Language Models'],
+['LMs', 'Language Models'],
+['NLP', 'Natural Language Processing']]
+Caption: 'Table 1:  Summary of symbols and their explanations'
+References: ['Roadmap: In Section 2, we briefly introduce the characteristics of LLMs and the education industry, as well as the characteristics of LLMs integrated into education. In Section 3, we conduct an in-depth analysis of the process of applying LLMs to education. In Section 4, we explain the key technologies related to LLMs. In Section 5, we provide the implementation of LLMEdu from the perspective of empowering education with LLMs. In Section 6, we highlight some of the main issues and challenges in LLMEdu. Finally, in Section 7, we summarize LLMEdu and propose expectations for the development of future LLMs. Table 1 describes some basic symbols in this article.']
+
+For each row in the table (excluding the header), the "Symbol" can be the Measure, and the "Definition" can be the Outcome.
+
+Let's create the JSON output.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "AI"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Artificial Intelligence"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "AIGC"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "AI-Generated Content"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "ChatGPT"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Chat Generative Pre-Training Transformer"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "CV"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Computer Vision"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "DNNs"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Deep Neural Networks"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "GPT"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Generative Pre-trained Transformer"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "HFRL"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Human Feedback Reinforcement Learning"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "LLMEdu"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Large Language Models for Education"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "LLMs"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Large Language Models"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "LMs"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Language Models"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Symbol",
+                "value": "NLP"
+            }
+        },
+        "Measure": "Definition",
+        "Outcome": "Natural Language Processing"
+    }
+}
+```

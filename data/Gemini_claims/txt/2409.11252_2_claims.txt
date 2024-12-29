@@ -1,0 +1,84 @@
+The user wants to extract claims from a table provided in a JSON format.
+Each claim should have a "specifications", "Measure", and "Outcome".
+The "specifications" come from the table headers and row values.
+The "Measure" can be found in the table, caption, or references.
+The "Outcome" is the value associated with the "Measure".
+The output must be a JSON object.
+
+Plan:
+1. Identify the type of table. This table looks like a relational table with clear headers and data rows.
+2. Identify the "Measure". It seems like "Number of Speakers" is the measure in this case.
+3. Extract "specifications" and "Outcome" for each row.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "South Sindh"
+            }
+        },
+        "Measure": "Number of Speakers",
+        "Outcome": "29"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "North Sindh"
+            }
+        },
+        "Measure": "Number of Speakers",
+        "Outcome": "30"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "South Punjab"
+            }
+        },
+        "Measure": "Number of Speakers",
+        "Outcome": "27"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "North Punjab"
+            }
+        },
+        "Measure": "Number of Speakers",
+        "Outcome": "29"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "Capital Area"
+            }
+        },
+        "Measure": "Number of Speakers",
+        "Outcome": "29"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "North West Regions"
+            }
+        },
+        "Measure": "Number of Speakers",
+        "Outcome": "30"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Accent",
+                "value": "Baluchistan"
+            }
+        },
+        "Measure": "Number of Speakers",
+        "Outcome": "26"
+    }
+}
+```

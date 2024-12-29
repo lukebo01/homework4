@@ -1,0 +1,125 @@
+The user wants to extract claims from a JSON object containing a table, caption, and references.
+Each claim should have a "specifications", "Measure", and "Outcome".
+The "specifications" are key-value pairs identifying the context of the claim, usually taken from the table's row and column headers.
+The "Measure" should be identified from the table, caption, or references.
+The "Outcome" is the value associated with the "Measure".
+
+Let's analyze the provided example:
+
+Table:
+[['Family', 'Model'],
+ ['Whisper', 'Tiny, Base, Small, Medium,'],
+ ['nan', 'Large-v3'],
+ ['MMS', '300 Million, 1 Billion'],
+ ['Seamless-M4T', 'Medium, v2-Large']]
+Caption: 'Table 1:  ASR model evaluated in this paper.'
+References: ['In this paper we evaluate 9 ASR models given in Table 1.', 'We fine-tune the ASR models in Table 1 using a combined dataset of Mozilla’s Common Voice (Ardila et al., 2020) and\nGoogle’s Fleurs Conneau et al. (2022), which together provide 16,156 audio samples. Given the limited amount of training data available, we opted for a 90-10 split, with 90% of the data used for training and the remaining 10% for validation. We evaluate both the non-fine-tuned and the fine-tuned models on ARL and CSaLT dataset for read speech and on our dataset for conversational speech. mms-300m base model is not fine-tuned for downstream task of speech recognition so we only evaluate our fine-tuned version. Before conducting the evaluations, we normalize both the ground truth and the model predictions. This involves removing punctuation and disfluencies. This preprocessing step ensures that the evaluations focus on meaningful transcription accuracy rather than being skewed by minor formatting inconsistencies or speech disfluencies and punctuation marks. We noticed that Whisper and MMS models have built-in disfluency filtering and perform this task effectively. However, Seamless models output disfluencies marked with a # (e.g., #um), which we removed using regex during preprocessing.']
+
+The table has two columns: 'Family' and 'Model'.
+Each row represents a different family and its associated models.
+The caption mentions "ASR model evaluated in this paper", suggesting "evaluated" or a performance metric as a potential Measure. However, no specific measure is present in the caption.
+The references also do not mention a specific performance metric.
+
+Let's consider each entry in the table as a claim.
+For the first row ['Whisper', 'Tiny, Base, Small, Medium,'], the specifications can be "Family": "Whisper". The "Outcome" could be the different models: "Tiny", "Base", "Small", "Medium".  We need a "Measure". Since the caption mentions "evaluated", that could be the measure.
+
+For the second row ['nan', 'Large-v3'], assume 'nan' is a value for 'Family'. The specifications can be "Family": "nan". The "Outcome" is "Large-v3".  The measure would be "evaluated".
+
+For the third row ['MMS', '300 Million, 1 Billion'], specifications: "Family": "MMS". Outcome: "300 Million", "1 Billion". Measure: "evaluated".
+
+For the fourth row ['Seamless-M4T', 'Medium, v2-Large'], specifications: "Family": "Seamless-M4T". Outcome: "Medium", "v2-Large". Measure: "evaluated".
+
+Let's structure the JSON output.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Family",
+                "value": "Whisper"
+            }
+        },
+        "Measure": "evaluated",
+        "Outcome": "Tiny"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Family",
+                "value": "Whisper"
+            }
+        },
+        "Measure": "evaluated",
+        "Outcome": "Base"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Family",
+                "value": "Whisper"
+            }
+        },
+        "Measure": "evaluated",
+        "Outcome": "Small"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Family",
+                "value": "Whisper"
+            }
+        },
+        "Measure": "evaluated",
+        "Outcome": "Medium"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Family",
+                "value": "nan"
+            }
+        },
+        "Measure": "evaluated",
+        "Outcome": "Large-v3"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Family",
+                "value": "MMS"
+            }
+        },
+        "Measure": "evaluated",
+        "Outcome": "300 Million"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Family",
+                "value": "MMS"
+            }
+        },
+        "Measure": "evaluated",
+        "Outcome": "1 Billion"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Family",
+                "value": "Seamless-M4T"
+            }
+        },
+        "Measure": "evaluated",
+        "Outcome": "Medium"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Family",
+                "value": "Seamless-M4T"
+            }
+        },
+        "Measure": "evaluated",
+        "Outcome": "v2-Large"
+    }
+}
+```

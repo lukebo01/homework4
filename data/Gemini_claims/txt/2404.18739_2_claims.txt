@@ -1,0 +1,42 @@
+The user wants to extract claims from a table provided in a JSON format. Each claim should have a structure with "specifications", "Measure", and "Outcome". The specifications are derived from the table's headers and row values. The "Measure" should be identified from the table, references, or caption, and the "Outcome" is the corresponding value in the table.
+
+In this specific example:
+- Table headers are "Method" and "Accuracy".
+- The rows contain different methods and their corresponding accuracy.
+- The caption mentions "Accuracy".
+- The references also mention "Table 2 shows the results".
+
+Therefore, "Accuracy" can be identified as the "Measure". For each method, we can create a claim with the "Method" as a specification and the corresponding "Accuracy" as the "Outcome".```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Majority"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "5.03%"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "23.74%"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Method",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "49.95%"
+    }
+}
+```

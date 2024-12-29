@@ -1,0 +1,197 @@
+The user wants to extract claims from a JSON object containing table data, a caption, and references.
+The claims should follow a specific JSON structure.
+The "Measure" needs to be identified from the table, caption, or references.
+The "Outcome" is the value associated with the measure.
+The "specifications" are key-value pairs from the table's row and column headers.
+
+Let's analyze the provided example:
+Table:
+[['Method', 'Data', 'SR%', 'sWER%', 'WER%'],
+ ['w/o IV', 'left/right', '50.1', '4.4', '67.2'],
+ ['w/o IV', 'random', '50.0', '4.0', '67.5'],
+ ['w/ IV', 'left/right', '96.3', '5.1', '9.0'],
+ ['w/ IV', 'random', '80.2', '5.4', '29.8']]
+Caption: Table 3:  Results on the non-overlapped version of DSS LibriSpeech. ``w/ IV'' and ``w/o IV'' refer to with or without using IV. Performance on  left/right  dataset and  random  dataset are compared.
+References: [...]
+
+Possible Measures are 'SR%', 'sWER%', 'WER%'.
+
+For each row in the table (excluding the header), we can create a claim.
+
+Let's take the first data row: ['w/o IV', 'left/right', '50.1', '4.4', '67.2']
+For Measure 'SR%', Outcome is '50.1'. Specifications are Method: 'w/o IV', Data: 'left/right'.
+For Measure 'sWER%', Outcome is '4.4'. Specifications are Method: 'w/o IV', Data: 'left/right'.
+For Measure 'WER%', Outcome is '67.2'. Specifications are Method: 'w/o IV', Data: 'left/right'.
+
+Repeat this for all data rows.```json
+{
+  "0": {
+    "specifications": {
+      "0": {
+        "name": "Method",
+        "value": "w/o IV"
+      },
+      "1": {
+        "name": "Data",
+        "value": "left/right"
+      }
+    },
+    "Measure": "SR%",
+    "Outcome": "50.1"
+  },
+  "1": {
+    "specifications": {
+      "0": {
+        "name": "Method",
+        "value": "w/o IV"
+      },
+      "1": {
+        "name": "Data",
+        "value": "left/right"
+      }
+    },
+    "Measure": "sWER%",
+    "Outcome": "4.4"
+  },
+  "2": {
+    "specifications": {
+      "0": {
+        "name": "Method",
+        "value": "w/o IV"
+      },
+      "1": {
+        "name": "Data",
+        "value": "left/right"
+      }
+    },
+    "Measure": "WER%",
+    "Outcome": "67.2"
+  },
+  "3": {
+    "specifications": {
+      "0": {
+        "name": "Method",
+        "value": "w/o IV"
+      },
+      "1": {
+        "name": "Data",
+        "value": "random"
+      }
+    },
+    "Measure": "SR%",
+    "Outcome": "50.0"
+  },
+  "4": {
+    "specifications": {
+      "0": {
+        "name": "Method",
+        "value": "w/o IV"
+      },
+      "1": {
+        "name": "Data",
+        "value": "random"
+      }
+    },
+    "Measure": "sWER%",
+    "Outcome": "4.0"
+  },
+  "5": {
+    "specifications": {
+      "0": {
+        "name": "Method",
+        "value": "w/o IV"
+      },
+      "1": {
+        "name": "Data",
+        "value": "random"
+      }
+    },
+    "Measure": "WER%",
+    "Outcome": "67.5"
+  },
+  "6": {
+    "specifications": {
+      "0": {
+        "name": "Method",
+        "value": "w/ IV"
+      },
+      "1": {
+        "name": "Data",
+        "value": "left/right"
+      }
+    },
+    "Measure": "SR%",
+    "Outcome": "96.3"
+  },
+  "7": {
+    "specifications": {
+      "0": {
+        "name": "Method",
+        "value": "w/ IV"
+      },
+      "1": {
+        "name": "Data",
+        "value": "left/right"
+      }
+    },
+    "Measure": "sWER%",
+    "Outcome": "5.1"
+  },
+  "8": {
+    "specifications": {
+      "0": {
+        "name": "Method",
+        "value": "w/ IV"
+      },
+      "1": {
+        "name": "Data",
+        "value": "left/right"
+      }
+    },
+    "Measure": "WER%",
+    "Outcome": "9.0"
+  },
+  "9": {
+    "specifications": {
+      "0": {
+        "name": "Method",
+        "value": "w/ IV"
+      },
+      "1": {
+        "name": "Data",
+        "value": "random"
+      }
+    },
+    "Measure": "SR%",
+    "Outcome": "80.2"
+  },
+  "10": {
+    "specifications": {
+      "0": {
+        "name": "Method",
+        "value": "w/ IV"
+      },
+      "1": {
+        "name": "Data",
+        "value": "random"
+      }
+    },
+    "Measure": "sWER%",
+    "Outcome": "5.4"
+  },
+  "11": {
+    "specifications": {
+      "0": {
+        "name": "Method",
+        "value": "w/ IV"
+      },
+      "1": {
+        "name": "Data",
+        "value": "random"
+      }
+    },
+    "Measure": "WER%",
+    "Outcome": "29.8"
+  }
+}
+```

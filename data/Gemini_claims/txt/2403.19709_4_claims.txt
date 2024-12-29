@@ -1,0 +1,102 @@
+The user wants to extract claims from a table provided in a JSON format.
+Each claim should have a "specifications", a "Measure" and an "Outcome".
+The "specifications" are key-value pairs describing the context of the claim within the table.
+The "Measure" and "Outcome" are extracted directly from the table, caption or references.
+
+Based on the example provided, the "specifications" will be the values in the header row associated with the "Outcome" column. The "Measure" will be the header of the "Outcome" column and the "Outcome" is the value in the table cell.
+
+In this specific example:
+- The table has the header: ['Model variant', '# Params.', 'VS', 'VS w. PN']
+- The first claim will be extracted from the first data row: ['Linear Head HRA', '3.2M', '5.7', '16.7']
+    - The potential "Measures" are 'VS' and 'VS w. PN'.
+    - If the "Measure" is 'VS', the "Outcome" is '5.7'. The specifications would be {'name': 'Model variant', 'value': 'Linear Head HRA'}, {'name': '# Params.', 'value': '3.2M'}
+    - If the "Measure" is 'VS w. PN', the "Outcome" is '16.7'. The specifications would be {'name': 'Model variant', 'value': 'Linear Head HRA'}, {'name': '# Params.', 'value': '3.2M'}
+
+Let's iterate over the data rows and extract claims for each column that looks like a measure.```json
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model variant",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "3.2M"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "5.7"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model variant",
+                "value": "Linear Head HRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "3.2M"
+            }
+        },
+        "Measure": "VS w. PN",
+        "Outcome": "16.7"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model variant",
+                "value": "- Recurrent state"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "3.2M"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "5.9"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model variant",
+                "value": "- Recurrent state"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "3.2M"
+            }
+        },
+        "Measure": "VS w. PN",
+        "Outcome": "16.8"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model variant",
+                "value": "- Weight unshared"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "102.4M"
+            }
+        },
+        "Measure": "VS",
+        "Outcome": "5.3"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model variant",
+                "value": "- Weight unshared"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "102.4M"
+            }
+        },
+        "Measure": "VS w. PN",
+        "Outcome": "15.5"
+    }
+}
+```

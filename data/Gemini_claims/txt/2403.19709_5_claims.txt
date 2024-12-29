@@ -1,0 +1,140 @@
+The user wants to extract claims from a given table. Each claim consists of specifications (key-value pairs from the table's rows, excluding the measure and outcome), a Measure, and an Outcome.
+
+The Measure can be found in the table headers, references, or caption. The Outcome is the numerical value associated with the Measure.
+
+Let's analyze the example table:
+
+Table:
+[['Controller variant', '# Params.', 'VS', 'VS w. PN'],
+ ['IndRNN', '1.6M', '6.0', '16.9'],
+ ['RNN', '1.9M', '6.1', '17.1'],
+ ['Light GRU', '2.4', '6.0', '16.9']]
+
+Caption: 'Table 5 :  Recurrent controller ablation results.'
+
+References: ['We have also performed an ablation on controller RNN architecture. In addition to the IndRNN, we run benchmarks on the standard RNN with t\u200ba\u200bn\u200bh𝑡𝑎𝑛ℎtanh activation and Light GRU [27] as controller. The results are summarized in Table 5. IndRNN and Light GRU both are competitive whereas the RNN with t\u200ba\u200bn\u200bh𝑡𝑎𝑛ℎtanh activation underperformed. This confirms that the choice of controller architecture is crucial in our HRA adapters.']
+
+Possible Measures from headers: 'VS', 'VS w. PN'
+
+Let's consider 'VS' as the Measure for the first set of claims.
+
+Row 1: ['IndRNN', '1.6M', '6.0', '16.9']
+Specifications: {'0': {'name': 'Controller variant', 'value': 'IndRNN'}, '1': {'name': '# Params.', 'value': '1.6M'}}
+Measure: 'VS'
+Outcome: '6.0'
+
+Row 2: ['RNN', '1.9M', '6.1', '17.1']
+Specifications: {'0': {'name': 'Controller variant', 'value': 'RNN'}, '1': {'name': '# Params.', 'value': '1.9M'}}
+Measure: 'VS'
+Outcome: '6.1'
+
+Row 3: ['Light GRU', '2.4', '6.0', '16.9']
+Specifications: {'0': {'name': 'Controller variant', 'value': 'Light GRU'}, '1': {'name': '# Params.', 'value': '2.4'}}
+Measure: 'VS'
+Outcome: '6.0'
+
+Now let's consider 'VS w. PN' as the Measure for the second set of claims.
+
+Row 1: ['IndRNN', '1.6M', '6.0', '16.9']
+Specifications: {'0': {'name': 'Controller variant', 'value': 'IndRNN'}, '1': {'name': '# Params.', 'value': '1.6M'}}
+Measure: 'VS w. PN'
+Outcome: '16.9'
+
+Row 2: ['RNN', '1.9M', '6.1', '17.1']
+Specifications: {'0': {'name': 'Controller variant', 'value': 'RNN'}, '1': {'name': '# Params.', 'value': '1.9M'}}
+Measure: 'VS w. PN'
+Outcome: '17.1'
+
+Row 3: ['Light GRU', '2.4', '6.0', '16.9']
+Specifications: {'0': {'name': 'Controller variant', 'value': 'Light GRU'}, '1': {'name': '# Params.', 'value': '2.4'}}
+Measure: 'VS w. PN'
+Outcome: '16.9'
+
+The plan is to iterate through each potential 'Measure' from the table headers and then iterate through each row to extract the claim.```json
+{
+  "0": {
+    "specifications": {
+      "0": {
+        "name": "Controller variant",
+        "value": "IndRNN"
+      },
+      "1": {
+        "name": "# Params.",
+        "value": "1.6M"
+      }
+    },
+    "Measure": "VS",
+    "Outcome": "6.0"
+  },
+  "1": {
+    "specifications": {
+      "0": {
+        "name": "Controller variant",
+        "value": "RNN"
+      },
+      "1": {
+        "name": "# Params.",
+        "value": "1.9M"
+      }
+    },
+    "Measure": "VS",
+    "Outcome": "6.1"
+  },
+  "2": {
+    "specifications": {
+      "0": {
+        "name": "Controller variant",
+        "value": "Light GRU"
+      },
+      "1": {
+        "name": "# Params.",
+        "value": "2.4"
+      }
+    },
+    "Measure": "VS",
+    "Outcome": "6.0"
+  },
+  "3": {
+    "specifications": {
+      "0": {
+        "name": "Controller variant",
+        "value": "IndRNN"
+      },
+      "1": {
+        "name": "# Params.",
+        "value": "1.6M"
+      }
+    },
+    "Measure": "VS w. PN",
+    "Outcome": "16.9"
+  },
+  "4": {
+    "specifications": {
+      "0": {
+        "name": "Controller variant",
+        "value": "RNN"
+      },
+      "1": {
+        "name": "# Params.",
+        "value": "1.9M"
+      }
+    },
+    "Measure": "VS w. PN",
+    "Outcome": "17.1"
+  },
+  "5": {
+    "specifications": {
+      "0": {
+        "name": "Controller variant",
+        "value": "Light GRU"
+      },
+      "1": {
+        "name": "# Params.",
+        "value": "2.4"
+      }
+    },
+    "Measure": "VS w. PN",
+    "Outcome": "16.9"
+  }
+}
+```
