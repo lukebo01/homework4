@@ -33,7 +33,7 @@ def get_claims(json_file):
 
     return completion.choices[0].message.content
 
-def extract_claims(input_dir:str, output_dir_raw:str, output_dir_json:str):
+def extract_claims(input_dir:str, output_dir_raw:str):
     extracted_tables = os.listdir(input_dir)
     extracted_tables.sort()
 
