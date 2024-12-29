@@ -110,7 +110,8 @@ if __name__ == "__main__":
                        prompt_file_path='prompt.txt')
     '''
     extract_claims(input_dir='../data/json',
-                   output_dir='../data/Gemini_claims')
+                   output_dir_raw='../data/Gemini_claims/txt',
+                   output_dir_json='../data/Gemini_claims/json')
 
 
     
