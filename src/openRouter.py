@@ -61,3 +61,11 @@ def extract_claims(input_dir:str, output_dir_raw:str, output_dir_json:str):
         with open(file_path, "r", encoding="utf-8") as file:
             gemini_result = " ".join(open(file_path, "r").readlines())
 
+        start = gemini_result.rfind("```json") + 9
+        end = gemini_result.rfind("```") - 2
+
+        #print(gemini_result[start:end])
+        json_result = json.loads(gemini_result[start:end])
+        json_result_name = file_path.split("/")[-1].replace("txt","json")
+        with open(f"../data/Gemini_claims/json/{json_result_name}", "w") as file:
+            json.dump(json_result, file, indent=4)
