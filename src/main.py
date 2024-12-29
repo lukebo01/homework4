@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from io import StringIO
-from claimsExtractor import process_json_files
 from openRouter import extract_claims
+from profiling import profiling
 import matplotlib.pyplot as plt
 import pandas as pd
 import json
@@ -109,9 +109,10 @@ if __name__ == "__main__":
                        model_name="llama3.2",
                        prompt_file_path='prompt.txt')
     '''
+    '''
     extract_claims(input_dir='../data/json',
-                   output_dir_raw='../data/Gemini_claims/txt',
-                   output_dir_json='../data/Gemini_claims/json')
-
+                   output_dir_raw='../data/Gemini_claims/txt')
+    '''
+    profiling(input_dir="../data/Gemini_claims/json")
 
     
