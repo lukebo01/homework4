@@ -8,9 +8,13 @@
             "1": {
                 "name": "Data(hrs)",
                 "value": "396"
+            },
+            "2": {
+                "name": "Model",
+                "value": "wavLM+ conformer ED"
             }
         },
-        "Measure": "wavLM+",
+        "Measure": "CER%",
         "Outcome": "29.77"
     },
     "1": {
@@ -22,9 +26,13 @@
             "1": {
                 "name": "Data(hrs)",
                 "value": "396"
+            },
+            "2": {
+                "name": "Model",
+                "value": "conv2d+ ebranchformer ED"
             }
         },
-        "Measure": "conv2d+",
+        "Measure": "CER%",
         "Outcome": "30.64"
     },
     "2": {
@@ -36,9 +44,13 @@
             "1": {
                 "name": "Data(hrs)",
                 "value": "396"
+            },
+            "2": {
+                "name": "Model",
+                "value": "Fusion"
             }
         },
-        "Measure": "Fusion",
+        "Measure": "CER%",
         "Outcome": "27.8"
     },
     "3": {
@@ -50,9 +62,13 @@
             "1": {
                 "name": "Data(hrs)",
                 "value": "3910"
+            },
+            "2": {
+                "name": "Model",
+                "value": "wavLM+ conformer ED"
             }
         },
-        "Measure": "wavLM+",
+        "Measure": "CER%",
         "Outcome": "25.32"
     },
     "4": {
@@ -64,9 +80,13 @@
             "1": {
                 "name": "Data(hrs)",
                 "value": "3910"
+            },
+            "2": {
+                "name": "Model",
+                "value": "conv2d+ ebranchformer ED"
             }
         },
-        "Measure": "conv2d+",
+        "Measure": "CER%",
         "Outcome": "26.4"
     },
     "5": {
@@ -78,9 +98,13 @@
             "1": {
                 "name": "Data(hrs)",
                 "value": "3910"
+            },
+            "2": {
+                "name": "Model",
+                "value": "Fusion"
             }
         },
-        "Measure": "Fusion",
+        "Measure": "CER%",
         "Outcome": "23.77"
     },
     "6": {
@@ -92,9 +116,13 @@
             "1": {
                 "name": "Data(hrs)",
                 "value": "5452"
+            },
+            "2": {
+                "name": "Model",
+                "value": "wavLM+ conformer ED"
             }
         },
-        "Measure": "wavLM+",
+        "Measure": "CER%",
         "Outcome": "22.94"
     },
     "7": {
@@ -106,9 +134,13 @@
             "1": {
                 "name": "Data(hrs)",
                 "value": "5452"
+            },
+            "2": {
+                "name": "Model",
+                "value": "conv2d+ ebranchformer ED"
             }
         },
-        "Measure": "conv2d+",
+        "Measure": "CER%",
         "Outcome": "21.9"
     },
     "8": {
@@ -120,9 +152,13 @@
             "1": {
                 "name": "Data(hrs)",
                 "value": "5452"
+            },
+            "2": {
+                "name": "Model",
+                "value": "Fusion"
             }
         },
-        "Measure": "Fusion",
+        "Measure": "CER%",
         "Outcome": "22.87"
     },
     "9": {
@@ -134,9 +170,13 @@
             "1": {
                 "name": "Data(hrs)",
                 "value": "10952"
+            },
+            "2": {
+                "name": "Model",
+                "value": "wavLM+ conformer ED"
             }
         },
-        "Measure": "wavLM+",
+        "Measure": "CER%",
         "Outcome": "22.94 (5452h)"
     },
     "10": {
@@ -148,9 +188,13 @@
             "1": {
                 "name": "Data(hrs)",
                 "value": "10952"
+            },
+            "2": {
+                "name": "Model",
+                "value": "conv2d+ ebranchformer ED"
             }
         },
-        "Measure": "conv2d+",
+        "Measure": "CER%",
         "Outcome": "21.14"
     },
     "11": {
@@ -162,9 +206,13 @@
             "1": {
                 "name": "Data(hrs)",
                 "value": "10952"
+            },
+            "2": {
+                "name": "Model",
+                "value": "Fusion"
             }
         },
-        "Measure": "Fusion",
+        "Measure": "CER%",
         "Outcome": "20.83"
     }
 }

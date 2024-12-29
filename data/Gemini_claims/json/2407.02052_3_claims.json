@@ -2,141 +2,197 @@
     "0": {
         "specifications": {
             "0": {
-                "name": "Model based on Accent-ASR",
+                "name": "ID",
+                "value": "M0"
+            },
+            "1": {
+                "name": "Model",
                 "value": "Official Baseline"
             }
         },
-        "Measure": "Dev",
+        "Measure": "CER% (Dev)",
         "Outcome": "32.92"
     },
     "1": {
         "specifications": {
             "0": {
-                "name": "Model based on Accent-ASR",
+                "name": "ID",
+                "value": "M0"
+            },
+            "1": {
+                "name": "Model",
                 "value": "Official Baseline"
             }
         },
-        "Measure": "Eval",
+        "Measure": "CER% (Eval)",
         "Outcome": "26.24"
     },
     "2": {
         "specifications": {
             "0": {
-                "name": "Model based on Accent-ASR",
+                "name": "ID",
+                "value": "M1"
+            },
+            "1": {
+                "name": "Model",
                 "value": "conv2d+conformer"
             }
         },
-        "Measure": "Dev",
+        "Measure": "CER% (Dev)",
         "Outcome": "20.87"
     },
     "3": {
         "specifications": {
             "0": {
-                "name": "Model based on Accent-ASR",
+                "name": "ID",
+                "value": "M1"
+            },
+            "1": {
+                "name": "Model",
                 "value": "conv2d+conformer"
             }
         },
-        "Measure": "Eval",
+        "Measure": "CER% (Eval)",
         "Outcome": "-"
     },
     "4": {
         "specifications": {
             "0": {
-                "name": "Model based on Accent-ASR",
+                "name": "ID",
+                "value": "M2"
+            },
+            "1": {
+                "name": "Model",
                 "value": "conv2d+ebranchformer"
             }
         },
-        "Measure": "Dev",
+        "Measure": "CER% (Dev)",
         "Outcome": "20.68"
     },
     "5": {
         "specifications": {
             "0": {
-                "name": "Model based on Accent-ASR",
+                "name": "ID",
+                "value": "M2"
+            },
+            "1": {
+                "name": "Model",
                 "value": "conv2d+ebranchformer"
             }
         },
-        "Measure": "Eval",
+        "Measure": "CER% (Eval)",
         "Outcome": "-"
     },
     "6": {
         "specifications": {
             "0": {
-                "name": "Model based on Accent-ASR",
-                "value": "VGG+ebranchformer"
+                "name": "ID",
+                "value": "M3"
+            },
+            "1": {
+                "name": "Model",
+                "value": "vgg+ebranchformer"
             }
         },
-        "Measure": "Dev",
+        "Measure": "CER% (Dev)",
         "Outcome": "20.31"
     },
     "7": {
         "specifications": {
             "0": {
-                "name": "Model based on Accent-ASR",
-                "value": "VGG+ebranchformer"
+                "name": "ID",
+                "value": "M3"
+            },
+            "1": {
+                "name": "Model",
+                "value": "vgg+ebranchformer"
             }
         },
-        "Measure": "Eval",
+        "Measure": "CER% (Eval)",
         "Outcome": "-"
     },
     "8": {
         "specifications": {
             "0": {
-                "name": "Model based on Accent-ASR",
+                "name": "ID",
+                "value": "M4"
+            },
+            "1": {
+                "name": "Model",
                 "value": "gateCNN+conformer"
             }
         },
-        "Measure": "Dev",
+        "Measure": "CER% (Dev)",
         "Outcome": "19.83"
     },
     "9": {
         "specifications": {
             "0": {
-                "name": "Model based on Accent-ASR",
+                "name": "ID",
+                "value": "M4"
+            },
+            "1": {
+                "name": "Model",
                 "value": "gateCNN+conformer"
             }
         },
-        "Measure": "Eval",
+        "Measure": "CER% (Eval)",
         "Outcome": "-"
     },
     "10": {
         "specifications": {
             "0": {
-                "name": "Model based on Accent-ASR",
+                "name": "ID",
+                "value": "M5"
+            },
+            "1": {
+                "name": "Model",
                 "value": "gateCNN+ebranchformer"
             }
         },
-        "Measure": "Dev",
+        "Measure": "CER% (Dev)",
         "Outcome": "18.53"
     },
     "11": {
         "specifications": {
             "0": {
-                "name": "Model based on Accent-ASR",
+                "name": "ID",
+                "value": "M5"
+            },
+            "1": {
+                "name": "Model",
                 "value": "gateCNN+ebranchformer"
             }
         },
-        "Measure": "Eval",
+        "Measure": "CER% (Eval)",
         "Outcome": "14.72"
     },
     "12": {
         "specifications": {
             "0": {
-                "name": "Model based on Accent-ASR",
-                "value": "fusion models based on M1-M5"
+                "name": "ID",
+                "value": "M6"
+            },
+            "1": {
+                "name": "Model",
+                "value": "fusion models"
             }
         },
-        "Measure": "Dev",
+        "Measure": "CER% (Dev)",
         "Outcome": "15.54"
     },
     "13": {
         "specifications": {
             "0": {
-                "name": "Model based on Accent-ASR",
-                "value": "fusion models based on M1-M5"
+                "name": "ID",
+                "value": "M6"
+            },
+            "1": {
+                "name": "Model",
+                "value": "fusion models"
             }
         },
-        "Measure": "Eval",
+        "Measure": "CER% (Eval)",
         "Outcome": "13.16"
     }
 }

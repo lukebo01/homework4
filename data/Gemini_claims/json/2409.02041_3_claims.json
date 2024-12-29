@@ -6,8 +6,8 @@
                 "value": "JDS"
             },
             "1": {
-                "name": "NSD",
-                "value": ""
+                "name": "Method",
+                "value": "NSD"
             }
         },
         "Measure": "TcpWER (%)",
@@ -20,8 +20,8 @@
                 "value": "JDS"
             },
             "1": {
-                "name": "Re-clustering",
-                "value": ""
+                "name": "Method",
+                "value": "Re-clustering"
             }
         },
         "Measure": "TcpWER (%)",
