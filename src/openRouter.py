@@ -1,6 +1,7 @@
 from openai import OpenAI
 import json
 import os
+import re
 import time
 
 client = OpenAI(
@@ -27,9 +28,12 @@ def get_claims(json_file):
         ]
     )
 
+    #if completion.choices == None:
+    #    print("Resources has been exhausted")
+
     return completion.choices[0].message.content
 
-def extract_claims(input_dir:str, output_dir:str):
+def extract_claims(input_dir:str, output_dir_raw:str, output_dir_json:str):
     extracted_tables = os.listdir(input_dir)
     extracted_tables.sort()
 
@@ -38,7 +42,7 @@ def extract_claims(input_dir:str, output_dir:str):
         with open(file_path, 'r', encoding='utf-8') as file:
             table_json = json.load(file)
 
-        output_file_path = os.path.join(output_dir, f"{os.path.splitext(filename)[0]}_claims.txt")
+        output_file_path = os.path.join(output_dir_raw, f"{os.path.splitext(filename)[0]}_claims.txt")
 
         if os.path.exists(output_file_path):
             print(f"Output file already exists: {output_file_path}. Skipping...")
@@ -48,3 +52,12 @@ def extract_claims(input_dir:str, output_dir:str):
             time.sleep(10)
             with open(output_file_path, 'w', encoding='utf-8') as output_file:
                 output_file.write(claims)
+
+    
+    raw_results = os.listdir(output_dir_raw)
+    raw_results.sort()
+    for filename in raw_results:
+        file_path = os.path.join(output_dir_raw, filename)
+        with open(file_path, "r", encoding="utf-8") as file:
+            gemini_result = " ".join(open(file_path, "r").readlines())
+
