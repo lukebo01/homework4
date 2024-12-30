@@ -25,6 +25,9 @@ def profiling(input_dir:str):
 
             metrics.append(measure)
 
+    name_specification = list(set(name_specification))
+    value_specification = list(set(value_specification))
+    metrics = list(set(metrics))
 
     print(name_specification)
     print(value_specification)
