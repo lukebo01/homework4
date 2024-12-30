@@ -31,7 +31,7 @@ Thresh rank;21
 Speech Type;51
 Dataset;34
 Tuning;51
-
+;
 '-- Distribution of 'value' for each 'name' --;
 (name) Model;
 Full Fine-tuning;5
@@ -85,7 +85,7 @@ mms-300m;3
 mms-1b;6
 seamless-medium;6
 seamless-large;6
-
+;
 (name) # Params.;
 1.8B;2
 1.3M;4
@@ -120,17 +120,17 @@ seamless-large;6
 1.6M;2
 1.9M;2
 2.4;2
-
+;
 (name) Model variant;
 Linear Head HRA;2
 '- Recurrent state;2
 '- Weight unshared;2
-
+;
 (name) Controller variant;
 IndRNN;2
 RNN;2
 Light GRU;2
-
+;
 (name) Models;
 Origin InstructERC;4
 Ours-ERC-7B;2
@@ -138,32 +138,32 @@ Ours-ERC-7B;2
 '+ 3 auxiliary tasks & historical clips desc;4
 '+ 3 auxiliary tasks & utterance clips desc;4
 Ours-ERC-13B;2
-
+;
 (name) LLM;
 Llama-2-7B-chat;4
 Llama-2-13B-chat;4
 nan;12
-
+;
 (name) Pre-trained Model;
 RoBERTa-base;6
 base;2
 RoBERTa-large;6
 BERT-base;2
-
+;
 (name) Modality;
 Audio;5
 Vision;3
-
+;
 (name) Feature Set;
 GeMAPS;1
 ComParE;4
 Max Img;1
 Speaker Img;1
 Emotional Speaker Img;1
-
+;
 (name) Feature Selection;
 nan;8
-
+;
 (name) Feature Dimension;
 62;1
 top 1000;1
@@ -171,7 +171,7 @@ top 1000;1
 296;1
 128;3
 512;1
-
+;
 (name) Context;
 Very aggressive barking at a stranger (L-S2);2
 Normal barking at a stranger (L-S1);2
@@ -188,7 +188,7 @@ Barking arrival of the owner at home (L-H);2
 Barking that is neither playful nor strange (L-O);2
 Non-dog sounds (voices, TV, cars, appliances, etc.) (S);2
 Total;2
-
+;
 (name) Method;
 Majority;13
 Wav2Vec2 (from scratch);13
@@ -207,25 +207,25 @@ UPR-1;1
 UPR-2;1
 NSD;1
 Re-clustering;1
-
+;
 (name) Data;
 LibriSpeech;1
 Spatial LibriSpeech;2
 left/right;6
 random;6
-
+;
 (name) Iteration;
 B0;3
 B1;3
 B2;3
 B3;3
-
+;
 (name) Data(hrs);
 396;3
 3910;3
 5452;3
 10952;3
-
+;
 (name) ID;
 M0;2
 M1;2
@@ -234,41 +234,41 @@ M3;2
 M4;2
 M5;2
 M6;2
-
+;
 (name) Set;
 Dev;3
 Eval;2
-
+;
 (name) No. of dialects;
 3;1
 5;1
 2;1
-
+;
 (name) Features;
 Mel Frequency Cepstral Coefficients;1
 Spectral and Prosodic features;2
-
+;
 (name) Classifier;
 Gaussian Mixture Model and Hidden Markov Model;1
 Support Vector Machine and Neural Network;1
 Artificial Neural Networks, Support Vector Machine and Naive Bayes;1
-
+;
 (name) Database;
 New database developed;3
-
+;
 (name) Test;
 LT as LT;6
 LT as CT;6
 CT as LT;6
 CT as CT;6
-
+;
 (name) Sep Dia;
 V1;4
 V2;4
 V3;4
 Fusion;4
 JDS;2
-
+;
 (name) System;
 Source Transcript;2
 Task-2 Baseline;2
@@ -285,18 +285,18 @@ ASR result2;3
 paraformer;3
 '+LRDWWS training set;3
 '+synthetic data;3
-
+;
 (name) Unnamed: 0;
 Number of samples (all);2
 Number of samples (four emotions);2
 Baseline accuracy (GPT3.5-turbo);2
 Baseline accuracy (traditional);2
-
+;
 (name) Base model;
 Baseline;3
 Conformer;3
 2branch-d2v2;3
-
+;
 (name) Thresh rank;
 55;3
 56;3
@@ -305,19 +305,19 @@ Conformer;3
 59;3
 60;3
 61;3
-
+;
 (name) Speech Type;
 Read Speech;34
 Conversational Speech;17
-
+;
 (name) Dataset;
 ARL;17
 CSaLT;17
-
+;
 (name) Tuning;
 Base Model;24
 Fine-tuned;27
-
+;
 '-- Distribution of 'Measure' --;
 VS;20
 VS w. PN;20
