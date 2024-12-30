@@ -341,7 +341,7 @@ TcpWER (%);2;'2409.02041
 '-- Distribution of 'name' --;;'2409.09785
 Model;12;'2409.09785
 System;4;'2409.09785
-Unnamed: 0;8;'2409.09785
+Dataset;4;'2409.09785
 
 '-- Distribution of 'value' for each 'name' --;;'2409.09785
 (name) Model;;'2409.09785
@@ -356,19 +356,16 @@ Correction LM: LLaMaA2-7B;2;'2409.09785
 Source Transcript;2;'2409.09785
 Task-2 Baseline;2;'2409.09785
 
-(name) Unnamed: 0;;'2409.09785
-Number of samples (all);2;'2409.09785
-Number of samples (four emotions);2;'2409.09785
-Baseline accuracy (GPT3.5-turbo);2;'2409.09785
-Baseline accuracy (traditional);2;'2409.09785
+(name) Dataset;;'2409.09785
+Test Set;4;'2409.09785
 
 '-- Distribution of 'Measure' --;;'2409.09785
 train WER (%);6;'2409.09785
 test WER (%);6;'2409.09785
 dev cpWER (%);2;'2409.09785
 eval cpWER (%);2;'2409.09785
-Training set;4;'2409.09785
-Test set;4;'2409.09785
+Baseline accuracy (GPT3.5-turbo);2;'2409.09785
+Baseline accuracy (traditional);2;'2409.09785
 
 '-- Distribution of 'name' --;;'2409.10076
 Base model;9;'2409.10076

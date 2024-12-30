@@ -529,18 +529,15 @@ dev cpWER (%);2;2409.09785_3_claims.json
 eval cpWER (%);2;2409.09785_3_claims.json
 
 '-- Distribution of 'name' --;;2409.09785_4_claims.json
-Unnamed: 0;8;2409.09785_4_claims.json
+Dataset;4;2409.09785_4_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2409.09785_4_claims.json
-(name) Unnamed: 0;;2409.09785_4_claims.json
-Number of samples (all);2;2409.09785_4_claims.json
-Number of samples (four emotions);2;2409.09785_4_claims.json
-Baseline accuracy (GPT3.5-turbo);2;2409.09785_4_claims.json
-Baseline accuracy (traditional);2;2409.09785_4_claims.json
+(name) Dataset;;2409.09785_4_claims.json
+Test Set;4;2409.09785_4_claims.json
 
 '-- Distribution of 'Measure' --;;2409.09785_4_claims.json
-Training set;4;2409.09785_4_claims.json
-Test set;4;2409.09785_4_claims.json
+Baseline accuracy (GPT3.5-turbo);2;2409.09785_4_claims.json
+Baseline accuracy (traditional);2;2409.09785_4_claims.json
 
 '-- Distribution of 'name' --;;2409.10076_2_claims.json
 Base model;9;2409.10076_2_claims.json
