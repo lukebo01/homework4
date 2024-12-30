@@ -1,0 +1,226 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Origin TSAM"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "RoBERTa-base"
+            }
+        },
+        "Measure": "Test Pos.F1*",
+        "Outcome": "74.3"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CEE"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "base"
+            }
+        },
+        "Measure": "Test Pos.F1*",
+        "Outcome": "nan"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "+MIN"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "RoBERTa-base"
+            }
+        },
+        "Measure": "Test Pos.F1*",
+        "Outcome": "75.5"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "+MIN & MTLA"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "RoBERTa-base"
+            }
+        },
+        "Measure": "Test Pos.F1*",
+        "Outcome": "75.9"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "+MIN & MTLA"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "RoBERTa-large"
+            }
+        },
+        "Measure": "Test Pos.F1*",
+        "Outcome": "76.9"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "+MIN & MTLA & Ensemble"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "RoBERTa-large"
+            }
+        },
+        "Measure": "Test Pos.F1*",
+        "Outcome": "78.0"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CSE"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "BERT-base"
+            }
+        },
+        "Measure": "Test Pos.F1*",
+        "Outcome": "-"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CSE"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "RoBERTa-large"
+            }
+        },
+        "Measure": "Test Pos.F1*",
+        "Outcome": "-"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Origin TSAM"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "RoBERTa-base"
+            }
+        },
+        "Measure": "Eval Pos.F1**",
+        "Outcome": "-"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CEE"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "base"
+            }
+        },
+        "Measure": "Eval Pos.F1**",
+        "Outcome": "nan"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "+MIN"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "RoBERTa-base"
+            }
+        },
+        "Measure": "Eval Pos.F1**",
+        "Outcome": "-"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "+MIN & MTLA"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "RoBERTa-base"
+            }
+        },
+        "Measure": "Eval Pos.F1**",
+        "Outcome": "-"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "+MIN & MTLA"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "RoBERTa-large"
+            }
+        },
+        "Measure": "Eval Pos.F1**",
+        "Outcome": "-"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "+MIN & MTLA & Ensemble"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "RoBERTa-large"
+            }
+        },
+        "Measure": "Eval Pos.F1**",
+        "Outcome": "38.7"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CSE"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "BERT-base"
+            }
+        },
+        "Measure": "Eval Pos.F1**",
+        "Outcome": "31.62 (w-avg.)"
+    },
+    "15": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CSE"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "RoBERTa-large"
+            }
+        },
+        "Measure": "Eval Pos.F1**",
+        "Outcome": "32.23 (w-avg.)"
+    }
+}

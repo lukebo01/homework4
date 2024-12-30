@@ -1,0 +1,162 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V1"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.953"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V1"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.649"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V1"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "15.116"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V1"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.571"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V2"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.911"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V2"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.595"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V2"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "15.086"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V2"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.547"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V3"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "15.577"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V3"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "15.160"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V3"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "15.703"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "V3"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "15.018"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "Fusion"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.681"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "Fusion"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.286"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "Fusion"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.847"
+    },
+    "15": {
+        "specifications": {
+            "0": {
+                "name": "Sep Dia",
+                "value": "Fusion"
+            }
+        },
+        "Measure": "TcpWER",
+        "Outcome": "14.265"
+    }
+}

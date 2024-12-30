@@ -1,0 +1,42 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Data",
+                "value": "Test Set"
+            }
+        },
+        "Measure": "Baseline accuracy (GPT3.5-turbo)",
+        "Outcome": "44.7"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Data",
+                "value": "Test Set"
+            }
+        },
+        "Measure": "Baseline accuracy (traditional)",
+        "Outcome": "55.18"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Data",
+                "value": "Test Set"
+            }
+        },
+        "Measure": "Baseline accuracy (GPT3.5-turbo)",
+        "Outcome": "62.34"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Data",
+                "value": "Test Set"
+            }
+        },
+        "Measure": "Baseline accuracy (traditional)",
+        "Outcome": "51.08"
+    }
+}

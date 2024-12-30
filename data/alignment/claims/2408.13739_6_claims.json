@@ -1,0 +1,338 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "GMM"
+            },
+            "1": {
+                "name": "Test",
+                "value": "LT as LT"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "0.88"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "GMM"
+            },
+            "1": {
+                "name": "Test",
+                "value": "LT as CT"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.12"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "GMM"
+            },
+            "1": {
+                "name": "Test",
+                "value": "CT as LT"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.13"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "GMM"
+            },
+            "1": {
+                "name": "Test",
+                "value": "CT as CT"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "0.87"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "CNN"
+            },
+            "1": {
+                "name": "Test",
+                "value": "LT as LT"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "0.90"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "CNN"
+            },
+            "1": {
+                "name": "Test",
+                "value": "LT as CT"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.10"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "CNN"
+            },
+            "1": {
+                "name": "Test",
+                "value": "CT as LT"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.02"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "CNN"
+            },
+            "1": {
+                "name": "Test",
+                "value": "CT as CT"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "0.98"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "PPR"
+            },
+            "1": {
+                "name": "Test",
+                "value": "LT as LT"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "0.89"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "PPR"
+            },
+            "1": {
+                "name": "Test",
+                "value": "LT as CT"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.11"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "PPR"
+            },
+            "1": {
+                "name": "Test",
+                "value": "CT as LT"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.11"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "PPR"
+            },
+            "1": {
+                "name": "Test",
+                "value": "CT as CT"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "0.89"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "P-LVCSR"
+            },
+            "1": {
+                "name": "Test",
+                "value": "LT as LT"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "0.95"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "P-LVCSR"
+            },
+            "1": {
+                "name": "Test",
+                "value": "LT as CT"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.05"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "P-LVCSR"
+            },
+            "1": {
+                "name": "Test",
+                "value": "CT as LT"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.06"
+    },
+    "15": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "P-LVCSR"
+            },
+            "1": {
+                "name": "Test",
+                "value": "CT as CT"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "0.94"
+    },
+    "16": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-1"
+            },
+            "1": {
+                "name": "Test",
+                "value": "LT as LT"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "0.96"
+    },
+    "17": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-1"
+            },
+            "1": {
+                "name": "Test",
+                "value": "LT as CT"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.04"
+    },
+    "18": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-1"
+            },
+            "1": {
+                "name": "Test",
+                "value": "CT as LT"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.09"
+    },
+    "19": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-1"
+            },
+            "1": {
+                "name": "Test",
+                "value": "CT as CT"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "0.91"
+    },
+    "20": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-2"
+            },
+            "1": {
+                "name": "Test",
+                "value": "LT as LT"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "0.97"
+    },
+    "21": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-2"
+            },
+            "1": {
+                "name": "Test",
+                "value": "LT as CT"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.03"
+    },
+    "22": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-2"
+            },
+            "1": {
+                "name": "Test",
+                "value": "CT as LT"
+            }
+        },
+        "Measure": "Confusion",
+        "Outcome": "0.06"
+    },
+    "23": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "UPR-2"
+            },
+            "1": {
+                "name": "Test",
+                "value": "CT as CT"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "0.94"
+    }
+}

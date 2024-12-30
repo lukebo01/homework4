@@ -1,0 +1,302 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Very aggressive barking at a stranger (L-S2)"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "2843"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Very aggressive barking at a stranger (L-S2)"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "2778.66"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Normal barking at a stranger (L-S1)"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "2772"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Normal barking at a stranger (L-S1)"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "2512.92"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking due to assault on the owner (L-A)"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "829"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking due to assault on the owner (L-A)"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "956.58"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Negative grunt (during the presence of a stranger) (GR-N)"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "637"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Negative grunt (during the presence of a stranger) (GR-N)"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "746.6"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Negative squeal (during the presence of a stranger) (CH-N)"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "298"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Negative squeal (during the presence of a stranger) (CH-N)"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "546.72"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Sadness/anxiety barking (L-TA)"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "288"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Sadness/anxiety barking (L-TA)"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "200.27"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Positive squeal (during gameplay) (CH-P)"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "91"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Positive squeal (during gameplay) (CH-P)"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "150.49"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking during play (L-P)"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "76"
+    },
+    "15": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking during play (L-P)"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "51.21"
+    },
+    "16": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking due to stimulation when walking (L-PA)"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "62"
+    },
+    "17": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking due to stimulation when walking (L-PA)"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "84.06"
+    },
+    "18": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking in fear at a stranger (L-S3)"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "54"
+    },
+    "19": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking in fear at a stranger (L-S3)"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "45.08"
+    },
+    "20": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Positive grunt (during gameplay) (GR-P)"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "51"
+    },
+    "21": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Positive grunt (during gameplay) (GR-P)"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "79.56"
+    },
+    "22": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking arrival of the owner at home (L-H)"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "24"
+    },
+    "23": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking arrival of the owner at home (L-H)"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "26.2"
+    },
+    "24": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking that is neither playful nor strange (L-O)"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "9"
+    },
+    "25": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Barking that is neither playful nor strange (L-O)"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "9.5"
+    },
+    "26": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Non-dog sounds (voices, TV, cars, appliances, etc.) (S)"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "8755"
+    },
+    "27": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Non-dog sounds (voices, TV, cars, appliances, etc.) (S)"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "14304.05"
+    },
+    "28": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Total"
+            }
+        },
+        "Measure": "# segments",
+        "Outcome": "16789"
+    },
+    "29": {
+        "specifications": {
+            "0": {
+                "name": "Context",
+                "value": "Total"
+            }
+        },
+        "Measure": "Duration (sec)",
+        "Outcome": "22491.0"
+    }
+}
