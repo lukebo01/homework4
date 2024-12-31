@@ -16,6 +16,10 @@
             "3": {
                 "name": "Database",
                 "value": "New database developed"
+            },
+            "4": {
+                "name": "Language",
+                "value": "Telegu"
             }
         },
         "Measure": "Best performance",
@@ -38,6 +42,10 @@
             "3": {
                 "name": "Database",
                 "value": "New database developed"
+            },
+            "4": {
+                "name": "Language",
+                "value": "Kannada"
             }
         },
         "Measure": "Best performance",
@@ -60,6 +68,10 @@
             "3": {
                 "name": "Database",
                 "value": "New database developed"
+            },
+            "4": {
+                "name": "Language",
+                "value": "Malayalam"
             }
         },
         "Measure": "Best performance",

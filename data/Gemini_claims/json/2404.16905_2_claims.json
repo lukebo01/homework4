@@ -10,12 +10,12 @@
                 "value": "RoBERTa-base"
             },
             "2": {
-                "name": "Dataset",
+                "name": "Metric Split",
                 "value": "Test"
             },
             "3": {
-                "name": "Focus",
-                "value": "Pos."
+                "name": "Task",
+                "value": "Causal emotion entailment"
             }
         },
         "Measure": "F1 Score",
@@ -32,12 +32,12 @@
                 "value": "RoBERTa-base"
             },
             "2": {
-                "name": "Dataset",
+                "name": "Metric Split",
                 "value": "Test"
             },
             "3": {
-                "name": "Focus",
-                "value": "Pos."
+                "name": "Task",
+                "value": "Causal emotion entailment"
             }
         },
         "Measure": "F1 Score",
@@ -54,12 +54,12 @@
                 "value": "RoBERTa-base"
             },
             "2": {
-                "name": "Dataset",
+                "name": "Metric Split",
                 "value": "Test"
             },
             "3": {
-                "name": "Focus",
-                "value": "Pos."
+                "name": "Task",
+                "value": "Causal emotion entailment"
             }
         },
         "Measure": "F1 Score",
@@ -76,12 +76,12 @@
                 "value": "RoBERTa-large"
             },
             "2": {
-                "name": "Dataset",
+                "name": "Metric Split",
                 "value": "Test"
             },
             "3": {
-                "name": "Focus",
-                "value": "Pos."
+                "name": "Task",
+                "value": "Causal emotion entailment"
             }
         },
         "Measure": "F1 Score",
@@ -98,12 +98,12 @@
                 "value": "RoBERTa-large"
             },
             "2": {
-                "name": "Dataset",
+                "name": "Metric Split",
                 "value": "Eval"
             },
             "3": {
-                "name": "Focus",
-                "value": "Pos."
+                "name": "Task",
+                "value": "Causal emotion entailment"
             }
         },
         "Measure": "F1 Score",
@@ -120,12 +120,12 @@
                 "value": "BERT-base"
             },
             "2": {
-                "name": "Dataset",
+                "name": "Metric Split",
                 "value": "Eval"
             },
             "3": {
-                "name": "Focus",
-                "value": "Pos. (w-avg)"
+                "name": "Task",
+                "value": "Causal emotion entailment"
             }
         },
         "Measure": "F1 Score",
@@ -142,15 +142,37 @@
                 "value": "RoBERTa-large"
             },
             "2": {
-                "name": "Dataset",
+                "name": "Metric Split",
                 "value": "Eval"
             },
             "3": {
-                "name": "Focus",
-                "value": "Pos. (w-avg)"
+                "name": "Task",
+                "value": "Causal emotion entailment"
             }
         },
         "Measure": "F1 Score",
         "Outcome": "32.23"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CEE + MIN & MTLA"
+            },
+            "1": {
+                "name": "Pre-trained Model",
+                "value": "RoBERTa-large"
+            },
+            "2": {
+                "name": "Metric Split",
+                "value": "Test"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Causal emotion entailment"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "76.9"
     }
 }
