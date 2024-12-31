@@ -2,161 +2,225 @@
     "0": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "V1"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-1 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "14.953"
     },
     "1": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "V1"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-2 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "14.649"
     },
     "2": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "V1"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-3 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "15.116"
     },
     "3": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "V1"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-4 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "14.571"
     },
     "4": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "V2"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-1 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "14.911"
     },
     "5": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "V2"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-2 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "14.595"
     },
     "6": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "V2"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-3 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "15.086"
     },
     "7": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "V2"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-4 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "14.547"
     },
     "8": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "V3"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-1 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "15.577"
     },
     "9": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "V3"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-2 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "15.160"
     },
     "10": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "V3"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-3 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "15.703"
     },
     "11": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "V3"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-4 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "15.018"
     },
     "12": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "Fusion"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-1 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "14.681"
     },
     "13": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "Fusion"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-2 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "14.286"
     },
     "14": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "Fusion"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-3 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "14.847"
     },
     "15": {
         "specifications": {
             "0": {
-                "name": "Sep Dia",
+                "name": "Separator",
                 "value": "Fusion"
+            },
+            "1": {
+                "name": "System",
+                "value": "Sys-4 RTTM"
             }
         },
-        "Measure": "TcpWER",
+        "Measure": "TcpWER (%)",
         "Outcome": "14.265"
     }
 }

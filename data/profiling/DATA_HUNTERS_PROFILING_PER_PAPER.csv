@@ -2,6 +2,8 @@ KEY;COUNT;PAPER
 '-- Distribution of 'name' --;;'2403.19709
 Model;94;'2403.19709
 # Params.;106;'2403.19709
+Dataset;40;'2403.19709
+Type of WER;54;'2403.19709
 Model variant;6;'2403.19709
 Controller variant;6;'2403.19709
 
@@ -54,10 +56,19 @@ FFN Head HRA (w/ pre-trained controller);6;'2403.19709
 1.9M;2;'2403.19709
 2.4;2;'2403.19709
 
+(name) Dataset;;'2403.19709
+VS;20;'2403.19709
+VS w. PN;20;'2403.19709
+
+(name) Type of WER;;'2403.19709
+Mean;26;'2403.19709
+Median;14;'2403.19709
+SD;14;'2403.19709
+
 (name) Model variant;;'2403.19709
 Linear Head HRA;2;'2403.19709
-'- Recurrent state;2;'2403.19709
-'- Weight unshared;2;'2403.19709
+Linear Head HRA - Recurrent state;2;'2403.19709
+Linear Head HRA - Weight unshared;2;'2403.19709
 
 (name) Controller variant;;'2403.19709
 IndRNN;2;'2403.19709
@@ -65,18 +76,17 @@ RNN;2;'2403.19709
 Light GRU;2;'2403.19709
 
 '-- Distribution of 'Measure' --;;'2403.19709
-VS;20;'2403.19709
-VS w. PN;20;'2403.19709
-Mean;26;'2403.19709
-Median;14;'2403.19709
-SD;14;'2403.19709
+WER;94;'2403.19709
 Paired T-Test;12;'2403.19709
 
 '-- Distribution of 'name' --;;'2404.16905
-Models;20;'2404.16905
-LLM;20;'2404.16905
-Model;16;'2404.16905
-Pre-trained Model;16;'2404.16905
+Models;16;'2404.16905
+LLM;16;'2404.16905
+F1 Type;8;'2404.16905
+Model;7;'2404.16905
+Pre-trained Model;7;'2404.16905
+Dataset;15;'2404.16905
+Focus;15;'2404.16905
 Modality;8;'2404.16905
 Feature Set;8;'2404.16905
 Feature Selection;8;'2404.16905
@@ -85,30 +95,39 @@ Feature Dimension;8;'2404.16905
 '-- Distribution of 'value' for each 'name' --;;'2404.16905
 (name) Models;;'2404.16905
 Origin InstructERC;4;'2404.16905
-Ours-ERC-7B;2;'2404.16905
-'+ 3 auxiliary tasks;4;'2404.16905
-'+ 3 auxiliary tasks & historical clips desc;4;'2404.16905
-'+ 3 auxiliary tasks & utterance clips desc;4;'2404.16905
-Ours-ERC-13B;2;'2404.16905
+Ours-ERC-7B + 3 auxiliary tasks;2;'2404.16905
+Ours-ERC-7B + 3 auxiliary tasks & historical clips desc;2;'2404.16905
+Ours-ERC-7B + 3 auxiliary tasks & utterance clips desc;2;'2404.16905
+Ours-ERC-13B + 3 auxiliary tasks;2;'2404.16905
+Ours-ERC-13B + 3 auxiliary tasks & historical clips desc;2;'2404.16905
+Ours-ERC-13B + 3 auxiliary tasks & utterance clips desc;2;'2404.16905
 
 (name) LLM;;'2404.16905
-Llama-2-7B-chat;4;'2404.16905
-Llama-2-13B-chat;4;'2404.16905
-nan;12;'2404.16905
+Llama-2-7B-chat;8;'2404.16905
+Llama-2-13B-chat;8;'2404.16905
+
+(name) F1 Type;;'2404.16905
+w-avg;8;'2404.16905
 
 (name) Model;;'2404.16905
-Origin TSAM;2;'2404.16905
-Ours-CEE;2;'2404.16905
-'+MIN;2;'2404.16905
-'+MIN & MTLA;4;'2404.16905
-'+MIN & MTLA & Ensemble;2;'2404.16905
-Ours-CSE;4;'2404.16905
+Origin TSAM;1;'2404.16905
+Ours-CEE + MIN;1;'2404.16905
+Ours-CEE + MIN & MTLA;1;'2404.16905
+Ours-CEE + MIN & MTLA + Ensemble;2;'2404.16905
+Ours-CSE;2;'2404.16905
 
 (name) Pre-trained Model;;'2404.16905
-RoBERTa-base;6;'2404.16905
-base;2;'2404.16905
-RoBERTa-large;6;'2404.16905
-BERT-base;2;'2404.16905
+RoBERTa-base;3;'2404.16905
+RoBERTa-large;3;'2404.16905
+BERT-base;1;'2404.16905
+
+(name) Dataset;;'2404.16905
+Test;12;'2404.16905
+Eval;3;'2404.16905
+
+(name) Focus;;'2404.16905
+Pos.;13;'2404.16905
+Pos. (w-avg);2;'2404.16905
 
 (name) Modality;;'2404.16905
 Audio;5;'2404.16905
@@ -133,15 +152,13 @@ top 1000;1;'2404.16905
 512;1;'2404.16905
 
 '-- Distribution of 'Measure' --;;'2404.16905
-w-avg F1;10;'2404.16905
-Accuracy;10;'2404.16905
-Test Pos.F1*;8;'2404.16905
-Eval Pos.F1**;8;'2404.16905
-Test Pos.F1;8;'2404.16905
+F1 Score;23;'2404.16905
+Accuracy;8;'2404.16905
 
 '-- Distribution of 'name' --;;'2404.18739
 Context;30;'2404.18739
 Method;39;'2404.18739
+Dataset;27;'2404.18739
 
 '-- Distribution of 'value' for each 'name' --;;'2404.18739
 (name) Context;;'2404.18739
@@ -166,32 +183,34 @@ Majority;13;'2404.18739
 Wav2Vec2 (from scratch);13;'2404.18739
 Wav2Vec2 (pre-trained);13;'2404.18739
 
+(name) Dataset;;'2404.18739
+Chihuahua;3;'2404.18739
+French Poodle;3;'2404.18739
+Schnauzer;3;'2404.18739
+LS2;3;'2404.18739
+CH-N;3;'2404.18739
+GR-N;3;'2404.18739
+LS1;3;'2404.18739
+Female;3;'2404.18739
+Male;3;'2404.18739
+
 '-- Distribution of 'Measure' --;;'2404.18739
 # segments;15;'2404.18739
 Duration (sec);15;'2404.18739
-Accuracy;3;'2404.18739
-Acc.;9;'2404.18739
-F-1 measure Chihuahua;3;'2404.18739
-F-1 measure French Poodle;3;'2404.18739
-F-1 measure Schnauzer;3;'2404.18739
-F-1 measure L-S2;3;'2404.18739
-F-1 measure CH-N;3;'2404.18739
-F-1 measure GR-N;3;'2404.18739
-F-1 measure L-S1;3;'2404.18739
-Female F-1 measure;3;'2404.18739
-Male F-1 measure;3;'2404.18739
+Accuracy;12;'2404.18739
+F1 Score;27;'2404.18739
 
 '-- Distribution of 'name' --;;'2406.07914
-Method;30;'2406.07914
+Method;28;'2406.07914
 Data;15;'2406.07914
 
 '-- Distribution of 'value' for each 'name' --;;'2406.07914
 (name) Method;;'2406.07914
 w/o IV;11;'2406.07914
-w/ IV (``Before'``);3;'2406.07914
-w/ IV (``After'``);3;'2406.07914
-w/ IV (``Before'') & ST.;3;'2406.07914
-Spatial LibriSpeech [22];3;'2406.07914
+w/ IV (Before);3;'2406.07914
+w/ IV (After);3;'2406.07914
+w/ IV (Before) & ST.;3;'2406.07914
+Spatial LibriSpeech;1;'2406.07914
 w/ IV;7;'2406.07914
 
 (name) Data;;'2406.07914
@@ -201,9 +220,10 @@ left/right;6;'2406.07914
 random;6;'2406.07914
 
 '-- Distribution of 'Measure' --;;'2406.07914
-Δa;5;'2406.07914
-Δe;5;'2406.07914
-Δd(MAE);5;'2406.07914
+Δa;4;'2406.07914
+Δe;4;'2406.07914
+Δd (MAE);4;'2406.07914
+Δd (median angular error);1;'2406.07914
 WER%;7;'2406.07914
 SR%;4;'2406.07914
 sWER%;4;'2406.07914
@@ -211,9 +231,9 @@ sWER%;4;'2406.07914
 '-- Distribution of 'name' --;;'2407.02052
 Iteration;12;'2407.02052
 Data(hrs);12;'2407.02052
-Model;31;'2407.02052
-ID;14;'2407.02052
-Set;5;'2407.02052
+Model;27;'2407.02052
+ID;10;'2407.02052
+Set;15;'2407.02052
 
 '-- Distribution of 'value' for each 'name' --;;'2407.02052
 (name) Iteration;;'2407.02052
@@ -233,33 +253,31 @@ wavLM+ conformer ED;4;'2407.02052
 conv2d+ ebranchformer ED;4;'2407.02052
 Fusion;4;'2407.02052
 Official Baseline;2;'2407.02052
-conv2d+conformer;2;'2407.02052
-conv2d+ebranchformer;2;'2407.02052
-vgg+ebranchformer;2;'2407.02052
-gateCNN+conformer;2;'2407.02052
+conv2d+conformer;1;'2407.02052
+conv2d+ebranchformer;1;'2407.02052
+VGG+ebranchformer;1;'2407.02052
+gateCNN+conformer;1;'2407.02052
 gateCNN+ebranchformer;2;'2407.02052
-fusion models;2;'2407.02052
+fusion models based on M1-M5;2;'2407.02052
 Speaker Diarization;1;'2407.02052
 M0 Offical Baseline;2;'2407.02052
 M6 Fusion models;2;'2407.02052
 
 (name) ID;;'2407.02052
 M0;2;'2407.02052
-M1;2;'2407.02052
-M2;2;'2407.02052
-M3;2;'2407.02052
-M4;2;'2407.02052
+M1;1;'2407.02052
+M2;1;'2407.02052
+M3;1;'2407.02052
+M4;1;'2407.02052
 M5;2;'2407.02052
 M6;2;'2407.02052
 
 (name) Set;;'2407.02052
-Dev;3;'2407.02052
-Eval;2;'2407.02052
+Dev;10;'2407.02052
+Eval;5;'2407.02052
 
 '-- Distribution of 'Measure' --;;'2407.02052
-CER%;12;'2407.02052
-CER% (Dev);7;'2407.02052
-CER% (Eval);7;'2407.02052
+CER%;22;'2407.02052
 DER (%);1;'2407.02052
 cpCER (%);4;'2407.02052
 
@@ -319,15 +337,25 @@ Accuracy;12;'2408.13739
 Confusion;12;'2408.13739
 
 '-- Distribution of 'name' --;;'2409.02041
-Sep Dia;18;'2409.02041
+Separator;16;'2409.02041
+System;16;'2409.02041
+Sep Dia;2;'2409.02041
 Method;2;'2409.02041
 
 '-- Distribution of 'value' for each 'name' --;;'2409.02041
-(name) Sep Dia;;'2409.02041
+(name) Separator;;'2409.02041
 V1;4;'2409.02041
 V2;4;'2409.02041
 V3;4;'2409.02041
 Fusion;4;'2409.02041
+
+(name) System;;'2409.02041
+Sys-1 RTTM;4;'2409.02041
+Sys-2 RTTM;4;'2409.02041
+Sys-3 RTTM;4;'2409.02041
+Sys-4 RTTM;4;'2409.02041
+
+(name) Sep Dia;;'2409.02041
 JDS;2;'2409.02041
 
 (name) Method;;'2409.02041
@@ -335,37 +363,49 @@ NSD;1;'2409.02041
 Re-clustering;1;'2409.02041
 
 '-- Distribution of 'Measure' --;;'2409.02041
-TcpWER;16;'2409.02041
-TcpWER (%);2;'2409.02041
+TcpWER (%);18;'2409.02041
 
 '-- Distribution of 'name' --;;'2409.09785
-Model;12;'2409.09785
+Method;12;'2409.09785
+Dataset Split;12;'2409.09785
 System;4;'2409.09785
+Metric Split;4;'2409.09785
 Dataset;4;'2409.09785
+Model;4;'2409.09785
 
 '-- Distribution of 'value' for each 'name' --;;'2409.09785
-(name) Model;;'2409.09785
+(name) Method;;'2409.09785
 Whisper-1.5B (first-pass) w/o LM;2;'2409.09785
-'-best Oracle;2;'2409.09785
+N-best Oracle;2;'2409.09785
 Reranking LM: T5-750M;2;'2409.09785
 Correction LM: T5-750M;2;'2409.09785
 Correction LM: LLaMA-13B;2;'2409.09785
 Correction LM: LLaMaA2-7B;2;'2409.09785
 
+(name) Dataset Split;;'2409.09785
+train;6;'2409.09785
+test;6;'2409.09785
+
 (name) System;;'2409.09785
 Source Transcript;2;'2409.09785
 Task-2 Baseline;2;'2409.09785
 
+(name) Metric Split;;'2409.09785
+dev;2;'2409.09785
+eval;2;'2409.09785
+
 (name) Dataset;;'2409.09785
-Test Set;4;'2409.09785
+Test Set;2;'2409.09785
+Training Set;2;'2409.09785
+
+(name) Model;;'2409.09785
+GPT3.5-turbo;2;'2409.09785
+traditional;2;'2409.09785
 
 '-- Distribution of 'Measure' --;;'2409.09785
-train WER (%);6;'2409.09785
-test WER (%);6;'2409.09785
-dev cpWER (%);2;'2409.09785
-eval cpWER (%);2;'2409.09785
-Baseline accuracy (GPT3.5-turbo);2;'2409.09785
-Baseline accuracy (traditional);2;'2409.09785
+WER (%);12;'2409.09785
+cpWER (%);4;'2409.09785
+Baseline accuracy;4;'2409.09785
 
 '-- Distribution of 'name' --;;'2409.10076
 Base model;9;'2409.10076

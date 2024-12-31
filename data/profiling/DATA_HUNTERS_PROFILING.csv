@@ -1,31 +1,37 @@
 KEY;COUNT
 '-- Distribution of 'name' --;
-Model;228
+Model;207
 # Params.;106
+Dataset;120
+Type of WER;54
 Model variant;6
 Controller variant;6
-Models;20
-LLM;20
-Pre-trained Model;16
+Models;16
+LLM;16
+F1 Type;8
+Pre-trained Model;7
+Focus;15
 Modality;8
 Feature Set;8
 Feature Selection;8
 Feature Dimension;8
 Context;30
-Method;77
+Method;87
 Data;15
 Iteration;12
 Data(hrs);12
-ID;14
-Set;5
+ID;10
+Set;15
 No. of dialects;3
 Features;3
 Classifier;3
 Database;3
 Test;24
-Sep Dia;18
-System;46
-Dataset;38
+Separator;16
+System;62
+Sep Dia;2
+Dataset Split;12
+Metric Split;4
 Base model;9
 Thresh rank;21
 Speech Type;51
@@ -44,22 +50,21 @@ Linear Head HRA;15
 FFN Head HRA;15
 Linear Head HRA (w/ pre-trained controller);6
 FFN Head HRA (w/ pre-trained controller);6
-Origin TSAM;2
-Ours-CEE;2
-'+MIN;2
-'+MIN & MTLA;4
-'+MIN & MTLA & Ensemble;2
-Ours-CSE;4
+Origin TSAM;1
+Ours-CEE + MIN;1
+Ours-CEE + MIN & MTLA;1
+Ours-CEE + MIN & MTLA + Ensemble;2
+Ours-CSE;2
 wavLM+ conformer ED;4
 conv2d+ ebranchformer ED;4
 Fusion;4
 Official Baseline;2
-conv2d+conformer;2
-conv2d+ebranchformer;2
-vgg+ebranchformer;2
-gateCNN+conformer;2
+conv2d+conformer;1
+conv2d+ebranchformer;1
+VGG+ebranchformer;1
+gateCNN+conformer;1
 gateCNN+ebranchformer;2
-fusion models;2
+fusion models based on M1-M5;2
 Speaker Diarization;1
 M0 Offical Baseline;2
 M6 Fusion models;2
@@ -69,12 +74,8 @@ PPR;4
 P-LVCSR;4
 UPR-1;4
 UPR-2;4
-Whisper-1.5B (first-pass) w/o LM;2
-'-best Oracle;2
-Reranking LM: T5-750M;2
-Correction LM: T5-750M;2
-Correction LM: LLaMA-13B;2
-Correction LM: LLaMaA2-7B;2
+GPT3.5-turbo;2
+traditional;2
 whisper-tiny;6
 whisper-base;6
 whisper-small;6
@@ -120,10 +121,34 @@ seamless-large;6
 1.9M;2
 2.4;2
 
+(name) Dataset;
+VS;20
+VS w. PN;20
+Test;12
+Eval;3
+Chihuahua;3
+French Poodle;3
+Schnauzer;3
+LS2;3
+CH-N;3
+GR-N;3
+LS1;3
+Female;3
+Male;3
+Test Set;2
+Training Set;2
+ARL;17
+CSaLT;17
+
+(name) Type of WER;
+Mean;26
+Median;14
+SD;14
+
 (name) Model variant;
 Linear Head HRA;2
-'- Recurrent state;2
-'- Weight unshared;2
+Linear Head HRA - Recurrent state;2
+Linear Head HRA - Weight unshared;2
 
 (name) Controller variant;
 IndRNN;2
@@ -132,22 +157,28 @@ Light GRU;2
 
 (name) Models;
 Origin InstructERC;4
-Ours-ERC-7B;2
-'+ 3 auxiliary tasks;4
-'+ 3 auxiliary tasks & historical clips desc;4
-'+ 3 auxiliary tasks & utterance clips desc;4
-Ours-ERC-13B;2
+Ours-ERC-7B + 3 auxiliary tasks;2
+Ours-ERC-7B + 3 auxiliary tasks & historical clips desc;2
+Ours-ERC-7B + 3 auxiliary tasks & utterance clips desc;2
+Ours-ERC-13B + 3 auxiliary tasks;2
+Ours-ERC-13B + 3 auxiliary tasks & historical clips desc;2
+Ours-ERC-13B + 3 auxiliary tasks & utterance clips desc;2
 
 (name) LLM;
-Llama-2-7B-chat;4
-Llama-2-13B-chat;4
-nan;12
+Llama-2-7B-chat;8
+Llama-2-13B-chat;8
+
+(name) F1 Type;
+w-avg;8
 
 (name) Pre-trained Model;
-RoBERTa-base;6
-base;2
-RoBERTa-large;6
-BERT-base;2
+RoBERTa-base;3
+RoBERTa-large;3
+BERT-base;1
+
+(name) Focus;
+Pos.;13
+Pos. (w-avg);2
 
 (name) Modality;
 Audio;5
@@ -193,10 +224,10 @@ Majority;13
 Wav2Vec2 (from scratch);13
 Wav2Vec2 (pre-trained);13
 w/o IV;11
-w/ IV (``Before'``);3
-w/ IV (``After'``);3
-w/ IV (``Before'') & ST.;3
-Spatial LibriSpeech [22];3
+w/ IV (Before);3
+w/ IV (After);3
+w/ IV (Before) & ST.;3
+Spatial LibriSpeech;1
 w/ IV;7
 GMM;1
 CNN;1
@@ -206,6 +237,12 @@ UPR-1;1
 UPR-2;1
 NSD;1
 Re-clustering;1
+Whisper-1.5B (first-pass) w/o LM;2
+N-best Oracle;2
+Reranking LM: T5-750M;2
+Correction LM: T5-750M;2
+Correction LM: LLaMA-13B;2
+Correction LM: LLaMaA2-7B;2
 
 (name) Data;
 LibriSpeech;1
@@ -227,16 +264,16 @@ B3;3
 
 (name) ID;
 M0;2
-M1;2
-M2;2
-M3;2
-M4;2
+M1;1
+M2;1
+M3;1
+M4;1
 M5;2
 M6;2
 
 (name) Set;
-Dev;3
-Eval;2
+Dev;10
+Eval;5
 
 (name) No. of dialects;
 3;1
@@ -261,14 +298,17 @@ LT as CT;6
 CT as LT;6
 CT as CT;6
 
-(name) Sep Dia;
+(name) Separator;
 V1;4
 V2;4
 V3;4
 Fusion;4
-JDS;2
 
 (name) System;
+Sys-1 RTTM;4
+Sys-2 RTTM;4
+Sys-3 RTTM;4
+Sys-4 RTTM;4
 Source Transcript;2
 Task-2 Baseline;2
 Proposed (Rank 1st);3
@@ -285,10 +325,16 @@ paraformer;3
 '+LRDWWS training set;3
 '+synthetic data;3
 
-(name) Dataset;
-Test Set;4
-ARL;17
-CSaLT;17
+(name) Sep Dia;
+JDS;2
+
+(name) Dataset Split;
+train;6
+test;6
+
+(name) Metric Split;
+dev;2
+eval;2
 
 (name) Base model;
 Baseline;3
@@ -313,52 +359,29 @@ Base Model;24
 Fine-tuned;27
 
 '-- Distribution of 'Measure' --;
-VS;20
-VS w. PN;20
-Mean;26
-Median;14
-SD;14
+WER;145
 Paired T-Test;12
-w-avg F1;10
-Accuracy;25
-Test Pos.F1*;8
-Eval Pos.F1**;8
-Test Pos.F1;8
+F1 Score;50
+Accuracy;32
 # segments;15
 Duration (sec);15
-Acc.;9
-F-1 measure Chihuahua;3
-F-1 measure French Poodle;3
-F-1 measure Schnauzer;3
-F-1 measure L-S2;3
-F-1 measure CH-N;3
-F-1 measure GR-N;3
-F-1 measure L-S1;3
-Female F-1 measure;3
-Male F-1 measure;3
-Δa;5
-Δe;5
-Δd(MAE);5
+Δa;4
+Δe;4
+Δd (MAE);4
+Δd (median angular error);1
 WER%;7
 SR%;4
 sWER%;4
-CER%;12
-CER% (Dev);7
-CER% (Eval);7
+CER%;22
 DER (%);1
 cpCER (%);4
 Best performance;3
 Identification Accuracy;6
 Confusion;12
-TcpWER;16
-TcpWER (%);2
-train WER (%);6
-test WER (%);6
-dev cpWER (%);2
-eval cpWER (%);2
-Baseline accuracy (GPT3.5-turbo);2
-Baseline accuracy (traditional);2
+TcpWER (%);18
+WER (%);12
+cpWER (%);4
+Baseline accuracy;4
 Score;24
 FAR;24
 FRR;24
-WER;51

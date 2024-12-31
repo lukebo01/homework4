@@ -6,7 +6,7 @@
                 "value": "Majority"
             }
         },
-        "Measure": "Acc.",
+        "Measure": "Accuracy",
         "Outcome": "68.70%"
     },
     "1": {
@@ -14,9 +14,13 @@
             "0": {
                 "name": "Method",
                 "value": "Majority"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "Female"
             }
         },
-        "Measure": "Female F-1 measure",
+        "Measure": "F1 Score",
         "Outcome": "74.73%"
     },
     "2": {
@@ -24,9 +28,13 @@
             "0": {
                 "name": "Method",
                 "value": "Majority"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "Male"
             }
         },
-        "Measure": "Male F-1 measure",
+        "Measure": "F1 Score",
         "Outcome": "7.76%"
     },
     "3": {
@@ -36,7 +44,7 @@
                 "value": "Wav2Vec2 (from scratch)"
             }
         },
-        "Measure": "Acc.",
+        "Measure": "Accuracy",
         "Outcome": "70.07%"
     },
     "4": {
@@ -44,9 +52,13 @@
             "0": {
                 "name": "Method",
                 "value": "Wav2Vec2 (from scratch)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "Female"
             }
         },
-        "Measure": "Female F-1 measure",
+        "Measure": "F1 Score",
         "Outcome": "76.54%"
     },
     "5": {
@@ -54,9 +66,13 @@
             "0": {
                 "name": "Method",
                 "value": "Wav2Vec2 (from scratch)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "Male"
             }
         },
-        "Measure": "Male F-1 measure",
+        "Measure": "F1 Score",
         "Outcome": "19.29%"
     },
     "6": {
@@ -66,7 +82,7 @@
                 "value": "Wav2Vec2 (pre-trained)"
             }
         },
-        "Measure": "Acc.",
+        "Measure": "Accuracy",
         "Outcome": "68.90%"
     },
     "7": {
@@ -74,9 +90,13 @@
             "0": {
                 "name": "Method",
                 "value": "Wav2Vec2 (pre-trained)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "Female"
             }
         },
-        "Measure": "Female F-1 measure",
+        "Measure": "F1 Score",
         "Outcome": "79.31%"
     },
     "8": {
@@ -84,9 +104,13 @@
             "0": {
                 "name": "Method",
                 "value": "Wav2Vec2 (pre-trained)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "Male"
             }
         },
-        "Measure": "Male F-1 measure",
+        "Measure": "F1 Score",
         "Outcome": "7.10%"
     }
 }

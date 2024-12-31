@@ -6,7 +6,7 @@
                 "value": "Majority"
             }
         },
-        "Measure": "Acc.",
+        "Measure": "Accuracy",
         "Outcome": "56.37%"
     },
     "1": {
@@ -14,9 +14,13 @@
             "0": {
                 "name": "Method",
                 "value": "Majority"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "LS2"
             }
         },
-        "Measure": "F-1 measure L-S2",
+        "Measure": "F1 Score",
         "Outcome": "41.31%"
     },
     "2": {
@@ -24,9 +28,13 @@
             "0": {
                 "name": "Method",
                 "value": "Majority"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "CH-N"
             }
         },
-        "Measure": "F-1 measure CH-N",
+        "Measure": "F1 Score",
         "Outcome": "0.00%"
     },
     "3": {
@@ -34,9 +42,13 @@
             "0": {
                 "name": "Method",
                 "value": "Majority"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "GR-N"
             }
         },
-        "Measure": "F-1 measure GR-N",
+        "Measure": "F1 Score",
         "Outcome": "0.00%"
     },
     "4": {
@@ -44,9 +56,13 @@
             "0": {
                 "name": "Method",
                 "value": "Majority"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "LS1"
             }
         },
-        "Measure": "F-1 measure L-S1",
+        "Measure": "F1 Score",
         "Outcome": "30.39%"
     },
     "5": {
@@ -56,7 +72,7 @@
                 "value": "Wav2Vec2 (from scratch)"
             }
         },
-        "Measure": "Acc.",
+        "Measure": "Accuracy",
         "Outcome": "58.45%"
     },
     "6": {
@@ -64,9 +80,13 @@
             "0": {
                 "name": "Method",
                 "value": "Wav2Vec2 (from scratch)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "LS2"
             }
         },
-        "Measure": "F-1 measure L-S2",
+        "Measure": "F1 Score",
         "Outcome": "49.26%"
     },
     "7": {
@@ -74,9 +94,13 @@
             "0": {
                 "name": "Method",
                 "value": "Wav2Vec2 (from scratch)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "CH-N"
             }
         },
-        "Measure": "F-1 measure CH-N",
+        "Measure": "F1 Score",
         "Outcome": "21.26%"
     },
     "8": {
@@ -84,9 +108,13 @@
             "0": {
                 "name": "Method",
                 "value": "Wav2Vec2 (from scratch)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "GR-N"
             }
         },
-        "Measure": "F-1 measure GR-N",
+        "Measure": "F1 Score",
         "Outcome": "78.20%"
     },
     "9": {
@@ -94,9 +122,13 @@
             "0": {
                 "name": "Method",
                 "value": "Wav2Vec2 (from scratch)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "LS1"
             }
         },
-        "Measure": "F-1 measure L-S1",
+        "Measure": "F1 Score",
         "Outcome": "48.64%"
     },
     "10": {
@@ -106,7 +138,7 @@
                 "value": "Wav2Vec2 (pre-trained)"
             }
         },
-        "Measure": "Acc.",
+        "Measure": "Accuracy",
         "Outcome": "62.18%"
     },
     "11": {
@@ -114,9 +146,13 @@
             "0": {
                 "name": "Method",
                 "value": "Wav2Vec2 (pre-trained)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "LS2"
             }
         },
-        "Measure": "F-1 measure L-S2",
+        "Measure": "F1 Score",
         "Outcome": "49.66%"
     },
     "12": {
@@ -124,9 +160,13 @@
             "0": {
                 "name": "Method",
                 "value": "Wav2Vec2 (pre-trained)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "CH-N"
             }
         },
-        "Measure": "F-1 measure CH-N",
+        "Measure": "F1 Score",
         "Outcome": "45.26%"
     },
     "13": {
@@ -134,9 +174,13 @@
             "0": {
                 "name": "Method",
                 "value": "Wav2Vec2 (pre-trained)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "GR-N"
             }
         },
-        "Measure": "F-1 measure GR-N",
+        "Measure": "F1 Score",
         "Outcome": "90.70%"
     },
     "14": {
@@ -144,9 +188,13 @@
             "0": {
                 "name": "Method",
                 "value": "Wav2Vec2 (pre-trained)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "LS1"
             }
         },
-        "Measure": "F-1 measure L-S1",
+        "Measure": "F1 Score",
         "Outcome": "51.13%"
     }
 }

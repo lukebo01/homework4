@@ -8,9 +8,13 @@
             "1": {
                 "name": "LLM",
                 "value": "Llama-2-7B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
             }
         },
-        "Measure": "w-avg F1",
+        "Measure": "F1 Score",
         "Outcome": "53.83"
     },
     "1": {
@@ -36,9 +40,13 @@
             "1": {
                 "name": "LLM",
                 "value": "Llama-2-13B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
             }
         },
-        "Measure": "w-avg F1",
+        "Measure": "F1 Score",
         "Outcome": "55.50"
     },
     "3": {
@@ -59,21 +67,25 @@
         "specifications": {
             "0": {
                 "name": "Models",
-                "value": "Ours-ERC-7B"
+                "value": "Ours-ERC-7B + 3 auxiliary tasks"
             },
             "1": {
                 "name": "LLM",
                 "value": "Llama-2-7B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
             }
         },
-        "Measure": "w-avg F1",
-        "Outcome": "nan"
+        "Measure": "F1 Score",
+        "Outcome": "56.88"
     },
     "5": {
         "specifications": {
             "0": {
                 "name": "Models",
-                "value": "Ours-ERC-7B"
+                "value": "Ours-ERC-7B + 3 auxiliary tasks"
             },
             "1": {
                 "name": "LLM",
@@ -81,199 +93,163 @@
             }
         },
         "Measure": "Accuracy",
-        "Outcome": "nan"
+        "Outcome": "61.38"
     },
     "6": {
         "specifications": {
             "0": {
                 "name": "Models",
-                "value": "+ 3 auxiliary tasks"
+                "value": "Ours-ERC-7B + 3 auxiliary tasks & historical clips desc"
             },
             "1": {
                 "name": "LLM",
-                "value": "nan"
+                "value": "Llama-2-7B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
             }
         },
-        "Measure": "w-avg F1",
-        "Outcome": "56.88"
+        "Measure": "F1 Score",
+        "Outcome": "57.74"
     },
     "7": {
         "specifications": {
             "0": {
                 "name": "Models",
-                "value": "+ 3 auxiliary tasks"
+                "value": "Ours-ERC-7B + 3 auxiliary tasks & historical clips desc"
             },
             "1": {
                 "name": "LLM",
-                "value": "nan"
-            }
-        },
-        "Measure": "Accuracy",
-        "Outcome": "61.38"
-    },
-    "8": {
-        "specifications": {
-            "0": {
-                "name": "Models",
-                "value": "+ 3 auxiliary tasks & historical clips desc"
-            },
-            "1": {
-                "name": "LLM",
-                "value": "nan"
-            }
-        },
-        "Measure": "w-avg F1",
-        "Outcome": "57.74"
-    },
-    "9": {
-        "specifications": {
-            "0": {
-                "name": "Models",
-                "value": "+ 3 auxiliary tasks & historical clips desc"
-            },
-            "1": {
-                "name": "LLM",
-                "value": "nan"
+                "value": "Llama-2-7B-chat"
             }
         },
         "Measure": "Accuracy",
         "Outcome": "57.02"
     },
-    "10": {
+    "8": {
         "specifications": {
             "0": {
                 "name": "Models",
-                "value": "+ 3 auxiliary tasks & utterance clips desc"
+                "value": "Ours-ERC-7B + 3 auxiliary tasks & utterance clips desc"
             },
             "1": {
                 "name": "LLM",
-                "value": "nan"
+                "value": "Llama-2-7B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
             }
         },
-        "Measure": "w-avg F1",
+        "Measure": "F1 Score",
         "Outcome": "58.42"
     },
-    "11": {
+    "9": {
         "specifications": {
             "0": {
                 "name": "Models",
-                "value": "+ 3 auxiliary tasks & utterance clips desc"
+                "value": "Ours-ERC-7B + 3 auxiliary tasks & utterance clips desc"
             },
             "1": {
                 "name": "LLM",
-                "value": "nan"
+                "value": "Llama-2-7B-chat"
             }
         },
         "Measure": "Accuracy",
         "Outcome": "57.92"
     },
-    "12": {
+    "10": {
         "specifications": {
             "0": {
                 "name": "Models",
-                "value": "Ours-ERC-13B"
+                "value": "Ours-ERC-13B + 3 auxiliary tasks"
             },
             "1": {
                 "name": "LLM",
                 "value": "Llama-2-13B-chat"
-            }
-        },
-        "Measure": "w-avg F1",
-        "Outcome": "nan"
-    },
-    "13": {
-        "specifications": {
-            "0": {
-                "name": "Models",
-                "value": "Ours-ERC-13B"
             },
-            "1": {
-                "name": "LLM",
-                "value": "Llama-2-13B-chat"
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
             }
         },
-        "Measure": "Accuracy",
-        "Outcome": "nan"
-    },
-    "14": {
-        "specifications": {
-            "0": {
-                "name": "Models",
-                "value": "+ 3 auxiliary tasks"
-            },
-            "1": {
-                "name": "LLM",
-                "value": "nan"
-            }
-        },
-        "Measure": "w-avg F1",
+        "Measure": "F1 Score",
         "Outcome": "57.85"
     },
-    "15": {
+    "11": {
         "specifications": {
             "0": {
                 "name": "Models",
-                "value": "+ 3 auxiliary tasks"
+                "value": "Ours-ERC-13B + 3 auxiliary tasks"
             },
             "1": {
                 "name": "LLM",
-                "value": "nan"
+                "value": "Llama-2-13B-chat"
             }
         },
         "Measure": "Accuracy",
         "Outcome": "61.45"
     },
-    "16": {
+    "12": {
         "specifications": {
             "0": {
                 "name": "Models",
-                "value": "+ 3 auxiliary tasks & historical clips desc"
+                "value": "Ours-ERC-13B + 3 auxiliary tasks & historical clips desc"
             },
             "1": {
                 "name": "LLM",
-                "value": "nan"
+                "value": "Llama-2-13B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
             }
         },
-        "Measure": "w-avg F1",
+        "Measure": "F1 Score",
         "Outcome": "58.64"
     },
-    "17": {
+    "13": {
         "specifications": {
             "0": {
                 "name": "Models",
-                "value": "+ 3 auxiliary tasks & historical clips desc"
+                "value": "Ours-ERC-13B + 3 auxiliary tasks & historical clips desc"
             },
             "1": {
                 "name": "LLM",
-                "value": "nan"
+                "value": "Llama-2-13B-chat"
             }
         },
         "Measure": "Accuracy",
         "Outcome": "60.83"
     },
-    "18": {
+    "14": {
         "specifications": {
             "0": {
                 "name": "Models",
-                "value": "+ 3 auxiliary tasks & utterance clips desc"
+                "value": "Ours-ERC-13B + 3 auxiliary tasks & utterance clips desc"
             },
             "1": {
                 "name": "LLM",
-                "value": "nan"
+                "value": "Llama-2-13B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
             }
         },
-        "Measure": "w-avg F1",
+        "Measure": "F1 Score",
         "Outcome": "58.50"
     },
-    "19": {
+    "15": {
         "specifications": {
             "0": {
                 "name": "Models",
-                "value": "+ 3 auxiliary tasks & utterance clips desc"
+                "value": "Ours-ERC-13B + 3 auxiliary tasks & utterance clips desc"
             },
             "1": {
                 "name": "LLM",
-                "value": "nan"
+                "value": "Llama-2-13B-chat"
             }
         },
         "Measure": "Accuracy",

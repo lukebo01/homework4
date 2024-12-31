@@ -8,9 +8,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "1.8B"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "5.3"
     },
     "1": {
@@ -22,9 +26,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "1.8B"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "15.7"
     },
     "2": {
@@ -36,9 +44,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "1.3M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "6.6"
     },
     "3": {
@@ -50,9 +62,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "1.3M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "18.4"
     },
     "4": {
@@ -64,9 +80,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "2.0M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "7.5"
     },
     "5": {
@@ -78,9 +98,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "2.0M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "19.9"
     },
     "6": {
@@ -92,9 +116,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "4.0M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "6.8"
     },
     "7": {
@@ -106,9 +134,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "4.0M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "19.0"
     },
     "8": {
@@ -120,9 +152,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "7.9M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "6.4"
     },
     "9": {
@@ -134,9 +170,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "7.9M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "18.0"
     },
     "10": {
@@ -148,9 +188,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "3.2M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "6.3"
     },
     "11": {
@@ -162,9 +206,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "3.2M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "17.9"
     },
     "12": {
@@ -176,9 +224,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "6.4M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "6.2"
     },
     "13": {
@@ -190,9 +242,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "6.4M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "17.1"
     },
     "14": {
@@ -204,9 +260,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "12.7M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "5.8"
     },
     "15": {
@@ -218,9 +278,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "12.7M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "16.7"
     },
     "16": {
@@ -232,9 +296,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "814K"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "6.2"
     },
     "17": {
@@ -246,9 +314,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "814K"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "17.4"
     },
     "18": {
@@ -260,9 +332,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "6.4M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "5.4"
     },
     "19": {
@@ -274,9 +350,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "6.4M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "16.2"
     },
     "20": {
@@ -288,9 +368,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "12.8M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "5.1"
     },
     "21": {
@@ -302,9 +386,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "12.8M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "15.7"
     },
     "22": {
@@ -316,9 +404,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "1.3M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "6.0"
     },
     "23": {
@@ -330,9 +422,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "1.3M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "17.1"
     },
     "24": {
@@ -344,9 +440,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "13.6M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "5.2"
     },
     "25": {
@@ -358,9 +458,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "13.6M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "15.4"
     },
     "26": {
@@ -372,9 +476,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "27.2M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "5.1"
     },
     "27": {
@@ -386,9 +494,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "27.2M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "15.3"
     }
 }

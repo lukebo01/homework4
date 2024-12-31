@@ -8,9 +8,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "3.2M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "5.7"
     },
     "1": {
@@ -22,65 +26,85 @@
             "1": {
                 "name": "# Params.",
                 "value": "3.2M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "16.7"
     },
     "2": {
         "specifications": {
             "0": {
                 "name": "Model variant",
-                "value": "- Recurrent state"
+                "value": "Linear Head HRA - Recurrent state"
             },
             "1": {
                 "name": "# Params.",
                 "value": "3.2M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "5.9"
     },
     "3": {
         "specifications": {
             "0": {
                 "name": "Model variant",
-                "value": "- Recurrent state"
+                "value": "Linear Head HRA - Recurrent state"
             },
             "1": {
                 "name": "# Params.",
                 "value": "3.2M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "16.8"
     },
     "4": {
         "specifications": {
             "0": {
                 "name": "Model variant",
-                "value": "- Weight unshared"
+                "value": "Linear Head HRA - Weight unshared"
             },
             "1": {
                 "name": "# Params.",
                 "value": "102.4M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "5.3"
     },
     "5": {
         "specifications": {
             "0": {
                 "name": "Model variant",
-                "value": "- Weight unshared"
+                "value": "Linear Head HRA - Weight unshared"
             },
             "1": {
                 "name": "# Params.",
                 "value": "102.4M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "15.5"
     }
 }

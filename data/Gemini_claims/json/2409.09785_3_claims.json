@@ -4,9 +4,13 @@
             "0": {
                 "name": "System",
                 "value": "Source Transcript"
+            },
+            "1": {
+                "name": "Metric Split",
+                "value": "dev"
             }
         },
-        "Measure": "dev cpWER (%)",
+        "Measure": "cpWER (%)",
         "Outcome": "24.65"
     },
     "1": {
@@ -14,9 +18,13 @@
             "0": {
                 "name": "System",
                 "value": "Source Transcript"
+            },
+            "1": {
+                "name": "Metric Split",
+                "value": "eval"
             }
         },
-        "Measure": "eval cpWER (%)",
+        "Measure": "cpWER (%)",
         "Outcome": "28.45"
     },
     "2": {
@@ -24,9 +32,13 @@
             "0": {
                 "name": "System",
                 "value": "Task-2 Baseline"
+            },
+            "1": {
+                "name": "Metric Split",
+                "value": "dev"
             }
         },
-        "Measure": "dev cpWER (%)",
+        "Measure": "cpWER (%)",
         "Outcome": "24.54"
     },
     "3": {
@@ -34,9 +46,13 @@
             "0": {
                 "name": "System",
                 "value": "Task-2 Baseline"
+            },
+            "1": {
+                "name": "Metric Split",
+                "value": "eval"
             }
         },
-        "Measure": "eval cpWER (%)",
+        "Measure": "cpWER (%)",
         "Outcome": "28.37"
     }
 }

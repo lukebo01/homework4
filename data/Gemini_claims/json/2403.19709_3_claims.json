@@ -8,9 +8,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "51M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.6"
     },
     "1": {
@@ -22,9 +26,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "102M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.9"
     },
     "2": {
@@ -36,9 +44,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "203M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "11.0"
     },
     "3": {
@@ -50,9 +62,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "201M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "9.9"
     },
     "4": {
@@ -64,9 +80,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "403M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.2"
     },
     "5": {
@@ -78,9 +98,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "806M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.4"
     },
     "6": {
@@ -92,9 +116,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "51M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.7"
     },
     "7": {
@@ -106,9 +134,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "101M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "11.0"
     },
     "8": {
@@ -120,9 +152,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "202M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "11.3"
     },
     "9": {
@@ -134,9 +170,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "118M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.1"
     },
     "10": {
@@ -148,9 +188,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "269M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.3"
     },
     "11": {
@@ -162,9 +206,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "672M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.5"
     },
     "12": {

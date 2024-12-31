@@ -26,14 +26,14 @@
                 "value": "w/o IV"
             }
         },
-        "Measure": "\u0394d(MAE)",
+        "Measure": "\u0394d (MAE)",
         "Outcome": "90.16"
     },
     "3": {
         "specifications": {
             "0": {
                 "name": "Method",
-                "value": "w/ IV (``Before'``)"
+                "value": "w/ IV (Before)"
             }
         },
         "Measure": "\u0394a",
@@ -43,7 +43,7 @@
         "specifications": {
             "0": {
                 "name": "Method",
-                "value": "w/ IV (``Before'``)"
+                "value": "w/ IV (Before)"
             }
         },
         "Measure": "\u0394e",
@@ -53,17 +53,17 @@
         "specifications": {
             "0": {
                 "name": "Method",
-                "value": "w/ IV (``Before'``)"
+                "value": "w/ IV (Before)"
             }
         },
-        "Measure": "\u0394d(MAE)",
-        "Outcome": "2.7"
+        "Measure": "\u0394d (MAE)",
+        "Outcome": "2.70"
     },
     "6": {
         "specifications": {
             "0": {
                 "name": "Method",
-                "value": "w/ IV (``After'``)"
+                "value": "w/ IV (After)"
             }
         },
         "Measure": "\u0394a",
@@ -73,7 +73,7 @@
         "specifications": {
             "0": {
                 "name": "Method",
-                "value": "w/ IV (``After'``)"
+                "value": "w/ IV (After)"
             }
         },
         "Measure": "\u0394e",
@@ -83,17 +83,17 @@
         "specifications": {
             "0": {
                 "name": "Method",
-                "value": "w/ IV (``After'``)"
+                "value": "w/ IV (After)"
             }
         },
-        "Measure": "\u0394d(MAE)",
+        "Measure": "\u0394d (MAE)",
         "Outcome": "4.69"
     },
     "9": {
         "specifications": {
             "0": {
                 "name": "Method",
-                "value": "w/ IV (``Before'') & ST."
+                "value": "w/ IV (Before) & ST."
             }
         },
         "Measure": "\u0394a",
@@ -103,7 +103,7 @@
         "specifications": {
             "0": {
                 "name": "Method",
-                "value": "w/ IV (``Before'') & ST."
+                "value": "w/ IV (Before) & ST."
             }
         },
         "Measure": "\u0394e",
@@ -113,40 +113,20 @@
         "specifications": {
             "0": {
                 "name": "Method",
-                "value": "w/ IV (``Before'') & ST."
+                "value": "w/ IV (Before) & ST."
             }
         },
-        "Measure": "\u0394d(MAE)",
+        "Measure": "\u0394d (MAE)",
         "Outcome": "2.97"
     },
     "12": {
         "specifications": {
             "0": {
                 "name": "Method",
-                "value": "Spatial LibriSpeech [22]"
+                "value": "Spatial LibriSpeech"
             }
         },
-        "Measure": "\u0394a",
-        "Outcome": "-"
-    },
-    "13": {
-        "specifications": {
-            "0": {
-                "name": "Method",
-                "value": "Spatial LibriSpeech [22]"
-            }
-        },
-        "Measure": "\u0394e",
-        "Outcome": "-"
-    },
-    "14": {
-        "specifications": {
-            "0": {
-                "name": "Method",
-                "value": "Spatial LibriSpeech [22]"
-            }
-        },
-        "Measure": "\u0394d(MAE)",
-        "Outcome": "6.6"
+        "Measure": "\u0394d (median angular error)",
+        "Outcome": "6.60"
     }
 }

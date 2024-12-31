@@ -8,9 +8,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "-"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "31.5"
     },
     "1": {
@@ -22,9 +26,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "-"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Median"
             }
         },
-        "Measure": "Median",
+        "Measure": "WER",
         "Outcome": "21.8"
     },
     "2": {
@@ -36,9 +44,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "-"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "SD"
             }
         },
-        "Measure": "SD",
+        "Measure": "WER",
         "Outcome": "28.6"
     },
     "3": {
@@ -50,9 +62,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "232B"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "9.3"
     },
     "4": {
@@ -64,9 +80,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "232B"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Median"
             }
         },
-        "Measure": "Median",
+        "Measure": "WER",
         "Outcome": "5.4"
     },
     "5": {
@@ -78,9 +98,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "232B"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "SD"
             }
         },
-        "Measure": "SD",
+        "Measure": "WER",
         "Outcome": "11.1"
     },
     "6": {
@@ -92,9 +116,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "201M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.9"
     },
     "7": {
@@ -106,9 +134,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "201M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Median"
             }
         },
-        "Measure": "Median",
+        "Measure": "WER",
         "Outcome": "6.6"
     },
     "8": {
@@ -120,9 +152,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "201M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "SD"
             }
         },
-        "Measure": "SD",
+        "Measure": "WER",
         "Outcome": "12.4"
     },
     "9": {
@@ -134,9 +170,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "403M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.9"
     },
     "10": {
@@ -148,9 +188,14 @@
             "1": {
                 "name": "# Params.",
                 "value": "403M"
+            },
+            "2":
+            {
+                "name": "Type of WER",
+                "value": "Median"
             }
         },
-        "Measure": "Median",
+        "Measure": "WER",
         "Outcome": "7.4"
     },
     "11": {
@@ -162,9 +207,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "403M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "SD"
             }
         },
-        "Measure": "SD",
+        "Measure": "WER",
         "Outcome": "11.6"
     },
     "12": {
@@ -176,9 +225,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "805M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "12.4"
     },
     "13": {
@@ -190,9 +243,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "805M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Median"
             }
         },
-        "Measure": "Median",
+        "Measure": "WER",
         "Outcome": "6.9"
     },
     "14": {
@@ -204,9 +261,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "805M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "SD"
             }
         },
-        "Measure": "SD",
+        "Measure": "WER",
         "Outcome": "15.8"
     },
     "15": {
@@ -218,9 +279,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "410M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.2"
     },
     "16": {
@@ -232,9 +297,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "410M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Median"
             }
         },
-        "Measure": "Median",
+        "Measure": "WER",
         "Outcome": "6.1"
     },
     "17": {
@@ -246,9 +315,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "410M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "SD"
             }
         },
-        "Measure": "SD",
+        "Measure": "WER",
         "Outcome": "11.6"
     },
     "18": {
@@ -260,9 +333,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "819M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.2"
     },
     "19": {
@@ -274,9 +351,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "819M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Median"
             }
         },
-        "Measure": "Median",
+        "Measure": "WER",
         "Outcome": "6.1"
     },
     "20": {
@@ -288,9 +369,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "819M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "SD"
             }
         },
-        "Measure": "SD",
+        "Measure": "WER",
         "Outcome": "11.2"
     },
     "21": {
@@ -302,9 +387,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "1.6B"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.1"
     },
     "22": {
@@ -316,9 +405,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "1.6B"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Median"
             }
         },
-        "Measure": "Median",
+        "Measure": "WER",
         "Outcome": "6.2"
     },
     "23": {
@@ -330,9 +423,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "1.6B"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "SD"
             }
         },
-        "Measure": "SD",
+        "Measure": "WER",
         "Outcome": "11.0"
     },
     "24": {
@@ -344,9 +441,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "51M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "14.6"
     },
     "25": {
@@ -358,9 +459,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "51M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Median"
             }
         },
-        "Measure": "Median",
+        "Measure": "WER",
         "Outcome": "9.7"
     },
     "26": {
@@ -372,9 +477,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "51M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "SD"
             }
         },
-        "Measure": "SD",
+        "Measure": "WER",
         "Outcome": "14.2"
     },
     "27": {
@@ -386,9 +495,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "102M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "14.5"
     },
     "28": {
@@ -400,9 +513,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "102M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Median"
             }
         },
-        "Measure": "Median",
+        "Measure": "WER",
         "Outcome": "9.9"
     },
     "29": {
@@ -414,9 +531,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "102M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "SD"
             }
         },
-        "Measure": "SD",
+        "Measure": "WER",
         "Outcome": "13.1"
     },
     "30": {
@@ -428,9 +549,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "203M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "16.1"
     },
     "31": {
@@ -442,9 +567,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "203M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Median"
             }
         },
-        "Measure": "Median",
+        "Measure": "WER",
         "Outcome": "12.0"
     },
     "32": {
@@ -456,9 +585,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "203M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "SD"
             }
         },
-        "Measure": "SD",
+        "Measure": "WER",
         "Outcome": "12.1"
     },
     "33": {
@@ -470,9 +603,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "201M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "9.9"
     },
     "34": {
@@ -484,9 +621,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "201M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Median"
             }
         },
-        "Measure": "Median",
+        "Measure": "WER",
         "Outcome": "6.3"
     },
     "35": {
@@ -498,9 +639,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "201M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "SD"
             }
         },
-        "Measure": "SD",
+        "Measure": "WER",
         "Outcome": "11.2"
     },
     "36": {
@@ -512,9 +657,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "403M"
+            },
+            "2":{
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.2"
     },
     "37": {
@@ -526,9 +675,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "403M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Median"
             }
         },
-        "Measure": "Median",
+        "Measure": "WER",
         "Outcome": "6.1"
     },
     "38": {
@@ -540,9 +693,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "403M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "SD"
             }
         },
-        "Measure": "SD",
+        "Measure": "WER",
         "Outcome": "11.8"
     },
     "39": {
@@ -554,9 +711,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "806M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Mean"
             }
         },
-        "Measure": "Mean",
+        "Measure": "WER",
         "Outcome": "10.4"
     },
     "40": {
@@ -568,9 +729,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "806M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "Median"
             }
         },
-        "Measure": "Median",
+        "Measure": "WER",
         "Outcome": "6.2"
     },
     "41": {
@@ -582,9 +747,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "806M"
+            },
+            "2": {
+                "name": "Type of WER",
+                "value": "SD"
             }
         },
-        "Measure": "SD",
+        "Measure": "WER",
         "Outcome": "11.3"
     }
 }

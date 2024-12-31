@@ -16,9 +16,17 @@
             "3": {
                 "name": "Feature Dimension",
                 "value": "62"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
             }
         },
-        "Measure": "Test Pos.F1",
+        "Measure": "F1 Score",
         "Outcome": "39.0"
     },
     "1": {
@@ -38,9 +46,17 @@
             "3": {
                 "name": "Feature Dimension",
                 "value": "top 1000"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
             }
         },
-        "Measure": "Test Pos.F1",
+        "Measure": "F1 Score",
         "Outcome": "62.4"
     },
     "2": {
@@ -60,9 +76,17 @@
             "3": {
                 "name": "Feature Dimension",
                 "value": "352"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
             }
         },
-        "Measure": "Test Pos.F1",
+        "Measure": "F1 Score",
         "Outcome": "67.6"
     },
     "3": {
@@ -82,9 +106,17 @@
             "3": {
                 "name": "Feature Dimension",
                 "value": "296"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
             }
         },
-        "Measure": "Test Pos.F1",
+        "Measure": "F1 Score",
         "Outcome": "70.5"
     },
     "4": {
@@ -104,9 +136,17 @@
             "3": {
                 "name": "Feature Dimension",
                 "value": "128"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
             }
         },
-        "Measure": "Test Pos.F1",
+        "Measure": "F1 Score",
         "Outcome": "73.9"
     },
     "5": {
@@ -126,9 +166,17 @@
             "3": {
                 "name": "Feature Dimension",
                 "value": "128"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
             }
         },
-        "Measure": "Test Pos.F1",
+        "Measure": "F1 Score",
         "Outcome": "70.7"
     },
     "6": {
@@ -148,9 +196,17 @@
             "3": {
                 "name": "Feature Dimension",
                 "value": "128"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
             }
         },
-        "Measure": "Test Pos.F1",
+        "Measure": "F1 Score",
         "Outcome": "74.3"
     },
     "7": {
@@ -170,9 +226,17 @@
             "3": {
                 "name": "Feature Dimension",
                 "value": "512"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
             }
         },
-        "Measure": "Test Pos.F1",
+        "Measure": "F1 Score",
         "Outcome": "74.8"
     }
 }

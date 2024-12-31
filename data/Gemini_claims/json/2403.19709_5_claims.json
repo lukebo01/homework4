@@ -8,9 +8,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "1.6M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "6.0"
     },
     "1": {
@@ -22,9 +26,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "1.9M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "6.1"
     },
     "2": {
@@ -36,9 +44,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "2.4"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
             }
         },
-        "Measure": "VS",
+        "Measure": "WER",
         "Outcome": "6.0"
     },
     "3": {
@@ -50,9 +62,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "1.6M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "16.9"
     },
     "4": {
@@ -64,9 +80,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "1.9M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "17.1"
     },
     "5": {
@@ -78,9 +98,13 @@
             "1": {
                 "name": "# Params.",
                 "value": "2.4"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
             }
         },
-        "Measure": "VS w. PN",
+        "Measure": "WER",
         "Outcome": "16.9"
     }
 }
