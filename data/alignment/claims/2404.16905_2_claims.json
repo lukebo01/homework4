@@ -1,0 +1,178 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Origin TSAM"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "RoBERTa-base"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "Test Set"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Causal emotion entailment"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "74.3"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CEE + MIN"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "RoBERTa-base"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "Test Set"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Causal emotion entailment"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "75.5"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CEE + MIN & MTLA"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "RoBERTa-base"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "Test Set"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Causal emotion entailment"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "75.9"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CEE + MIN & MTLA + Ensemble"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "RoBERTa-large"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "Test Set"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Causal emotion entailment"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "78.0"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CEE + MIN & MTLA + Ensemble"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "RoBERTa-large"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "eval"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Causal emotion entailment"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "38.7"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CSE"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "BERT-base"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "eval"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Causal emotion entailment"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "31.62"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CSE"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "RoBERTa-large"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "eval"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Causal emotion entailment"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "32.23"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Ours-CEE + MIN & MTLA"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "RoBERTa-large"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "Test Set"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Causal emotion entailment"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "76.9"
+    }
+}

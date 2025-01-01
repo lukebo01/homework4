@@ -1,0 +1,132 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/o IV"
+            }
+        },
+        "Measure": "\u0394a",
+        "Outcome": "90.19"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/o IV"
+            }
+        },
+        "Measure": "\u0394e",
+        "Outcome": "8.26"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/o IV"
+            }
+        },
+        "Measure": "\u0394d (MAE)",
+        "Outcome": "90.16"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/ IV (Before)"
+            }
+        },
+        "Measure": "\u0394a",
+        "Outcome": "1.60"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/ IV (Before)"
+            }
+        },
+        "Measure": "\u0394e",
+        "Outcome": "1.76"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/ IV (Before)"
+            }
+        },
+        "Measure": "\u0394d (MAE)",
+        "Outcome": "2.70"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/ IV (After)"
+            }
+        },
+        "Measure": "\u0394a",
+        "Outcome": "3.35"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/ IV (After)"
+            }
+        },
+        "Measure": "\u0394e",
+        "Outcome": "2.56"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/ IV (After)"
+            }
+        },
+        "Measure": "\u0394d (MAE)",
+        "Outcome": "4.69"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/ IV (Before) & ST."
+            }
+        },
+        "Measure": "\u0394a",
+        "Outcome": "1.88"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/ IV (Before) & ST."
+            }
+        },
+        "Measure": "\u0394e",
+        "Outcome": "1.85"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/ IV (Before) & ST."
+            }
+        },
+        "Measure": "\u0394d (MAE)",
+        "Outcome": "2.97"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Spatial LibriSpeech"
+            }
+        },
+        "Measure": "\u0394d (median angular error)",
+        "Outcome": "6.60"
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Audio"
+            },
+            "1": {
+                "name": "Features",
+                "value": "GeMAPS"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "62"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test Set"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "39.0"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Audio"
+            },
+            "1": {
+                "name": "Features",
+                "value": "ComParE"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "top 1000"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test Set"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "62.4"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Audio"
+            },
+            "1": {
+                "name": "Features",
+                "value": "ComParE"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "352"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test Set"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "67.6"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Audio"
+            },
+            "1": {
+                "name": "Features",
+                "value": "ComParE"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "296"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test Set"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "70.5"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Audio"
+            },
+            "1": {
+                "name": "Features",
+                "value": "ComParE"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "128"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test Set"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "73.9"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Vision"
+            },
+            "1": {
+                "name": "Features",
+                "value": "Max Img"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "128"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test Set"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "70.7"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Vision"
+            },
+            "1": {
+                "name": "Features",
+                "value": "Speaker Img"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "128"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test Set"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "74.3"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Modality",
+                "value": "Vision"
+            },
+            "1": {
+                "name": "Features",
+                "value": "Emotional Speaker Img"
+            },
+            "2": {
+                "name": "Feature Selection",
+                "value": "nan"
+            },
+            "3": {
+                "name": "Feature Dimension",
+                "value": "512"
+            },
+            "4": {
+                "name": "Dataset",
+                "value": "Test Set"
+            },
+            "5": {
+                "name": "Focus",
+                "value": "Pos."
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "74.8"
+    }
+}

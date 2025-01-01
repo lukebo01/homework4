@@ -1,0 +1,158 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Majority"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "58.76%"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Majority"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "Chihuahua"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "61.49%"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Majority"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "French Poodle"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "6.59%"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Majority"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "Schnauzer"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "6.78%"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "60.18%"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (from scratch)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "Chihuahua"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "74.42%"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (from scratch)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "French Poodle"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "14.96%"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (from scratch)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "Schnauzer"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "5.79%"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "62.28%"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (pre-trained)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "Chihuahua"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "74.47%"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (pre-trained)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "French Poodle"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "36.11%"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (pre-trained)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "Schnauzer"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "14.88%"
+    }
+}

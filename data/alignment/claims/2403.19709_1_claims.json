@@ -1,0 +1,506 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Full Fine-tuning"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.8B"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "5.3"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Full Fine-tuning"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.8B"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "15.7"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "BitFit"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.3M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "6.6"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "BitFit"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.3M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "18.4"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "2.0M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "7.5"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "2.0M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "19.9"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "4.0M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "6.8"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "4.0M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "19.0"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "7.9M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "6.4"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "LoRA"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "7.9M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "18.0"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "3.2M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "6.3"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "3.2M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "17.9"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "6.4M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "6.2"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "6.4M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "17.1"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "12.7M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "5.8"
+    },
+    "15": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Residual Adapters"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "12.7M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "16.7"
+    },
+    "16": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA (ours)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "814K"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "6.2"
+    },
+    "17": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA (ours)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "814K"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "17.4"
+    },
+    "18": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA (ours)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "6.4M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "5.4"
+    },
+    "19": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA (ours)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "6.4M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "16.2"
+    },
+    "20": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA (ours)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "12.8M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "5.1"
+    },
+    "21": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "Linear Head HRA (ours)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "12.8M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "15.7"
+    },
+    "22": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA (ours)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.3M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "6.0"
+    },
+    "23": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA (ours)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.3M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "17.1"
+    },
+    "24": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA (ours)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "13.6M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "5.2"
+    },
+    "25": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA (ours)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "13.6M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "15.4"
+    },
+    "26": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA (ours)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "27.2M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "5.1"
+    },
+    "27": {
+        "specifications": {
+            "0": {
+                "name": "Model",
+                "value": "FFN Head HRA (ours)"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "27.2M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "15.3"
+    }
+}

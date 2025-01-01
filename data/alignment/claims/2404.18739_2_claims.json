@@ -1,0 +1,32 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Majority"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "5.03%"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "23.74%"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "49.95%"
+    }
+}

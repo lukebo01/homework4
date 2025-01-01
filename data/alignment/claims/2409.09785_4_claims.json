@@ -1,0 +1,58 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Dataset",
+                "value": "Test Set"
+            },
+            "1": {
+                "name": "Model",
+                "value": "GPT3.5-turbo"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "44.7"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Dataset",
+                "value": "Test Set"
+            },
+            "1": {
+                "name": "Model",
+                "value": "Baseline"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "55.18"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Dataset",
+                "value": "Training Set"
+            },
+            "1": {
+                "name": "Model",
+                "value": "GPT3.5-turbo"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "62.34"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Dataset",
+                "value": "Training Set"
+            },
+            "1": {
+                "name": "Model",
+                "value": "Baseline"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "51.08"
+    }
+}

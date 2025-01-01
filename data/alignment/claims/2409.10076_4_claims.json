@@ -1,0 +1,212 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "55"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.0697"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "55"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0022"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "55"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.0675"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "56"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.0575"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "56"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0025"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "56"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.055"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "57"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.0454"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "57"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0029"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "57"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.0425"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "58"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.0384"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "58"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0034"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "58"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.035"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "59"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.0339"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "59"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0039"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "59"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.03"
+    },
+    "15": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "60"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.0322"
+    },
+    "16": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "60"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0047"
+    },
+    "17": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "60"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.0275"
+    },
+    "18": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "61"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.0331"
+    },
+    "19": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "61"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0056"
+    },
+    "20": {
+        "specifications": {
+            "0": {
+                "name": "Thresh rank",
+                "value": "61"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.0275"
+    }
+}

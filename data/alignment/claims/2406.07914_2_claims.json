@@ -1,0 +1,44 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/o IV"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "LibriSpeech"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "8.6"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/o IV"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "Spatial LibriSpeech"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "9.0"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "w/ IV"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "Spatial LibriSpeech"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "7.6"
+    }
+}

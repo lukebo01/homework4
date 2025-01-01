@@ -1,0 +1,110 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "IndRNN"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.6M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "6.0"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "RNN"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.9M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "6.1"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Light GRU"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "2.4"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "6.0"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "IndRNN"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.6M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "16.9"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "RNN"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "1.9M"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "17.1"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Light GRU"
+            },
+            "1": {
+                "name": "# Params.",
+                "value": "2.4"
+            },
+            "2": {
+                "name": "Dataset",
+                "value": "VS w. PN"
+            }
+        },
+        "Measure": "WER",
+        "Outcome": "16.9"
+    }
+}

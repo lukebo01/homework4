@@ -1,0 +1,322 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Origin InstructERC"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-7B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "53.83"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Origin InstructERC"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-7B-chat"
+            },
+            "2": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "50.87"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Origin InstructERC"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-13B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "55.50"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Origin InstructERC"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-13B-chat"
+            },
+            "2": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "48.93"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Ours-ERC-7B + 3 auxiliary tasks"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-7B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "56.88"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Ours-ERC-7B + 3 auxiliary tasks"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-7B-chat"
+            },
+            "2": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "61.38"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Ours-ERC-7B + 3 auxiliary tasks & historical clips desc"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-7B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "57.74"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Ours-ERC-7B + 3 auxiliary tasks & historical clips desc"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-7B-chat"
+            },
+            "2": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "57.02"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Ours-ERC-7B + 3 auxiliary tasks & utterance clips desc"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-7B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "58.42"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Ours-ERC-7B + 3 auxiliary tasks & utterance clips desc"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-7B-chat"
+            },
+            "2": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "57.92"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Ours-ERC-13B + 3 auxiliary tasks"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-13B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "57.85"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Ours-ERC-13B + 3 auxiliary tasks"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-13B-chat"
+            },
+            "2": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "61.45"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Ours-ERC-13B + 3 auxiliary tasks & historical clips desc"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-13B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "58.64"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Ours-ERC-13B + 3 auxiliary tasks & historical clips desc"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-13B-chat"
+            },
+            "2": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "60.83"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Ours-ERC-13B + 3 auxiliary tasks & utterance clips desc"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-13B-chat"
+            },
+            "2": {
+                "name": "F1 Type",
+                "value": "w-avg"
+            },
+            "3": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "58.50"
+    },
+    "15": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Ours-ERC-13B + 3 auxiliary tasks & utterance clips desc"
+            },
+            "1": {
+                "name": "Model Name",
+                "value": "Llama-2-13B-chat"
+            },
+            "2": {
+                "name": "Task",
+                "value": "Emotion Recognition in Conversation"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "61.04"
+    }
+}

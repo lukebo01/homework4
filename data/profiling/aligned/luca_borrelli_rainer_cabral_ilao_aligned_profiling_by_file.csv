@@ -37,7 +37,7 @@ WER;28;2403.19709_1_claims.json
 '-- Distribution of 'name' --;;2403.19709_2_claims.json
 Model;42;2403.19709_2_claims.json
 # Params.;42;2403.19709_2_claims.json
-Type of WER;42;2403.19709_2_claims.json
+Statistical Metric;42;2403.19709_2_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2403.19709_2_claims.json
 (name) Model;;2403.19709_2_claims.json
@@ -62,7 +62,7 @@ FFN Head HRA;9;2403.19709_2_claims.json
 203M;3;2403.19709_2_claims.json
 806M;3;2403.19709_2_claims.json
 
-(name) Type of WER;;2403.19709_2_claims.json
+(name) Statistical Metric;;2403.19709_2_claims.json
 Mean;14;2403.19709_2_claims.json
 Median;14;2403.19709_2_claims.json
 SD;14;2403.19709_2_claims.json
@@ -73,7 +73,7 @@ WER;42;2403.19709_2_claims.json
 '-- Distribution of 'name' --;;2403.19709_3_claims.json
 Model;24;2403.19709_3_claims.json
 # Params.;24;2403.19709_3_claims.json
-Type of WER;12;2403.19709_3_claims.json
+Statistical Metric;12;2403.19709_3_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2403.19709_3_claims.json
 (name) Model;;2403.19709_3_claims.json
@@ -95,7 +95,7 @@ FFN Head HRA (w/ pre-trained controller);6;2403.19709_3_claims.json
 269M;2;2403.19709_3_claims.json
 672M;2;2403.19709_3_claims.json
 
-(name) Type of WER;;2403.19709_3_claims.json
+(name) Statistical Metric;;2403.19709_3_claims.json
 Mean;12;2403.19709_3_claims.json
 
 '-- Distribution of 'Measure' --;;2403.19709_3_claims.json
@@ -103,12 +103,12 @@ WER;12;2403.19709_3_claims.json
 Paired T-Test;12;2403.19709_3_claims.json
 
 '-- Distribution of 'name' --;;2403.19709_4_claims.json
-Model variant;6;2403.19709_4_claims.json
+Model Name;6;2403.19709_4_claims.json
 # Params.;6;2403.19709_4_claims.json
 Dataset;6;2403.19709_4_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2403.19709_4_claims.json
-(name) Model variant;;2403.19709_4_claims.json
+(name) Model Name;;2403.19709_4_claims.json
 Linear Head HRA;2;2403.19709_4_claims.json
 Linear Head HRA - Recurrent state;2;2403.19709_4_claims.json
 Linear Head HRA - Weight unshared;2;2403.19709_4_claims.json
@@ -125,12 +125,12 @@ VS w. PN;3;2403.19709_4_claims.json
 WER;6;2403.19709_4_claims.json
 
 '-- Distribution of 'name' --;;2403.19709_5_claims.json
-Controller variant;6;2403.19709_5_claims.json
+Model Type;6;2403.19709_5_claims.json
 # Params.;6;2403.19709_5_claims.json
 Dataset;6;2403.19709_5_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2403.19709_5_claims.json
-(name) Controller variant;;2403.19709_5_claims.json
+(name) Model Type;;2403.19709_5_claims.json
 IndRNN;2;2403.19709_5_claims.json
 RNN;2;2403.19709_5_claims.json
 Light GRU;2;2403.19709_5_claims.json
@@ -148,13 +148,15 @@ VS w. PN;3;2403.19709_5_claims.json
 WER;6;2403.19709_5_claims.json
 
 '-- Distribution of 'name' --;;2404.16905_1_claims.json
-Models;16;2404.16905_1_claims.json
-LLM;16;2404.16905_1_claims.json
+Model Name;32;2404.16905_1_claims.json
 F1 Type;8;2404.16905_1_claims.json
+Task;16;2404.16905_1_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2404.16905_1_claims.json
-(name) Models;;2404.16905_1_claims.json
+(name) Model Name;;2404.16905_1_claims.json
 Origin InstructERC;4;2404.16905_1_claims.json
+Llama-2-7B-chat;8;2404.16905_1_claims.json
+Llama-2-13B-chat;8;2404.16905_1_claims.json
 Ours-ERC-7B + 3 auxiliary tasks;2;2404.16905_1_claims.json
 Ours-ERC-7B + 3 auxiliary tasks & historical clips desc;2;2404.16905_1_claims.json
 Ours-ERC-7B + 3 auxiliary tasks & utterance clips desc;2;2404.16905_1_claims.json
@@ -162,50 +164,48 @@ Ours-ERC-13B + 3 auxiliary tasks;2;2404.16905_1_claims.json
 Ours-ERC-13B + 3 auxiliary tasks & historical clips desc;2;2404.16905_1_claims.json
 Ours-ERC-13B + 3 auxiliary tasks & utterance clips desc;2;2404.16905_1_claims.json
 
-(name) LLM;;2404.16905_1_claims.json
-Llama-2-7B-chat;8;2404.16905_1_claims.json
-Llama-2-13B-chat;8;2404.16905_1_claims.json
-
 (name) F1 Type;;2404.16905_1_claims.json
 w-avg;8;2404.16905_1_claims.json
+
+(name) Task;;2404.16905_1_claims.json
+Emotion Recognition in Conversation;16;2404.16905_1_claims.json
 
 '-- Distribution of 'Measure' --;;2404.16905_1_claims.json
 F1 Score;8;2404.16905_1_claims.json
 Accuracy;8;2404.16905_1_claims.json
 
 '-- Distribution of 'name' --;;2404.16905_2_claims.json
-Model;7;2404.16905_2_claims.json
-Pre-trained Model;7;2404.16905_2_claims.json
-Dataset;7;2404.16905_2_claims.json
-Focus;7;2404.16905_2_claims.json
+Model;8;2404.16905_2_claims.json
+Model Name;8;2404.16905_2_claims.json
+Dataset Split;8;2404.16905_2_claims.json
+Task;8;2404.16905_2_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2404.16905_2_claims.json
 (name) Model;;2404.16905_2_claims.json
 Origin TSAM;1;2404.16905_2_claims.json
 Ours-CEE + MIN;1;2404.16905_2_claims.json
-Ours-CEE + MIN & MTLA;1;2404.16905_2_claims.json
+Ours-CEE + MIN & MTLA;2;2404.16905_2_claims.json
 Ours-CEE + MIN & MTLA + Ensemble;2;2404.16905_2_claims.json
 Ours-CSE;2;2404.16905_2_claims.json
 
-(name) Pre-trained Model;;2404.16905_2_claims.json
+(name) Model Name;;2404.16905_2_claims.json
 RoBERTa-base;3;2404.16905_2_claims.json
-RoBERTa-large;3;2404.16905_2_claims.json
+RoBERTa-large;4;2404.16905_2_claims.json
 BERT-base;1;2404.16905_2_claims.json
 
-(name) Dataset;;2404.16905_2_claims.json
-Test;4;2404.16905_2_claims.json
-Eval;3;2404.16905_2_claims.json
+(name) Dataset Split;;2404.16905_2_claims.json
+Test Set;5;2404.16905_2_claims.json
+eval;3;2404.16905_2_claims.json
 
-(name) Focus;;2404.16905_2_claims.json
-Pos.;5;2404.16905_2_claims.json
-Pos. (w-avg);2;2404.16905_2_claims.json
+(name) Task;;2404.16905_2_claims.json
+Causal emotion entailment;8;2404.16905_2_claims.json
 
 '-- Distribution of 'Measure' --;;2404.16905_2_claims.json
-F1 Score;7;2404.16905_2_claims.json
+F1 Score;8;2404.16905_2_claims.json
 
 '-- Distribution of 'name' --;;2404.16905_3_claims.json
 Modality;8;2404.16905_3_claims.json
-Feature Set;8;2404.16905_3_claims.json
+Features;8;2404.16905_3_claims.json
 Feature Selection;8;2404.16905_3_claims.json
 Feature Dimension;8;2404.16905_3_claims.json
 Dataset;8;2404.16905_3_claims.json
@@ -216,7 +216,7 @@ Focus;8;2404.16905_3_claims.json
 Audio;5;2404.16905_3_claims.json
 Vision;3;2404.16905_3_claims.json
 
-(name) Feature Set;;2404.16905_3_claims.json
+(name) Features;;2404.16905_3_claims.json
 GeMAPS;1;2404.16905_3_claims.json
 ComParE;4;2404.16905_3_claims.json
 Max Img;1;2404.16905_3_claims.json
@@ -235,7 +235,7 @@ top 1000;1;2404.16905_3_claims.json
 512;1;2404.16905_3_claims.json
 
 (name) Dataset;;2404.16905_3_claims.json
-Test;8;2404.16905_3_claims.json
+Test Set;8;2404.16905_3_claims.json
 
 (name) Focus;;2404.16905_3_claims.json
 Pos.;8;2404.16905_3_claims.json
@@ -244,10 +244,10 @@ Pos.;8;2404.16905_3_claims.json
 F1 Score;8;2404.16905_3_claims.json
 
 '-- Distribution of 'name' --;;2404.18739_1_claims.json
-Context;30;2404.18739_1_claims.json
+Features;30;2404.18739_1_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2404.18739_1_claims.json
-(name) Context;;2404.18739_1_claims.json
+(name) Features;;2404.18739_1_claims.json
 Very aggressive barking at a stranger (L-S2);2;2404.18739_1_claims.json
 Normal barking at a stranger (L-S1);2;2404.18739_1_claims.json
 Barking due to assault on the owner (L-A);2;2404.18739_1_claims.json
@@ -269,10 +269,10 @@ Total;2;2404.18739_1_claims.json
 Duration (sec);15;2404.18739_1_claims.json
 
 '-- Distribution of 'name' --;;2404.18739_2_claims.json
-Method;3;2404.18739_2_claims.json
+Model Type;3;2404.18739_2_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2404.18739_2_claims.json
-(name) Method;;2404.18739_2_claims.json
+(name) Model Type;;2404.18739_2_claims.json
 Majority;1;2404.18739_2_claims.json
 Wav2Vec2 (from scratch);1;2404.18739_2_claims.json
 Wav2Vec2 (pre-trained);1;2404.18739_2_claims.json
@@ -281,11 +281,11 @@ Wav2Vec2 (pre-trained);1;2404.18739_2_claims.json
 Accuracy;3;2404.18739_2_claims.json
 
 '-- Distribution of 'name' --;;2404.18739_3_claims.json
-Method;12;2404.18739_3_claims.json
+Model Type;12;2404.18739_3_claims.json
 Dataset;9;2404.18739_3_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2404.18739_3_claims.json
-(name) Method;;2404.18739_3_claims.json
+(name) Model Type;;2404.18739_3_claims.json
 Majority;4;2404.18739_3_claims.json
 Wav2Vec2 (from scratch);4;2404.18739_3_claims.json
 Wav2Vec2 (pre-trained);4;2404.18739_3_claims.json
@@ -300,11 +300,11 @@ Accuracy;3;2404.18739_3_claims.json
 F1 Score;9;2404.18739_3_claims.json
 
 '-- Distribution of 'name' --;;2404.18739_4_claims.json
-Method;15;2404.18739_4_claims.json
+Model Type;15;2404.18739_4_claims.json
 Dataset;12;2404.18739_4_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2404.18739_4_claims.json
-(name) Method;;2404.18739_4_claims.json
+(name) Model Type;;2404.18739_4_claims.json
 Majority;5;2404.18739_4_claims.json
 Wav2Vec2 (from scratch);5;2404.18739_4_claims.json
 Wav2Vec2 (pre-trained);5;2404.18739_4_claims.json
@@ -320,11 +320,11 @@ Accuracy;3;2404.18739_4_claims.json
 F1 Score;12;2404.18739_4_claims.json
 
 '-- Distribution of 'name' --;;2404.18739_5_claims.json
-Method;9;2404.18739_5_claims.json
+Model Type;9;2404.18739_5_claims.json
 Dataset;6;2404.18739_5_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2404.18739_5_claims.json
-(name) Method;;2404.18739_5_claims.json
+(name) Model Type;;2404.18739_5_claims.json
 Majority;3;2404.18739_5_claims.json
 Wav2Vec2 (from scratch);3;2404.18739_5_claims.json
 Wav2Vec2 (pre-trained);3;2404.18739_5_claims.json
@@ -338,10 +338,10 @@ Accuracy;3;2404.18739_5_claims.json
 F1 Score;6;2404.18739_5_claims.json
 
 '-- Distribution of 'name' --;;2406.07914_1_claims.json
-Method;13;2406.07914_1_claims.json
+Model Type;13;2406.07914_1_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2406.07914_1_claims.json
-(name) Method;;2406.07914_1_claims.json
+(name) Model Type;;2406.07914_1_claims.json
 w/o IV;3;2406.07914_1_claims.json
 w/ IV (Before);3;2406.07914_1_claims.json
 w/ IV (After);3;2406.07914_1_claims.json
@@ -355,38 +355,38 @@ Spatial LibriSpeech;1;2406.07914_1_claims.json
 Δd (median angular error);1;2406.07914_1_claims.json
 
 '-- Distribution of 'name' --;;2406.07914_2_claims.json
-Method;3;2406.07914_2_claims.json
-Data;3;2406.07914_2_claims.json
+Model Type;3;2406.07914_2_claims.json
+Dataset;3;2406.07914_2_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2406.07914_2_claims.json
-(name) Method;;2406.07914_2_claims.json
+(name) Model Type;;2406.07914_2_claims.json
 w/o IV;2;2406.07914_2_claims.json
 w/ IV;1;2406.07914_2_claims.json
 
-(name) Data;;2406.07914_2_claims.json
+(name) Dataset;;2406.07914_2_claims.json
 LibriSpeech;1;2406.07914_2_claims.json
 Spatial LibriSpeech;2;2406.07914_2_claims.json
 
 '-- Distribution of 'Measure' --;;2406.07914_2_claims.json
-WER%;3;2406.07914_2_claims.json
+WER;3;2406.07914_2_claims.json
 
 '-- Distribution of 'name' --;;2406.07914_3_claims.json
-Method;12;2406.07914_3_claims.json
-Data;12;2406.07914_3_claims.json
+Model Type;12;2406.07914_3_claims.json
+Dataset;12;2406.07914_3_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2406.07914_3_claims.json
-(name) Method;;2406.07914_3_claims.json
+(name) Model Type;;2406.07914_3_claims.json
 w/o IV;6;2406.07914_3_claims.json
 w/ IV;6;2406.07914_3_claims.json
 
-(name) Data;;2406.07914_3_claims.json
+(name) Dataset;;2406.07914_3_claims.json
 left/right;6;2406.07914_3_claims.json
 random;6;2406.07914_3_claims.json
 
 '-- Distribution of 'Measure' --;;2406.07914_3_claims.json
 SR%;4;2406.07914_3_claims.json
 sWER%;4;2406.07914_3_claims.json
-WER%;4;2406.07914_3_claims.json
+WER;4;2406.07914_3_claims.json
 
 '-- Distribution of 'name' --;;2407.02052_2_claims.json
 Iteration;12;2407.02052_2_claims.json
@@ -417,11 +417,11 @@ CER%;12;2407.02052_2_claims.json
 '-- Distribution of 'name' --;;2407.02052_3_claims.json
 ID;10;2407.02052_3_claims.json
 Model;10;2407.02052_3_claims.json
-Set;10;2407.02052_3_claims.json
+Dataset Split;10;2407.02052_3_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2407.02052_3_claims.json
 (name) ID;;2407.02052_3_claims.json
-M0;2;2407.02052_3_claims.json
+Baseline;2;2407.02052_3_claims.json
 M1;1;2407.02052_3_claims.json
 M2;1;2407.02052_3_claims.json
 M3;1;2407.02052_3_claims.json
@@ -430,7 +430,7 @@ M5;2;2407.02052_3_claims.json
 M6;2;2407.02052_3_claims.json
 
 (name) Model;;2407.02052_3_claims.json
-Official Baseline;2;2407.02052_3_claims.json
+Baseline;2;2407.02052_3_claims.json
 conv2d+conformer;1;2407.02052_3_claims.json
 conv2d+ebranchformer;1;2407.02052_3_claims.json
 VGG+ebranchformer;1;2407.02052_3_claims.json
@@ -438,26 +438,24 @@ gateCNN+conformer;1;2407.02052_3_claims.json
 gateCNN+ebranchformer;2;2407.02052_3_claims.json
 fusion models based on M1-M5;2;2407.02052_3_claims.json
 
-(name) Set;;2407.02052_3_claims.json
-Dev;7;2407.02052_3_claims.json
-Eval;3;2407.02052_3_claims.json
+(name) Dataset Split;;2407.02052_3_claims.json
+eval;10;2407.02052_3_claims.json
 
 '-- Distribution of 'Measure' --;;2407.02052_3_claims.json
 CER%;10;2407.02052_3_claims.json
 
 '-- Distribution of 'name' --;;2407.02052_4_claims.json
 Model;5;2407.02052_4_claims.json
-Set;5;2407.02052_4_claims.json
+Dataset Split;5;2407.02052_4_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2407.02052_4_claims.json
 (name) Model;;2407.02052_4_claims.json
 Speaker Diarization;1;2407.02052_4_claims.json
-M0 Offical Baseline;2;2407.02052_4_claims.json
+Baseline;2;2407.02052_4_claims.json
 M6 Fusion models;2;2407.02052_4_claims.json
 
-(name) Set;;2407.02052_4_claims.json
-Dev;3;2407.02052_4_claims.json
-Eval;2;2407.02052_4_claims.json
+(name) Dataset Split;;2407.02052_4_claims.json
+eval;5;2407.02052_4_claims.json
 
 '-- Distribution of 'Measure' --;;2407.02052_4_claims.json
 DER (%);1;2407.02052_4_claims.json
@@ -466,8 +464,9 @@ cpCER (%);4;2407.02052_4_claims.json
 '-- Distribution of 'name' --;;2408.13739_1_claims.json
 No. of dialects;3;2408.13739_1_claims.json
 Features;3;2408.13739_1_claims.json
-Classifier;3;2408.13739_1_claims.json
-Database;3;2408.13739_1_claims.json
+Model Type;3;2408.13739_1_claims.json
+Dataset;3;2408.13739_1_claims.json
+Language;3;2408.13739_1_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2408.13739_1_claims.json
 (name) No. of dialects;;2408.13739_1_claims.json
@@ -479,22 +478,27 @@ Database;3;2408.13739_1_claims.json
 Mel Frequency Cepstral Coefficients;1;2408.13739_1_claims.json
 Spectral and Prosodic features;2;2408.13739_1_claims.json
 
-(name) Classifier;;2408.13739_1_claims.json
+(name) Model Type;;2408.13739_1_claims.json
 Gaussian Mixture Model and Hidden Markov Model;1;2408.13739_1_claims.json
 Support Vector Machine and Neural Network;1;2408.13739_1_claims.json
 Artificial Neural Networks, Support Vector Machine and Naive Bayes;1;2408.13739_1_claims.json
 
-(name) Database;;2408.13739_1_claims.json
+(name) Dataset;;2408.13739_1_claims.json
 New database developed;3;2408.13739_1_claims.json
 
+(name) Language;;2408.13739_1_claims.json
+Telegu;1;2408.13739_1_claims.json
+Kannada;1;2408.13739_1_claims.json
+Malayalam;1;2408.13739_1_claims.json
+
 '-- Distribution of 'Measure' --;;2408.13739_1_claims.json
-Best performance;3;2408.13739_1_claims.json
+Accuracy;3;2408.13739_1_claims.json
 
 '-- Distribution of 'name' --;;2408.13739_5_claims.json
-Method;6;2408.13739_5_claims.json
+Model Type;6;2408.13739_5_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2408.13739_5_claims.json
-(name) Method;;2408.13739_5_claims.json
+(name) Model Type;;2408.13739_5_claims.json
 GMM;1;2408.13739_5_claims.json
 CNN;1;2408.13739_5_claims.json
 PPR;1;2408.13739_5_claims.json
@@ -503,7 +507,7 @@ UPR-1;1;2408.13739_5_claims.json
 UPR-2;1;2408.13739_5_claims.json
 
 '-- Distribution of 'Measure' --;;2408.13739_5_claims.json
-Identification Accuracy;6;2408.13739_5_claims.json
+Accuracy;6;2408.13739_5_claims.json
 
 '-- Distribution of 'name' --;;2408.13739_6_claims.json
 Model;24;2408.13739_6_claims.json
@@ -550,13 +554,13 @@ TcpWER (%);16;2409.02041_2_claims.json
 
 '-- Distribution of 'name' --;;2409.02041_3_claims.json
 Sep Dia;2;2409.02041_3_claims.json
-Method;2;2409.02041_3_claims.json
+Model Type;2;2409.02041_3_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2409.02041_3_claims.json
 (name) Sep Dia;;2409.02041_3_claims.json
 JDS;2;2409.02041_3_claims.json
 
-(name) Method;;2409.02041_3_claims.json
+(name) Model Type;;2409.02041_3_claims.json
 NSD;1;2409.02041_3_claims.json
 Re-clustering;1;2409.02041_3_claims.json
 
@@ -564,11 +568,11 @@ Re-clustering;1;2409.02041_3_claims.json
 TcpWER (%);2;2409.02041_3_claims.json
 
 '-- Distribution of 'name' --;;2409.09785_1_claims.json
-Method;12;2409.09785_1_claims.json
+Model Type;12;2409.09785_1_claims.json
 Dataset Split;12;2409.09785_1_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2409.09785_1_claims.json
-(name) Method;;2409.09785_1_claims.json
+(name) Model Type;;2409.09785_1_claims.json
 Whisper-1.5B (first-pass) w/o LM;2;2409.09785_1_claims.json
 N-best Oracle;2;2409.09785_1_claims.json
 Reranking LM: T5-750M;2;2409.09785_1_claims.json
@@ -578,23 +582,22 @@ Correction LM: LLaMaA2-7B;2;2409.09785_1_claims.json
 
 (name) Dataset Split;;2409.09785_1_claims.json
 train;6;2409.09785_1_claims.json
-test;6;2409.09785_1_claims.json
+Test Set;6;2409.09785_1_claims.json
 
 '-- Distribution of 'Measure' --;;2409.09785_1_claims.json
-WER (%);12;2409.09785_1_claims.json
+WER;12;2409.09785_1_claims.json
 
 '-- Distribution of 'name' --;;2409.09785_3_claims.json
 System;4;2409.09785_3_claims.json
-Metric Split;4;2409.09785_3_claims.json
+Dataset Split;4;2409.09785_3_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2409.09785_3_claims.json
 (name) System;;2409.09785_3_claims.json
 Source Transcript;2;2409.09785_3_claims.json
 Task-2 Baseline;2;2409.09785_3_claims.json
 
-(name) Metric Split;;2409.09785_3_claims.json
-dev;2;2409.09785_3_claims.json
-eval;2;2409.09785_3_claims.json
+(name) Dataset Split;;2409.09785_3_claims.json
+eval;4;2409.09785_3_claims.json
 
 '-- Distribution of 'Measure' --;;2409.09785_3_claims.json
 cpWER (%);4;2409.09785_3_claims.json
@@ -610,16 +613,16 @@ Training Set;2;2409.09785_4_claims.json
 
 (name) Model;;2409.09785_4_claims.json
 GPT3.5-turbo;2;2409.09785_4_claims.json
-traditional;2;2409.09785_4_claims.json
+Baseline;2;2409.09785_4_claims.json
 
 '-- Distribution of 'Measure' --;;2409.09785_4_claims.json
-Baseline accuracy;4;2409.09785_4_claims.json
+Accuracy;4;2409.09785_4_claims.json
 
 '-- Distribution of 'name' --;;2409.10076_2_claims.json
-Base model;9;2409.10076_2_claims.json
+Model Name;9;2409.10076_2_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2409.10076_2_claims.json
-(name) Base model;;2409.10076_2_claims.json
+(name) Model Name;;2409.10076_2_claims.json
 Baseline;3;2409.10076_2_claims.json
 Conformer;3;2409.10076_2_claims.json
 2branch-d2v2;3;2409.10076_2_claims.json
@@ -639,7 +642,7 @@ Rank 2nd Team;3;2409.10076_3_claims.json
 Rank 3rd Team;3;2409.10076_3_claims.json
 Rank 4th Team;3;2409.10076_3_claims.json
 Rank 5th Team;3;2409.10076_3_claims.json
-Official Baseline;3;2409.10076_3_claims.json
+Baseline;3;2409.10076_3_claims.json
 
 '-- Distribution of 'Measure' --;;2409.10076_3_claims.json
 Score;6;2409.10076_3_claims.json
@@ -709,7 +712,7 @@ FRR;3;2409.10076_7_claims.json
 Model;51;2409.11252_3_claims.json
 Speech Type;51;2409.11252_3_claims.json
 Dataset;34;2409.11252_3_claims.json
-Tuning;51;2409.11252_3_claims.json
+Model Type;51;2409.11252_3_claims.json
 
 '-- Distribution of 'value' for each 'name' --;;2409.11252_3_claims.json
 (name) Model;;2409.11252_3_claims.json
@@ -731,7 +734,7 @@ Conversational Speech;17;2409.11252_3_claims.json
 ARL;17;2409.11252_3_claims.json
 CSaLT;17;2409.11252_3_claims.json
 
-(name) Tuning;;2409.11252_3_claims.json
+(name) Model Type;;2409.11252_3_claims.json
 Base Model;24;2409.11252_3_claims.json
 Fine-tuned;27;2409.11252_3_claims.json
 

@@ -1,0 +1,200 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Majority"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "56.37%"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Majority"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "LS2"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "41.31%"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Majority"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "CH-N"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "0.00%"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Majority"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "GR-N"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "0.00%"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Majority"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "LS1"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "30.39%"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (from scratch)"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "58.45%"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (from scratch)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "LS2"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "49.26%"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (from scratch)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "CH-N"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "21.26%"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (from scratch)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "GR-N"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "78.20%"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (from scratch)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "LS1"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "48.64%"
+    },
+    "10": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (pre-trained)"
+            }
+        },
+        "Measure": "Accuracy",
+        "Outcome": "62.18%"
+    },
+    "11": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (pre-trained)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "LS2"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "49.66%"
+    },
+    "12": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (pre-trained)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "CH-N"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "45.26%"
+    },
+    "13": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (pre-trained)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "GR-N"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "90.70%"
+    },
+    "14": {
+        "specifications": {
+            "0": {
+                "name": "Model Type",
+                "value": "Wav2Vec2 (pre-trained)"
+            },
+            "1": {
+                "name": "Dataset",
+                "value": "LS1"
+            }
+        },
+        "Measure": "F1 Score",
+        "Outcome": "51.13%"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "1branch-d2v2"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.0396"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "1branch-d2v2"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0046"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "1branch-d2v2"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.035"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.0343"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0043"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "System",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.03"
+    }
+}

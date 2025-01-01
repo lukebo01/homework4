@@ -1,41 +1,30 @@
 KEY;COUNT
 '-- Distribution of 'name' --;
-Model;207
+Model;208
 # Params.;106
-Dataset;120
-Type of WER;54
-Model variant;6
-Controller variant;6
-Models;16
-LLM;16
+Dataset;131
+Statistical Metric;54
+Model Name;55
+Model Type;147
 F1 Type;8
-Pre-trained Model;7
-Focus;15
+Task;24
+Dataset Split;39
 Modality;8
-Feature Set;8
+Features;41
 Feature Selection;8
 Feature Dimension;8
-Context;30
-Method;87
-Data;15
+Focus;8
 Iteration;12
 Data(hrs);12
 ID;10
-Set;15
 No. of dialects;3
-Features;3
-Classifier;3
-Database;3
+Language;3
 Test;24
 Separator;16
 System;62
 Sep Dia;2
-Dataset Split;12
-Metric Split;4
-Base model;9
 Thresh rank;21
 Speech Type;51
-Tuning;51
 
 '-- Distribution of 'value' for each 'name' --;
 (name) Model;
@@ -52,13 +41,13 @@ Linear Head HRA (w/ pre-trained controller);6
 FFN Head HRA (w/ pre-trained controller);6
 Origin TSAM;1
 Ours-CEE + MIN;1
-Ours-CEE + MIN & MTLA;1
+Ours-CEE + MIN & MTLA;2
 Ours-CEE + MIN & MTLA + Ensemble;2
 Ours-CSE;2
 wavLM+ conformer ED;4
 conv2d+ ebranchformer ED;4
 Fusion;4
-Official Baseline;2
+Baseline;6
 conv2d+conformer;1
 conv2d+ebranchformer;1
 VGG+ebranchformer;1
@@ -66,7 +55,6 @@ gateCNN+conformer;1
 gateCNN+ebranchformer;2
 fusion models based on M1-M5;2
 Speaker Diarization;1
-M0 Offical Baseline;2
 M6 Fusion models;2
 GMM;4
 CNN;4
@@ -75,7 +63,6 @@ P-LVCSR;4
 UPR-1;4
 UPR-2;4
 GPT3.5-turbo;2
-traditional;2
 whisper-tiny;6
 whisper-base;6
 whisper-small;6
@@ -124,8 +111,7 @@ seamless-large;6
 (name) Dataset;
 VS;20
 VS w. PN;20
-Test;12
-Eval;3
+Test Set;10
 Chihuahua;3
 French Poodle;3
 Schnauzer;3
@@ -135,74 +121,95 @@ GR-N;3
 LS1;3
 Female;3
 Male;3
-Test Set;2
+LibriSpeech;1
+Spatial LibriSpeech;2
+left/right;6
+random;6
+New database developed;3
 Training Set;2
 ARL;17
 CSaLT;17
 
-(name) Type of WER;
+(name) Statistical Metric;
 Mean;26
 Median;14
 SD;14
 
-(name) Model variant;
+(name) Model Name;
 Linear Head HRA;2
 Linear Head HRA - Recurrent state;2
 Linear Head HRA - Weight unshared;2
-
-(name) Controller variant;
-IndRNN;2
-RNN;2
-Light GRU;2
-
-(name) Models;
 Origin InstructERC;4
+Llama-2-7B-chat;8
+Llama-2-13B-chat;8
 Ours-ERC-7B + 3 auxiliary tasks;2
 Ours-ERC-7B + 3 auxiliary tasks & historical clips desc;2
 Ours-ERC-7B + 3 auxiliary tasks & utterance clips desc;2
 Ours-ERC-13B + 3 auxiliary tasks;2
 Ours-ERC-13B + 3 auxiliary tasks & historical clips desc;2
 Ours-ERC-13B + 3 auxiliary tasks & utterance clips desc;2
+RoBERTa-base;3
+RoBERTa-large;4
+BERT-base;1
+Baseline;3
+Conformer;3
+2branch-d2v2;3
 
-(name) LLM;
-Llama-2-7B-chat;8
-Llama-2-13B-chat;8
+(name) Model Type;
+IndRNN;2
+RNN;2
+Light GRU;2
+Majority;13
+Wav2Vec2 (from scratch);13
+Wav2Vec2 (pre-trained);13
+w/o IV;11
+w/ IV (Before);3
+w/ IV (After);3
+w/ IV (Before) & ST.;3
+Spatial LibriSpeech;1
+w/ IV;7
+Gaussian Mixture Model and Hidden Markov Model;1
+Support Vector Machine and Neural Network;1
+Artificial Neural Networks, Support Vector Machine and Naive Bayes;1
+GMM;1
+CNN;1
+PPR;1
+P-LVCSR;1
+UPR-1;1
+UPR-2;1
+NSD;1
+Re-clustering;1
+Whisper-1.5B (first-pass) w/o LM;2
+N-best Oracle;2
+Reranking LM: T5-750M;2
+Correction LM: T5-750M;2
+Correction LM: LLaMA-13B;2
+Correction LM: LLaMaA2-7B;2
+Base Model;24
+Fine-tuned;27
 
 (name) F1 Type;
 w-avg;8
 
-(name) Pre-trained Model;
-RoBERTa-base;3
-RoBERTa-large;3
-BERT-base;1
+(name) Task;
+Emotion Recognition in Conversation;16
+Causal emotion entailment;8
 
-(name) Focus;
-Pos.;13
-Pos. (w-avg);2
+(name) Dataset Split;
+Test Set;11
+eval;22
+train;6
 
 (name) Modality;
 Audio;5
 Vision;3
 
-(name) Feature Set;
+(name) Features;
 GeMAPS;1
 ComParE;4
 Max Img;1
 Speaker Img;1
 Emotional Speaker Img;1
-
-(name) Feature Selection;
-nan;8
-
-(name) Feature Dimension;
-62;1
-top 1000;1
-352;1
-296;1
-128;3
-512;1
-
-(name) Context;
 Very aggressive barking at a stranger (L-S2);2
 Normal barking at a stranger (L-S1);2
 Barking due to assault on the owner (L-A);2
@@ -218,37 +225,22 @@ Barking arrival of the owner at home (L-H);2
 Barking that is neither playful nor strange (L-O);2
 Non-dog sounds (voices, TV, cars, appliances, etc.) (S);2
 Total;2
+Mel Frequency Cepstral Coefficients;1
+Spectral and Prosodic features;2
 
-(name) Method;
-Majority;13
-Wav2Vec2 (from scratch);13
-Wav2Vec2 (pre-trained);13
-w/o IV;11
-w/ IV (Before);3
-w/ IV (After);3
-w/ IV (Before) & ST.;3
-Spatial LibriSpeech;1
-w/ IV;7
-GMM;1
-CNN;1
-PPR;1
-P-LVCSR;1
-UPR-1;1
-UPR-2;1
-NSD;1
-Re-clustering;1
-Whisper-1.5B (first-pass) w/o LM;2
-N-best Oracle;2
-Reranking LM: T5-750M;2
-Correction LM: T5-750M;2
-Correction LM: LLaMA-13B;2
-Correction LM: LLaMaA2-7B;2
+(name) Feature Selection;
+nan;8
 
-(name) Data;
-LibriSpeech;1
-Spatial LibriSpeech;2
-left/right;6
-random;6
+(name) Feature Dimension;
+62;1
+top 1000;1
+352;1
+296;1
+128;3
+512;1
+
+(name) Focus;
+Pos.;8
 
 (name) Iteration;
 B0;3
@@ -263,7 +255,7 @@ B3;3
 10952;3
 
 (name) ID;
-M0;2
+Baseline;2
 M1;1
 M2;1
 M3;1
@@ -271,26 +263,15 @@ M4;1
 M5;2
 M6;2
 
-(name) Set;
-Dev;10
-Eval;5
-
 (name) No. of dialects;
 3;1
 5;1
 2;1
 
-(name) Features;
-Mel Frequency Cepstral Coefficients;1
-Spectral and Prosodic features;2
-
-(name) Classifier;
-Gaussian Mixture Model and Hidden Markov Model;1
-Support Vector Machine and Neural Network;1
-Artificial Neural Networks, Support Vector Machine and Naive Bayes;1
-
-(name) Database;
-New database developed;3
+(name) Language;
+Telegu;1
+Kannada;1
+Malayalam;1
 
 (name) Test;
 LT as LT;6
@@ -316,7 +297,7 @@ Rank 2nd Team;3
 Rank 3rd Team;3
 Rank 4th Team;3
 Rank 5th Team;3
-Official Baseline;3
+Baseline;3
 ASR result2;3
 2branch-d2v2;6
 '+ASR filter;3
@@ -327,19 +308,6 @@ paraformer;3
 
 (name) Sep Dia;
 JDS;2
-
-(name) Dataset Split;
-train;6
-test;6
-
-(name) Metric Split;
-dev;2
-eval;2
-
-(name) Base model;
-Baseline;3
-Conformer;3
-2branch-d2v2;3
 
 (name) Thresh rank;
 55;3
@@ -354,34 +322,25 @@ Conformer;3
 Read Speech;34
 Conversational Speech;17
 
-(name) Tuning;
-Base Model;24
-Fine-tuned;27
-
 '-- Distribution of 'Measure' --;
-WER;145
+WER;164
 Paired T-Test;12
-F1 Score;50
-Accuracy;32
+F1 Score;51
+Accuracy;45
 # segments;15
 Duration (sec);15
 Δa;4
 Δe;4
 Δd (MAE);4
 Δd (median angular error);1
-WER%;7
 SR%;4
 sWER%;4
 CER%;22
 DER (%);1
 cpCER (%);4
-Best performance;3
-Identification Accuracy;6
 Confusion;12
 TcpWER (%);18
-WER (%);12
 cpWER (%);4
-Baseline accuracy;4
 Score;24
 FAR;24
 FRR;24

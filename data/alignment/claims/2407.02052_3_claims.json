@@ -1,0 +1,182 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "ID",
+                "value": "Baseline"
+            },
+            "1": {
+                "name": "Model",
+                "value": "Baseline"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "eval"
+            }
+        },
+        "Measure": "CER%",
+        "Outcome": "32.92"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "ID",
+                "value": "Baseline"
+            },
+            "1": {
+                "name": "Model",
+                "value": "Baseline"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "eval"
+            }
+        },
+        "Measure": "CER%",
+        "Outcome": "26.24"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "ID",
+                "value": "M1"
+            },
+            "1": {
+                "name": "Model",
+                "value": "conv2d+conformer"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "eval"
+            }
+        },
+        "Measure": "CER%",
+        "Outcome": "20.87"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "ID",
+                "value": "M2"
+            },
+            "1": {
+                "name": "Model",
+                "value": "conv2d+ebranchformer"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "eval"
+            }
+        },
+        "Measure": "CER%",
+        "Outcome": "20.68"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "ID",
+                "value": "M3"
+            },
+            "1": {
+                "name": "Model",
+                "value": "VGG+ebranchformer"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "eval"
+            }
+        },
+        "Measure": "CER%",
+        "Outcome": "20.31"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "ID",
+                "value": "M4"
+            },
+            "1": {
+                "name": "Model",
+                "value": "gateCNN+conformer"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "eval"
+            }
+        },
+        "Measure": "CER%",
+        "Outcome": "19.83"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "ID",
+                "value": "M5"
+            },
+            "1": {
+                "name": "Model",
+                "value": "gateCNN+ebranchformer"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "eval"
+            }
+        },
+        "Measure": "CER%",
+        "Outcome": "18.53"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "ID",
+                "value": "M5"
+            },
+            "1": {
+                "name": "Model",
+                "value": "gateCNN+ebranchformer"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "eval"
+            }
+        },
+        "Measure": "CER%",
+        "Outcome": "14.72"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "ID",
+                "value": "M6"
+            },
+            "1": {
+                "name": "Model",
+                "value": "fusion models based on M1-M5"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "eval"
+            }
+        },
+        "Measure": "CER%",
+        "Outcome": "15.54"
+    },
+    "9": {
+        "specifications": {
+            "0": {
+                "name": "ID",
+                "value": "M6"
+            },
+            "1": {
+                "name": "Model",
+                "value": "fusion models based on M1-M5"
+            },
+            "2": {
+                "name": "Dataset Split",
+                "value": "eval"
+            }
+        },
+        "Measure": "CER%",
+        "Outcome": "13.16"
+    }
+}

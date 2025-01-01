@@ -1,0 +1,92 @@
+{
+    "0": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Baseline"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.3112"
+    },
+    "1": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Baseline"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0387"
+    },
+    "2": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Baseline"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.2725"
+    },
+    "3": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Conformer"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.1008"
+    },
+    "4": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Conformer"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0183"
+    },
+    "5": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "Conformer"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.0825"
+    },
+    "6": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "Score",
+        "Outcome": "0.0343"
+    },
+    "7": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "FAR",
+        "Outcome": "0.0043"
+    },
+    "8": {
+        "specifications": {
+            "0": {
+                "name": "Model Name",
+                "value": "2branch-d2v2"
+            }
+        },
+        "Measure": "FRR",
+        "Outcome": "0.03"
+    }
+}
